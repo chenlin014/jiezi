@@ -7,7 +7,8 @@ def simp_code(code):
         code = code.replace(suffix, '')
     else:
         suffix = ''
-
+    suffix = suffix.replace('左', '重').replace('下', '重')
+    
     if len(code) <= 4:
         return code + suffix
 
