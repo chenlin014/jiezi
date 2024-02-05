@@ -10,5 +10,7 @@ for code in codes:
     code_freq[code] += 1
 
 ranking = [(freq, code) for code, freq in code_freq.items()]
-ranking.sort()
-print(ranking)
+ranking.sort(reverse=True)
+
+for freq, code in ranking:
+    print(f'{code}\t{freq}')
