@@ -2,12 +2,22 @@ import csv, sys
 
 with open(sys.argv[1], encoding='utf-8') as f:
     reader = csv.reader(f, delimiter='\t')
+    mb = {zi:ma for zi, ma in reader}
+code_freq = {code:0 for code in set(''.join(mb.values()))}
 
-    codes = ''.join([row[1] for row in reader])
+if len(sys.argv) <= 2:
+    for code in ''.join(mb.values()):
+        code_freq[code] += 1
+else:
+    with open(sys.argv[2], encoding='utf-8') as f:
+        reader = csv.reader(f, delimiter='\t')
+        char_freq = [(char, int(freq)) for char, freq in reader]
+    for char, freq in char_freq:
+        if not char in mb:
+            continue
 
-code_freq = {code:0 for code in set(codes)}
-for code in codes:
-    code_freq[code] += 1
+        for code in mb[char]:
+            code_freq[code] += freq
 
 ranking = [(freq, code) for code, freq in code_freq.items()]
 ranking.sort(reverse=True)
