@@ -45,11 +45,11 @@ for char, code in cmb:
 
     mod = '-'
     if '重' in suffix:
-        mod = sys[2][0] + mod
-    if '能' in suffix:
         mod += sys[2][2]
+    if '能' in suffix:
+        mod += sys[2][3]
     if not suffix and len(code) == 2:
-        mod = '-' + sys[2][1]
+        mod = sys[2][1] + '-'
 
     if mod != '-':
         slices = strokes.split('-')
@@ -58,5 +58,5 @@ for char, code in cmb:
         else:
             strokes = '-'.join(slices[:-1])+mod+slices[-1]
     
-    print(f'"{strokes}": "{char}",')
+    print(f'"{strokes}": "'+'{&'+char+'}",')
 print('}')
