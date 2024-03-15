@@ -1,13 +1,13 @@
 import sys, json, csv, re
 
-if len(sys.argv) != 4:
-    print('Usage: gen_dict <char_mb> <zigen_mb> <keymap>')
+if len(sys.argv) < 3:
+    print('Usage: gen_dict <zigen_mb> <keymap> [char_mb]')
     quit()
-_, mb_path, gmb_path, km_path = sys.argv
-
-with open(mb_path) as f:
-    reader = csv.reader(f, delimiter='\t')
-    mb = [(zi, ma) for zi, ma in reader]
+_, gmb_path, km_path = sys.argv[:3]
+if len(sys.argv) >= 4:
+    mb_path = sys.argv[3]
+else:
+    mb_path = False
 
 with open(km_path) as f:
     km = json.loads(f.read())
@@ -37,17 +37,30 @@ for zg, ma in gmb:
 
     lgmb[zg] = lstroke
     rgmb[zg] = rstroke
+
+if not mb_path:
+    print(f'''- "xform/重/{km[2][2]}/"''')
+    print(f'''- "xform/能/{km[2][3]}/"''')
+    for zg in lgmb:
+        print(f'''- "xform/`{zg}/{lgmb[zg]}/"''')
+        print(f'''- "xform/{zg}`/{rgmb[zg]}/"''')
+    
+    quit()
+
+with open(mb_path, encoding='utf-8') as f:
+    reader = csv.reader(f, delimiter='\t')
+    mb = [(zi, ma) for zi, ma in reader]
+
 lgmb['重'] = km[2][2]
 rgmb['重'] = km[2][2]
 lgmb['能'] = km[2][3]
 rgmb['能'] = km[2][3]
-
-for zi, ma in mb:
-    code = ''
-    for i, m in enumerate(ma):
+for zi, zma in mb:
+    stroke = ''
+    for i, ma in enumerate(zma):
         if i % 2 == 0:
-            code += lgmb[m]
+            stroke += lgmb[ma]
         else:
-            code += rgmb[m]
+            stroke += rgmb[ma]
 
-    print(f'{zi}\t{code}')
+    print(f'{zi}\t{stroke}')
