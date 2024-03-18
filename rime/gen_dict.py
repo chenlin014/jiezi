@@ -49,18 +49,36 @@ if not mb_path:
 
 with open(mb_path, encoding='utf-8') as f:
     reader = csv.reader(f, delimiter='\t')
-    mb = [(zi, ma) for zi, ma in reader]
+    mb = {zi:ma for zi, ma in reader}
+codes = set(mb.values())
 
-lgmb['重'] = km[2][2]
-rgmb['重'] = km[2][2]
-lgmb['能'] = km[2][3]
-rgmb['能'] = km[2][3]
-for zi, zma in mb:
+suffix_code = {
+    '左':'D',
+    '下':'V',
+    '重':km[2][2],
+    '能':km[2][3],
+    '正':'Z',
+    '简':'J',
+    '和':'W',
+    '喃':'N',
+    '韩':'H'
+}
+
+for zi, zma in mb.items():
     stroke = ''
     for i, ma in enumerate(zma):
+        if ma in suffix_code:
+            stroke += suffix_code[ma]
+            continue
+
         if i % 2 == 0:
             stroke += lgmb[ma]
         else:
             stroke += rgmb[ma]
+
+    if zma + '简' in codes:
+        stroke += suffix_code['正']
+    if zma + '正' in codes:
+        stroke += suffix_code['简']
 
     print(f'{zi}\t{stroke}')
