@@ -20,7 +20,7 @@ def find_nonpair(codes, enders):
 
     return [code for code in need_pair if not code[:-1] in codes]
 
-if __name__ == "__main__":
+def main():
     import sys
     if len(sys.argv) < 2:
         print(f"Usage: {sys.argv[0]} <path>")
@@ -36,4 +36,7 @@ if __name__ == "__main__":
         raise e
 
     print(f'重码：{find_dup_code(mb)}')
-    print(f'不成对：{find_nonpair(set(mb.values()), "正简左下异和")}')
+    print(f'不成对：{find_nonpair(set(mb.values()), "正简左下重能和喃韩")}')
+
+if __name__ == "__main__":
+    main()

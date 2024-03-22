@@ -1,7 +1,7 @@
 import re
 
 def simp_code(code):
-    suffix = re.search(r'[简正左下异和重]+', code)
+    suffix = re.search(r'[简正左下重能和喃韩]+', code)
     if suffix:
         suffix = suffix.group()
         code = code.replace(suffix, '')

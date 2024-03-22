@@ -1,7 +1,7 @@
 import csv, sys
 
 if len(sys.argv) == 1:
-    print(f'Usage: {sys.argv[0]} <mb> <char_freq>')
+    print(f'Usage: {sys.argv[0]} <mb> [char_freq]')
     exit()
 
 with open(sys.argv[1], encoding='utf-8') as f:
