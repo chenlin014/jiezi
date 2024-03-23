@@ -36,7 +36,7 @@ def main():
         raise e
 
     print(f'重码：{find_dup_code(mb)}')
-    print(f'不成对：{find_nonpair(set(mb.values()), "正简左下重能和喃韩")}')
+    print(f'不成对：{find_nonpair(set(mb.values()), "正简左下重能和喃韓")}')
 
 if __name__ == "__main__":
     main()
