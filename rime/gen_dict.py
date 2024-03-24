@@ -5,19 +5,20 @@ def trans_chord_map(cm, km):
     for zg, ma in cm:
         lstroke = ''
         rstroke = ''
+        last_col = len(km['upper']) - 1
 
         for col, act in enumerate(ma):
             if act == '0':
                 continue
             elif act == '1':
-                lstroke += km[0][col]
-                rstroke += km[0][7-col]
+                lstroke += km['upper'][col]
+                rstroke += km['upper'][last_col-col]
             elif act == '2':
-                lstroke += km[1][col]
-                rstroke += km[1][7-col]
+                lstroke += km['lower'][col]
+                rstroke += km['lower'][last_col-col]
             else:
-                lstroke += km[0][col] + km[1][col]
-                rstroke += km[0][7-col] + km[1][7-col]
+                lstroke += km['upper'][col] + km['lower'][col]
+                rstroke += km['upper'][last_col-col] + km['lower'][last_col-col]
 
         new_cm[zg] = (lstroke, rstroke)
 
@@ -45,8 +46,8 @@ def main():
     suffix_code = {
         '左':'D',
         '下':'V',
-        '重':km[2][2],
-        '能':km[2][3],
+        '重':km['dup_key'],
+        '能':km['func_key'],
         '正':'Z',
         '简':'J',
         '和':'W',
