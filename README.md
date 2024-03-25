@@ -31,3 +31,10 @@ xingzheng-abyz.txt
 - 和：日本漢字，新字体
 - 喃：越南漢字，喃字
 - 韓：朝鮮漢字
+
+## 并击表
+文件夹：zg_chord
+
+第一版：chu.tsv
+
+第二版：cl.tsv
