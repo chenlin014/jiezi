@@ -5,10 +5,10 @@
 ## 拆字表
 
 ### 完整表
-xingzheng.txt
+xingzheng.tsv
 
 ### 简化表
-xingzheng-abyz.txt
+xingzheng-abyz.tsv
 
 完整表的简化版
 
