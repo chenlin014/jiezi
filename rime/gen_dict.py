@@ -26,7 +26,7 @@ def trans_chord_map(cm, km):
 
 def main():
     if len(sys.argv) < 4:
-        print(f'Usage: {sys.argv[0]} <字根并击表> <键盘布局> <拆字表>')
+        print(f'Usage: {sys.argv[0]} <字根并击表> <键盘布局> <码表>')
         quit()
     _, chord_map_path, keymap_path, mb_path = sys.argv
 
@@ -38,8 +38,9 @@ def main():
         chord_map = [(zg, ma) for zg, ma in reader]
     chord_map = trans_chord_map(chord_map, km)
 
+    print(mb_path)
     with open(mb_path, encoding='utf-8') as f:
-        reader = csv.reader(f, delimiter='\t')
+        reader = csv.reader(f, delimiter='\t', quoting=csv.QUOTE_NONE)
         mb = {zi:ma for zi, ma in reader}
     codes = set(mb.values())
 
@@ -58,6 +59,9 @@ def main():
     for zi, ma in mb.items():
         stroke = ''
         for i, code in enumerate(ma):
+            if code == '空':
+                continue
+
             if code in suffix_code:
                 stroke += suffix_code[code]
                 continue
