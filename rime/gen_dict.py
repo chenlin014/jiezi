@@ -38,7 +38,6 @@ def main():
         chord_map = [(zg, ma) for zg, ma in reader]
     chord_map = trans_chord_map(chord_map, km)
 
-    print(mb_path)
     with open(mb_path, encoding='utf-8') as f:
         reader = csv.reader(f, delimiter='\t', quoting=csv.QUOTE_NONE)
         mb = {zi:ma for zi, ma in reader}
