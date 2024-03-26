@@ -15,8 +15,8 @@ with open(chord_map_path) as f:
     chord_map = [(zg, ma) for zg, ma in reader]
 chord_map = trans_chord_map(chord_map, km)
 
-print(f'''- "xform/{km[2][2]}/重/"''')
-print(f'''- "xform/{km[2][3]}/能/"''')
+print(f'''- "xform/{km['dup_key']}/重/"''')
+print(f'''- "xform/{km['func_key']}/能/"''')
 for zg, (lstroke, rstroke) in chord_map.items():
     print(f'''- "xform/`{lstroke}/{zg}/"''')
     print(f'''- "xform/{rstroke}`/{zg}/"''')
