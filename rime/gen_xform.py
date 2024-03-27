@@ -1,5 +1,5 @@
 import sys, json, csv
-from gen_dict import trans_chord_map
+from gen_dict import trans_chord_map, ACTIONS
 
 if len(sys.argv) < 3:
     print(f'Usage: {sys.argv[0]} <字根并击表> <键盘布局>')
@@ -13,7 +13,7 @@ with open(keymap_path) as f:
 with open(chord_map_path) as f:
     reader = csv.reader(f, delimiter='\t')
     chord_map = [(zg, ma) for zg, ma in reader]
-chord_map = trans_chord_map(chord_map, km)
+chord_map = trans_chord_map(chord_map, km, ACTIONS)
 
 print(f'''- "xform/{km['dup_key']}/重/"''')
 print(f'''- "xform/{km['func_key']}/能/"''')

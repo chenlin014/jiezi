@@ -1,24 +1,22 @@
 import sys, json, csv
 
-def trans_chord_map(cm, km):
+ACTIONS = {
+    '0': (),
+    '1': ('+1',),
+    '2': ('0',),
+    '3': ('+1', '0'),
+    '4': ('-1',),
+    '5': ('0', '-1')
+}
+
+def trans_chord_map(cm, km, acts):
     new_cm = dict()
     for zg, ma in cm:
-        lstroke = ''
-        rstroke = ''
-        last_col = len(km['upper']) - 1
-
-        for col, act in enumerate(ma):
-            if act == '0':
-                continue
-            elif act == '1':
-                lstroke += km['upper'][col]
-                rstroke += km['upper'][last_col-col]
-            elif act == '2':
-                lstroke += km['lower'][col]
-                rstroke += km['lower'][last_col-col]
-            else:
-                lstroke += km['upper'][col] + km['lower'][col]
-                rstroke += km['upper'][last_col-col] + km['lower'][last_col-col]
+        last_col = len(km['0']) - 1
+        lstroke = ''.join(''.join(km[row][col] for row in acts[act])
+            for col, act in enumerate(ma))
+        rstroke = ''.join(''.join(km[row][last_col-col] for row in acts[act])
+            for col, act in enumerate(ma))
 
         new_cm[zg] = (lstroke, rstroke)
 
@@ -36,7 +34,7 @@ def main():
     with open(chord_map_path) as f:
         reader = csv.reader(f, delimiter='\t')
         chord_map = [(zg, ma) for zg, ma in reader]
-    chord_map = trans_chord_map(chord_map, km)
+    chord_map = trans_chord_map(chord_map, km, ACTIONS)
 
     with open(mb_path, encoding='utf-8') as f:
         reader = csv.reader(f, delimiter='\t', quoting=csv.QUOTE_NONE)
