@@ -5,12 +5,14 @@
 ## 拆字表
 
 ### 完整表
-xingzheng.txt
+xingzheng.tsv
 
 ### 简化表
-xingzheng-abyz.txt
+xingzheng-abyz.tsv
 
-最多取四码，若超过四码，则首尾各取两码。
+完整表的简化版
+
+一字最多四码，若超过四码，则首尾各取两码。
 
 特例：
 - 器：口口大口
