@@ -1,22 +1,47 @@
 import sys, json, csv
 
+suffix_code = {
+    '左':'<',
+    '下':'v',
+    '重':'y',
+    '能':'z',
+    '正':'Z',
+    '简':'X',
+    '韩':'Y',
+    '和':'W',
+    '喃':'V',
+}
+
 ACTIONS = {
     '0': (),
     '1': ('+1',),
     '2': ('0',),
     '3': ('+1', '0'),
     '4': ('-1',),
-    '5': ('0', '-1')
+    '5': ('0', '-1'),
+    'tk': {
+        'a': (2,),
+        'b': (1,),
+        'c': (0,),
+        'd': (2, 1),
+        'e': (1, 0)
+    }
 }
 
 def trans_chord_map(cm, km, acts):
     new_cm = dict()
+    last_col = len(km['0']) - 1
+    last_tk_col = len(km['thumb_keys']) - 1
     for zg, ma in cm:
-        last_col = len(km['0']) - 1
         lstroke = ''.join(''.join(km[row][col] for row in acts[act])
-            for col, act in enumerate(ma))
+            for col, act in enumerate(ma) if act in acts)
         rstroke = ''.join(''.join(km[row][last_col-col] for row in acts[act])
-            for col, act in enumerate(ma))
+            for col, act in enumerate(ma) if act in acts)
+
+        for act in ma:
+            if act in acts['tk']:
+                lstroke += ''.join(km['thumb_keys'][col] for col in acts['tk'][act])
+                rstroke += ''.join(km['thumb_keys'][last_tk_col-col] for col in acts['tk'][act])
 
         new_cm[zg] = (lstroke, rstroke)
 
@@ -41,17 +66,8 @@ def main():
         mb = {zi:ma for zi, ma in reader}
     codes = set(mb.values())
 
-    suffix_code = {
-        '左':'D',
-        '下':'V',
-        '重':km['dup_key'],
-        '能':km['func_key'],
-        '正':'Z',
-        '简':'J',
-        '和':'W',
-        '喃':'N',
-        '韩':'H'
-    }
+    suffix_code['重'] = km['dup_key']
+    suffix_code['能'] = km['func_key']
 
     for zi, ma in mb.items():
         stroke = ''

@@ -1,12 +1,11 @@
 import sys
+sys.path.append('../rime')
+from gen_dict import ACTIONS as acts
 
-OFF_ON = '-#'
-ACTS = {
-    '0': (0, 0),
-    '1': (1, 0),
-    '2': (0, 1),
-    '3': (1, 1)
-}
+ON = '#'
+OFF = '-'
+
+ROWS = ['+1', '0']
 
 if len(sys.argv) < 2:
     print(f'Usage: {sys.argv[0]} <并击表>')
@@ -20,5 +19,11 @@ with open(sys.argv[1]) as f:
 for zg, chord in chord_map:
     print(zg)
     for i in range(2):
-        print(''.join(OFF_ON[ACTS[act][i]] for act in chord))
+        print(''.join(ON if ROWS[i] in acts[act] else OFF
+            for act in chord if act in acts))
+
+    for act in chord:
+        if act in acts['tk']:
+            print(''.join(ON if i in acts['tk'][act] else OFF
+                for i in range(3)))
     print()
