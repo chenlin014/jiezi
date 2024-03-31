@@ -38,6 +38,4 @@ xingzheng-abyz.tsv
 ## 并击表
 文件夹：zg_chord
 
-第一版：chu.tsv
-
-第二版：cl.tsv
+第三版：cl.tsv
