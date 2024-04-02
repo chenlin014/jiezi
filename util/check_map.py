@@ -27,7 +27,7 @@ def main():
         exit()
 
     try:
-        map_file = open(sys.argv[1])
+        map_file = open(sys.argv[1], encoding='utf-8')
         mb = {text:code for text, code in (
             line.split('\t') for line in map_file.read().splitlines()
         )}
