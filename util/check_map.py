@@ -35,8 +35,16 @@ def main():
     except Exception as e:
         raise e
 
-    print(f'重码：{find_dup_code(mb)}')
-    print(f'不成对：{find_nonpair(set(mb.values()), "正简左下重能和喃韓")}')
+    dup_code = find_dup_code(mb)
+    print(f'重码字数：{len(dup_code)}')
+    for code, chars in dup_code.items():
+        print(f'{code}\t{"".join(chars)}')
+    print()
+
+    no_pair = find_nonpair(set(mb.values()), "正简左下重能和喃韓")
+    print(f'不成对：{len(no_pair)}')
+    for np in no_pair:
+        print(np)
 
 if __name__ == "__main__":
     main()
