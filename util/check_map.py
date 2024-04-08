@@ -36,7 +36,7 @@ def main():
         raise e
 
     dup_code = find_dup_code(mb)
-    print(f'重码字数：{len(dup_code)}')
+    print(f'重码字数：{len("".join("".join("".join(chars) for chars in dup_code.values())))}')
     for code, chars in dup_code.items():
         print(f'{code}\t{"".join(chars)}')
     print()
