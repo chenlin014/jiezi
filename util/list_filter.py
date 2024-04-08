@@ -8,6 +8,6 @@ with open('/home/chenlin/data/lang/zh/char_table/level-1.txt', encoding='utf_8')
     chars = set(f.read().splitlines())
 
 with open('xz.tsv', 'w', encoding='utf_8') as f:
-    g = ((zi, ma) for zi, ma in mb.items() if zi in chars and len(ma) > 2)
+    g = ((zi, ma) for zi, ma in mb.items() if zi in chars)
     for zi, ma in g:
         f.write(f'{zi}\t{ma}\n')
