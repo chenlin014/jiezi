@@ -1,4 +1,4 @@
-import sys
+import sys, readline
 
 if len(sys.argv) < 3:
     print(f'{sys.argv[0]} <列表> <存至>')
@@ -21,7 +21,7 @@ if finCount >= len(ls):
 
 while finCount < ls_len:
     print(f'({finCount}/{ls_len}){ls[finCount]}')
-    code = input()
+    code = input().strip()
 
     if code in mb:
         print(f'重码：{code}\t{mb[code]}\n')
