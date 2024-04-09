@@ -1,4 +1,4 @@
-import sys, json, csv
+import json, csv, argparse
 
 suffix_code = {
     '左':'<',
@@ -48,20 +48,22 @@ def trans_chord_map(cm, km, acts):
     return new_cm
 
 def main():
-    if len(sys.argv) < 4:
-        print(f'Usage: {sys.argv[0]} <字根并击表> <键盘布局> <码表>')
-        quit()
-    _, chord_map_path, keymap_path, mb_path = sys.argv
+    parser = argparse.ArgumentParser()
+    parser.add_argument('chordmap', help='字根并击表')
+    parser.add_argument('keymap', help='键盘布局')
+    parser.add_argument('mb_path', help='码表')
+    parser.add_argument('-p', '--plover', action='store_true')
+    args = parser.parse_args()
 
-    with open(keymap_path) as f:
+    with open(args.keymap) as f:
         km = json.loads(f.read())
 
-    with open(chord_map_path) as f:
+    with open(args.chordmap) as f:
         reader = csv.reader(f, delimiter='\t')
         chord_map = [(zg, ma) for zg, ma in reader]
     chord_map = trans_chord_map(chord_map, km, ACTIONS)
 
-    with open(mb_path, encoding='utf-8') as f:
+    with open(args.mb_path, encoding='utf-8') as f:
         reader = csv.reader(f, delimiter='\t', quoting=csv.QUOTE_NONE)
         mb = {zi:ma for zi, ma in reader}
     codes = set(mb.values())
@@ -70,23 +72,24 @@ def main():
     suffix_code['能'] = km['func_key']
 
     for zi, ma in mb.items():
-        stroke = ''
+        chords = []
+        suffix = ''
         for i, code in enumerate(ma):
             if code == '空':
                 continue
 
             if code in suffix_code:
-                stroke += suffix_code[code]
+                suffix += suffix_code[code]
                 continue
 
-            stroke += chord_map[code][i%2]
+            chords.append(chord_map[code][i%2])
 
         if ma + '简' in codes:
-            stroke += suffix_code['正']
+            suffix += suffix_code['正']
         if ma + '正' in codes:
-            stroke += suffix_code['简']
+            suffix += suffix_code['简']
 
-        print(f'{zi}\t{stroke}')
+        print(f'{zi}\t{"".join(chords)}')
 
 if __name__ == '__main__':
     main()
