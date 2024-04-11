@@ -1,18 +1,9 @@
 import re
 
 def simp_code(code, method):
-    suffix = re.search(r'[简正左下重能和喃韩]+', code)
-    if suffix:
-        suffix = suffix.group()
-        code = code.replace(suffix, '')
-    else:
-        suffix = ''
-    suffix = suffix.replace('左', '重').replace('下', '重')
-    
     if len(code) <= len(method):
-        return code + suffix
-
-    return ''.join(code[ind] for ind in method) + suffix
+        return code
+    return ''.join(code[ind] for ind in method)
 
 def main():
     import sys

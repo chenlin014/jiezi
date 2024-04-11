@@ -14,20 +14,16 @@ def find_dup_code(text2code):
 
     return dup_code
 
-def find_nonpair(codes, enders):
-    import re
-    need_pair = (code for code in codes if re.search(rf'[{enders}]', code))
-
-    return [code for code in need_pair if not code[:-1] in codes]
-
 def main():
-    import sys
-    if len(sys.argv) < 2:
-        print(f"Usage: {sys.argv[0]} <path>")
-        exit()
+    import argparse, csv
+    parser = argparse.ArgumentParser()
+    parser.add_argument('table', help='码表文件')
+    parser.add_argument('-pt', '--priority_table', default=None,
+        help='优先表：如何排序重码的字')
+    args = parser.parse_args()
 
     try:
-        map_file = open(sys.argv[1], encoding='utf-8')
+        map_file = open(args.table, encoding='utf-8')
         mb = {text:code for text, code in (
             line.split('\t') for line in map_file.read().splitlines()
         )}
@@ -35,16 +31,21 @@ def main():
     except Exception as e:
         raise e
 
-    dup_code = find_dup_code(mb)
-    print(f'重码字数：{len("".join("".join("".join(chars) for chars in dup_code.values())))}')
-    for code, chars in dup_code.items():
-        print(f'{code}\t{"".join(chars)}')
-    print()
+    if args.priority_table:
+        with open(args.priority_table, encoding='utf_8') as f:
+            reader = csv.reader(f, delimiter='\t')
+            char_priority = {code:chars for code, chars in reader}
+    else:
+        char_priority = dict()
 
-    no_pair = find_nonpair(set(mb.values()), "正简左下重能和喃韓")
-    print(f'不成对：{len(no_pair)}')
-    for np in no_pair:
-        print(np)
+    dup_code = find_dup_code(mb)
+    dup_code = {code: [char for char in chars if not char in char_priority.get(code, '')]
+        for code, chars in dup_code.items()}
+    dup_code = {code: chars for code, chars in dup_code.items() if len(chars) > 1}
+
+    print(f'重码字数：{sum(len("".join(chars)) for chars in dup_code.values())}')
+    for code, chars in dup_code.items():
+        print(f'{code}\t{",".join(chars)}')
 
 if __name__ == "__main__":
     main()
