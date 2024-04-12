@@ -1,4 +1,4 @@
-import json, csv, argparse, sys
+import json, csv, argparse, sys, re
 
 ACTIONS = {
     '0': (),
@@ -66,10 +66,17 @@ def main():
         char_priority = dict()
 
     for zi, ma in mb.items():
-        chords = []
+        if re.match(r'\{.+\}', ma):
+            chords = {i:chord for i, chord in enumerate(ma[1:-1].split(','))}
+            chords = trans_chord_map(chords.items(), km, ACTIONS)
+            chords = [chords[i][i%2] for i in range(len(strokes))]
+            ma = ''
+        else:
+            chords = []
+
         for i, code in enumerate(ma):
             if code == '空':
-                continue
+                chords.append('')
             elif code == '重':
                 chords[-1] += km['dup_key']
             elif code == '能':
@@ -87,13 +94,13 @@ def main():
 
         strokes = [(lchord, rchord)
             for lchord, rchord in zip(chords[::2], chords[1::2])]
-        if len(chords) == 2 and not chords[-1][-1] in (km['dup_key'], km['func_key']):
+        if len(chords) == 2 and all(chords) and not chords[-1][-1] in (km['dup_key'], km['func_key']):
             chords.append(chord_map['完'][0])
 
         if len(chords) % 2 == 1:
             strokes.append((chords[-1],))
 
-        print(f'{zi}\t{" ".join(",".join(stroke) for stroke in strokes)}')
+        print(f'{zi}\t{" | ".join("<>".join(stroke) for stroke in strokes)}')
 
 if __name__ == '__main__':
     main()
