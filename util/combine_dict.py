@@ -1,6 +1,6 @@
 import sys, csv
 
-if len(sys.argv) < 3:
+if len(sys.argv) < 2:
     print(f'Usage: {sys.argv[0]} [码表一] [码表二] ……')
     quit()
 

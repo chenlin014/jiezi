@@ -18,7 +18,8 @@ def main():
         for i in range(len(code)-1):
             dg = code[i:i+2]
             if dg in digram_freqs:
-                digram_freqs[dg][i] += 1
+                ind = i if i + 1 <= len(code) / 2 else i - len(code) + 1
+                digram_freqs[dg][ind] += 1
             else:
                 digram_freqs[dg] = [0] * (max_code_len-1)
                 digram_freqs[dg][i] = 1
