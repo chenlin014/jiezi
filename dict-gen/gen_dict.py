@@ -54,7 +54,7 @@ def main():
     chord_map = trans_chord_map(chord_map, km, ACTIONS)
 
     with open(args.mb_path, encoding='utf-8') as f:
-        reader = csv.reader(f, delimiter='\t', quoting=csv.QUOTE_NONE)
+        reader = csv.reader(f, delimiter='\t')
         mb = {zi:ma for zi, ma in reader}
     codes = set(mb.values())
 
