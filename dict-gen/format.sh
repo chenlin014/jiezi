@@ -1,6 +1,13 @@
 #!/bin/sh
 
 case $1 in
+	sscode)
+		cat | awk '{
+			gsub(/./, "& ", $2);
+			gsub(/[ ]+$/, "", $2);
+			printf("%s\t%s\n", $1, $2);
+		}'
+		;;
 	rime)
 		cat | sed 's/<>//g; s/ | //g'
 		;;
