@@ -95,8 +95,6 @@ def main():
                 raise e
 
         strokes = [(lchord, rchord) for lchord, rchord in zip(chords[::2], chords[1::2])]
-        if len(chords) == 2 and all(chords) and not chords[-1][-1] in (km['dup_key'], km['func_key']):
-            chords.append(chord_map['完'][0])
 
         if len(chords) % 2 == 1:
             strokes.append((chords[-1],))

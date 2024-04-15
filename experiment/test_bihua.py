@@ -50,6 +50,6 @@ for char, code in mb:
     elif len(code) == 3:
         ncode = code[0] + zgbh[code[1]] + code[-1]
     else:
-        ncode = code[0] + zgbh[code[1]][0] + zgbh[code[-2]][0] + code[-1]
+        ncode = code[0] + zgbh[code[1]][0] + code[-1] + zgbh[code[-2]][0]
 
     print(f'{char}\t{ncode}')
