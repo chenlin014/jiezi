@@ -8,6 +8,17 @@ case $1 in
 			printf("%s\t%s\n", $1, $2);
 		}'
 		;;
+	code2split)
+		cat | awk '{ if (length($2) > 1) {
+			halfway = int(length($2) / 2);
+			printf("%s\t%s %s\n", $1,
+			substr($2, 1, halfway),
+			substr($2, halfway+1, length($2)-halfway));
+			}
+			else 
+			{ printf("%s\t%s\n", $1, $2);}
+		}'
+		;;
 	rime)
 		cat | sed 's/<>//g; s/ | //g'
 		;;
