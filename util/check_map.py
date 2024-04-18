@@ -15,21 +15,18 @@ def find_dup_code(text2code):
     return dup_code
 
 def main():
-    import argparse, csv
+    import argparse, csv, sys
     parser = argparse.ArgumentParser()
-    parser.add_argument('table', help='码表文件')
+    parser.add_argument('table', nargs='?', default=None)
     parser.add_argument('-pt', '--priority_table', default=None,
         help='优先表：如何排序重码的字')
     args = parser.parse_args()
 
-    try:
-        map_file = open(args.table, encoding='utf-8')
-        mb = {text:code for text, code in (
-            line.split('\t') for line in map_file.read().splitlines()
-        )}
-        map_file.close()
-    except Exception as e:
-        raise e
+    if args.table:
+        with open(sys.argv[1], encoding='utf-8') as f:
+            mb = {char:code for char, code in csv.reader(f, delimiter='\t')}
+    else:
+        mb = {char:code for char, code in csv.reader((line.strip() for line in sys.stdin), delimiter='\t')}
 
     if args.priority_table:
         with open(args.priority_table, encoding='utf_8') as f:

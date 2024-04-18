@@ -37,7 +37,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('chordmap', help='字根并击表')
     parser.add_argument('keymap', help='键盘布局')
-    parser.add_argument('-mp', '--mb_path', help='码表', default=None)
+    parser.add_argument('mb_path', nargs='?', help='码表', default=None)
     parser.add_argument('-pt', '--priority_table', default=None)
     args = parser.parse_args()
 
@@ -86,9 +86,9 @@ def main():
                     chord += chord_map[c][i%2]
             chords.append(chord)
 
-        if ma in char_priority:
+        if ma.replace(' ', '') in char_priority:
             try:
-                ind = char_priority[ma].index(zi)
+                ind = char_priority[ma.replace(' ', '')].index(zi)
                 chords[-1] += uniquifier[ind]
             except Exception as e:
                 print(f'\n{zi}\t{ma}')
