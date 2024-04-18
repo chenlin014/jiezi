@@ -1,8 +1,4 @@
-import csv, sys
-
-if len(sys.argv) < 3:
-    print(f'{sys.argv[0]} <字根笔画表> <码表>')
-    quit()
+import csv, sys, argparse
 
 bh_name = {
     '一': '横',
@@ -14,13 +10,23 @@ bh_name = {
     '乚': '拐'
 }
 
-with open(sys.argv[1], encoding='utf_8') as f:
+parser = argparse.ArgumentParser()
+parser.add_argument('bh_table', help='字根笔画表')
+parser.add_argument('mb_path', nargs='?', default=None,
+    help='优先表：如何排序重码的字')
+args = parser.parse_args()
+
+with open(args.bh_table, encoding='utf_8') as f:
     reader = csv.reader(f, delimiter='\t')
     zgbh = {zg: ''.join(bh_name[h] for h in bh) for zg, bh in reader}
 
-with open(sys.argv[2], encoding='utf_8') as f:
-    reader = csv.reader(f, delimiter='\t')
-    mb = [(char, code) for char, code in reader]
+if args.mb_path:
+    with open(sys.argv[2], encoding='utf_8') as f:
+        reader = csv.reader(f, delimiter='\t')
+        mb = [(char, code) for char, code in reader]
+else:
+    mb = [(char, code) for char, code in csv.reader(
+            (line.strip() for line in sys.stdin), delimiter='\t')]
 
 for char, code in mb:
     if len(code) <= 2:
