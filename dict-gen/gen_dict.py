@@ -16,39 +16,42 @@ ACTIONS = {
     }
 }
 
-def apply_keymap(code, km, acts=ACTIONS, onLeft=True):
+def apply_keymap(code, system, acts=ACTIONS, onLeft=True):
     if onLeft:
-        chord = ''.join(''.join(km[row][col] for row in acts[act])
-            for col, act in enumerate(code) if act in acts)
+        keys = set(''.join(''.join(system[row][col] for row in acts[act])
+            for col, act in enumerate(code) if act in acts))
     else:
-        chord = ''.join(''.join(km[row][len(km['0'])-1-col] for row in acts[act])
-            for col, act in enumerate(code) if act in acts)
+        keys = set(''.join(''.join(system[row][len(system['0'])-1-col] for row in acts[act])
+            for col, act in enumerate(code) if act in acts))
 
     for act in code:
         if act in acts['tk']:
             if onLeft:
-                chord += ''.join(km['thumb_keys'][col] for col in acts['tk'][act])
+                keys = keys | set(''.join(system['thumb_keys'][col] for col in acts['tk'][act]))
             else:
-                chord += ''.join(km['thumb_keys'][len(km['thumb_keys'])-1-col] for col in acts['tk'][act])
+                keys = keys | set(''.join(system['thumb_keys'][len(system['thumb_keys'])-1-col] for col in acts['tk'][act]))
 
-    return chord
+    chord = list(keys)
+    chord.sort(key=lambda k: system['key_order'][k])
+    return ''.join(chord)
 
 def main():
     parser = argparse.ArgumentParser()
+    parser.add_argument('system', help='并击系统')
     parser.add_argument('chordmap', help='字根并击表')
-    parser.add_argument('keymap', help='键盘布局')
     parser.add_argument('mb_path', nargs='?', help='码表', default=None)
     parser.add_argument('-pt', '--priority_table', default=None)
     args = parser.parse_args()
 
-    with open(args.keymap) as f:
-        km = json.loads(f.read())
+    with open(args.system) as f:
+        system = json.loads(f.read())
+    system['key_order'] = {key: i for i, key in enumerate(system['key_order'])}
 
-    uniquifier = ['', km["dup_key"], km["func_key"], km["dup_key"]+km["func_key"]]
+    uniquifier = ['', system["dup_key"], system["func_key"], system["dup_key"]+system["func_key"]]
 
     with open(args.chordmap) as f:
         reader = csv.reader(f, delimiter='\t')
-        chord_map = {zg:(apply_keymap(ma, km, onLeft=True), apply_keymap(ma, km, onLeft=False)) for zg, ma in reader}
+        chord_map = {zg:(apply_keymap(ma, system, onLeft=True), apply_keymap(ma, system, onLeft=False)) for zg, ma in reader}
 
     if args.mb_path:
         with open(args.mb_path, encoding='utf-8') as f:
@@ -69,22 +72,25 @@ def main():
 
     for zi, ma in mb.items():
         if re.match(r'\{.+\}', ma):
-            chords = [apply_keymap(chord, km, onLeft=(i%2 == 0)) for i, chord in
+            chords = [apply_keymap(chord, system, onLeft=(i%2 == 0)) for i, chord in
                 enumerate(ma[1:-1].split(','))]
             ma = ''
         else:
             chords = []
 
         for i, code in enumerate(ma.split(' ')):
-            chord = ''
+            keys = set()
             for c in code:
                 if c == '重':
-                    chord += km['dup_key']
+                    keys.add(system['dup_key'])
                 elif c == '能':
-                    chord += km['func_key']
+                    keys.add(system['func_key'])
                 else:
-                    chord += chord_map[c][i%2]
-            chords.append(chord)
+                    keys = keys | set(chord_map[c][i%2])
+
+            chord = list(keys)
+            chord.sort(key=lambda k: system['key_order'][k])
+            chords.append(''.join(chord))
 
         if ma.replace(' ', '') in char_priority:
             try:

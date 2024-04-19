@@ -1,6 +1,6 @@
 dm-method=0,1,-2,-1
 dm-tag=abyz
-keymap=dict-gen/abc.json
+system=dict-gen/abc.json
 chordmap=zg_chord/cl.tsv
 
 char-stds=zt jt
@@ -31,10 +31,10 @@ plover-%: build-%
 
 build-%: daima jianma-%
 	cat table/xingzheng-$(dm-tag).tsv | ./dict-gen/format.sh sscode | \
-		python dict-gen/gen_dict.py $(chordmap) $(keymap) -pt char_priority/$(dm-tag)-$*.tsv > \
+		python dict-gen/gen_dict.py $(system) $(chordmap) -pt char_priority/$(dm-tag)-$*.tsv > \
 		build/$(dm-tag)-$*.tsv
 	cat table/jianma-$*.tsv | ./dict-gen/format.sh code2split | \
-		python dict-gen/gen_dict.py $(chordmap) $(keymap) -pt char_priority/jm-$*.tsv > \
+		python dict-gen/gen_dict.py $(system) $(chordmap) -pt char_priority/jm-$*.tsv > \
 		build/jianma-$*.tsv
 
 daima:

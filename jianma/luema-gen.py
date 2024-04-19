@@ -40,7 +40,7 @@ def main() -> None:
 
     for i, table in enumerate(tables):
         print(f'{methods[i]}\t{len(table)}')
-    print(f'{sum(len(table) for table in tables)}/{len(mb)}')
+    print(f'{sum(len(table) for table in tables)}/{len(list(code for code in mb.values() if len(code) > 2))}')
 
 if __name__ == '__main__':
     main()
