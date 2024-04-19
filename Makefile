@@ -1,7 +1,7 @@
 dm-method=0,1,-2,-1
 dm-tag=abyz
 system=dict-gen/abc.json
-chordmap=zg_chord/cl.tsv
+chordmap=chordmap/cl.tsv
 
 char-stds=zt jt
 programs=rime plover

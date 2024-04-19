@@ -12,7 +12,5 @@
 		"q", "r", "R", "Q",
 		"P", "O", "N", "M"],
 	"thumb_keys" : ["s", "t", "u", "U", "T", "S"],
-	"key_order" : "1agm2bhn3cio4djp5ekq~flrstu0AGM9BHN8CIO7DJP6EKQ`FLRSTU",
-	"dup_key": "F",
-	"func_key": "L"
+	"key_order" : "1agm2bhn3cio4djp5ekq~flrstu0AGM9BHN8CIO7DJP6EKQ`FLRSTU"
 }
