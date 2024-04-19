@@ -17,6 +17,13 @@ ACTIONS = {
 }
 
 def apply_keymap(code, system, acts=ACTIONS, onLeft=True):
+    if code.startswith('<'):
+        code = code[1:]
+        onLeft = True
+    if code.startswith('>'):
+        code = code[1:]
+        onLeft = False
+
     if onLeft:
         keys = set(''.join(''.join(system[row][col] for row in acts[act])
             for col, act in enumerate(code) if act in acts))
