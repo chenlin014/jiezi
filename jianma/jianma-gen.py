@@ -14,6 +14,7 @@ def gen_jianma(mb, methods, char_freq=dict()):
                 continue
             if ncode in reverse_table:
                 if char_freq.get(text, 0) > char_freq.get(reverse_table[ncode], 0):
+                    table.pop(reverse_table[ncode])
                     table[text] = ncode
                     reverse_table[ncode] = text
             else:
