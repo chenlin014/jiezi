@@ -2,21 +2,23 @@
 
 case $1 in
 	sscode)
-		cat | awk '{
-			gsub(/./, "& ", $2);
-			gsub(/[ ]+$/, "", $2);
-			printf("%s\t%s\n", $1, $2);
-		}'
-		;;
-	code2split)
-		cat | awk '{ if (length($2) > 1) {
-			halfway = int(length($2) / 2);
-			printf("%s\t%s %s\n", $1,
-				substr($2, 1, halfway),
-				substr($2, halfway+1, length($2)-halfway));
+		if [ -z "$2" ]; then
+			gs=1
+		else
+			gs=$2
+		fi
+
+		cat | awk -F'\t' -v group_size=$gs '
+		BEGIN { regex = "(.{"group_size"})" }
+		{ 
+			if ($2 ~ /\{.+\}/) {
+				printf("%s\t%s\n", $1, $2);
 			}
-			else 
-			{ printf("%s\t%s\n", $1, $2);}
+			else {
+				gsub(regex, "& ", $2);
+				gsub(/[ ]+$/, "", $2);
+				printf("%s\t%s\n", $1, $2);
+			}
 		}'
 		;;
 	rime)

@@ -7,14 +7,15 @@ char-stds=zt jt
 programs=rime plover
 dictionaries=$(foreach std,$(char-stds),$(foreach program,$(programs),$(program)-$(std)))
 
-char-freq-zt=$$HOME/data/lang/zh/char_freq/zt.csv
-char-freq-jt=$$HOME/data/lang/zh/char_freq/jt.csv
-
 common-char-zt=char_set/zt-jia
 common-char-jt=char_set/jt-common
 
+char-freq-zt=$$HOME/data/lang/zh/char_freq/zt.csv
+char-freq-jt=$$HOME/data/lang/zh/char_freq/jt.csv
+
 jm-name-zt=簡碼
 jm-name-jt=简码
+jianma-methods=0,-1:-1,0:0,1:1,0:-2,-1:-1,-2
 
 .PHONY: all clean
 
@@ -24,18 +25,21 @@ rime-%: build-%
 	cat build/$(dm-tag)-$*.tsv | dict-gen/format.sh rime > build/rime-$*.tsv
 	printf "\n# $(jm-name-$(*))\n" >> build/rime-$*.tsv
 	cat build/jianma-$*.tsv | dict-gen/format.sh rime >> build/rime-$*.tsv
+	cat table/punctuation.tsv | dict-gen/format.sh sscode | \
+		python dict-gen/gen_dict.py $(system) $(chordmap) | \
+		dict-gen/format.sh algebra > build/rime-punct
 
 plover-%: build-%
 	cat build/$(dm-tag)-$*.tsv | dict-gen/format.sh plover > build/plover-$*.json
 	cat build/jianma-$*.tsv | dict-gen/format.sh plover > build/plover-jm-$*.json
 
 build-%: daima jianma-%
-	cat table/xingzheng-$(dm-tag).tsv | ./dict-gen/format.sh sscode | \
-		python dict-gen/gen_dict.py $(system) $(chordmap) -pt char_priority/$(dm-tag)-$*.tsv > \
-		build/$(dm-tag)-$*.tsv
-	cat table/jianma-$*.tsv | ./dict-gen/format.sh code2split | \
-		python dict-gen/gen_dict.py $(system) $(chordmap) -pt char_priority/jm-$*.tsv > \
-		build/jianma-$*.tsv
+	cat table/xingzheng-$(dm-tag).tsv | \
+		python char_priority/apply_priority.py char_priority/$(dm-tag)-$*.tsv | \
+		./dict-gen/format.sh sscode | sed -E 's/\t([^重能空简]) ([^重能空简])$$/\t\1成 \2/' | \
+		python dict-gen/gen_dict.py $(system) $(chordmap) > build/$(dm-tag)-$*.tsv
+	cat table/jianma-$*.tsv | sed -E 's/\t(.)/\t\1 /' | \
+		python dict-gen/gen_dict.py $(system) $(chordmap) > build/jianma-$*.tsv
 
 daima:
 	python util/simp_map.py table/xingzheng.tsv $(dm-method) > table/xingzheng-$(dm-tag).tsv
@@ -45,11 +49,10 @@ daima:
 	fi
 
 jianma-%:
-	python util/subset.py table/xingzheng.tsv $(common-char-$(*)) | \
-		python jianma/jianma-gen.py jianma/zgbh-$*.tsv | \
-		awk -f jianma/code-ge-3.awk > table/jianma-$*.tsv
-	python util/check_map.py table/jianma-$*.tsv | tail -n +2 | \
-		python jianma/priority-gen.py $(char-freq-$(*)) > char_priority/jm-$*.tsv
+	python util/subset.py $(common-char-$(*)) table/xingzheng.tsv | \
+		awk -f jianma/code-ge-3.awk | \
+		python jianma/jianma-gen.py $(jianma-methods) --char-freq $(char-freq-$(*)) | \
+		sed -E 's/$$/简/' > table/jianma-$*.tsv
 
 clean:
 	rm build/*

@@ -1,14 +1,20 @@
-import csv, re, sys
+import csv, sys, argparse
 
-_, source, char_list = sys.argv
+parser = argparse.ArgumentParser()
+parser.add_argument('subset')
+parser.add_argument('source', nargs='?')
+args = parser.parse_args()
 
-with open(source, encoding='utf_8') as f:
-    r = csv.reader(f, delimiter='\t')
-    mb = {zi:re.sub(r'[左下正简和喃韓]', '', ma) for zi, ma in r}
+if args.source:
+    with open(args.source, encoding='utf_8') as f:
+        mb = {zi:ma for zi, ma in csv.reader(f, delimiter='\t')}
+else:
+    mb = {zi:ma for zi, ma in
+        csv.reader((line.strip() for line in sys.stdin), delimiter='\t')}
 
-with open(char_list, encoding='utf_8') as f:
-    chars = set(f.read().splitlines())
+with open(args.subset, encoding='utf_8') as f:
+    subset = set(f.read().splitlines())
 
-g = ((zi, ma) for zi, ma in mb.items() if zi in chars)
-for zi, ma in g:
-    print(f'{zi}\t{ma}')
+for zi, ma in mb.items():
+    if zi in subset:
+        print(f'{zi}\t{ma}')
