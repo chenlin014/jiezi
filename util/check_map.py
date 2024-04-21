@@ -19,7 +19,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('table', nargs='?', default=None)
     parser.add_argument('-pt', '--priority_table', default=None,
-        help='排序表：如何排序重码的字')
+        help='排序表：用于排序重码的字')
     args = parser.parse_args()
 
     if args.table:
