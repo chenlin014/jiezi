@@ -25,7 +25,7 @@ rime-%: build-%
 	cat build/$(dm-tag)-$*.tsv | dict-gen/format.sh rime > build/rime-$*.tsv
 	printf "\n# $(jm-name-$(*))\n" >> build/rime-$*.tsv
 	cat build/jianma-$*.tsv | dict-gen/format.sh rime >> build/rime-$*.tsv
-	cat table/punctuation.tsv | dict-gen/format.sh sscode | \
+	cat table/punctuation.tsv | dict-gen/format.sh preprocess | \
 		python dict-gen/gen_dict.py $(system) $(chordmap) | \
 		dict-gen/format.sh algebra > build/rime-punct
 
@@ -36,9 +36,9 @@ plover-%: build-%
 build-%: daima jianma-%
 	cat table/xingzheng-$(dm-tag).tsv | \
 		python char_priority/apply_priority.py char_priority/$(dm-tag)-$*.tsv | \
-		./dict-gen/format.sh sscode | sed -E 's/\t([^重能空简]) ([^重能空简])$$/\t\1成 \2/' | \
+		./dict-gen/format.sh preprocess | \
 		python dict-gen/gen_dict.py $(system) $(chordmap) > build/$(dm-tag)-$*.tsv
-	cat table/jianma-$*.tsv | sed -E 's/\t(.)/\t\1 /' | \
+	cat table/jianma-$*.tsv | ./dict-gen/format.sh preprocess | \
 		python dict-gen/gen_dict.py $(system) $(chordmap) > build/jianma-$*.tsv
 
 daima:
