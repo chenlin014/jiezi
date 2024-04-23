@@ -2,28 +2,25 @@ import csv, sys
 
 def gen_jianma(mb, methods, char_freq=dict()):
     used_texts = set()
-    used_codes = set(mb.values())
+    jm_table = dict()
 
-    tables = list()
     for method in methods:
-        table = dict()
-        reverse_table = dict()
         for text, code in mb.items():
             ncode = ''.join(code[ind] for ind in method) if len(code) > len(method) else code
-            if text in used_texts or ncode in used_codes:
+            if text in used_texts:
                 continue
-            if ncode in table:
-                if char_freq.get(text, 0) > char_freq.get(table[ncode], 0):
-                    table[ncode] = text
+            if ncode in jm_table:
+                if char_freq.get(text, 0) > char_freq.get(jm_table[ncode], 0):
+                    used_texts.remove(jm_table[ncode])
+                    jm_table[ncode] = text
+                    used_texts.add(text)
             else:
-                table[ncode] = text
+                jm_table[ncode] = text
+                used_texts.add(text)
 
-        used_texts = used_texts | set(table.values())
-        used_codes = used_codes | set(table)
+        used_texts = set(jm_table.values())
 
-        tables.append(table)
-
-    return tables
+    return jm_table
 
 def main() -> None:
     import argparse
@@ -49,11 +46,10 @@ def main() -> None:
     else:
         char_freq = dict()
 
-    tables = gen_jianma(mb, methods, char_freq)
+    jm_table = gen_jianma(mb, methods, char_freq)
 
-    for table in tables:
-        for code, text in table.items():
-            print(f'{text}\t{code}')
+    for code, text in jm_table.items():
+        print(f'{text}\t{code}')
 
 if __name__ == '__main__':
     main()
