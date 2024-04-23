@@ -1,8 +1,8 @@
 import csv, sys
 
 def gen_jianma(mb, methods, char_freq=dict()):
-    texts = set()
-    codes = set(mb.values())
+    used_texts = set()
+    used_codes = set(mb.values())
 
     tables = list()
     for method in methods:
@@ -10,19 +10,16 @@ def gen_jianma(mb, methods, char_freq=dict()):
         reverse_table = dict()
         for text, code in mb.items():
             ncode = ''.join(code[ind] for ind in method) if len(code) > len(method) else code
-            if text in texts or ncode in codes:
+            if text in used_texts or ncode in used_codes:
                 continue
-            if ncode in reverse_table:
-                if char_freq.get(text, 0) > char_freq.get(reverse_table[ncode], 0):
-                    table.pop(reverse_table[ncode])
-                    table[text] = ncode
-                    reverse_table[ncode] = text
+            if ncode in table:
+                if char_freq.get(text, 0) > char_freq.get(table[ncode], 0):
+                    table[ncode] = text
             else:
-                table[text] = ncode
-                reverse_table[ncode] = text
+                table[ncode] = text
 
-        texts = texts | set(table)
-        codes = codes | set(table.values())
+        used_texts = used_texts | set(table.values())
+        used_codes = used_codes | set(table)
 
         tables.append(table)
 
@@ -55,7 +52,7 @@ def main() -> None:
     tables = gen_jianma(mb, methods, char_freq)
 
     for table in tables:
-        for text, code in table.items():
+        for code, text in table.items():
             print(f'{text}\t{code}')
 
 if __name__ == '__main__':
