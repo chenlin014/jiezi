@@ -43,10 +43,12 @@ jianma-methods=$(az):$(ab):$(yz)
 
 all: $(dictionaries)
 
-rime-%: build-%
+rime-%: build-% rime_punc
 	cat build/$(dm-tag)-$*.tsv | dict-gen/format.sh rime > build/rime-$*.tsv
 	printf "\n# $(jm-name-$(*))\n" >> build/rime-$*.tsv
 	cat build/jianma-$*.tsv | dict-gen/format.sh rime >> build/rime-$*.tsv
+
+rime_punc:
 	cat table/punctuation.tsv | dict-gen/format.sh preprocess | \
 		python dict-gen/gen_dict.py $(system) $(chordmap) | \
 		dict-gen/format.sh algebra > build/rime-punct
