@@ -23,7 +23,7 @@ def main():
     args = parser.parse_args()
 
     if args.table:
-        with open(sys.argv[1], encoding='utf-8') as f:
+        with open(args.table, encoding='utf-8') as f:
             mb = {char:code for char, code in csv.reader(f, delimiter='\t')}
     else:
         mb = {char:code for char, code in csv.reader((line.strip() for line in sys.stdin), delimiter='\t')}

@@ -62,7 +62,7 @@ build-%: daima jianma-%
 		python char_priority/apply_priority.py char_priority/$(dm-tag)-$*.tsv | \
 		./dict-gen/format.sh preprocess | \
 		python dict-gen/gen_dict.py $(system) $(chordmap) > build/$(dm-tag)-$*.tsv
-	cat table/jianma-$*.tsv | ./dict-gen/format.sh preprocess | \
+	cat table/jianma-$*.tsv | sed -E 's/$$/简/' | ./dict-gen/format.sh preprocess | \
 		python dict-gen/gen_dict.py $(system) $(chordmap) > build/jianma-$*.tsv
 
 daima:
@@ -75,8 +75,8 @@ daima:
 jianma-%:
 	python util/subset.py $(common-char-$(*)) table/xingzheng.tsv | \
 		awk -f jianma/code-ge-3.awk | \
-		python jianma/jianma-gen.py $(jianma-methods) --char-freq $(char-freq-$(*)) | \
-		sed -E 's/$$/简/' > table/jianma-$*.tsv
+		python jianma/jianma-gen.py $(jianma-methods) --char-freq $(char-freq-$(*)) > \
+		table/jianma-$*.tsv
 
 clean:
 	rm build/*
