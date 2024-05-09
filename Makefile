@@ -41,9 +41,11 @@ jianma-methods=$(az):$(ab):$(yz)
 
 .PHONY: all clean
 
-all: $(dictionaries)
+all: $(foreach program,$(programs),$(program)_all)
 
-rime-%: build-% rime_punc
+rime_all: $(foreach std,$(char-stds),rime-$(std)) rime_punc
+
+rime-%: build-%
 	cat build/$(dm-tag)-$*.tsv | dict-gen/format.sh rime > build/rime-$*.tsv
 	printf "\n# $(jm-name-$(*))\n" >> build/rime-$*.tsv
 	cat build/jianma-$*.tsv | dict-gen/format.sh rime >> build/rime-$*.tsv
@@ -52,6 +54,8 @@ rime_punc:
 	cat table/punctuation.tsv | dict-gen/format.sh preprocess | \
 		python dict-gen/gen_dict.py $(system) $(chordmap) | \
 		dict-gen/format.sh algebra > build/rime-punct
+
+plover_all: $(foreach std,$(char-stds),plover-$(std))
 
 plover-%: build-%
 	cat build/$(dm-tag)-$*.tsv | dict-gen/format.sh plover > build/plover-$*.json
@@ -73,7 +77,7 @@ daima:
 	fi
 
 jianma-%:
-	python util/subset.py $(common-char-$(*)) table/xingzheng.tsv | \
+	python util/subset.py $(common-char-$(*)) table/xingzheng-$(dm-tag).tsv | \
 		awk -f jianma/code-ge-3.awk | \
 		python jianma/jianma-gen.py $(jianma-methods) --char-freq $(char-freq-$(*)) > \
 		table/jianma-$*.tsv
