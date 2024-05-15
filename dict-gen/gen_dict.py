@@ -32,11 +32,16 @@ def apply_keymap(code, system, acts=ACTIONS, onLeft=True):
             for col, act in enumerate(code) if act in acts))
 
     for act in code:
+        if act in acts:
+            continue
+
         if act in acts['tk']:
             if onLeft:
                 keys = keys | set(''.join(system['thumb_keys'][col] for col in acts['tk'][act]))
             else:
                 keys = keys | set(''.join(system['thumb_keys'][len(system['thumb_keys'])-1-col] for col in acts['tk'][act]))
+        elif act in system['key_order']:
+            keys.add(act)
 
     chord = list(keys)
     chord.sort(key=lambda k: system['key_order'][k])
