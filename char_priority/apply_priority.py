@@ -1,11 +1,12 @@
 import csv, argparse, sys
 
-uniquifier = ['', '重', '能', '重能']
-
 parser = argparse.ArgumentParser()
 parser.add_argument('priority_table')
 parser.add_argument('mb_path', nargs='?')
+parser.add_argument('-u', '--uniquifier', default=',1,2,3,4,5,6,7,8,9')
 args = parser.parse_args()
+
+uniquifier = args.uniquifier.split(',')
 
 with open(args.priority_table, encoding='utf-8') as f:
     update_table = dict()

@@ -63,7 +63,7 @@ plover-%: build-%
 
 build-%: daima jianma-%
 	cat table/xingzheng-$(dm-tag).tsv | \
-		python char_priority/apply_priority.py char_priority/$(dm-tag)-$*.tsv | \
+		python char_priority/apply_priority.py char_priority/$(dm-tag)-$*.tsv -u ',重,能,重能' | \
 		./dict-gen/format.sh preprocess | \
 		python dict-gen/gen_dict.py $(system) $(chordmap) > build/$(dm-tag)-$*.tsv
 	cat table/jianma-$*.tsv | sed -E 's/$$/简/' | ./dict-gen/format.sh preprocess | \
