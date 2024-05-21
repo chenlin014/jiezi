@@ -1,20 +1,32 @@
 import csv, sys, argparse
 
 parser = argparse.ArgumentParser()
-parser.add_argument('subset')
-parser.add_argument('source', nargs='?')
+parser.add_argument('table1')
+parser.add_argument('table2', nargs='?')
+parser.add_argument('-d', '--difference', action='store_true')
 args = parser.parse_args()
 
-if args.source:
-    with open(args.source, encoding='utf_8') as f:
-        mb = {zi:ma for zi, ma in csv.reader(f, delimiter='\t')}
+with open(args.table1, encoding='utf_8') as f:
+    table1 = [line.split('\t') for line in
+        f.read().splitlines()]
+
+if args.table2:
+    with open(args.table2, encoding='utf_8') as f:
+        table2 = [line.split('\t') for line in
+            f.read().splitlines()]
 else:
-    mb = {zi:ma for zi, ma in
-        csv.reader((line.strip() for line in sys.stdin), delimiter='\t')}
+    table2 = [line.split('\t') for line in 
+            (line.strip() for line in sys.stdin)]
 
-with open(args.subset, encoding='utf_8') as f:
-    subset = set(f.read().splitlines())
-
-for zi, ma in mb.items():
-    if zi in subset:
-        print(f'{zi}\t{ma}')
+set1 = set(line[0] for line in table1)
+set2 = set(line[0] for line in table2)
+if args.difference:
+    subset = set1.difference(set2)
+    for line in table1:
+        if line[0] in subset:
+            print('\t'.join(line))
+else:
+    subset = set1.intersection(set2)
+    for line in table2:
+        if line[0] in subset:
+            print('\t'.join(line))
