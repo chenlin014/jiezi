@@ -65,14 +65,12 @@ def main():
     if args.mb_path:
         with open(args.mb_path, encoding='utf-8') as f:
             reader = csv.reader(f, delimiter='\t')
-            mb = {zi:ma for zi, ma in reader}
+            mb = [(zi,ma) for zi, ma in reader]
     else:
-        mb = {zi:ma for zi, ma in
-            csv.reader((line.strip() for line in sys.stdin), delimiter='\t')}
+        mb = [(zi,ma) for zi, ma in
+            csv.reader((line.strip() for line in sys.stdin), delimiter='\t')]
 
-    codes = set(mb.values())
-
-    for zi, ma in mb.items():
+    for zi, ma in mb:
         if re.match(r'\{.+\}', ma):
             chords = [apply_keymap(chord, system, onLeft=(i%2 == 0)) for i, chord in
                 enumerate(ma[1:-1].split(','))]
