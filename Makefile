@@ -43,7 +43,7 @@ jianma-methods=$(az):$(ab):$(yz)
 
 all: $(foreach program,$(programs),$(program)_all)
 
-rime_all: $(foreach std,$(char-stds),rime-$(std)) rime_punc
+rime_all: $(foreach std,$(char-stds),rime-$(std)) rime_punc rime_zigen
 
 rime-%: build-%
 	cat build/$(dm-tag)-$*.tsv | dict-gen/format.sh rime > build/rime-$*.tsv
@@ -54,6 +54,9 @@ rime_punc:
 	cat table/punctuation.tsv | dict-gen/format.sh preprocess | \
 		python dict-gen/gen_dict.py $(system) $(chordmap) | \
 		dict-gen/format.sh algebra > build/rime-punct
+
+rime_zigen: build_zigen
+	cat build/zigen.tsv | dict-gen/format.sh rime > build/rime-zigen.tsv
 
 plover_all: $(foreach std,$(char-stds),plover-$(std))
 
@@ -68,6 +71,11 @@ build-%: daima jianma-%
 		python dict-gen/gen_dict.py $(system) $(chordmap) > build/$(dm-tag)-$*.tsv
 	cat table/jianma-$*.tsv | sed -E 's/$$/简/' | ./dict-gen/format.sh preprocess | \
 		python dict-gen/gen_dict.py $(system) $(chordmap) > build/jianma-$*.tsv
+
+build_zigen:
+	cat $(chordmap) | sed 's/\t""$$/\ta/' | \
+		awk '{print $$1"\t{"$$2"}"} $$1 !~ /[重能成简空]/ {print $$1"\t{,"$$2"}"}' | \
+		python dict-gen/gen_dict.py $(system) $(chordmap) > build/zigen.tsv
 
 daima:
 	python util/simp_map.py table/xingzheng.tsv $(dm-method) > table/xingzheng-$(dm-tag).tsv
