@@ -1,16 +1,16 @@
-def find_dup_code(text2code):
+def find_dup_code(table):
     dup_code = dict()
-    code2text = dict()
+    reverse_table = dict()
 
-    for text, code in text2code.items():
-        if not code in code2text:
-            code2text[code] = text
+    for text, code in table:
+        if not code in reverse_table:
+            reverse_table[code] = text
             continue
 
         if code in dup_code:
             dup_code[code].append(text)
         else:
-            dup_code[code] = [code2text[code], text]
+            dup_code[code] = [reverse_table[code], text]
 
     return dup_code
 
@@ -24,9 +24,9 @@ def main():
 
     if args.table:
         with open(args.table, encoding='utf-8') as f:
-            mb = {char:code for char, code in csv.reader(f, delimiter='\t')}
+            mb = [(char,code) for char, code in csv.reader(f, delimiter='\t')]
     else:
-        mb = {char:code for char, code in csv.reader((line.strip() for line in sys.stdin), delimiter='\t')}
+        mb = [(char,code) for char, code in csv.reader((line.strip() for line in sys.stdin), delimiter='\t')]
 
     if args.priority_table:
         with open(args.priority_table, encoding='utf_8') as f:
