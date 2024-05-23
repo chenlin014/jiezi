@@ -16,28 +16,13 @@ char-freq-jt=$$HOME/data/lang/zh/char_freq/jt.csv
 jm-name-zt=簡碼
 jm-name-jt=简码
 
-a=0:0,0
-ab=0,1:1,0
-ac=0,2:2,0
-ax=0,-3:-3,0
-ay=0,-2:-2,0
-az=0,-1:-1,0
-b=1:1,1
-bc=1,2:2,1
-bx=1,-3:-3,1
-by=1,-2:-2,1
-bz=1,-1:-1,1
-c=2:2,2
-cx=2,-3:-3,2
-cy=2,-2:-2,2
-cz=2,-1:-1,2
-x=-3:-3,-3
-xy=-3,-2:-2,-3
-xz=-3,-1:-1,-3
-y=-2:-2,-2
-yz=-2,-1:-1,-2
-z=-1:-1,-1
-jianma-methods=$(az):$(ab):$(yz)
+az=0,-1
+ab=0,1
+yz=-2,-1
+za=-1,0
+ba=1,0
+zy=-1,-2
+jianma-methods=$(az):$(ab):$(yz):$(za):$(ba):$(zy)
 
 .PHONY: all clean
 
@@ -73,7 +58,7 @@ build-%: daima jianma-%
 		python dict-gen/gen_dict.py $(system) $(chordmap) > build/jianma-$*.tsv
 
 build_zigen:
-	cat $(chordmap) | sed 's/\t""$$/\ta/' | \
+	cat $(chordmap) | sed 's/\t""$$/\t,a/' | \
 		awk '{print $$1"\t{"$$2"}"} $$1 !~ /[重能成简空]/ {print $$1"\t{,"$$2"}"}' | \
 		python dict-gen/gen_dict.py $(system) $(chordmap) > build/zigen.tsv
 
