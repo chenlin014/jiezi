@@ -4,9 +4,18 @@ def gen_jianma(mb, methods, char_freq=dict()):
     used_texts = set()
     jm_table = dict()
 
+    min_lens = []
     for method in methods:
+        min_lens.append(
+            max(i + 1 if i >= 0 else i * -1 for i in method)
+        )
+
+    for method, min_len in zip(methods, min_lens):
         for text, code in mb.items():
-            ncode = ''.join(code[ind] for ind in method) if len(code) > len(method) else code
+            if len(code) < min_len:
+                continue
+
+            ncode = ''.join(code[ind] for ind in method)
             if text in used_texts:
                 continue
             if ncode in jm_table:
@@ -28,10 +37,12 @@ def main() -> None:
     parser.add_argument('methods')
     parser.add_argument('table', nargs='?', default=None)
     parser.add_argument('--char-freq', default=None)
+    parser.add_argument('--manual', default=None)
     args = parser.parse_args()
 
-    methods = tuple(tuple(map(int, method.split(',')))
-        for method in args.methods.split(':'))
+    methods = tuple(
+                    tuple(map(int, method.split(',')))
+                for method in args.methods.split(':'))
     if args.table:
         with open(args.table, encoding='utf-8') as f:
             mb = {text:code for text, code in csv.reader(f, delimiter='\t')}
