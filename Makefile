@@ -72,8 +72,8 @@ daima:
 jianma-%:
 	python util/subset.py $(common-char-$(*)) table/xingzheng-$(dm-tag).tsv | \
 		awk -f jianma/code-ge-3.awk | \
-		python jianma/jianma-gen.py $(jianma-methods) --char-freq $(char-freq-$(*)) > \
-		table/jianma-$*.tsv
+		python jianma/jianma-gen.py 0:0,0,0:$(jianma-methods) --char-freq $(char-freq-$(*)) | \
+		sed -E 's/\t(.)..$$/\t空\1/' > table/jianma-$*.tsv
 
 clean:
 	rm build/*
