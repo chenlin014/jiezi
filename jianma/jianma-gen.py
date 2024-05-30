@@ -37,7 +37,6 @@ def main() -> None:
     parser.add_argument('methods')
     parser.add_argument('table', nargs='?', default=None)
     parser.add_argument('--char-freq', default=None)
-    parser.add_argument('--manual', default=None)
     args = parser.parse_args()
 
     methods = tuple(
