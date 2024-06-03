@@ -1,6 +1,6 @@
 dm-method=0,1,-2,-1
 dm-tag=abyz
-system=dict-gen/abc.json
+system=system/abc.json
 chordmap=chordmap/cl.tsv
 
 char-stds=zt jt
@@ -26,7 +26,7 @@ jianma-methods=$(az):$(ab):$(yz):$(za):$(ba):$(zy)
 
 .PHONY: all clean
 
-all: $(foreach program,$(programs),$(program)_all)
+all: $(foreach program,$(programs),$(program)_all) shintei
 
 rime_all: $(foreach std,$(char-stds),rime-$(std)) rime_punc rime_zigen
 
@@ -74,6 +74,14 @@ jianma-%:
 		awk -f jianma/code-ge-3.awk | \
 		python jianma/jianma-gen.py 0:0,0,0:$(jianma-methods) --char-freq $(char-freq-$(*)) | \
 		sed -E 's/\t(.)..$$/\t空\1/' > table/jianma-$*.tsv
+
+shintei:
+	cat table/xingzheng-$(dm-tag).tsv | \
+		python char_priority/apply_priority.py char_priority/$(dm-tag)-jp.tsv -u ',重,能,重能' | \
+		./dict-gen/format.sh preprocess | \
+		python dict-gen/gen_dict.py system/yayakana.json $(chordmap) | \
+		./dict-gen/format.sh rime | \
+		sed -E 's/yz/zy/; s/([a-x])z/\1c/; s/([A-Z]+)z/c\1/; s/y/C/; s/\t/\tj/' > build/rime-shintei.tsv
 
 clean:
 	rm build/*
