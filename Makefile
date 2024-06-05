@@ -40,7 +40,7 @@ rime-%: build-%
 rime_punc:
 	cat table/punctuation.tsv | mb-tool/format.sh preprocess | \
 		$(dict-gen) $(system) $(chordmap) | \
-		mb-tool/format.sh algebra > build/rime-punct
+		mb-tool/format.sh algebra | sed -E 's/\|(.+)\|\|\|/\/\1\/|\//' > build/rime-punct
 
 rime_zigen: build_zigen
 	cat build/zigen.tsv | mb-tool/format.sh rime > build/rime-zigen.tsv
