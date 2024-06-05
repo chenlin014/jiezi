@@ -83,7 +83,7 @@ shintei:
 		./mb-tool/format.sh preprocess | \
 		$(dict-gen) system/yayakana.json $(chordmap) | \
 		./mb-tool/format.sh rime | \
-		sed -E 's/yz/zy/; s/([a-x])z/\1c/; s/([A-Z]+)z/c\1/; s/y/C/; s/\t/\tj/' > build/rime-shintei.tsv
+		sed -E 's/\t(.+)y$$/\ta\1/; s/\t/\tj/' > build/rime-shintei.tsv
 
 clean:
 	rm build/*

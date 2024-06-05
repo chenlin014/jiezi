@@ -1,8 +1,8 @@
 {
-	"+1": ["a", "t", "k", "u", "c",
-		"C", "U", "K", "T", "A"],
-	"0":  ["q", "n", "s", "o", "c",
-		"C", "O", "S", "N", "Q"],
-	"thumb_keys": ["i", "I"],
-	"key_order": "atnksiuoqcATNKSIUOQCyz"
+	"+1": ["A", "B", "C", "D", "z",
+		"a", "E", "F", "G", "H"],
+	"0":  ["n", "t", "s", "k", "z",
+		"a", "u", "o", "N", "T"],
+	"thumb_keys": ["d", "i"],
+	"key_order": "aABCDntskdEFGHiuoNTzy"
 }
