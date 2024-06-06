@@ -54,9 +54,9 @@ plover-%: build-%
 build-%: daima jianma-%
 	cat table/xingzheng-$(dm-tag).tsv | \
 		python mb-tool/apply_priority.py char_priority/$(dm-tag)-$*.tsv -u ',重,能,重能' | \
-		./mb-tool/format.sh preprocess | \
+		awk -f preprocess.awk | \
 		$(dict-gen) $(system) $(chordmap) > build/$(dm-tag)-$*.tsv
-	cat table/jianma-$*.tsv | sed -E 's/$$/简/' | ./mb-tool/format.sh preprocess | \
+	cat table/jianma-$*.tsv | sed -E 's/$$/简/' | awk -f preprocess.awk | \
 		$(dict-gen) $(system) $(chordmap) > build/jianma-$*.tsv
 
 build_zigen:
@@ -80,7 +80,7 @@ jianma-%:
 shintei:
 	cat table/xingzheng-$(dm-tag).tsv | \
 		python mb-tool/apply_priority.py char_priority/$(dm-tag)-jp.tsv -u ',重,能,重能' | \
-		./mb-tool/format.sh preprocess | \
+		awk -f preprocess.awk | \
 		$(dict-gen) system/yayakana.json $(chordmap) | \
 		./mb-tool/format.sh rime | \
 		sed -E 's/\t(.+)y$$/\ta\1/; s/\t/\tj/' > build/rime-shintei.tsv
