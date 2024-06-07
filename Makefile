@@ -65,7 +65,7 @@ build_zigen:
 		$(dict-gen) $(system) $(chordmap) > build/zigen.tsv
 
 daima:
-	awk -F'\t' 'NF == 2 {print $$1"\t"$$2}' table/yiti.tsv | \
+	awk -F'\t' 'NF == 2 {print $$1"\t"$$2}' table/jianrong.tsv | \
 		cat table/xingzheng.tsv /dev/stdin | \
 		python mb-tool/simp_map.py $(dm-method) > table/xingzheng-$(dm-tag).tsv
 	if [ -f table/xingzheng-$(dm-tag).diff ]; then \
