@@ -65,7 +65,9 @@ build_zigen:
 		$(dict-gen) $(system) $(chordmap) > build/zigen.tsv
 
 daima:
-	python mb-tool/simp_map.py table/xingzheng.tsv $(dm-method) > table/xingzheng-$(dm-tag).tsv
+	awk -F'\t' 'NF == 2 {print $$1"\t"$$2}' table/yiti.tsv | \
+		cat table/xingzheng.tsv /dev/stdin | \
+		python mb-tool/simp_map.py $(dm-method) > table/xingzheng-$(dm-tag).tsv
 	if [ -f table/xingzheng-$(dm-tag).diff ]; then \
 		patch -d table < table/xingzheng-$(dm-tag).diff || \
 			(echo "patch failed xingzheng-$(dm-tag)"; exit 1) \
