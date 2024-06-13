@@ -30,7 +30,7 @@ jianma-methods=$(az):$(ab):$(yz):$(za):$(ba):$(zy)
 
 all: $(foreach program,$(programs),$(program)_all) shintei
 
-rime_all: $(foreach std,$(char-stds),rime-$(std)) rime_punc rime_zigen
+rime_all: $(foreach std,$(char-stds),rime-$(std)) rime_punc rime_zigen rime_mono
 
 rime-%: build-%
 	cat build/$(dm-tag)-$*.tsv | mb-tool/format.sh rime > build/rime-$*.tsv
@@ -44,6 +44,10 @@ rime_punc:
 
 rime_zigen: build_zigen
 	cat build/zigen.tsv | mb-tool/format.sh rime > build/rime-zigen.tsv
+
+rime_mono: daima
+	python mb-tool/transform.py monokey/zg_code.tsv table/xingzheng-abyz.tsv -r monokey/rules.tsv | \
+		awk '!seen[$$0]++' > monokey/dict.tsv
 
 plover_all: $(foreach std,$(char-stds),plover-$(std))
 
