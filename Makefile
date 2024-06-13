@@ -91,5 +91,9 @@ shintei:
 		./mb-tool/format.sh rime | \
 		sed -E 's/\t(.+)y$$/\ta\1/; s/\t/\tj/' > build/rime-shintei.tsv
 
+priority_patch:
+	python mb-tool/combine_dict.py char_priority/$(dm-tag)-zt.tsv char_priority/$(dm-tag)-jp-patch.tsv > char_priority/$(dm-tag)-jp.tsv
+	python mb-tool/combine_dict.py char_priority/$(dm-tag)-zt.tsv char_priority/$(dm-tag)-vi-patch.tsv > char_priority/$(dm-tag)-vi.tsv
+
 clean:
 	rm build/*
