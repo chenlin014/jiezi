@@ -91,9 +91,13 @@ shintei:
 		./mb-tool/format.sh rime | \
 		sed -E 's/\t(.+)y$$/\ta\1/; s/\t/\tj/' > build/rime-shintei.tsv
 
-priority_patch:
+po_patch:
 	python mb-tool/combine_dict.py char_priority/$(dm-tag)-zt.tsv char_priority/$(dm-tag)-jp-patch.tsv > char_priority/$(dm-tag)-jp.tsv
 	python mb-tool/combine_dict.py char_priority/$(dm-tag)-zt.tsv char_priority/$(dm-tag)-vi-patch.tsv > char_priority/$(dm-tag)-vi.tsv
+
+code_freq:
+	python mb-tool/code_freq.py table/xingzheng-$(dm-tag).tsv $(char-freq-zt) > doc/code-freq-zt.tsv
+	python mb-tool/code_freq.py table/xingzheng-$(dm-tag).tsv $(char-freq-jt) > doc/code-freq-jt.tsv
 
 clean:
 	rm build/*
