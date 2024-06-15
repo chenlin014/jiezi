@@ -45,9 +45,15 @@ rime_punc:
 rime_zigen: build_zigen
 	cat build/zigen.tsv | mb-tool/format.sh rime > build/rime-zigen.tsv
 
-rime_mono: daima
+rime_mono: rime_mono_dict $(foreach std,$(char-stds),rime_mono_jm_$(std))
+
+rime_mono_dict: daima
 	python mb-tool/transform.py monokey/zg_code.tsv table/xingzheng-abyz.tsv -r monokey/rules.tsv | \
-		awk '!seen[$$0]++' > monokey/dict.tsv
+	awk '!seen[$$0]++' > monokey/dict.tsv
+
+rime_mono_jm_%: rime_mono_dict
+	awk -f jianma/code-ge-3.awk monokey/dict.tsv | \
+		python jianma/jianma-gen.py 0:0,1,2 --char-freq $(char-freq-$(*)) > monokey/jm-$*.tsv
 
 plover_all: $(foreach std,$(char-stds),plover-$(std))
 
