@@ -27,6 +27,8 @@ zy=-1,-2
 jianma-methods=$(az):$(ab):$(yz):$(za):$(ba):$(zy)
 
 mono-jm-methods=0:0,1,2:0,1,-1
+mono-zg-code=monokey/zg_code.tsv
+mono-rules=monokey/rules.tsv
 
 .PHONY: all clean
 
@@ -50,11 +52,12 @@ rime_zigen: build_zigen
 rime_mono: rime_mono_table $(foreach std,$(char-stds),rime_mono_jm_$(std))
 
 rime_mono_table: daima
-	python mb-tool/transform.py monokey/zg_code.tsv table/xingzheng-abyz.tsv -r monokey/rules.tsv | \
+	python mb-tool/transform.py $(mono-zg-code) table/xingzheng-$(dm-tag).tsv -r $(mono-rules) | \
 	awk '!seen[$$0]++' > monokey/dict.tsv
 
 rime_mono_jm_%: rime_mono_table
-	./mb-tool/code_match.sh monokey/dict.tsv '^.{5,}$$' | \
+	./mb-tool/code_match.sh table/common-$*.tsv '^.{3,}$$' | \
+		python mb-tool/transform.py $(mono-zg-code) -r $(mono-rules) | \
 		python jianma/jianma-gen.py $(mono-jm-methods) --char-freq $(char-freq-$(*)) > monokey/jm-$*.tsv
 
 plover_all: $(foreach std,$(char-stds),plover-$(std))
@@ -86,8 +89,7 @@ daima:
 	fi
 
 jianma-%:
-	python mb-tool/subset.py $(common-char-$(*)) table/xingzheng-$(dm-tag).tsv | \
-		awk -f jianma/code-ge-3.awk | \
+	awk -f jianma/code-ge-3.awk table/common-$*.tsv | \
 		python jianma/jianma-gen.py 0:0,0,0:$(jianma-methods) --char-freq $(char-freq-$(*)) | \
 		sed -E 's/\t(.)..$$/\t空\1/' > table/jianma-$*.tsv
 
