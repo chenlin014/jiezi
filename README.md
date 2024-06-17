@@ -40,8 +40,10 @@ xingzheng-abyz.tsv
 早林式：cl.tsv
 
 ## 感谢
+### 郑码发明人
+郑易里、郑珑。
 
-### 字频来源
+### 字频提供方
 - 正體：
     - [教育部語文成果網](https://language.moe.gov.tw/)
     - [字頻總表](https://language.moe.gov.tw/001/Upload/files/SITE_CONTENT/M0001/PIN/biau1.htm?open)
