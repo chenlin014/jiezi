@@ -26,6 +26,8 @@ ba=1,0
 zy=-1,-2
 jianma-methods=$(az):$(ab):$(yz):$(za):$(ba):$(zy)
 
+mono-jm-methods=0:0,1,2:0,1,-1
+
 .PHONY: all clean
 
 all: $(foreach program,$(programs),$(program)_all) shintei
@@ -52,8 +54,8 @@ rime_mono_table: daima
 	awk '!seen[$$0]++' > monokey/dict.tsv
 
 rime_mono_jm_%: rime_mono_table
-	awk -f jianma/code-ge-3.awk monokey/dict.tsv | \
-		python jianma/jianma-gen.py 0:0,1,2 --char-freq $(char-freq-$(*)) > monokey/jm-$*.tsv
+	./mb-tool/code_match.sh monokey/dict.tsv '^.{5,}$$' | \
+		python jianma/jianma-gen.py $(mono-jm-methods) --char-freq $(char-freq-$(*)) > monokey/jm-$*.tsv
 
 plover_all: $(foreach std,$(char-stds),plover-$(std))
 
