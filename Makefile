@@ -9,14 +9,13 @@ char-stds=zt jt
 programs=rime plover
 dictionaries=$(foreach std,$(char-stds),$(foreach program,$(programs),$(program)-$(std)))
 
-common-char-zt=char_set/zt-jia
-common-char-jt=char_set/jt-common
-
 char-freq-zt=$$HOME/data/lang/zh/char_freq/zt.csv
 char-freq-jt=$$HOME/data/lang/zh/char_freq/jt.csv
+char-freq-jp=$$HOME/data/lang/jp/kanji_hindo.tsv
 
 jm-name-zt=簡碼
 jm-name-jt=简码
+jm-name-jp=略コード
 
 az=0,-1
 ab=0,1
@@ -49,7 +48,7 @@ rime_punc:
 rime_zigen: build_zigen
 	cat build/zigen.tsv | mb-tool/format.sh rime > build/rime-zigen.tsv
 
-rime_mono: rime_mono_table $(foreach std,$(char-stds),rime_mono_jm_$(std))
+rime_mono: rime_mono_table $(foreach std,$(char-stds),rime_mono_jm_$(std)) rime_mono_jm_jp
 
 rime_mono_table: daima
 	python mb-tool/transform.py $(mono-zg-code) table/xingzheng-$(dm-tag).tsv -r $(mono-rules) | \
