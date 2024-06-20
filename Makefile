@@ -54,10 +54,18 @@ rime_mono_table: daima
 	python mb-tool/transform.py $(mono-zg-code) table/xingzheng-$(dm-tag).tsv -r $(mono-rules) | \
 	awk '!seen[$$0]++' > monokey/dict.tsv
 
-rime_mono_jm_%: rime_mono_table
+rime_mono_jm_%: rime_mono_table common-%
 	./mb-tool/code_match.sh table/common-$*.tsv '^.{3,}$$' | \
 		python mb-tool/transform.py $(mono-zg-code) -r $(mono-rules) | \
 		python jianma/jianma-gen.py $(mono-jm-methods) --char-freq $(char-freq-$(*)) > monokey/jm-$*.tsv
+
+shintei:
+	cat table/xingzheng-$(dm-tag).tsv | \
+		python mb-tool/apply_priority.py char_priority/$(dm-tag)-jp.tsv -u ',重,能,重能' | \
+		awk -f preprocess.awk | \
+		$(dict-gen) system/yayakana.json $(chordmap) | \
+		./mb-tool/format.sh rime | \
+		sed -E 's/\t(.+)y$$/\ta\1/; s/\t/\tj/' > build/rime-shintei.tsv
 
 plover_all: $(foreach std,$(char-stds),plover-$(std))
 
@@ -87,18 +95,16 @@ daima:
 			(echo "patch failed xingzheng-$(dm-tag)"; exit 1) \
 	fi
 
-jianma-%:
+jianma-%: common-%
 	awk -f jianma/code-ge-3.awk table/common-$*.tsv | \
 		python jianma/jianma-gen.py 0:0,0,0:$(jianma-methods) --char-freq $(char-freq-$(*)) | \
 		sed -E 's/\t(.)..$$/\t空\1/' > table/jianma-$*.tsv
 
-shintei:
-	cat table/xingzheng-$(dm-tag).tsv | \
-		python mb-tool/apply_priority.py char_priority/$(dm-tag)-jp.tsv -u ',重,能,重能' | \
-		awk -f preprocess.awk | \
-		$(dict-gen) system/yayakana.json $(chordmap) | \
-		./mb-tool/format.sh rime | \
-		sed -E 's/\t(.+)y$$/\ta\1/; s/\t/\tj/' > build/rime-shintei.tsv
+common-%:
+	python mb-tool/subset.py char_set/common-$* table/xingzheng-$(dm-tag).tsv > table/common-$*.tsv
+	python mb-tool/combine_dict.py table/common-$*.tsv table/common-patch-$*.tsv > build/tmp
+	cat build/tmp > table/common-$*.tsv
+	rm build/tmp
 
 po_patch:
 	python mb-tool/combine_dict.py char_priority/$(dm-tag)-zt.tsv char_priority/$(dm-tag)-jp-patch.tsv > char_priority/$(dm-tag)-jp.tsv
