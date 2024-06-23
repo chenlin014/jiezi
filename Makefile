@@ -55,7 +55,7 @@ rime_mono_table: daima
 	awk '!seen[$$0]++' > monokey/dict.tsv
 
 rime_mono_jm_%: rime_mono_table common-%
-	./mb-tool/code_match.sh table/common-$*.tsv '^.{3,}$$' | \
+	./mb-tool/code_match.sh '^.{3,}$$' table/common-$*.tsv | \
 		python mb-tool/transform.py $(mono-zg-code) -r $(mono-rules) | \
 		python jianma/jianma-gen.py $(mono-jm-methods) --char-freq $(char-freq-$(*)) > monokey/jm-$*.tsv
 
