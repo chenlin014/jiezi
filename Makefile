@@ -102,7 +102,7 @@ jianma-%: common-%
 
 common-%:
 	python mb-tool/subset.py char_set/common-$* table/xingzheng-$(dm-tag).tsv > table/common-$*.tsv
-	python mb-tool/combine_dict.py table/common-$*.tsv table/common-patch-$*.tsv > build/tmp
+	python mb-tool/combine_dict.py table/common-$*.tsv table/common-std-$*.tsv > build/tmp
 	cat build/tmp > table/common-$*.tsv
 	rm build/tmp
 
