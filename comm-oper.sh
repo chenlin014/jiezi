@@ -10,4 +10,7 @@ case $1 in
 			python mb-tool/subset.py /dev/stdin table/xingzheng.tsv |
 			mb-tool/code_match.sh '.{3,}'
 		;;
+	addvc)
+		./mb-tool/code_match.sh $2 table/xingzheng.tsv >> table/jianrong.tsv
+		;;
 esac
