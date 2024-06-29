@@ -96,7 +96,7 @@ daima:
 	fi
 
 jianma-%: common-%
-	awk -f jianma/code-ge-3.awk table/common-$*.tsv | \
+	./mb-tool/code_match.sh '.{3,}' table/common-$*.tsv | \
 		python jianma/jianma-gen.py 0:0,0,0:$(jianma-methods) --char-freq $(char-freq-$(*)) | \
 		sed -E 's/\t(.)..$$/\t空\1/' > table/jianma-$*.tsv
 

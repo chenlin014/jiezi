@@ -12,20 +12,30 @@ def gen_jianma(mb, methods, char_freq=dict()):
 
     for method, min_len in zip(methods, min_lens):
         for text, code in mb.items():
-            if len(code) < min_len:
-                continue
+            for _ in range(100000000):
+                if len(code) < min_len:
+                    break
 
-            ncode = ''.join(code[ind] for ind in method)
-            if text in used_texts:
-                continue
-            if ncode in jm_table:
-                if char_freq.get(text, 0) > char_freq.get(jm_table[ncode], 0):
-                    used_texts.remove(jm_table[ncode])
+                ncode = ''.join(code[ind] for ind in method)
+
+                if text in used_texts:
+                    break
+                if ncode in jm_table:
+                    if char_freq.get(text, 0) > char_freq.get(jm_table[ncode], 0):
+                        old_text = jm_table[ncode]
+
+                        used_texts.remove(old_text)
+                        jm_table[ncode] = text
+                        used_texts.add(text)
+
+                        text = old_text
+                        code = mb[old_text]
+                        continue
+                else:
                     jm_table[ncode] = text
                     used_texts.add(text)
-            else:
-                jm_table[ncode] = text
-                used_texts.add(text)
+
+                break
 
         used_texts = set(jm_table.values())
 
