@@ -5,6 +5,8 @@ dict-gen=python mb-tool/steno_dict.py
 system=system/abc.json
 chordmap=chordmap/cl.tsv
 
+jianma-gen=python mb-tool/jianma-gen.py
+
 char-stds=zt jt
 programs=rime plover
 dictionaries=$(foreach std,$(char-stds),$(foreach program,$(programs),$(program)-$(std)))
@@ -57,7 +59,7 @@ rime_mono_table: daima
 rime_mono_jm_%: rime_mono_table common-%
 	./mb-tool/code_match.sh '^.{3,}$$' table/common-$*.tsv | \
 		python mb-tool/transform.py $(mono-zg-code) -r $(mono-rules) | \
-		python jianma/jianma-gen.py $(mono-jm-methods) --char-freq $(char-freq-$(*)) > monokey/jm-$*.tsv
+		$(jianma-gen) $(mono-jm-methods) --char-freq $(char-freq-$(*)) > monokey/jm-$*.tsv
 
 shintei:
 	cat table/xingzheng-$(dm-tag).tsv | \
@@ -97,7 +99,7 @@ daima:
 
 jianma-%: common-%
 	./mb-tool/code_match.sh '.{3,}' table/common-$*.tsv | \
-		python jianma/jianma-gen.py 0:0,0,0:$(jianma-methods) --char-freq $(char-freq-$(*)) | \
+		$(jianma-gen) 0:0,0,0:$(jianma-methods) --char-freq $(char-freq-$(*)) | \
 		sed -E 's/\t(.)..$$/\t空\1/' > table/jianma-$*.tsv
 
 common-%:
