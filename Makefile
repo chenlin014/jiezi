@@ -1,3 +1,5 @@
+include .env
+
 dm-method=0,1,-2,-1
 dm-tag=abyz
 
@@ -11,10 +13,6 @@ char-stds=zt jt
 programs=rime plover
 dictionaries=$(foreach std,$(char-stds),$(foreach program,$(programs),$(program)-$(std)))
 
-char-freq-zt=$$HOME/data/lang/zh/char_freq/zt.csv
-char-freq-jt=$$HOME/data/lang/zh/char_freq/jt.csv
-char-freq-jp=$$HOME/data/lang/jp/kanji_hindo.tsv
-
 jm-name-zt=簡碼
 jm-name-jt=简码
 jm-name-jp=略コード
@@ -25,7 +23,7 @@ yz=-2,-1
 za=-1,0
 ba=1,0
 zy=-1,-2
-jianma-methods=$(az):$(ab):$(yz):$(za):$(ba):$(zy)
+jianma-methods=$(az):$(ab):$(za):$(ba):$(yz):$(zy)
 
 mono-jm-methods=0:0,1,2:0,1,-1
 mono-zg-code=monokey/zg_code.tsv
@@ -59,7 +57,7 @@ rime_mono_table: daima
 rime_mono_jm_%: rime_mono_table common-%
 	./mb-tool/code_match.sh '^.{3,}$$' table/common-$*.tsv | \
 		python mb-tool/transform.py $(mono-zg-code) -r $(mono-rules) | \
-		$(jianma-gen) $(mono-jm-methods) --char-freq $(char-freq-$(*)) > monokey/jm-$*.tsv
+		$(jianma-gen) $(mono-jm-methods) --char-freq $(char_freq_$(*)) > monokey/jm-$*.tsv
 
 shintei:
 	cat table/xingzheng-$(dm-tag).tsv | \
@@ -99,7 +97,7 @@ daima:
 
 jianma-%: common-%
 	./mb-tool/code_match.sh '.{3,}' table/common-$*.tsv | \
-		$(jianma-gen) 0:0,0,0:$(jianma-methods) --char-freq $(char-freq-$(*)) | \
+		$(jianma-gen) 0:0,0,0:$(jianma-methods) --char-freq $(char_freq_$(*)) | \
 		sed -E 's/\t(.)..$$/\t空\1/' > table/jianma-$*.tsv
 
 common-%:
@@ -113,8 +111,11 @@ po_patch:
 	python mb-tool/combine_dict.py char_priority/$(dm-tag)-zt.tsv char_priority/$(dm-tag)-vi-patch.tsv > char_priority/$(dm-tag)-vi.tsv
 
 code_freq:
-	python mb-tool/code_freq.py table/xingzheng-$(dm-tag).tsv $(char-freq-zt) > doc/code-freq-zt.tsv
-	python mb-tool/code_freq.py table/xingzheng-$(dm-tag).tsv $(char-freq-jt) > doc/code-freq-jt.tsv
+	python mb-tool/code_freq.py table/xingzheng-$(dm-tag).tsv $(char_freq_zt) > doc/code-freq-zt.tsv
+	python mb-tool/code_freq.py table/xingzheng-$(dm-tag).tsv $(char_freq_jt) > doc/code-freq-jt.tsv
+
+test:
+	echo $(char_freq_jt)
 
 clean:
 	rm build/*
