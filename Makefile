@@ -4,12 +4,15 @@ dm-method=0,1,-2,-1
 dm-tag=abyz
 
 dict-gen=python mb-tool/steno_dict.py
-system=system/abc.json
 chordmap=chordmap/cl.tsv
+
+system-zt=system/abc.json
+system-jt=system/abc.json
+system-jp=system/yayakana.json
 
 jianma-gen=python mb-tool/jianma-gen.py
 
-char-stds=zt jt
+char-stds=zt jt jp
 programs=rime plover
 dictionaries=$(foreach std,$(char-stds),$(foreach program,$(programs),$(program)-$(std)))
 
@@ -31,9 +34,9 @@ mono-rules=monokey/rules.tsv
 
 .PHONY: all clean
 
-all: $(foreach program,$(programs),$(program)_all) shintei
+all: $(foreach program,$(programs),$(program)_all)
 
-rime_all: $(foreach std,$(char-stds),rime-$(std)) rime_punc rime_zigen rime_mono
+rime_all: $(foreach std,$(char-stds),rime-$(std)) rime_zigen rime_mono
 
 rime-%: build-%
 	cat build/$(dm-tag)-$*.tsv | mb-tool/format.sh rime > build/rime-$*.tsv
@@ -42,7 +45,7 @@ rime-%: build-%
 
 rime_punc:
 	cat table/punctuation.tsv | mb-tool/format.sh preprocess | \
-		$(dict-gen) $(system) $(chordmap) | \
+		$(dict-gen) $(system-zt) $(chordmap) | \
 		mb-tool/format.sh algebra | sed -E 's/\|(.+)\|\|\|/\/\1\/|\//' > build/rime-punct
 
 rime_zigen: build_zigen
@@ -59,14 +62,6 @@ rime_mono_jm_%: rime_mono_table common-%
 		python mb-tool/transform.py $(mono-zg-code) -r $(mono-rules) | \
 		$(jianma-gen) $(mono-jm-methods) --char-freq $(char_freq_$(*)) > monokey/jm-$*.tsv
 
-shintei:
-	cat table/xingzheng-$(dm-tag).tsv | \
-		python mb-tool/apply_priority.py char_priority/$(dm-tag)-jp.tsv -u ',重,能,重能' | \
-		awk -f preprocess.awk | \
-		$(dict-gen) system/yayakana.json $(chordmap) | \
-		./mb-tool/format.sh rime | \
-		sed -E 's/\t(.+)y$$/\ta\1/; s/\t/\tj/' > build/rime-shintei.tsv
-
 plover_all: $(foreach std,$(char-stds),plover-$(std))
 
 plover-%: build-%
@@ -77,14 +72,14 @@ build-%: daima jianma-%
 	cat table/xingzheng-$(dm-tag).tsv | \
 		python mb-tool/apply_priority.py char_priority/$(dm-tag)-$*.tsv -u ',重,能,重能' | \
 		awk -f preprocess.awk | \
-		$(dict-gen) $(system) $(chordmap) > build/$(dm-tag)-$*.tsv
+		$(dict-gen) $(system-$(*)) $(chordmap) > build/$(dm-tag)-$*.tsv
 	cat table/jianma-$*.tsv | sed -E 's/$$/简/' | awk -f preprocess.awk | \
-		$(dict-gen) $(system) $(chordmap) > build/jianma-$*.tsv
+		$(dict-gen) $(system-$(*)) $(chordmap) > build/jianma-$*.tsv
 
 build_zigen:
 	cat $(chordmap) | sed 's/\t""$$/\t,a/' | \
 		awk '{print $$1"\t{"$$2"}"} $$1 !~ /[重能成简空]/ {print $$1"\t{,"$$2"}"}' | \
-		$(dict-gen) $(system) $(chordmap) > build/zigen.tsv
+		$(dict-gen) $(system-jt) $(chordmap) > build/zigen.tsv
 
 daima:
 	cat table/xingzheng.tsv table/jianrong.tsv | \
