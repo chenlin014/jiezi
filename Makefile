@@ -105,12 +105,15 @@ po_patch:
 	python mb-tool/combine_dict.py char_priority/$(dm-tag)-zt.tsv char_priority/$(dm-tag)-jp-patch.tsv > char_priority/$(dm-tag)-jp.tsv
 	python mb-tool/combine_dict.py char_priority/$(dm-tag)-zt.tsv char_priority/$(dm-tag)-vi-patch.tsv > char_priority/$(dm-tag)-vi.tsv
 
-code_freq:
-	python mb-tool/code_freq.py table/xingzheng-$(dm-tag).tsv $(char_freq_zt) > doc/code-freq-zt.tsv
-	python mb-tool/code_freq.py table/xingzheng-$(dm-tag).tsv $(char_freq_jt) > doc/code-freq-jt.tsv
+code_freq: $(foreach std,$(char-stds),code-freq-$(std))
 
-test:
-	echo $(char_freq_jt)
+code-freq-%: daima jianma-%
+	python mb-tool/code_freq.py table/xingzheng.tsv $(char_freq_$(*)) > stat/code_freq/$*
+	python mb-tool/code_freq.py table/xingzheng-$(dm-tag).tsv $(char_freq_$(*)) > stat/code_freq/$(dm-tag)-$*
+	awk -F'\t' 'length($$2) > 2 {next} 1' table/xingzheng.tsv > build/tmp
+	cat table/jianma-$*.tsv >> build/tmp
+	python mb-tool/code_freq.py build/tmp $(char_freq_$(*)) > stat/code_freq/jm-$*
+	rm build/tmp
 
 clean:
 	rm build/*
