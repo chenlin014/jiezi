@@ -13,4 +13,7 @@ case $1 in
 	addvc)
 		./mb-tool/code_match.sh $2 table/xingzheng.tsv >> table/jianrong.tsv
 		;;
+	checkpo)
+		python mb-tool/check_priority.py char_priority/abyz-$2.tsv table/xingzheng-abyz.tsv
+		;;
 esac
