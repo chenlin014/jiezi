@@ -1,9 +1,8 @@
 #!/bin/sh
 
 case $1 in
-	newvc)
-		python mb-tool/subset.py table/jianrong.tsv table/common-std-$2.tsv --difference |
-			python mb-tool/subset.py char_set/common-$2
+	checkstd)
+		python mb-tool/subset.py table/jianrong.tsv table/standard-$2.tsv --difference
 		;;
 	nojm)
 		python mb-tool/subset.py char_set/common-$2 table/jianma-$2.tsv -d |

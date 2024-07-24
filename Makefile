@@ -96,9 +96,9 @@ jianma-%: common-%
 		sed -E 's/\t(.)..$$/\t空\1/' > table/jianma-$*.tsv
 
 common-%:
-	python mb-tool/subset.py char_set/common-$* table/xingzheng-$(dm-tag).tsv > table/common-$*.tsv
-	python mb-tool/combine_dict.py table/common-$*.tsv table/common-std-$*.tsv > build/tmp
-	cat build/tmp > table/common-$*.tsv
+	python mb-tool/subset.py table/standard-$*.tsv char_set/common-$* > build/tmp
+	python mb-tool/subset.py table/xingzheng-$(dm-tag).tsv char_set/common-$* | \
+		python mb-tool/combine_dict.py build/tmp --stdin > table/common-$*.tsv
 	rm build/tmp
 
 po_patch:
