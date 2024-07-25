@@ -82,13 +82,16 @@ build_zigen:
 		$(dict-gen) $(system-jt) $(chordmap) > build/zigen.tsv
 
 daima:
-	cat table/xingzheng.tsv table/jianrong.tsv | \
-		python mb-tool/simp_map.py $(dm-method) | \
-		awk '!seen[$$0]++' > table/xingzheng-$(dm-tag).tsv
-	if [ -f table/xingzheng-$(dm-tag).diff ]; then \
-		patch -d table < table/xingzheng-$(dm-tag).diff || \
-			(echo "patch failed xingzheng-$(dm-tag)"; exit 1) \
-	fi
+	cat table/xingzheng.tsv | \
+		python mb-tool/simp_map.py $(dm-method) > table/xingzheng-$(dm-tag).tsv
+ifneq (,$(wildcard ./table/$(dm-tag)-patch.tsv))
+		python mb-tool/combine_dict.py table/xingzheng-$(dm-tag).tsv table/$(dm-tag)-patch.tsv > build/tmp
+		cat build/tmp > table/xingzheng-$(dm-tag).tsv
+		rm build/tmp
+endif
+	cat table/jianrong.tsv | \
+		python mb-tool/simp_map.py $(dm-method) >> table/xingzheng-$(dm-tag).tsv
+	awk -i inplace '!seen[$$0]++' table/xingzheng-$(dm-tag).tsv
 
 jianma-%: common-%
 	./mb-tool/code_match.sh '.{3,}' table/common-$*.tsv | \
