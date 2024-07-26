@@ -43,6 +43,9 @@ xingzheng-abyz.tsv
 ### 郑码发明人
 郑易里、郑珑。
 
+### 参考资料
+[kfcd/chaizi](https://github.com/kfcd/chaizi)（漢語拆字字典）
+
 ### 字频来源
 - 正體：
     - [教育部語文成果網](https://language.moe.gov.tw/)
