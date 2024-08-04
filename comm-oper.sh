@@ -3,6 +3,7 @@
 case $1 in
 	checkstd)
 		python mb-tool/subset.py table/jianrong.tsv table/standard-$2.tsv --difference
+		echo ""
 		python mb-tool/find_duplicate.py table/standard-$2.tsv -r
 		;;
 	nojm)
