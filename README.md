@@ -1,6 +1,6 @@
 # 新郑
 
-用[郑码](https://baike.baidu.com/item/%E9%83%91%E7%A0%81/589192)的字根和拆字方法做的新输入法。
+用[郑码](https://baike.baidu.com/item/%E9%83%91%E7%A0%81/589192)的字根和拆字方法创作的新输入法。
 
 ## 码表
 放置处：table
@@ -11,7 +11,7 @@ xingzheng.tsv
 ### 代码
 xingzheng-abyz.tsv
 
-简化自全码、更便于输入、但重码率也更高。
+简化自全码。
 
 特例：
 - 囂：口口頁口
