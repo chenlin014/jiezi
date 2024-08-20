@@ -1,7 +1,13 @@
 include .env
 
+jiezi-mb=table/jiezi.tsv
+shuru-mb=table/shuru.tsv
+jianrong-mb=table/jianrong.tsv
+jie2ru=table/jie2ru.tsv
+
 dm-method=0,1,-2,-1
 dm-tag=abyz
+dai-mb=table/shuru-$(dm-tag).tsv
 
 dict-gen=python mb-tool/steno_dict.py
 chordmap=chordmap/cl.tsv
@@ -54,7 +60,7 @@ rime_zigen: build_zigen
 rime_mono: rime_mono_table $(foreach std,$(char-stds),rime_mono_jm_$(std)) rime_mono_jm_jp
 
 rime_mono_table: daima
-	python mb-tool/transform.py $(mono-zg-code) table/xingzheng-$(dm-tag).tsv -r $(mono-rules) | \
+	python mb-tool/transform.py $(mono-zg-code) $(dai-mb) -r $(mono-rules) | \
 	awk '!seen[$$0]++' > monokey/dict.tsv
 
 rime_mono_jm_%: rime_mono_table common-%
@@ -69,7 +75,7 @@ plover-%: build-%
 	cat build/jianma-$*.tsv | mb-tool/format.sh plover > build/plover-jm-$*.json
 
 build-%: daima jianma-%
-	cat table/xingzheng-$(dm-tag).tsv | \
+	cat $(dai-mb) | \
 		python mb-tool/apply_priority.py char_priority/$(dm-tag)-$*.tsv -u ',重,能,重能' | \
 		awk -f preprocess.awk | \
 		$(dict-gen) $(system-$(*)) $(chordmap) > build/$(dm-tag)-$*.tsv
@@ -81,17 +87,28 @@ build_zigen:
 		awk '{print $$1"\t{"$$2"}"} $$1 !~ /[重能成简空]/ {print $$1"\t{,"$$2"}"}' | \
 		$(dict-gen) $(system-jt) $(chordmap) > build/zigen.tsv
 
-daima:
-	cat table/xingzheng.tsv | \
-		python mb-tool/simp_map.py $(dm-method) > table/xingzheng-$(dm-tag).tsv
+daima: shuruma
+	cat $(shuru-mb) | \
+		python mb-tool/simp_map.py $(dm-method) > $(dai-mb)
 ifneq (,$(wildcard ./table/$(dm-tag)-patch.tsv))
-		python mb-tool/combine_dict.py table/xingzheng-$(dm-tag).tsv table/$(dm-tag)-patch.tsv > build/tmp
-		cat build/tmp > table/xingzheng-$(dm-tag).tsv
+		python mb-tool/combine_dict.py $(dai-mb) table/$(dm-tag)-patch.tsv > build/tmp
+		cat build/tmp > $(dai-mb)
 		rm build/tmp
 endif
+ifdef jie2ru
+	python mb-tool/column_repl.py -f $(jie2ru) table/jianrong.tsv -c 1 | \
+		python mb-tool/simp_map.py $(dm-method) >> $(dai-mb)
+else
 	cat table/jianrong.tsv | \
-		python mb-tool/simp_map.py $(dm-method) >> table/xingzheng-$(dm-tag).tsv
-	awk -i inplace '!seen[$$0]++' table/xingzheng-$(dm-tag).tsv
+		python mb-tool/simp_map.py $(dm-method) >> $(dai-mb)
+endif
+	awk -i inplace '!seen[$$0]++' $(dai-mb)
+
+shuruma:
+ifdef jie2ru
+	cat $(jiezi-mb) | \
+		python mb-tool/column_repl.py -f $(jie2ru) -c 1 > $(shuru-mb)
+endif
 
 jianma-%: common-%
 	./mb-tool/code_match.sh '.{3,}' table/common-$*.tsv | \
@@ -100,7 +117,7 @@ jianma-%: common-%
 
 common-%:
 	python mb-tool/subset.py table/standard-$*.tsv char_set/common-$* > build/tmp
-	python mb-tool/subset.py table/xingzheng-$(dm-tag).tsv char_set/common-$* | \
+	python mb-tool/subset.py $(dai-mb) char_set/common-$* | \
 		python mb-tool/combine_dict.py build/tmp --stdin > table/common-$*.tsv
 	rm build/tmp
 
@@ -111,9 +128,9 @@ po_patch:
 code_freq: $(foreach std,$(char-stds),code-freq-$(std))
 
 code-freq-%: daima jianma-%
-	python mb-tool/code_freq.py table/xingzheng.tsv $(char_freq_$(*)) > stat/code_freq/$*
-	python mb-tool/code_freq.py table/xingzheng-$(dm-tag).tsv $(char_freq_$(*)) > stat/code_freq/$(dm-tag)-$*
-	awk -F'\t' 'length($$2) > 2 {next} 1' table/xingzheng.tsv > build/tmp
+	python mb-tool/code_freq.py $(shuru-mb) $(char_freq_$(*)) > stat/code_freq/$*
+	python mb-tool/code_freq.py $(dai-mb) $(char_freq_$(*)) > stat/code_freq/$(dm-tag)-$*
+	awk -F'\t' 'length($$2) > 2 {next} 1' $(shuru-mb) > build/tmp
 	cat table/jianma-$*.tsv >> build/tmp
 	python mb-tool/code_freq.py build/tmp $(char_freq_$(*)) > stat/code_freq/jm-$*
 	rm build/tmp

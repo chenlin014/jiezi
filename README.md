@@ -5,13 +5,16 @@
 ## 码表
 放置处：table
 
-### 全码
-xingzheng.tsv
+### 解字码
+jiezi.tsv
+
+### 输入码
+shuru.tsv
 
 ### 代码
-xingzheng-abyz.tsv
+shuru-abyz.tsv
 
-简化自全码。
+简化自输入码。
 
 特例：
 - 囂：口口頁口
