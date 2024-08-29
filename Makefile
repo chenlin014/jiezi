@@ -57,7 +57,7 @@ rime_punc:
 rime_zigen: build_zigen
 	cat build/zigen.tsv | mb-tool/format.sh rime > build/rime-zigen.tsv
 
-rime_mono: rime_mono_table $(foreach std,$(char-stds),rime_mono_jm_$(std)) rime_mono_jm_jp
+rime_mono: rime_mono_table $(foreach std,$(char-stds),rime_mono_jm_$(std))
 
 rime_mono_table: daima
 	python mb-tool/transform.py $(mono-zg-code) $(dai-mb) -r $(mono-rules) | \
