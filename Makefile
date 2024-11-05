@@ -92,8 +92,7 @@ daima: shuruma
 		python mb-tool/simp_map.py $(dm-method) > $(dai-mb)
 ifneq (,$(wildcard ./table/$(dm-tag)-patch.tsv))
 		python mb-tool/combine_dict.py $(dai-mb) table/$(dm-tag)-patch.tsv > build/tmp
-		cat build/tmp > $(dai-mb)
-		rm build/tmp
+		mv -f build/tmp $(dai-mb)
 endif
 ifdef jie2ru
 	python mb-tool/column_repl.py -f $(jie2ru) table/jianrong.tsv -c 1 | \
