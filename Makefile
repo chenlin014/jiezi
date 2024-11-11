@@ -115,10 +115,14 @@ jianma-%: common-%
 		sed -E 's/\t(.)..$$/\t空\1/' > table/jianma-$*.tsv
 
 common-%:
-	python mb-tool/subset.py table/standard-$*.tsv char_set/common-$* > build/tmp
-	python mb-tool/subset.py $(dai-mb) char_set/common-$* | \
-		python mb-tool/combine_dict.py build/tmp --stdin > table/common-$*.tsv
+	python mb-tool/combine_dict.py table/jiezi.tsv table/standard-$*.tsv | \
+		python mb-tool/subset.py char_set/common-$* -st > build/tmp
+ifdef jie2ru
+	python mb-tool/column_repl.py -f $(jie2ru) build/tmp -c 1 > table/common-$*.tsv
 	rm build/tmp
+else
+	mv -f build/tmp table/common-$*.tsv
+endif
 
 po_patch:
 	python mb-tool/combine_dict.py char_priority/$(dm-tag)-zt.tsv char_priority/$(dm-tag)-jp-patch.tsv > char_priority/$(dm-tag)-jp.tsv
