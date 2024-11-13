@@ -50,7 +50,7 @@ rime-%: build-%
 	cat build/jianma-$*.tsv | mb-tool/format.sh rime >> build/rime-$*.tsv
 
 rime_punc:
-	cat table/punctuation.tsv | mb-tool/format.sh preprocess | \
+	cat table/punctuation.tsv | perl preprocess.pl | \
 		$(dict-gen) $(system-zt) $(chordmap) | \
 		mb-tool/format.sh algebra | sed -E 's/\|(.+)\|\|\|/\/\1\/|\//' > build/rime-punct
 
@@ -76,10 +76,10 @@ plover-%: build-%
 
 build-%: daima jianma-%
 	cat $(dai-mb) | \
-		python mb-tool/apply_priority.py char_priority/$(dm-tag)-$*.tsv -u ',重,能,重能' | \
-		awk -f preprocess.awk | \
+		python mb-tool/apply_priority.py char_priority/$(dm-tag)-$*.tsv -u ',重,能,能重' | \
+		perl preprocess.pl | \
 		$(dict-gen) $(system-$(*)) $(chordmap) > build/$(dm-tag)-$*.tsv
-	cat table/jianma-$*.tsv | sed -E 's/$$/简/' | awk -f preprocess.awk | \
+	cat table/jianma-$*.tsv | sed -E 's/$$/简/' | perl preprocess.pl | \
 		$(dict-gen) $(system-$(*)) $(chordmap) > build/jianma-$*.tsv
 
 build_zigen:
