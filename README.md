@@ -1,6 +1,6 @@
 # 新郑
 
-用[郑码](https://baike.baidu.com/item/%E9%83%91%E7%A0%81/589192)的字根和拆字方法创作的新输入法。
+源于[郑码](https://baike.baidu.com/item/%E9%83%91%E7%A0%81/589192)的新输入法。
 
 ## 码表
 放置处：table
