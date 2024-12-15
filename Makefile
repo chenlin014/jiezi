@@ -35,7 +35,7 @@ zy=-1,-2
 jianma-methods=$(az):$(ab):$(za):$(ba):$(yz):$(zy)
 
 mono-jm-methods=0:0,1,2:0,1,-1
-mono-zg-code=monokey/zg_code.tsv
+mono-bicode=monokey/bicode/zm_bc.tsv
 mono-rules=monokey/rules.tsv
 
 .PHONY: all clean
@@ -60,12 +60,12 @@ rime_zigen: build_zigen
 rime_mono: rime_mono_table $(foreach std,$(char-stds),rime_mono_jm_$(std))
 
 rime_mono_table: daima
-	python mb-tool/transform.py $(mono-zg-code) $(dai-mb) -r $(mono-rules) | \
+	python mb-tool/transform.py $(mono-bicode) $(dai-mb) -r $(mono-rules) | \
 	awk '!seen[$$0]++' > monokey/dict.tsv
 
 rime_mono_jm_%: rime_mono_table common-%
 	./mb-tool/code_match.sh '^.{3,}$$' table/common-$*.tsv | \
-		python mb-tool/transform.py $(mono-zg-code) -r $(mono-rules) | \
+		python mb-tool/transform.py $(mono-bicode) -r $(mono-rules) | \
 		$(jianma-gen) $(mono-jm-methods) --char-freq $(char_freq_$(*)) > monokey/jm-$*.tsv
 
 plover_all: $(foreach std,$(char-stds),plover-$(std))
