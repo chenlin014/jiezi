@@ -2,12 +2,13 @@ include .env
 
 jiezi-mb=table/jiezi.tsv
 shuru-mb=table/shuru.tsv
-jianrong-mb=table/jianrong.tsv
-jie2ru=table/jie2ru.tsv
 
-dm-method=0,1,-2,-1
+mb-xformer=python mb-tool/derive_repl.py --regex
+xform-dir=transform_table/xz
+
 dm-tag=abyz
 dai-mb=table/shuru-$(dm-tag).tsv
+dm-maker=$(mb-xformer) $(xform-dir)/dm-$(dm-tag).yaml
 
 dict-gen=python mb-tool/steno_dict.py
 chordmap=chordmap/cl.tsv
@@ -88,26 +89,11 @@ build_zigen:
 		$(dict-gen) $(system-jt) $(chordmap) > build/zigen.tsv
 
 daima: shuruma
-	cat $(shuru-mb) | \
-		python mb-tool/simp_map.py $(dm-method) > $(dai-mb)
-ifneq (,$(wildcard ./table/$(dm-tag)-patch.tsv))
-		python mb-tool/combine_dict.py $(dai-mb) table/$(dm-tag)-patch.tsv > build/tmp
-		mv -f build/tmp $(dai-mb)
-endif
-ifdef jie2ru
-	python mb-tool/column_repl.py -f $(jie2ru) table/jianrong.tsv -c 1 | \
-		python mb-tool/simp_map.py $(dm-method) >> $(dai-mb)
-else
-	cat table/jianrong.tsv | \
-		python mb-tool/simp_map.py $(dm-method) >> $(dai-mb)
-endif
-	awk -i inplace '!seen[$$0]++' $(dai-mb)
+	$(dm-maker) $(shuru-mb) > $(dai-mb)
 
 shuruma:
-ifdef jie2ru
-	cat $(jiezi-mb) | \
-		python mb-tool/column_repl.py -f $(jie2ru) -c 1 > $(shuru-mb)
-endif
+	cat $(jiezi-mb) | $(mb-xformer) $(xform-dir)/varied.yaml | \
+		$(mb-xformer) $(xform-dir)/unvaried.yaml > $(shuru-mb)
 
 jianma-%: common-%
 	./mb-tool/code_match.sh '.{3,}' table/common-$*.tsv | \
@@ -115,14 +101,9 @@ jianma-%: common-%
 		sed -E 's/\t(.)..$$/\t空\1/' > table/jianma-$*.tsv
 
 common-%:
-	python mb-tool/combine_dict.py table/jiezi.tsv table/standard-$*.tsv | \
-		python mb-tool/subset.py char_set/common-$* -st > build/tmp
-ifdef jie2ru
-	python mb-tool/column_repl.py -f $(jie2ru) build/tmp -c 1 > table/common-$*.tsv
-	rm build/tmp
-else
-	mv -f build/tmp table/common-$*.tsv
-endif
+	python mb-tool/subset.py table/jiezi.tsv char_set/common-$* | \
+		$(mb-xformer) $(xform-dir)/standard-$*.yaml | \
+		$(mb-xformer) $(xform-dir)/unvaried.yaml > table/common-$*.tsv
 
 po_patch:
 	python mb-tool/combine_dict.py char_priority/$(dm-tag)-zt.tsv char_priority/$(dm-tag)-jp-patch.tsv > char_priority/$(dm-tag)-jp.tsv

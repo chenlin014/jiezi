@@ -1,0 +1,121 @@
+# 不拆分
+- pattern: 柬
+  replacement: 東
+  exclude: [柬, 楝, 鍊, 湅, 諫, 谏, 鶫, 镧, 斕, 阑, 澜, 𬶠, 谰, 襕, 𧍴, 𪢌, 揀, 𪢠, 𬞕, 𬅉]
+- pattern: 黑
+  replacement: 黒
+  exclude: [黑, 𬙊, 𪑑]
+- pattern: 曾
+  replacement: 曽
+  exclude: [曾, 增, 赠, 缯]
+- pattern: 吴
+  replacement: 呉
+  exclude: [吴, 俣, 误, 娱]
+- pattern: 爪缶
+  replacement: 爪干凵
+  only: [謡, 瑶, 遥]
+- pattern: 夕寸
+  replacement: 爪寸
+- pattern: 犬
+  replacement: 大
+  only: [器, 類, 臭, 突, 莽, 蟒, 唳, 捩, 綟]
+- pattern: 束𠂊貝
+  replacement: 束刀貝
+- pattern: 晋
+  replacement: 晉
+  exclude: [晋, 戬, 缙]
+- pattern: 鄉
+  replacement: 郷
+  exclude: [鄉]
+- pattern: 吕
+  replacement: 呂
+  exclude: [吕, 宫, 榈, 侣, 铝, 闾]
+- pattern: 巳巳
+  replacement: 己己
+  exclude: [馔]
+- pattern: 巿
+  replacement: 市
+  only: [肺, 姉]
+- pattern: 单
+  replacement: 単
+  exclude: [单, 弹]
+- pattern: 亏
+  replacement: 亐
+  exclude: [亏, 鄂, 污, 鶚, 鹗, 颚, 锷, 鳄, 谔, 㗁, 𣅘, 𬞲]
+- pattern: 廿口夫
+  replacement: 艹口夫
+- pattern: 力
+  replacement: 刀
+  only: [拐]
+- pattern: 强
+  replacement: 強
+  exclude: [强, 繦, 镪]
+- pattern: 臣𠂉丶
+  replacement: 臣𠂉一
+- pattern: 兔
+  replacement: 免
+  only: [逸]
+
+# 拆分
+- pattern: 画
+  replacement: 一由凵
+- pattern: 直
+  replacement: 十目乚
+  exclude: [值]
+- pattern: 氐
+  replacement: 氏一
+  exclude: [诋, 鸱]
+- pattern: 界
+  replacement: 田人氘
+- pattern: 犮
+  replacement: 犬丿
+  exclude: [钹, 绂]
+- pattern: 起
+  replacement: 走己
+- pattern: 包
+  replacement: 勹己
+  exclude: [饱, 飑, 鲍]
+- pattern: 䙴
+  replacement: 西大己
+- pattern: 次
+  replacement: 冫欠
+- pattern: 敖
+  replacement: 土方攵
+  exclude: [赘, 鳌, 骜]
+- pattern: 敢
+  replacement: 丁耳攵
+  exclude: [阚]
+- pattern: 蚤
+  replacement: 又冫虫
+  exclude: [骚]
+- pattern: 堇
+  replacement: 艹口丰
+  exclude: [觐, 馑, 谨]
+- pattern: 屯
+  replacement: 丿屮
+  exclude: [纯, 顿, 饨, 馑, 鲀, 钝]
+- pattern: 反
+  replacement: 厂又
+  exclude: [贩, 饭, 钣]
+- pattern: 最
+  replacement: 日耳又
+- pattern: 冒
+  replacement: 日目
+  exclude: [赗]
+- pattern: 攸
+  replacement: 亻丨攵
+- pattern: 㕣
+  replacement: 八口
+  exclude: [铅]
+- pattern: 㓁
+  replacement: 冖儿
+- pattern: 商
+  replacement: 亠丷冏
+- pattern: 冏
+  replacement: 冂儿口
+  exclude: [𫔎, 谰, 谲]
+- pattern: 麻
+  replacement: 广木木
+- pattern: 甚
+  replacement: 甘匚儿
+  exclude: [谌]

@@ -1,0 +1,104 @@
+# 不拆分
+- pattern: 吴
+  replacement: 吳
+  exclude: [吴, 俣, 误, 娱]
+- pattern: 爪缶
+  replacement: 䏑缶
+  exclude: [謡, 谣, 瑶, 摇, 鳐, 遥]
+- pattern: 夕寸
+  replacement: 䏑寸
+  exclude: [将, 蒋, 锵]
+- pattern: 真
+  replacement: 眞
+  exclude: [真, 槙, 顛, 颠, 填, 巔, 巅, 慎, 鎮, 镇, 癫, 阗, 缜]
+- pattern: 束𠂊貝
+  replacement: 束刀貝
+- pattern: 晋
+  replacement: 晉
+  exclude: [晋, 戬, 缙]
+- pattern: 吕
+  replacement: 呂
+  exclude: [吕, 宫, 榈, 侣, 铝, 闾]
+- pattern: 巳
+  replacement: 己
+  only: [异]
+- pattern: 匀
+  replacement: 勻
+  exclude: [匀, 钧]
+- pattern: 囱
+  replacement: 囪
+  exclude: [囱, 骢]
+- pattern: 虚
+  replacement: 虛
+  exclude: [虚, 嘘, 觑]
+- pattern: 强
+  replacement: 強
+  exclude: [强, 繦, 镪]
+- pattern: 臣𠂉丶
+  replacement: 臣𠂉一
+- pattern: 术
+  replacement: 朮
+  exclude: [术, 𬬸]
+
+# 拆分
+- pattern: 画
+  replacement: 一田凵
+- pattern: 直
+  replacement: 十目一
+  exclude: [値]
+- pattern: 氐
+  replacement: 氏一
+  exclude: [诋, 鸱]
+- pattern: 界
+  replacement: 田人氘
+- pattern: 犮
+  replacement: 犬丿
+  exclude: [钹, 绂]
+- pattern: 起
+  replacement: 走巳
+- pattern: 包
+  replacement: 勹巳
+- pattern: 䙴
+  replacement: 西大卩
+- pattern: 次
+  replacement: 二欠
+  exclude: [资]
+- pattern: 敖
+  replacement: 士方攵
+  exclude: [赘, 鳌, 骜]
+- pattern: 敢
+  replacement: 丁耳攵
+  exclude: [阚]
+- pattern: 蚤
+  replacement: 又冫虫
+  exclude: [骚]
+- pattern: 堇
+  replacement: 廿口丰
+- pattern: 屯
+  replacement: 一屮
+- pattern: 反
+  replacement: 厂又
+  exclude: [贩, 饭, 钣]
+- pattern: 最
+  replacement: 冃耳又
+- pattern: 冒
+  replacement: 冃目
+- pattern: 攸
+  replacement: 亻丨攵
+- pattern: 㕣
+  replacement: 儿口
+  exclude: [铅, 㕣]
+- only: [㕣]
+  pattern: 㕣
+  replacement: 八口
+- pattern: 㓁
+  replacement: 冖儿
+- pattern: 商
+  replacement: 亠丷冏
+- pattern: 冏
+  replacement: 冂儿口
+- pattern: 麻
+  replacement: 广𣎳𣎳
+- pattern: 甚
+  replacement: 甘匚儿
+  exclude: [谌]
