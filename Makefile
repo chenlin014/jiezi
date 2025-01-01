@@ -55,13 +55,13 @@ steno-%: daima steno-jm-%
 		python mb-tool/apply_priority.py steno/char_priority/$(dm-tag)-$*.tsv -u ',重,能,能重' | \
 		perl steno/preprocess.pl | \
 		$(steno-dict-gen) $(system-$(*)) $(chordmap) > build/steno-$(dm-tag)-$*.tsv
-	cat table/steno-jm-$*.tsv | sed -E 's/$$/简/' | perl steno/preprocess.pl | \
+	cat steno/steno-jm-$*.tsv | sed -E 's/$$/简/' | perl steno/preprocess.pl | \
 		$(steno-dict-gen) $(system-$(*)) $(chordmap) > build/steno-jm-$*.tsv
 
 steno-jm-%: common-%
 	./mb-tool/code_match.sh '.{3,}' table/common-$*.tsv | \
 		$(jianma-gen) 0:0,0,0:$(jianma-methods) --char-freq $(char_freq_$(*)) | \
-		sed -E 's/\t(.)..$$/\t空\1/' > table/steno-jm-$*.tsv
+		sed -E 's/\t(.)..$$/\t空\1/' > steno/steno-jm-$*.tsv
 
 serial-dict: daima
 	python mb-tool/transform.py $(serial-bicode) $(dai-mb) -r $(serial-rules) | \
@@ -113,7 +113,7 @@ code-freq-%: daima steno-jm-%
 	python mb-tool/code_freq.py $(shuru-mb) $(char_freq_$(*)) > stat/code_freq/$*
 	python mb-tool/code_freq.py $(dai-mb) $(char_freq_$(*)) > stat/code_freq/$(dm-tag)-$*
 	awk -F'\t' 'length($$2) > 2 {next} 1' $(shuru-mb) > build/tmp
-	cat table/steno-jm-$*.tsv >> build/tmp
+	cat steno/steno-jm-$*.tsv >> build/tmp
 	python mb-tool/code_freq.py build/tmp $(char_freq_$(*)) > stat/code_freq/jm-$*
 	rm build/tmp
 
