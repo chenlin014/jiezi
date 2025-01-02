@@ -171,6 +171,8 @@
   replacement: 田土
 - pattern: 菐
   replacement: 业半大
+- pattern: 面
+  replacement: 一自圍
 
 # 一换一
 - pattern: 𧘇
@@ -228,6 +230,6 @@
 - pattern: 㫣
   replacement: 黽
 
-#
+# 正简合
 - pattern: 贝
   replacement: 貝
