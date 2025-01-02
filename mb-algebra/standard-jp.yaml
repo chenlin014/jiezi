@@ -102,6 +102,8 @@
 - pattern: 冒
   replacement: 日目
   exclude: [赗]
+- pattern: 曼
+  replacement: 日四又
 - pattern: 攸
   replacement: 亻丨攵
 - pattern: 㕣

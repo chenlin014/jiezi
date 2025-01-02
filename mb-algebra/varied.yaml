@@ -225,6 +225,12 @@
   exclude: [赗]
 - pattern: 冒
   replacement: 冃目
+- pattern: 曼
+  replacement: 冃四又
+  append: true
+  exclude: [鳗, 谩, 缦, 馒, 镘]
+- pattern: 曼
+  replacement: 日四又
 - pattern: 攸
   replacement: 亻丨夂
   append: true

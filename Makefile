@@ -3,7 +3,7 @@ include .env
 jiezi-mb=table/jiezi.tsv
 shuru-mb=table/shuru.tsv
 
-mb-xformer=python mb-tool/derive_repl.py --regex
+mb-xformer=python mb-tool/mb_algebra.py --regex
 xform-dir=mb-algebra
 
 dm-tag=abyz
