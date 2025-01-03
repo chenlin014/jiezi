@@ -2,6 +2,12 @@
 
 源于[郑码](https://baike.baidu.com/item/%E9%83%91%E7%A0%81/589192)的新输入法。
 
+## 输人方案
+### 新郑
+- Rime: https://github.com/chenlin014/rime-xingzheng
+### 有熊
+- Rime: https://github.com/chenlin014/rime-youxiong
+
 ## 感谢
 ### 郑码发明人
 郑易里、郑珑。
