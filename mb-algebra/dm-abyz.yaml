@@ -1,5 +1,5 @@
 - only: [囂, 嚣, 嘂, 嚚]
   pattern: 口口$
   replacement: 口
-- pattern: (..).+(..)
+- pattern: ^(..).+(..)$
   replacement: \1\2

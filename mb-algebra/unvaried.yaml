@@ -173,6 +173,32 @@
   replacement: 业半大
 - pattern: 面
   replacement: 一自圍
+- pattern: 聿
+  replacement: 彐キ
+- pattern: 事
+  replacement: 一中彐
+- pattern: 唐
+  replacement: 广肀口
+- pattern: 爭
+  replacement: 爪肀
+- pattern: 争
+  replacement: 𠂊肀
+- pattern: 𦘒灬
+  replacement: 肀一灬
+- pattern: 庸
+  replacement: 广肀用
+- pattern: 妻
+  replacement: 一肀女
+- pattern: 隶
+  replacement: 肀𠁼
+- pattern: 肅
+  replacement: 肀𣶒
+- pattern: 𣶒
+  replacement: 片一爿
+- pattern: 肃
+  replacement: 肀川八
+- pattern: 粛
+  replacement: 肀川米
 
 # 一换一
 - pattern: 𧘇
@@ -225,11 +251,13 @@
   replacement: 尤
 - pattern: 电
   replacement: 申
-- pattern: 黾
-  replacement: 黽
-- pattern: 㫣
-  replacement: 黽
+- pattern: 肀
+  replacement: 尹
 
 # 正简合
 - pattern: 贝
   replacement: 貝
+- pattern: 黾
+  replacement: 黽
+- pattern: 㫣
+  replacement: 黽

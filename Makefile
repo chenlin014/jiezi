@@ -65,19 +65,22 @@ steno-jm-%: common-%
 
 serial-dict: daima
 	python mb-tool/transform.py $(serial-bicode) $(dai-mb) -r $(serial-rules) | \
-		awk '!seen[$$0]++' > table/serial-dict.tsv
+		awk '!seen[$$0]++' > serial/serial-dict.tsv
 
 serial-jm-%: serial-dict common-%
 	./mb-tool/code_match.sh '^.{3,}$$' table/common-$*.tsv | \
 		python mb-tool/transform.py $(serial-bicode) -r $(serial-rules) | \
-		$(jianma-gen) $(serial-jm-methods) --char-freq $(char_freq_$(*)) > table/serial-jm-$*.tsv
+		$(jianma-gen) $(serial-jm-methods) --char-freq $(char_freq_$(*)) > serial/serial-jm-$*.tsv
 
 common-%:
 	python mb-tool/subset.py table/jiezi.tsv char_set/common-$* | \
 		$(mb-xformer) $(xform-dir)/standard-$*.yaml | \
 		$(mb-xformer) $(xform-dir)/unvaried.yaml > table/common-$*.tsv
 
-rime_all: $(foreach std,$(char-stds),rime-steno-$(std)) rime_zigen
+rime_all: $(foreach std,$(char-stds),rime-$(std)) rime_zigen serial-dict
+
+rime-%: rime-steno-% serial-jm-%
+	:
 
 rime-steno-%: steno-%
 	cat build/steno-$(dm-tag)-$*.tsv | mb-tool/format.sh rime > build/rime-steno-$*.tsv

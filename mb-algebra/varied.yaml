@@ -115,6 +115,10 @@
   replacement: 兪
   append: true
   exclude: [俞, 偷, 榆, 喻, 输, 谕, 觎]
+- pattern: 争
+  replacement: 爭
+  append: true
+  exclude: [浄, 争, 静, 挣, 睁, 铮, 狰, 峥, 筝, 诤, 铮]
 
 # 拆分
 - pattern: 画
@@ -260,7 +264,7 @@
 - pattern: 冏
   replacement: 冂儿口
   append: true
-  exclude: [𫔎, 谰, 谲]
+  exclude: [𫔎, 谰, 谲, 鹬]
 - pattern: 冏
   replacement: 冂八口
 - pattern: 麻
