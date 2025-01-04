@@ -201,6 +201,10 @@
   replacement: 肀川米
 - pattern: 赤
   replacement: 土火
+- pattern: 乍
+  replacement: 𠂉匕
+- pattern: 韦
+  replacement: 㐄
 
 # 一换一
 - pattern: 𧘇
