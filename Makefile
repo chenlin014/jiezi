@@ -33,7 +33,7 @@ yz=-2,-1
 za=-1,0
 ba=1,0
 zy=-1,-2
-jianma-methods=$(az):$(ab):$(za):$(ba):$(yz):$(zy)
+jianma-methods=$(az):$(ab):$(yz):$(za):$(ba):$(zy)
 
 serial-jm-methods=0:0,1,2:0,1,-1
 serial-bicode=serial/bicode/zm_bc.tsv
