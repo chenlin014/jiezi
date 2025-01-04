@@ -199,6 +199,8 @@
   replacement: 肀川八
 - pattern: 粛
   replacement: 肀川米
+- pattern: 赤
+  replacement: 土火
 
 # 一换一
 - pattern: 𧘇

@@ -39,6 +39,9 @@
 - pattern: 术
   replacement: 朮
   exclude: [术, 𬬸]
+- pattern: 争
+  replacement: 爭
+  exclude: [浄, 争, 静, 挣, 睁, 铮, 狰, 峥, 筝, 诤, 铮]
 
 # 拆分
 - pattern: 画
@@ -105,3 +108,7 @@
 - pattern: 甚
   replacement: 甘匚儿
   exclude: [谌]
+- pattern: 夌
+  replacement: 土儿夂
+- pattern: 坴
+  replacement: 土儿土

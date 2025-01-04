@@ -278,3 +278,14 @@
   exclude: [谌]
 - pattern: 甚
   replacement: 甘匚八
+- pattern: 夌
+  replacement: 土儿夂
+  append: true
+  exclude: [鲮, 绫]
+- pattern: 夌
+  replacement: 土八夂
+- pattern: 坴
+  replacement: 土儿土
+  append: true
+- pattern: 坴
+  replacement: 土八土
