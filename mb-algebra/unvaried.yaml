@@ -203,6 +203,8 @@
   replacement: 𠂉匕
 - pattern: 卬
   replacement: 匕卩
+- pattern: 年
+  replacement: 𠂉㐄
 
 # 一换一
 - pattern: 𧘇
