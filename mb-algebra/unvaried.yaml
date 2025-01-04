@@ -201,8 +201,8 @@
   replacement: 土火
 - pattern: 乍
   replacement: 𠂉匕
-- pattern: 韦
-  replacement: 㐄
+- pattern: 卬
+  replacement: 匕卩
 
 # 一换一
 - pattern: 𧘇
@@ -257,6 +257,8 @@
   replacement: 申
 - pattern: 肀
   replacement: 尹
+- pattern: 韦
+  replacement: 㐄
 
 # 正简合
 - pattern: 贝
