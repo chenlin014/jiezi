@@ -62,3 +62,7 @@
   replacement: 土八夂
 - pattern: 坴
   replacement: 土八土
+
+# 多种拆法
+- pattern: 尔
+  replacement: 亇八

@@ -289,3 +289,13 @@
   append: true
 - pattern: 坴
   replacement: 土八土
+
+# 不同拆法
+- pattern: 尔
+  replacement: 亇八
+  append: true
+- pattern: 尔
+  replacement: 𠂉小
+  append: true
+- pattern: 尔
+  replacement: 𠂊小
