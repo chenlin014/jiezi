@@ -63,6 +63,8 @@
 - pattern: 坴
   replacement: 土八土
 
-# 多种拆法
+# 标准拆法
 - pattern: 尔
   replacement: 亇八
+- pattern: 五
+  replacement: 二乂

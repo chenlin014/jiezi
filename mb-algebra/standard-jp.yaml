@@ -129,6 +129,8 @@
 - pattern: 坴
   replacement: 土儿土
 
-# 多種拆法
+# 標準拆法
 - pattern: 尔
   replacement: 亇八
+- pattern: 五
+  replacement: 二乂

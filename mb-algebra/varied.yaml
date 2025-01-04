@@ -299,3 +299,8 @@
   append: true
 - pattern: 尔
   replacement: 𠂊小
+- pattern: 五
+  replacement: 二乂
+  append: true
+- pattern: 五
+  replacement: 工㇕
