@@ -205,6 +205,8 @@
   replacement: 匕卩
 - pattern: 年
   replacement: 𠂉㐄
+- pattern: 矛
+  replacement: 予丿
 
 # 一换一
 - pattern: 𧘇
@@ -259,6 +261,14 @@
   replacement: 尹
 - pattern: 韦
   replacement: 㐄
+- pattern: 华
+  replacement: 華
+- pattern: 畢
+  replacement: 甲艹二
+- pattern: 龟
+  replacement: 龜
+- pattern: 亀
+  replacement: 龜
 
 # 正简合
 - pattern: 贝
