@@ -215,6 +215,8 @@
   replacement: 日一勿
 - pattern: 匆
   replacement: 勿丶
+- pattern: 未
+  replacement: 二木
 
 # 一换一
 - pattern: 𧘇
