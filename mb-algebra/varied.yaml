@@ -146,7 +146,9 @@
   replacement: 田八氘
   append: true
 - pattern: 界
-  replacement: 田人氘
+  replacement: 田介
+- pattern: 介
+  replacement: 人氘
 - pattern: 犮
   replacement: 犬丿
   append: true
