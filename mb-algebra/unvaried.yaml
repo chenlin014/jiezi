@@ -141,8 +141,6 @@
   replacement: 亠丩人
 - pattern: 发
   replacement: 乚丿又丶
-- pattern: 鬥
-  replacement: 刂王王
 - pattern: 老
   replacement: 耂匕
 - pattern: 考
@@ -217,6 +215,8 @@
   replacement: 勿丶
 - pattern: 未
   replacement: 二木
+- pattern: 余
+  replacement: 亼木
 
 # 一换一
 - pattern: 𧘇
