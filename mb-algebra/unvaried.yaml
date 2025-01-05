@@ -217,6 +217,8 @@
   replacement: 二木
 - pattern: 余
   replacement: 亼木
+- pattern: 畏
+  replacement: 田𧘇
 
 # 一换一
 - pattern: 𧘇
