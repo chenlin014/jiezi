@@ -221,6 +221,8 @@
   replacement: 亻匕十
 - pattern: 丑
   replacement: 彐丨
+- pattern: 曷
+  replacement: 日勹亡
 
 # 一换一
 - pattern: 𧘇
