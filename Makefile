@@ -43,6 +43,9 @@ serial-rules=serial/rules.tsv
 
 all: $(foreach program,$(programs),$(program)_all)
 
+build:
+	mkdir $@
+
 shuruma:
 	cat $(jiezi-mb) | $(mb-xformer) $(xform-dir)/varied.yaml | \
 		$(mb-xformer) $(xform-dir)/unvaried.yaml > $(shuru-mb)
@@ -50,7 +53,7 @@ shuruma:
 daima: shuruma
 	$(dm-maker) $(shuru-mb) > $(dai-mb)
 
-steno-%: daima steno-jm-%
+steno-%: daima steno-jm-% build
 	cat $(dai-mb) | \
 		python mb-tool/apply_priority.py steno/char_priority/$(dm-tag)-$*.tsv -u ',重,能,能重' | \
 		perl steno/preprocess.pl | \
@@ -58,7 +61,7 @@ steno-%: daima steno-jm-%
 	cat steno/steno-jm-$*.tsv | sed -E 's/$$/简/' | perl steno/preprocess.pl | \
 		$(steno-dict-gen) $(system-$(*)) $(chordmap) > build/steno-jm-$*.tsv
 
-steno-jm-%: common-%
+steno-jm-%: common-% build
 	$(eval char_freq_$(*) ?= table/empty.tsv)
 	./mb-tool/code_match.sh '.{3,}' table/common-$*.tsv | \
 		$(jianma-gen) 0:0,0,0:$(jianma-methods) --char-freq $(char_freq_$(*)) | \
@@ -89,7 +92,7 @@ rime-steno-%: steno-%
 	printf "\n# $(jm-name-$(*))\n" >> build/rime-steno-$*.tsv
 	cat build/steno-jm-$*.tsv | mb-tool/format.sh rime >> build/rime-steno-$*.tsv
 
-rime_punc:
+rime_punc: build
 	cat table/punctuation.tsv | perl steno/preprocess.pl | \
 		$(steno-dict-gen) $(system-zt) $(chordmap) | \
 		mb-tool/format.sh algebra | sed -E 's/\|(.+)\|\|\|/\/\1\/|\//' > build/rime-punct
@@ -103,7 +106,7 @@ plover-%: steno-%
 	cat build/steno-$(dm-tag)-$*.tsv | mb-tool/format.sh plover > build/plover-$*.json
 	cat build/steno-jm-$*.tsv | mb-tool/format.sh plover > build/plover-jm-$*.json
 
-build_zigen:
+build_zigen: build
 	cat $(chordmap) | sed 's/\t""$$/\t,a/' | \
 		awk '{print $$1"\t{"$$2"}"} $$1 !~ /[重能成简空]/ {print $$1"\t{,"$$2"}"}' | \
 		$(steno-dict-gen) $(system-jt) $(chordmap) > build/zigen.tsv
@@ -122,10 +125,6 @@ code-freq-%: daima steno-jm-%
 	cat steno/steno-jm-$*.tsv >> build/tmp
 	python mb-tool/code_freq.py build/tmp $(char_freq_$(*)) > stat/code_freq/jm-$*
 	rm build/tmp
-
-test-%:
-	$(eval char_freq_$(*) ?= table/empty.tsv)
-	echo $(char_freq_$(*))
 
 clean:
 	rm build/*
