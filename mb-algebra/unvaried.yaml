@@ -77,8 +77,6 @@
   replacement: 𠮥儿
 - pattern: 象
   replacement: 𠮥豕
-- pattern: 龜
-  replacement: 𠮥黽
 - pattern: 鼠
   replacement: 臼𠮥
 - pattern: 术
@@ -207,18 +205,20 @@
   replacement: 予丿
 - pattern: 畢
   replacement: 甲艹二
-- pattern: 𠃓
-  replacement: 一勿
 - pattern: 昜
   replacement: 日一勿
 - pattern: 匆
   replacement: 勿丶
+- pattern: 𠃓
+  replacement: ㇕勿
 - pattern: 未
   replacement: 二木
 - pattern: 余
   replacement: 亼木
 - pattern: 畏
   replacement: 田𧘇
+- pattern: 华
+  replacement: 亻匕十
 
 # 一换一
 - pattern: 𧘇
@@ -273,8 +273,6 @@
   replacement: 尹
 - pattern: 韦
   replacement: 㐄
-- pattern: 华
-  replacement: 華
 - pattern: 龟
   replacement: 龜
 - pattern: 亀
