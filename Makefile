@@ -1,4 +1,4 @@
-include .env
+-include .env
 
 jiezi-mb=table/jiezi.tsv
 shuru-mb=table/shuru.tsv
@@ -59,6 +59,7 @@ steno-%: daima steno-jm-%
 		$(steno-dict-gen) $(system-$(*)) $(chordmap) > build/steno-jm-$*.tsv
 
 steno-jm-%: common-%
+	$(eval char_freq_$(*) ?= table/empty.tsv)
 	./mb-tool/code_match.sh '.{3,}' table/common-$*.tsv | \
 		$(jianma-gen) 0:0,0,0:$(jianma-methods) --char-freq $(char_freq_$(*)) | \
 		sed -E 's/\t(.)..$$/\t空\1/' > steno/steno-jm-$*.tsv
@@ -68,6 +69,7 @@ serial-dict: daima
 		awk '!seen[$$0]++' > serial/serial-dict.tsv
 
 serial-jm-%: serial-dict common-%
+	$(eval char_freq_$(*) ?= table/empty.tsv)
 	./mb-tool/code_match.sh '^.{3,}$$' table/common-$*.tsv | \
 		python mb-tool/transform.py $(serial-bicode) -r $(serial-rules) | \
 		$(jianma-gen) $(serial-jm-methods) --char-freq $(char_freq_$(*)) > serial/serial-jm-$*.tsv
@@ -113,12 +115,17 @@ po_patch:
 code_freq: $(foreach std,$(char-stds),code-freq-$(std))
 
 code-freq-%: daima steno-jm-%
+	$(eval char_freq_$(*) ?= table/empty.tsv)
 	python mb-tool/code_freq.py $(shuru-mb) $(char_freq_$(*)) > stat/code_freq/$*
 	python mb-tool/code_freq.py $(dai-mb) $(char_freq_$(*)) > stat/code_freq/$(dm-tag)-$*
 	awk -F'\t' 'length($$2) > 2 {next} 1' $(shuru-mb) > build/tmp
 	cat steno/steno-jm-$*.tsv >> build/tmp
 	python mb-tool/code_freq.py build/tmp $(char_freq_$(*)) > stat/code_freq/jm-$*
 	rm build/tmp
+
+test-%:
+	$(eval char_freq_$(*) ?= table/empty.tsv)
+	echo $(char_freq_$(*))
 
 clean:
 	rm build/*
