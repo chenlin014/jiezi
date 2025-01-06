@@ -219,6 +219,8 @@
   replacement: 田𧘇
 - pattern: 华
   replacement: 亻匕十
+- pattern: 丑
+  replacement: 彐丨
 
 # 一换一
 - pattern: 𧘇
