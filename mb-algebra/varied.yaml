@@ -126,16 +126,6 @@
   append: true
 - pattern: 画
   replacement: 一田凵
-- pattern: 直
-  replacement: 十目乚
-  exclude: [值]
-  append: true
-- pattern: 直
-  replacement: 十目一
-  exclude: [値]
-- pattern: 直
-  replacement: 十目乚
-  only: [値]
 - pattern: 氐
   replacement: 氏一
   append: true

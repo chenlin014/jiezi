@@ -223,6 +223,8 @@
   replacement: 彐丨
 - pattern: 曷
   replacement: 日勹亡
+- pattern: 直
+  replacement: 十目
 
 # 一换一
 - pattern: 𧘇
