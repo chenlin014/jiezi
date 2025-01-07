@@ -283,6 +283,8 @@
   replacement: 龜
 - pattern: 亀
   replacement: 龜
+- pattern: 疋
+  replacement: 足
 
 # 正简合
 - pattern: 贝
