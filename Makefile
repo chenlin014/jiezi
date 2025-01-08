@@ -1,4 +1,19 @@
+# 有一些外于此库或者不方便公开的变量可在.env中设定
+# .env不是必要的
+#
+# == 字频文件路径 ==
+# 名称：char_freq_(用字标准)
+# 支持.tsv和.csv
 -include .env
+
+# 用字标准
+# zt: 正體（繁體）
+# jt: 简体
+# jp: 日文
+char-stds=zt jt jp
+
+# 输入引擎
+programs=rime plover
 
 jiezi-mb=table/jiezi.tsv
 shuru-mb=table/shuru.tsv
@@ -18,10 +33,6 @@ system-jt=steno/system/abc.json
 system-jp=steno/system/yayakana.json
 
 jianma-gen=python mb-tool/jianma-gen.py
-
-char-stds=zt jt jp
-programs=rime plover
-dictionaries=$(foreach std,$(char-stds),$(foreach program,$(programs),$(program)-$(std)))
 
 jm-name-zt=簡碼
 jm-name-jt=简码
