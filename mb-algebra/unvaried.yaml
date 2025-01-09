@@ -225,6 +225,8 @@
   replacement: 日勹亡
 - pattern: 直
   replacement: 十目
+- pattern: 乡
+  replacement: 乚丩
 
 # 一换一
 - pattern: 𧘇
