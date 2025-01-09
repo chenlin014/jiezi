@@ -227,6 +227,18 @@
   replacement: 十目
 - pattern: 乡
   replacement: 乚丩
+- pattern: 今
+  replacement: 亼㇕
+- pattern: 僉
+  replacement: 亼口口人人
+- pattern: 佥
+  replacement: 亼⺍一
+- pattern: 㑒
+  replacement: 亼口人
+- pattern: 龠
+  replacement: 亼口口口冊
+- pattern: 其
+  replacement: 甘𠔀
 
 # 一换一
 - pattern: 𧘇
@@ -287,16 +299,6 @@
   replacement: 龜
 - pattern: 疋
   replacement: 足
-- pattern: 今
-  replacement: 亼㇕
-- pattern: 僉
-  replacement: 亼口口人人
-- pattern: 佥
-  replacement: 亼⺍一
-- pattern: 㑒
-  replacement: 亼口人
-- pattern: 龠
-  replacement: 亼口口口冊
 
 # 正简合
 - pattern: 贝
