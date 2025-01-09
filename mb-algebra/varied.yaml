@@ -281,6 +281,12 @@
   append: true
 - pattern: 坴
   replacement: 土八土
+- pattern: 令
+  replacement: 亼卩
+  append: true
+  exclude: [龄, 领, 铃, 鸰]
+- pattern: 令
+  replacement: 亼龴
 
 # 不同拆法
 - pattern: 尔

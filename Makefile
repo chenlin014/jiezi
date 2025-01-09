@@ -15,6 +15,7 @@ char-stds=zt jt jp
 # 输入引擎
 programs=rime plover
 
+# 码表路径
 jiezi-mb=table/jiezi.tsv
 shuru-mb=table/shuru.tsv
 
