@@ -239,6 +239,8 @@
   replacement: 亼口口口冊
 - pattern: 其
   replacement: 甘𠔀
+- pattern: 求
+  replacement: 十𠁼丶
 
 # 一换一
 - pattern: 𧘇
