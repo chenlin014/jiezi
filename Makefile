@@ -15,8 +15,11 @@ char-stds=zt jt jp
 # 输入引擎
 programs=rime plover
 
-# 码表路径
-jiezi-mb=table/jiezi.tsv
+# == 码表路径 ==
+# 初始码表。可在.env中设定。可设为外部文件。
+# 只读不改
+init-mb ?= table/jiezi.tsv
+# 输入码表。生成自初始表。
 shuru-mb=table/shuru.tsv
 
 mb-xformer=python mb-tool/mb_algebra.py --regex
@@ -59,7 +62,7 @@ build:
 	mkdir $@
 
 shuruma:
-	cat $(jiezi-mb) | $(mb-xformer) $(xform-dir)/varied.yaml | \
+	cat $(init-mb) | $(mb-xformer) $(xform-dir)/varied.yaml | \
 		$(mb-xformer) $(xform-dir)/unvaried.yaml > $(shuru-mb)
 
 daima: shuruma
