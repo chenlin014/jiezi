@@ -42,6 +42,8 @@
 - pattern: 争
   replacement: 爭
   exclude: [浄, 争, 静, 挣, 睁, 铮, 狰, 峥, 筝, 诤, 铮]
+- pattern: 了口又
+  replacement: 丂口又
 
 # 拆分
 - pattern: 画
@@ -118,3 +120,5 @@
   replacement: 二乂
 - pattern: 令
   replacement: 亼龴
+- pattern: 函
+  replacement: 了𠁼凵

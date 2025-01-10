@@ -19,7 +19,7 @@ programs=rime plover
 # 初始码表。可在.env中设定。可设为外部文件。
 # 只读不改
 init-mb ?= table/jiezi.tsv
-# 输入码表。生成自初始表。
+# 输入码表。生成自初始码表。
 shuru-mb=table/shuru.tsv
 
 mb-xformer=python mb-tool/mb_algebra.py --regex
