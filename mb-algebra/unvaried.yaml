@@ -241,6 +241,10 @@
   replacement: 甘𠔀
 - pattern: 求
   replacement: 十𠁼丶
+- pattern: 叚
+  replacement: 尸二コ又
+- pattern: 侯
+  replacement: 亻コ矢
 
 # 一换一
 - pattern: 𧘇
@@ -301,6 +305,8 @@
   replacement: 龜
 - pattern: 疋
   replacement: 足
+- pattern: 巨
+  replacement: 匚
 
 # 正简合
 - pattern: 贝
