@@ -160,10 +160,10 @@
 - pattern: 包
   replacement: 勹巳
 - pattern: 䙴
-  replacement: 西大巳
+  replacement: 西大己
   append: true
 - pattern: 䙴
-  replacement: 西大己
+  replacement: 西大巳
   append: true
 - pattern: 䙴
   replacement: 西大卩

@@ -307,6 +307,8 @@
   replacement: 足
 - pattern: 巨
   replacement: 匚
+- pattern: 己
+  replacement: 巳
 
 # 正简合
 - pattern: 贝
