@@ -132,11 +132,12 @@ po_patch:
 
 code_freq: $(foreach std,$(char-stds),code-freq-$(std))
 
-code-freq-%: daima steno-jm-%
-	$(eval char_freq_$(*) ?= table/empty.tsv)
-	python mb-tool/code_freq.py $(shuru-mb) $(char_freq_$(*)) > stat/code_freq/$*
-	python mb-tool/code_freq.py $(dai-mb) $(char_freq_$(*)) > stat/code_freq/$(dm-tag)-$*
-	awk -F'\t' 'length($$2) > 2 {next} 1' $(shuru-mb) > build/tmp
+code-freq-%: daima steno-jm-% build
+	$(eval char_freq_$(*) ?=)
+	python mb-tool/code_freq.py table/common-$*.tsv $(char_freq_$(*)) > stat/code_freq/$*
+	$(dm-maker) table/common-$*.tsv > build/tmp
+	python mb-tool/code_freq.py build/tmp $(char_freq_$(*)) > stat/code_freq/$(dm-tag)-$*
+	awk -F'\t' 'length($$2) > 2 {next} 1' table/common-$*.tsv > build/tmp
 	cat steno/steno-jm-$*.tsv >> build/tmp
 	python mb-tool/code_freq.py build/tmp $(char_freq_$(*)) > stat/code_freq/jm-$*
 	rm build/tmp
