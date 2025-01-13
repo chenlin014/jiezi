@@ -309,6 +309,8 @@
   replacement: 匚
 - pattern: 己
   replacement: 巳
+- pattern: 𠮥
+  replacement: 召
 
 # 正简合
 - pattern: 贝
