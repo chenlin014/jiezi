@@ -245,6 +245,8 @@
   replacement: 尸二コ又
 - pattern: 侯
   replacement: 亻コ矢
+- pattern: 永
+  replacement: 丶水
 
 # 一换一
 - pattern: 𧘇
