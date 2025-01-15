@@ -257,6 +257,12 @@
   replacement: 小兀
 - pattern: 豆
   replacement: 一口䒑
+- pattern: 並
+  replacement: 䒑业
+- pattern: 并
+  replacement: 䒑廾
+- pattern: 兼
+  replacement: 䒑彐刂八
 
 # 一换一
 - pattern: 𧘇
