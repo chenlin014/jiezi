@@ -1,9 +1,6 @@
 # 拆分
 - pattern: 画
   replacement: 一田凵
-- pattern: 直
-  replacement: 十目一
-  exclude: [値]
 - pattern: 氐
   replacement: 氏丶
 - pattern: 界

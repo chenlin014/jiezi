@@ -64,9 +64,6 @@
 # 拆分
 - pattern: 画
   replacement: 一由凵
-- pattern: 直
-  replacement: 十目乚
-  exclude: [值]
 - pattern: 氐
   replacement: 氏一
   exclude: [诋, 鸱]
