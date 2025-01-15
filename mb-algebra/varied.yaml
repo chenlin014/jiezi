@@ -295,6 +295,16 @@
   append: true
 - pattern: 函
   replacement: 了𠁼凵
+- pattern: 𡕩（又）
+  replacement: 囟（又）儿夂
+  append: true
+- pattern: 𡕩（又）
+  replacement: 囟（又）八夂
+- pattern: 𡕩
+  replacement: 囟儿夂
+  append: true
+- pattern: 𡕩
+  replacement: 囟八夂
 
 # 不同拆法
 - pattern: 尔
