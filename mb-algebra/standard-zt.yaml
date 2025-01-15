@@ -122,3 +122,7 @@
   replacement: 亼龴
 - pattern: 函
   replacement: 了𠁼凵
+- pattern: 𡕩（又）
+  replacement: 囟（又）儿夂
+- pattern: 𡕩
+  replacement: 囟儿夂

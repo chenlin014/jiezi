@@ -253,6 +253,10 @@
   replacement: 丿圍又
 - pattern: 囟
   replacement: 丿圍乂
+- pattern: 光
+  replacement: 小兀
+- pattern: 豆
+  replacement: 一口䒑
 
 # 一换一
 - pattern: 𧘇
