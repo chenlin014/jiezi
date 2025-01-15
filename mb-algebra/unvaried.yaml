@@ -263,6 +263,8 @@
   replacement: 䒑廾
 - pattern: 兼
   replacement: 䒑彐刂八
+- pattern: 𪜀
+  replacement: 十乚
 
 # 一换一
 - pattern: 𧘇
