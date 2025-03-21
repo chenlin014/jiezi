@@ -1,5 +1,6 @@
 # 新郑
 
+<<<<<<< HEAD
 此库源自对[郑码](https://baike.baidu.com/item/%E9%83%91%E7%A0%81/589192)的改造。
 
 ## 简介
@@ -74,6 +75,8 @@
 ### 有熊
 - Rime: https://github.com/chenlin014/rime-youxiong
 
+=======
+>>>>>>> 02916ef (update README)
 ## 感谢
 ### 郑码发明人
 郑易里、郑珑。
