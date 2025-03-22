@@ -267,6 +267,10 @@
   replacement: 十乚
 - pattern: 介
   replacement: 人氘
+- pattern: 弟
+  replacement: 弋弓
+- pattern: 第
+  replacement: ⺮弋弓
 
 # 一换一
 - pattern: 𧘇
