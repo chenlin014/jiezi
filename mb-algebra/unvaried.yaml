@@ -271,6 +271,10 @@
   replacement: 弋弓
 - pattern: 第
   replacement: ⺮弋弓
+- pattern: 武（(.)）
+  replacement: 戈\1
+- pattern: 武
+  replacement: 戈止
 
 # 一换一
 - pattern: 𧘇
