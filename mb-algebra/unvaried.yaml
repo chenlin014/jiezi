@@ -265,6 +265,8 @@
   replacement: 䒑彐刂八
 - pattern: 𪜀
   replacement: 十乚
+- pattern: 介
+  replacement: 人氘
 
 # 一换一
 - pattern: 𧘇
