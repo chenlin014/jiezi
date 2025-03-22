@@ -275,6 +275,8 @@
   replacement: 戈\1
 - pattern: 武
   replacement: 戈止
+- pattern: 我
+  replacement: 手戈
 
 # 一换一
 - pattern: 𧘇
