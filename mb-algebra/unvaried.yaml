@@ -277,6 +277,12 @@
   replacement: 戈止
 - pattern: 我
   replacement: 手戈
+- pattern: 戉
+  replacement: 戈乚
+- pattern: 戠
+  replacement: 立日戈
+- pattern: 尧
+  replacement: 戈兀
 
 # 一换一
 - pattern: 𧘇
