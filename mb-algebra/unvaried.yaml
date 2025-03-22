@@ -283,6 +283,10 @@
   replacement: 立日戈
 - pattern: 尧
   replacement: 戈兀
+- pattern: 戋
+  replacement: 一戈
+- pattern: 㦮
+  replacement: 二戈
 
 # 一换一
 - pattern: 𧘇

@@ -122,6 +122,10 @@
 - pattern: 了口又
   replacement: 丂口又
   append: true
+- pattern: 戋
+  replacement: 㦮
+  append: true
+  only: [残, 践, 浅]
 
 # 拆分
 - pattern: 画
