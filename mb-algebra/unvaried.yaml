@@ -165,8 +165,14 @@
   replacement: 田土
 - pattern: 菐
   replacement: 业半大
+- pattern: 首
+  replacement: 丷𦣻
 - pattern: 面
-  replacement: 一自圍
+  replacement: 𦣻圍
+- pattern: 夔
+  replacement: 丷夒
+- pattern: 夒
+  replacement: 頁止巳夂
 - pattern: 聿
   replacement: 彐キ
 - pattern: 事
@@ -355,6 +361,8 @@
   replacement: 巳
 - pattern: 𠮥
   replacement: 召
+- pattern: 𦣻
+  replacement: 頁
 
 # 正简合
 - pattern: 贝
