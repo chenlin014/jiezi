@@ -308,6 +308,8 @@
 - pattern: 肉
   replacement: 䏑
 - pattern: 韋
+  replacement: 𫝀口㐄
+- pattern: 𫝀
   replacement: 㐄
 - pattern: 灬
   replacement: 火
