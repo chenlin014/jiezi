@@ -293,6 +293,8 @@
   replacement: 一戈
 - pattern: 㦮
   replacement: 二戈
+- pattern: 鼎
+  replacement: 目爿片
 
 # 一换一
 - pattern: 𧘇
