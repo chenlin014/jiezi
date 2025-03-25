@@ -300,10 +300,10 @@
 - pattern: 函
   replacement: 了𠁼凵
 - pattern: 𡕩（又）
-  replacement: 囟（又）儿夂
+  replacement: 囟又儿夂
   append: true
 - pattern: 𡕩（又）
-  replacement: 囟（又）八夂
+  replacement: 囟又八夂
 - pattern: 𡕩
   replacement: 囟儿夂
   append: true

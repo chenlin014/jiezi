@@ -46,9 +46,9 @@
 - pattern: 巿
   replacement: 一巾
 - pattern: 囱
-  replacement: 丿圍夂
+  replacement: 囟夂
 - pattern: 囪
-  replacement: 丿圍丿乂
+  replacement: 囟丿乂
 - pattern: 單
   replacement: 口口甲一
 - pattern: 单
@@ -255,10 +255,6 @@
   replacement: 丶水
 - pattern: 卑
   replacement: 鬼十
-- pattern: 囟（又）
-  replacement: 丿圍又
-- pattern: 囟
-  replacement: 丿圍乂
 - pattern: 光
   replacement: 小兀
 - pattern: 豆
