@@ -299,6 +299,8 @@
   replacement: 丿㠯
 - pattern: 血
   replacement: 丿皿
+- pattern: 必
+  replacement: 心丿
 
 # 一换一
 - pattern: 𧘇
