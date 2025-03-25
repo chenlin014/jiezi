@@ -297,6 +297,8 @@
   replacement: 目爿片
 - pattern: 𠂤
   replacement: 丿㠯
+- pattern: 血
+  replacement: 丿皿
 
 # 一换一
 - pattern: 𧘇
