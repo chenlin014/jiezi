@@ -101,8 +101,6 @@
   replacement: 十丿
 - pattern: 乎
   replacement: 爪丁
-- pattern: 𢎨
-  replacement: 弓亻
 - pattern: 弔
   replacement: 丨弓
 - pattern: 乃
@@ -297,6 +295,8 @@
   replacement: 丿皿
 - pattern: 必
   replacement: 心丿
+- pattern: 韋
+  replacement: 𫝀口㐄
 
 # 一换一
 - pattern: 𧘇
@@ -317,8 +317,6 @@
   replacement: 癶
 - pattern: 肉
   replacement: 䏑
-- pattern: 韋
-  replacement: 𫝀口㐄
 - pattern: 𫝀
   replacement: 㐄
 - pattern: 灬
