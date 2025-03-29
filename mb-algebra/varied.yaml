@@ -309,6 +309,26 @@
   append: true
 - pattern: 𡕩
   replacement: 囟八夂
+- pattern: 呈
+  replacement: 口𡈼
+  append: true
+- pattern: 呈
+  replacement: 口王
+- pattern: 望
+  replacement: 亡月𡈼
+  append: true
+- pattern: 望
+  replacement: 亡月王
+- pattern: 廷
+  replacement: 廴壬
+  append: true
+- pattern: 廷
+  replacement: 廴𡈼
+- pattern: 聖
+  replacement: 耳口𡈼
+  append: true
+- pattern: 聖
+  replacement: 耳口王
 
 # 不同拆法
 - pattern: 尔

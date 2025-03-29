@@ -60,6 +60,9 @@
   exclude: [浄, 争, 静, 挣, 睁, 铮, 狰, 峥, 筝, 诤, 铮]
 - pattern: 了口又
   replacement: 丂口又
+- pattern: 戋
+  replacement: 㦮
+  only: [残, 践, 浅]
 
 # 拆分
 - pattern: 画
@@ -139,3 +142,11 @@
   replacement: 囟（又）儿夂
 - pattern: 𡕩
   replacement: 囟儿夂
+- pattern: 呈
+  replacement: 口王
+- pattern: 望
+  replacement: 亡月王
+- pattern: 廷
+  replacement: 廴壬
+- pattern: 聖
+  replacement: 耳口王
