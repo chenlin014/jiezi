@@ -329,6 +329,11 @@
   append: true
 - pattern: 聖
   replacement: 耳口王
+- pattern: 壬
+  replacement: 工一
+  append: true
+- pattern: 壬
+  replacement: 丿士
 
 # 不同拆法
 - pattern: 尔
