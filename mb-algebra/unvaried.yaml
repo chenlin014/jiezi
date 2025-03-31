@@ -299,6 +299,8 @@
   replacement: 𫝀口㐄
 - pattern: 𡈼
   replacement: 亻土
+- pattern: 卉
+  replacement: 十艹
 
 # 一换一
 - pattern: 𧘇
