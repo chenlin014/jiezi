@@ -1,0 +1,9 @@
+# 正简合
+- pattern: 贝
+  replacement: 貝
+- pattern: 黾
+  replacement: 黽
+- pattern: 㫣
+  replacement: 黽
+- pattern: 页
+  replacement: 頁
