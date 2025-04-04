@@ -5,8 +5,8 @@
 char-standards=zt jt jp
 
 # == 码表路径 ==
-# 初始码表
-init-mb = table/jiezi.tsv
+# 初解表
+init-mb = table/chujie.tsv
 # 输入码表。生成自初始码表。
 shuru-mb=table/shuru.tsv
 
