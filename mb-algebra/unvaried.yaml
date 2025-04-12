@@ -92,7 +92,7 @@
 - pattern: 𣎳
   replacement: 十儿
 - pattern: 及
-  replacement: 刀又
+  replacement: 𠂊又
 - pattern: 𠁁
   replacement: 卯亞
 - pattern: 于
@@ -104,7 +104,7 @@
 - pattern: 弔
   replacement: 丨弓
 - pattern: 乃
-  replacement: 刀㇆
+  replacement: ㇆丿
 - pattern: 平
   replacement: 干丷
 - pattern: 夹
