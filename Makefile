@@ -22,7 +22,7 @@ shuruma:
 		$(mb-xformer) $(xform-dir)/unvaried.yaml > $(shuru-mb)
 
 common-%:
-	python mb-tool/subset.py table/jiezi.tsv char_set/common-$* | \
+	python mb-tool/subset.py $(init-mb) char_set/common-$* | \
 		$(mb-xformer) $(xform-dir)/standard-$*.yaml | \
 		$(mb-xformer) $(xform-dir)/unvaried.yaml > table/common-$*.tsv
 
