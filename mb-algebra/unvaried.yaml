@@ -373,6 +373,8 @@
   replacement: 凵
 - pattern: ㇆
   replacement: ㇕
+- pattern: 亦
+  replacement: 大八
 
 # 正简合
 - pattern: 贝
