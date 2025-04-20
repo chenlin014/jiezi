@@ -369,6 +369,8 @@
   replacement: 召
 - pattern: 𦣻
   replacement: 頁
+- pattern: 丩
+  replacement: 凵
 
 # 正简合
 - pattern: 贝
