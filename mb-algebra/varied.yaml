@@ -312,6 +312,7 @@
 - pattern: 呈
   replacement: 口𡈼
   append: true
+  exclude: [锃]
 - pattern: 呈
   replacement: 口王
 - pattern: 望
@@ -322,6 +323,7 @@
 - pattern: 廷
   replacement: 廴壬
   append: true
+  exclude: [颋, 铤, 𬘩]
 - pattern: 廷
   replacement: 廴𡈼
 - pattern: 聖
@@ -332,6 +334,7 @@
 - pattern: 壬
   replacement: 工一
   append: true
+  exclude: [赁, 饪, 纴]
 - pattern: 壬
   replacement: 丿士
 
