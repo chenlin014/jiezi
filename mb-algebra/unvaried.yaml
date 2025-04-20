@@ -301,6 +301,8 @@
   replacement: 亻土
 - pattern: 卉
   replacement: 十艹
+- pattern: 巨
+  replacement: 匚コ
 
 # 一换一
 - pattern: 𧘇
@@ -361,8 +363,6 @@
   replacement: 龜
 - pattern: 疋
   replacement: 足
-- pattern: 巨
-  replacement: 匚
 - pattern: 己
   replacement: 巳
 - pattern: 𠮥
