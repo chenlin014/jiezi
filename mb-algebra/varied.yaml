@@ -1,4 +1,4 @@
-# 不拆分
+# 一换一
 - pattern: 柬
   replacement: 東
   append: true
@@ -127,7 +127,7 @@
   append: true
   only: [残, 践, 浅]
 
-# 拆分
+# 一换多
 - pattern: 画
   replacement: 一由凵
   append: true
