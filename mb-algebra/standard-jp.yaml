@@ -70,8 +70,6 @@
 - pattern: 氐
   replacement: 氏一
   exclude: [诋, 鸱]
-- pattern: 界
-  replacement: 田人氘
 - pattern: 犮
   replacement: 犬丿
   exclude: [钹, 绂]
