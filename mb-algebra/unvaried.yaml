@@ -387,6 +387,8 @@
   replacement: ㇕
 - pattern: 【鳳】
   replacement: 凡
+- pattern: 凢
+  replacement: 凡
 
 # 正简合
 - pattern: 贝
