@@ -314,7 +314,7 @@
 - pattern: 風
   replacement: 凡虫
 - pattern: 风
-  replacement: 几乂
+  replacement: 𠘨乂
 
 # 一换一
 - pattern: 𧘇
@@ -388,6 +388,8 @@
 - pattern: 【鳳】
   replacement: 凡
 - pattern: 凢
+  replacement: 凡
+- pattern: 𠘨
   replacement: 凡
 
 # 正简合
