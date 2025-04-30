@@ -309,6 +309,8 @@
   replacement: 大八
 - pattern: 重
   replacement: 千日土
+- pattern: 同
+  replacement: 凡口
 
 # 一换一
 - pattern: 𧘇
