@@ -311,6 +311,10 @@
   replacement: 千日土
 - pattern: 同
   replacement: 凡口
+- pattern: 風
+  replacement: 凡虫
+- pattern: 风
+  replacement: 几乂
 
 # 一换一
 - pattern: 𧘇
@@ -381,6 +385,8 @@
   replacement: 凵
 - pattern: ㇆
   replacement: ㇕
+- pattern: 【鳳】
+  replacement: 凡
 
 # 正简合
 - pattern: 贝
