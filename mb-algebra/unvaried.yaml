@@ -315,6 +315,8 @@
   replacement: 凡虫
 - pattern: 风
   replacement: 𠘨乂
+- pattern: 召
+  replacement: 刀口
 
 # 一换一
 - pattern: 𧘇
@@ -378,7 +380,7 @@
 - pattern: 己
   replacement: 巳
 - pattern: 𠮥
-  replacement: 召
+  replacement: 鹿
 - pattern: 𦣻
   replacement: 頁
 - pattern: 丩
