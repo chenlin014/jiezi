@@ -317,6 +317,20 @@
   replacement: 𠘨乂
 - pattern: 召
   replacement: 刀口
+- pattern: 莫
+  replacement: 茻日
+- pattern: 莽（(.)）
+  replacement: 茻\1
+- pattern: 莽
+  replacement: 茻犬
+- pattern: 【寒】
+  replacement: 宀茻
+- pattern: 奔
+  replacement: 大癶
+- pattern: 死
+  replacement: 一夕匕
+- pattern: 公
+  replacement: 八厶
 
 # 一换一
 - pattern: 𧘇
