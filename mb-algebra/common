@@ -104,7 +104,7 @@
 - pattern: 弔
   replacement: 丨弓
 - pattern: 乃
-  replacement: ㇆丿
+  replacement: 𠂊㇆
 - pattern: 平
   replacement: 干丷
 - pattern: 夹
@@ -136,7 +136,7 @@
 - pattern: 亥
   replacement: 亠丩人
 - pattern: 发
-  replacement: 乚丿又丶
+  replacement: 丿犬㇕
 - pattern: 老
   replacement: 耂匕
 - pattern: 考

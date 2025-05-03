@@ -136,19 +136,17 @@
 - pattern: 亥
   replacement: 亠丩人
 - pattern: 发
-  replacement: 乚丿又丶
+  replacement: 丿犬㇕
 - pattern: 老
   replacement: 耂匕
 - pattern: 考
   replacement: 耂丂
 - pattern: 孝
   replacement: 耂子
-- pattern: 者
-  replacement: 耂
 - pattern: 丹
-  replacement: 册丶
+  replacement: 冂亠
 - pattern: 失
-  replacement: 手丶
+  replacement: 𠂉大
 - pattern: 戍
   replacement: 戈人
 - pattern: 业半大
@@ -409,6 +407,8 @@
   replacement: 凡
 - pattern: 𠘨
   replacement: 凡
+- pattern: 者
+  replacement: 耂
 
 # 重文合流
 - pattern: 贝
