@@ -410,7 +410,7 @@
 - pattern: 𠘨
   replacement: 凡
 
-# 正简合
+# 重文合流
 - pattern: 贝
   replacement: 貝
 - pattern: 黾
@@ -419,3 +419,7 @@
   replacement: 黽
 - pattern: 页
   replacement: 頁
+- pattern: 亚
+  replacement: 亞
+- pattern: 亜
+  replacement: 亞
