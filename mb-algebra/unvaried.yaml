@@ -331,6 +331,8 @@
   replacement: 一夕匕
 - pattern: 公
   replacement: 八厶
+- pattern: 幷
+  replacement: 丿干丿干
 
 # 一换一
 - pattern: 𧘇
