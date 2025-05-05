@@ -1,3 +1,7 @@
+- pattern: 敻
+  replacement: 夐
+  exclude: [敻]
+
 - pattern: 画
   replacement: 一田凵
 - pattern: 氐

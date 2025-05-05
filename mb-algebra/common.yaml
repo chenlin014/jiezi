@@ -291,6 +291,13 @@
   replacement: 亠口冂口
 - pattern: 喬
   replacement: 丿大口冂口
+- pattern: 敻
+  replacement: 𠂊穴目攵
+- pattern: 夐
+  replacement: 𠂊穴目夂
+- pattern: 𠂊冂人
+  replacement: 𠂊穴
+  only: [𫂝]
 
 # 一换一
 - pattern: 𧘇

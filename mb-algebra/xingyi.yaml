@@ -56,3 +56,7 @@
   replacement: 小冖口
 - pattern: 尚
   replacement: 小冂口
+- pattern: 奐
+  replacement: 𠂊穴大
+- pattern: 奂
+  replacement: 𠂊冂大
