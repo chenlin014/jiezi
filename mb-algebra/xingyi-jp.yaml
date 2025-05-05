@@ -1,4 +1,4 @@
-# 不拆分
+# 一換一
 - pattern: 柬
   replacement: 東
   exclude: [柬, 楝, 鍊, 湅, 諫, 谏, 鶫, 镧, 斕, 阑, 澜, 𬶠, 谰, 襕, 𧍴, 𪢌, 揀, 𪢠, 𬞕, 𬅉]
@@ -64,7 +64,7 @@
   replacement: 㦮
   only: [残, 践, 浅]
 
-# 拆分
+# 一換多
 - pattern: 画
   replacement: 一由凵
 - pattern: 氐
@@ -128,10 +128,6 @@
   replacement: 土儿夂
 - pattern: 坴
   replacement: 土儿土
-- pattern: 尔
-  replacement: 亇八
-- pattern: 五
-  replacement: 二乂
 - pattern: 令
   replacement: 亼龴
 - pattern: 函
@@ -150,3 +146,5 @@
   replacement: 耳口王
 - pattern: 壬
   replacement: 丿士
+- pattern: 尔
+  replacement: 𠂉小

@@ -1,0 +1,36 @@
+- pattern: 柬
+  replacement: 東
+  exclude: [柬, 楝, 鍊, 湅, 諫, 谏, 鶫, 镧, 斕, 阑, 澜, 𬶠, 谰, 襕, 𧍴, 𪢌, 揀, 𪢠, 𬞕, 𬅉]
+- pattern: 黑
+  replacement: 黒
+  exclude: [黑, 𬙊, 𪑑]
+- pattern: 曾
+  replacement: 曽
+  exclude: [曾, 增, 赠, 缯]
+- pattern: 鄉
+  replacement: 郷
+  exclude: [鄉]
+- pattern: 单
+  replacement: 単
+  exclude: [单, 弹]
+- pattern: 亏
+  replacement: 亐
+  exclude: [亏, 鄂, 污, 鶚, 鹗, 颚, 锷, 鳄, 谔, 㗁, 𣅘, 𬞲]
+- pattern: 廿口夫
+  replacement: 艹口夫
+- pattern: 力
+  replacement: 刀
+  only: [拐]
+- pattern: 强
+  replacement: 強
+  exclude: [强, 繦, 镪]
+- pattern: 臣𠂉丶
+  replacement: 臣𠂉一
+- pattern: 戋
+  replacement: 㦮
+  only: [残, 践, 浅]
+
+- pattern: 画
+  replacement: 一由凵
+- pattern: 堇
+  replacement: 艹口丰

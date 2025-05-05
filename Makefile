@@ -7,15 +7,26 @@ char-standards=zt jt jp
 # == 码表路径 ==
 # 初解表
 init-mb = table/chujie.tsv
-# 输入码表。生成自初始码表。
-shuru-mb=table/shuru.tsv
 
 mb-xformer=python mb-tool/mb_algebra.py --regex
-xform-dir=mb-algebra
 
 .PHONY: all clean
 
-all: shuruma $(foreach std,$(char-standards),common-$(std))
+all: xingyi siyuan
+
+build:
+	mkdir $@
+
+xingyi: $(foreach std,$(char-standards),xingyi-$(std))
+
+xingyi-%:
+	cat $(init-mb) | $(mb-xformer) mb-algebra/xingyi-$*.yaml | \
+		$(mb-xformer) mb-algebra/xingyi.yaml | \
+		$(mb-xformer) mb-algebra/common.yaml > table/xingyi-$*.tsv
+
+siyuan: build
+	cat $(init-mb) | $(mb-xformer) mb-algebra/siyuan.yaml | \
+		$(mb-xformer) mb-algebra/common.yaml > table/siyuan.tsv
 
 shuruma:
 	cat $(init-mb) | $(mb-xformer) $(xform-dir)/varied.yaml | \
@@ -25,6 +36,3 @@ common-%:
 	python mb-tool/subset.py $(init-mb) char_set/common-$* | \
 		$(mb-xformer) $(xform-dir)/standard-$*.yaml | \
 		$(mb-xformer) $(xform-dir)/unvaried.yaml > table/common-$*.tsv
-
-clean:
-	rm build/*

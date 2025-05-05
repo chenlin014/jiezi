@@ -1,4 +1,4 @@
-# 不拆分
+# 一換一
 - pattern: 吴
   replacement: 吳
   exclude: [吴, 俣, 误, 娱]
@@ -45,7 +45,7 @@
 - pattern: 了口又
   replacement: 丂口又
 
-# 拆分
+# 一換多
 - pattern: 画
   replacement: 一田凵
 - pattern: 氐
@@ -109,10 +109,6 @@
   replacement: 土儿夂
 - pattern: 坴
   replacement: 土儿土
-- pattern: 尔
-  replacement: 亇八
-- pattern: 五
-  replacement: 二乂
 - pattern: 令
   replacement: 亼龴
 - pattern: 函
@@ -131,3 +127,5 @@
   replacement: 耳口𡈼
 - pattern: 壬
   replacement: 工一
+- pattern: 尔
+  replacement: 𠂊小

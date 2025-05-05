@@ -25,10 +25,6 @@
   replacement: 匕目𠔀
 - pattern: 束
   replacement: 木口
-- pattern: 晋
-  replacement: 一业日
-- pattern: 晉
-  replacement: 二厶厶日
 - pattern: 鄉
   replacement: 乡丶艮阝
 - pattern: 郷
@@ -90,7 +86,7 @@
 - pattern: 冃
   replacement: 冖二
 - pattern: 𣎳
-  replacement: 十儿
+  replacement: 十八
 - pattern: 及
   replacement: 𠂊又
 - pattern: 𠁁
@@ -104,7 +100,7 @@
 - pattern: 弔
   replacement: 丨弓
 - pattern: 乃
-  replacement: 𠂊㇆
+  replacement: ㇆丿
 - pattern: 平
   replacement: 干丷
 - pattern: 夹
@@ -135,24 +131,16 @@
   replacement: 𠂆木
 - pattern: 亥
   replacement: 亠丩人
-- pattern: 发
-  replacement: 丿犬㇕
 - pattern: 老
   replacement: 耂匕
 - pattern: 考
   replacement: 耂丂
 - pattern: 孝
   replacement: 耂子
-- pattern: 者
-  replacement: 耂
 - pattern: 丹
-  replacement: 册丶
-- pattern: 失
-  replacement: 手丶
+  replacement: 冂亠
 - pattern: 戍
   replacement: 戈人
-- pattern: 业半大
-  replacement: 十儿
 - pattern: 曳
   replacement: 电丿
 - pattern: 竜
@@ -197,8 +185,6 @@
   replacement: 肀川八
 - pattern: 粛
   replacement: 肀川米
-- pattern: 赤
-  replacement: 土火
 - pattern: 乍
   replacement: 𠂉匕
 - pattern: 卬
@@ -247,36 +233,16 @@
   replacement: 十𠁼丶
 - pattern: 叚
   replacement: 尸二コ又
-- pattern: 侯
-  replacement: 亻コ矢
 - pattern: 永
   replacement: 丶水
 - pattern: 卑
   replacement: 鬼十
-- pattern: 光
-  replacement: 小兀
 - pattern: 豆
   replacement: 一口䒑
-- pattern: 並
-  replacement: 立立
 - pattern: 并
   replacement: 䒑廾
-- pattern: 兼
-  replacement: 禾禾彐
 - pattern: 𪜀
   replacement: 十乚
-- pattern: 界
-  replacement: 田介
-- pattern: 介
-  replacement: 亻八
-- pattern: 弟
-  replacement: 弋弓
-- pattern: 第
-  replacement: ⺮弋弓
-- pattern: 武（(.)）
-  replacement: 戈\1
-- pattern: 武
-  replacement: 戈止
 - pattern: 我
   replacement: 手戈
 - pattern: 戉
@@ -305,8 +271,6 @@
   replacement: 十艹
 - pattern: 巨
   replacement: 匚コ
-- pattern: 亦
-  replacement: 大八
 - pattern: 重
   replacement: 千日土
 - pattern: 同
@@ -317,19 +281,99 @@
   replacement: 𠘨乂
 - pattern: 召
   replacement: 刀口
-- pattern: 莫
-  replacement: 茻日
-- pattern: 莽（(.)）
-  replacement: 茻\1
-- pattern: 莽
-  replacement: 茻犬
-- pattern: 【寒】
-  replacement: 宀茻
-- pattern: 奔
-  replacement: 大癶
 - pattern: 死
   replacement: 一夕匕
 - pattern: 公
   replacement: 八厶
 - pattern: 幷
   replacement: 丿干丿干
+
+# 一换一
+- pattern: 𧘇
+  replacement: 衤
+- pattern: 向
+  replacement: 宀
+- pattern: 𠀉
+  replacement: 臼
+- pattern: 丆
+  replacement: ㇕
+- pattern: 丷
+  replacement: 八
+- pattern: 𡗗
+  replacement: 丰
+- pattern: 𠁼
+  replacement: ⺍
+- pattern: 𣥂
+  replacement: 癶
+- pattern: 肉
+  replacement: 䏑
+- pattern: 𫝀
+  replacement: 㐄
+- pattern: 灬
+  replacement: 火
+- pattern: 忄
+  replacement: 心
+- pattern: 乑
+  replacement: 亻
+- pattern: 𠔀
+  replacement: 廾
+- pattern: 丌
+  replacement: 廾
+- pattern: 氘
+  replacement: 刂
+- pattern: 𠂢
+  replacement: 亻
+- pattern: 册
+  replacement: 冊
+- pattern: ⺮
+  replacement: 竹
+- pattern: 个
+  replacement: 竹
+- pattern: 亇
+  replacement: 竹
+- pattern: 片
+  replacement: 爿
+- pattern: 尢
+  replacement: 尤
+- pattern: 电
+  replacement: 申
+- pattern: 肀
+  replacement: 尹
+- pattern: 韦
+  replacement: 㐄
+- pattern: 疋
+  replacement: 足
+- pattern: 己
+  replacement: 巳
+- pattern: 𠮥
+  replacement: 鹿
+- pattern: 𦣻
+  replacement: 頁
+- pattern: 丩
+  replacement: 凵
+- pattern: ㇆
+  replacement: ㇕
+- pattern: 【鳳】
+  replacement: 凡
+- pattern: 𠘨
+  replacement: 凡
+- pattern: 者
+  replacement: 耂
+
+# 重文合流
+- pattern: 龟
+  replacement: 龜
+- pattern: 亀
+  replacement: 龜
+- pattern: 黾
+  replacement: 黽
+- pattern: 㫣
+  replacement: 黽
+- pattern: 贝
+  replacement: 貝
+- pattern: 页
+  replacement: 頁
+- pattern: 亚
+  replacement: 亞
+- pattern: 亜
+  replacement: 亞

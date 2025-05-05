@@ -1,4 +1,3 @@
-# 拆分
 - pattern: 画
   replacement: 一田凵
 - pattern: 氐
@@ -57,10 +56,6 @@
   replacement: 土八夂
 - pattern: 坴
   replacement: 土八土
-- pattern: 尔
-  replacement: 亇八
-- pattern: 五
-  replacement: 二乂
 - pattern: 令
   replacement: 亼龴
 - pattern: 函
@@ -79,3 +74,5 @@
   replacement: 耳口王
 - pattern: 壬
   replacement: 丿士
+- pattern: 尔
+  replacement: 亇八
