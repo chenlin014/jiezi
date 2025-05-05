@@ -150,8 +150,6 @@
   replacement: 耳口𡈼
 - pattern: 壬
   replacement: 工一
-- pattern: 尔
-  replacement: 亇八
 - pattern: 亟
   replacement: 二亻口又
 
@@ -201,6 +199,10 @@
   replacement: 走癶
 - pattern: 五
   replacement: 二乂
+- pattern: 尔
+  replacement: 亇八
+- pattern: 尓
+  replacement: 亇八
 
 # 一換一
 - pattern: 凢

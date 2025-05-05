@@ -61,6 +61,9 @@
 - pattern: 戋
   replacement: 㦮
   only: [残, 践, 浅]
+- pattern: 尔
+  replacement: 尓
+  exclude: [尔]
 
 # 一換多
 - pattern: 画
@@ -144,7 +147,5 @@
   replacement: 耳口王
 - pattern: 壬
   replacement: 丿士
-- pattern: 尔
-  replacement: 𠂉小
 - pattern: 亟
   replacement: 丂口又一

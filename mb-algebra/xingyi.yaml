@@ -48,3 +48,7 @@
   replacement: 丿几
 - pattern: 五
   replacement: 工㇕
+- pattern: 尔
+  replacement: 𠂊小
+- pattern: 尓
+  replacement: 𠂉小
