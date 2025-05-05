@@ -363,6 +363,8 @@
   replacement: 凡
 - pattern: 者
   replacement: 耂
+- pattern: 𦉰
+  replacement: 网
 
 # 重文合流
 - pattern: 龟
