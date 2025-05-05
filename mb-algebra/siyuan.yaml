@@ -203,6 +203,8 @@
   replacement: 亇八
 - pattern: 尓
   replacement: 亇八
+- pattern: 尚
+  replacement: 丷向口
 
 # 一換一
 - pattern: 凢

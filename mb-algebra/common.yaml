@@ -287,6 +287,10 @@
   replacement: 八厶
 - pattern: 幷
   replacement: 丿干丿干
+- pattern: 高 # 不含膏
+  replacement: 亠口冂口
+- pattern: 喬
+  replacement: 丿大口冂口
 
 # 一换一
 - pattern: 𧘇
@@ -377,3 +381,7 @@
   replacement: 亞
 - pattern: 亜
   replacement: 亞
+
+# 删除特殊符号
+- pattern: "[（）【】]"
+  replacement: ""
