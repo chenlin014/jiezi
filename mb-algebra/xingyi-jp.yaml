@@ -58,8 +58,6 @@
 - pattern: 争
   replacement: 爭
   exclude: [浄, 争, 静, 挣, 睁, 铮, 狰, 峥, 筝, 诤, 铮]
-- pattern: 了口又
-  replacement: 丂口又
 - pattern: 戋
   replacement: 㦮
   only: [残, 践, 浅]
@@ -148,3 +146,5 @@
   replacement: 丿士
 - pattern: 尔
   replacement: 𠂉小
+- pattern: 亟
+  replacement: 丂口又一

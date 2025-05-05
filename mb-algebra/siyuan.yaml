@@ -77,8 +77,6 @@
 - pattern: 争
   replacement: 爭
   exclude: [浄, 争, 静, 挣, 睁, 铮, 狰, 峥, 筝, 诤, 铮]
-- pattern: 了口又一
-  replacement: 二亻口又
 #- pattern: 戋
 #  replacement: 㦮
 #  append: true
@@ -154,6 +152,8 @@
   replacement: 工一
 - pattern: 尔
   replacement: 亇八
+- pattern: 亟
+  replacement: 二亻口又
 
 # 一換多
 - pattern: 晋

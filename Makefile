@@ -2,7 +2,7 @@
 # zt: 正體（繁體）
 # jt: 简体
 # jp: 日文
-char-standards=zt jt jp
+char-standards=ft jt jp
 
 # == 码表路径 ==
 # 初解表
