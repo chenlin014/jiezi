@@ -298,6 +298,8 @@
 - pattern: 𠂊冂人
   replacement: 𠂊穴
   only: [𫂝]
+- pattern: 䜌
+  replacement: 言糸糸
 
 # 一换一
 - pattern: 𧘇

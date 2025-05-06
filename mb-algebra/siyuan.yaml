@@ -260,3 +260,6 @@
 # 一換一
 - pattern: 凢
   replacement: 凡
+- pattern: 夂
+  replacement: 攵
+  only: [変]
