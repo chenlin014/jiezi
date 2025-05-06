@@ -1,6 +1,8 @@
 - pattern: 敻
   replacement: 夐
   exclude: [敻]
+- pattern: 耳𡈼
+  replacement: 耳王
 
 - pattern: 画
   replacement: 一田凵

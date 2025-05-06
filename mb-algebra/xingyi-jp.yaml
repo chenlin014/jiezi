@@ -64,6 +64,8 @@
 - pattern: 尔
   replacement: 尓
   exclude: [尔]
+- pattern: 耳𡈼
+  replacement: 耳王
 
 # 一換多
 - pattern: 画
