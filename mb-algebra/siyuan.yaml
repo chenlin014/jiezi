@@ -262,4 +262,5 @@
   replacement: 凡
 - pattern: 夂
   replacement: 攵
+  append: true
   only: [変]
