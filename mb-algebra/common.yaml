@@ -300,6 +300,8 @@
   only: [𫂝]
 - pattern: 䜌
   replacement: 言糸糸
+- pattern: 民
+  replacement: 巳七
 
 # 一换一
 - pattern: 𧘇
