@@ -153,3 +153,9 @@
   replacement: 丂口又一
 - pattern: 致
   replacement: 至攵
+- pattern: 𢼸（(.)）
+  replacement: 山一\1攵
+- pattern: 𢼸
+  replacement: 山兀攵
+- pattern: 𢽠
+  replacement: 山一𡈼攵

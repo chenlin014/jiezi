@@ -129,3 +129,9 @@
   replacement: 丂口又一
 - pattern: 致
   replacement: 至夂
+- pattern: 𢼸（(.)）
+  replacement: 山一\1攵
+- pattern: 𢼸
+  replacement: 山一儿攵
+- pattern: 𢽠
+  replacement: 山一𡈼攵

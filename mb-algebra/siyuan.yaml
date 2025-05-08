@@ -156,6 +156,12 @@
   replacement: 二亻口又
 - pattern: 致
   replacement: 至夂
+- pattern: 𢼸（(.)）
+  replacement: 長\1攵
+- pattern: 𢼸
+  replacement: 長儿攵
+- pattern: 𢽠
+  replacement: 長𡈼攵
 
 # 一換多
 - pattern: 晋
