@@ -154,6 +154,8 @@
   replacement: 工一
 - pattern: 亟
   replacement: 二亻口又
+- pattern: 致
+  replacement: 至夂
 
 # 一換多
 - pattern: 晋
