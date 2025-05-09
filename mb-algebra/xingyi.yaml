@@ -32,8 +32,6 @@
   replacement: 一弋\1
 - pattern: 武
   replacement: 一弋止
-- pattern: 亦
-  replacement: 亠火
 - pattern: 莫
   replacement: 艹日大
 - pattern: 莽（(.)）
@@ -96,3 +94,5 @@
   replacement: 厶月匕匕
 - pattern: 卓
   replacement: 卜日十
+- pattern: 夜
+  replacement: 亠亻夕丶

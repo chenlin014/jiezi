@@ -195,8 +195,6 @@
   replacement: 戈\1
 - pattern: 武
   replacement: 戈止
-- pattern: 亦
-  replacement: 大八
 - pattern: 莫
   replacement: 茻日
 - pattern: 莽（(.)）
@@ -264,6 +262,8 @@
   replacement: 厶月匕匕
 - pattern: 卓
   replacement: 卜日十
+- pattern: 夜
+  replacement: 亦夕
 
 # 一換一
 - pattern: 凢
