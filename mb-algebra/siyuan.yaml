@@ -264,6 +264,8 @@
   replacement: 卜日十
 - pattern: 夜
   replacement: 亦夕
+- pattern: 支
+  replacement: 竹又
 
 # 一換一
 - pattern: 凢
