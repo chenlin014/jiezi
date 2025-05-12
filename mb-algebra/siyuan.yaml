@@ -266,6 +266,8 @@
   replacement: 亦夕
 - pattern: 支
   replacement: 竹又
+- pattern: 骨
+  replacement: 冎䏑
 
 # 一換一
 - pattern: 凢

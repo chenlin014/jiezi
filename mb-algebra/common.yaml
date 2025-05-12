@@ -310,6 +310,12 @@
   replacement: 土土
 - pattern: 主
   replacement: 丶王
+- pattern: 咼
+  replacement: 冎口
+- pattern: 呙
+  replacement: 冎
+- pattern: 另|叧
+  replacement: 冎
 
 # 一换一
 - pattern: 𧘇
