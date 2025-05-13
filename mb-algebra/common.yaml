@@ -287,6 +287,8 @@
   replacement: 亠口冂口
 - pattern: 喬
   replacement: 丿大口冂口
+- pattern: 乔
+  replacement: 丿大氘
 - pattern: 敻
   replacement: 𠂊穴目攵
 - pattern: 夐
@@ -326,6 +328,10 @@
   replacement: 一由厶寸
 - pattern: 惠
   replacement: 一由厶心
+- pattern: 天
+  replacement: 一大
+- pattern: 夭
+  replacement: 丿大
 
 # 一换一
 - pattern: 𧘇
