@@ -312,10 +312,8 @@
   replacement: 丶王
 - pattern: 咼
   replacement: 冎口
-- pattern: 呙
-  replacement: 冎
-- pattern: 另|叧
-  replacement: 冎
+- pattern: 乏
+  replacement: 丿之
 
 # 一换一
 - pattern: 𧘇
@@ -390,6 +388,10 @@
   replacement: 耂
 - pattern: 𦉰
   replacement: 网
+- pattern: 呙
+  replacement: 冎
+- pattern: 另|叧
+  replacement: 冎
 
 # 重文合流
 - pattern: 龟
