@@ -145,8 +145,6 @@
   replacement: 电丿
 - pattern: 竜
   replacement: 立电
-- pattern: 开
-  replacement: 一廾
 - pattern: 里
   replacement: 田土
 - pattern: 菐
@@ -285,8 +283,6 @@
   replacement: 一夕匕
 - pattern: 公
   replacement: 八厶
-- pattern: 幷
-  replacement: 丿干丿干
 - pattern: 高 # 不含膏
   replacement: 亠口冂口
 - pattern: 喬
@@ -314,6 +310,16 @@
   replacement: 冎口
 - pattern: 乏
   replacement: 丿之
+- pattern: 開
+  replacement: 門开
+- pattern: 𫔭
+  replacement: 门开
+- pattern: 开
+  replacement: 一廾
+- pattern: 幵
+  replacement: 干干
+- pattern: 幷
+  replacement: 丿干丿干
 
 # 一换一
 - pattern: 𧘇
@@ -410,6 +416,8 @@
   replacement: 亞
 - pattern: 亜
   replacement: 亞
+- pattern: 门
+  replacement: 門
 
 # 删除特殊符号
 - pattern: "[（）【】]"
