@@ -322,6 +322,10 @@
   replacement: 丿干丿干
 - pattern: 专
   replacement: キ龴
+- pattern: 專
+  replacement: 一由厶寸
+- pattern: 惠
+  replacement: 一由厶心
 
 # 一换一
 - pattern: 𧘇
