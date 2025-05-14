@@ -75,6 +75,8 @@
   replacement: 𠮥豕
 - pattern: 鼠
   replacement: 臼釆
+- pattern: 巤
+  replacement: 巛圍乂釆
 - pattern: 术
   replacement: 木丶
 - pattern: 朮
@@ -82,7 +84,7 @@
 - pattern: 俞
   replacement: 亼月刂
 - pattern: 兪
-  replacement: 亼月巛
+  replacement: 亼月巜
 - pattern: 冃
   replacement: 冖二
 - pattern: 𣎳
@@ -332,6 +334,10 @@
   replacement: 一大
 - pattern: 夭
   replacement: 丿大
+- pattern: 夭
+  replacement: 丿大
+- pattern: 巠
+  replacement: 一巛工
 
 # 一换一
 - pattern: 𧘇
@@ -410,6 +416,8 @@
   replacement: 冎
 - pattern: 另|叧
   replacement: 冎
+- pattern: 巜
+  replacement: 巛
 
 # 重文合流
 - pattern: 龟
