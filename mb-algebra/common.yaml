@@ -149,6 +149,8 @@
   replacement: 立电
 - pattern: 里
   replacement: 田土
+- pattern: 果
+  replacement: 田木
 - pattern: 菐
   replacement: 业半大
 - pattern: 首
