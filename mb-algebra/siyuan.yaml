@@ -279,14 +279,8 @@
 - pattern: 开
   replacement: 幵
   exclude: [开]
-- pattern: 蚩
-  replacement: 之虫
-- pattern: 蚩
-  replacement: 之虫
-- pattern: 蚩
-  replacement: 之虫
-- pattern: 蚩
-  replacement: 之虫
+- pattern: 㝵
+  replacement: 貝寸
 
 # 一換一
 - pattern: 凢
