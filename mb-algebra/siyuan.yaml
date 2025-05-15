@@ -281,6 +281,8 @@
   exclude: [开]
 - pattern: 㝵
   replacement: 貝寸
+- pattern: 疑
+  replacement: 旡大牛止
 
 # 一換一
 - pattern: 凢
