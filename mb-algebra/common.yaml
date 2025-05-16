@@ -340,6 +340,8 @@
   replacement: 丿大
 - pattern: 巠
   replacement: 一巛工
+- pattern: 亙
+  replacement: 二月
 
 # 一换一
 - pattern: 𧘇
