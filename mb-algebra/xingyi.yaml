@@ -112,3 +112,9 @@
   replacement: 日一寸
 - pattern: 疑
   replacement: 匕矢龴疋
+- pattern: 是
+  replacement: 日𤴓
+- pattern: 正
+  replacement: 一止
+- pattern: 𤴓
+  replacement: 一止

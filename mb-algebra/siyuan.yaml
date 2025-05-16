@@ -283,6 +283,12 @@
   replacement: 貝寸
 - pattern: 疑
   replacement: 旡大牛止
+- pattern: 是
+  replacement: 日𤴓
+- pattern: 正
+  replacement: 圍止
+- pattern: 𤴓
+  replacement: 圍止
 
 # 一換一
 - pattern: 凢
