@@ -303,6 +303,21 @@
   replacement: 厶九
 - pattern: 𤔔
   replacement: 爪幺冂又
+- pattern: 质
+  replacement: 斤贝
+- pattern: 斥
+  replacement: 广下
+- pattern: 盾
+  replacement: 𠂋丨目
+- pattern: 司
+  replacement: 𠂋
+- pattern: 永
+  replacement: 巛亻
+
+- pattern: 𠂆𠂢
+  replacement: 巛卜
+- pattern: 𠂉𠂢
+  replacement: 𠂉人人
 
 # 一換一
 - pattern: 凢

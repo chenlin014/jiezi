@@ -235,8 +235,6 @@
   replacement: 十𠁼丶
 - pattern: 叚
   replacement: 尸二コ又
-- pattern: 永
-  replacement: 丶水
 - pattern: 卑
   replacement: 鬼十
 - pattern: 豆
@@ -342,6 +340,14 @@
   replacement: 一巛工
 - pattern: 亙
   replacement: 二月
+- pattern: 万
+  replacement: 一力
+- pattern: 虒
+  replacement: 𠂆虎
+- pattern: 殷
+  replacement: 身殳
+- pattern: 后
+  replacement: 𠂋口
 
 # 一换一
 - pattern: 𧘇
@@ -422,6 +428,8 @@
   replacement: 冎
 - pattern: 巜
   replacement: 巛
+- pattern: 𠂋
+  replacement: 𠂆
 
 # 重文合流
 - pattern: 龟
