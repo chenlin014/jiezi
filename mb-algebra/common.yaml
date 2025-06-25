@@ -348,6 +348,8 @@
   replacement: 身殳
 - pattern: 后
   replacement: 𠂋口
+- pattern: 朱
+  replacement: 𠂉木
 
 # 一换一
 - pattern: 𧘇
