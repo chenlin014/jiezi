@@ -162,6 +162,12 @@
   replacement: 長儿攵
 - pattern: 𢽠
   replacement: 長𡈼攵
+- pattern: 查
+  replacement: 木且
+  exclude: [查]
+- pattern: 查
+  replacement: 木日一
+  only: [查]
 
 # 一換多
 - pattern: 晋

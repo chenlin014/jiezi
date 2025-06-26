@@ -156,3 +156,9 @@
   replacement: 山兀攵
 - pattern: 𢽠
   replacement: 山一𡈼攵
+- pattern: 查
+  replacement: 木且
+  exclude: [查]
+- pattern: 查
+  replacement: 木日一
+  only: [查]
