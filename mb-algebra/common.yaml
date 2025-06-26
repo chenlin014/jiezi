@@ -350,6 +350,8 @@
   replacement: 𠂋口
 - pattern: 朱
   replacement: 𠂉木
+- pattern: 每
+  replacement: 𠂉母
 
 # 一换一
 - pattern: 𧘇
@@ -433,6 +435,8 @@
 - pattern: 𠂋
   replacement: 𠂆
 - pattern: 毋
+  replacement: 母
+- pattern: 毌
   replacement: 母
 
 # 重文合流
