@@ -432,6 +432,8 @@
   replacement: 巛
 - pattern: 𠂋
   replacement: 𠂆
+- pattern: 毋
+  replacement: 母
 
 # 重文合流
 - pattern: 龟
