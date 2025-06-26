@@ -352,6 +352,8 @@
   replacement: 𠂉木
 - pattern: 每
   replacement: 𠂉母
+- pattern: 鬲
+  replacement: 一口冂八丁
 
 # 一换一
 - pattern: 𧘇
