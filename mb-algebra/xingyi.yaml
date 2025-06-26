@@ -142,6 +142,8 @@
   replacement: ㇆一口
 - pattern: 永
   replacement: 丶水
+- pattern: 尨
+  replacement: 尤彡
 
 - pattern: 𠂆𠂢
   replacement: 𠂆亻

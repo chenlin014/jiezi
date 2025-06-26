@@ -319,6 +319,8 @@
   replacement: 𠂋
 - pattern: 永
   replacement: 巛亻
+- pattern: 尨
+  replacement: 犬彡
 
 - pattern: 𠂆𠂢
   replacement: 巛卜
