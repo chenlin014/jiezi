@@ -127,8 +127,6 @@
   replacement: 乙冫
 - pattern: 弗
   replacement: 弓氘
-- pattern: 井
-  replacement: 二氘
 - pattern: 兜
   replacement: 白卯儿
 - pattern: 乐
@@ -460,6 +458,8 @@
   replacement: 母
 - pattern: ⺀
   replacement: 冫
+- pattern: 龶
+  replacement: 丰
 
 # 重文合流
 - pattern: 龟

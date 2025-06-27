@@ -327,6 +327,10 @@
   replacement: 烏烏
 - pattern: 升
   replacement: 斗斗
+- pattern: 青
+  replacement: 生井
+- pattern: 表
+  replacement: 衣毛
 
 - pattern: 𠂆𠂢
   replacement: 巛卜

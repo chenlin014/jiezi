@@ -150,6 +150,10 @@
   replacement: 方人⺀
 - pattern: 升
   replacement: 丿廾
+- pattern: 青
+  replacement: 龶月
+- pattern: 表
+  replacement: 龶𧘇
 
 - pattern: 𠂆𠂢
   replacement: 𠂆亻
