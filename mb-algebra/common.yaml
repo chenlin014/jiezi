@@ -370,6 +370,8 @@
   replacement: ⺀大
 - pattern: 冬
   replacement: 夂冫
+- pattern: 叟
+  replacement: 臼丨又
 
 # 一换一
 - pattern: 𧘇
