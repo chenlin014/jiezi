@@ -156,6 +156,8 @@
   replacement: 龶𧘇
 - pattern: 先
   replacement: 牛儿
+- pattern: 共
+  replacement: 艹𠔀
 
 - pattern: 𠂆𠂢
   replacement: 𠂆亻
