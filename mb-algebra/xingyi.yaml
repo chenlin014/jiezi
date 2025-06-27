@@ -39,6 +39,8 @@
 - pattern: 莽
   replacement: 艹犬廾
 - pattern: 【寒】
+  replacement: 宀甘八
+- pattern: 寒
   replacement: 宀甘八冫
 - pattern: 奔
   replacement: 大十廾
@@ -144,6 +146,10 @@
   replacement: 丶水
 - pattern: 尨
   replacement: 尤彡
+- pattern: 於
+  replacement: 方人⺀
+- pattern: 升
+  replacement: 丿廾
 
 - pattern: 𠂆𠂢
   replacement: 𠂆亻

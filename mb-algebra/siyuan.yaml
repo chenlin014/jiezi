@@ -209,6 +209,8 @@
   replacement: 茻犬
 - pattern: 【寒】
   replacement: 宀茻
+- pattern: 寒
+  replacement: 宀茻冫
 - pattern: 奔
   replacement: 走癶
 - pattern: 五
@@ -321,6 +323,10 @@
   replacement: 巛亻
 - pattern: 尨
   replacement: 犬彡
+- pattern: 於
+  replacement: 烏烏
+- pattern: 升
+  replacement: 斗斗
 
 - pattern: 𠂆𠂢
   replacement: 巛卜

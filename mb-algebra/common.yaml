@@ -122,7 +122,9 @@
 - pattern: 丣
   replacement: 一卯
 - pattern: 飛
-  replacement: 乙冫丿氘乙冫
+  replacement: 飞丿氘乙飞
+- pattern: 飞
+  replacement: 乙冫
 - pattern: 弗
   replacement: 弓氘
 - pattern: 井
@@ -360,6 +362,16 @@
   replacement: 儿𠁼
 - pattern: 爾
   replacement: 丁八网
+- pattern: 尽
+  replacement: 尺⺀
+- pattern: 尺
+  replacement: 尸丶
+- pattern: 弱
+  replacement: 弓冫弓冫
+- pattern: 头
+  replacement: ⺀大
+- pattern: 冬
+  replacement: 夂冫
 
 # 一换一
 - pattern: 𧘇
@@ -446,6 +458,8 @@
   replacement: 母
 - pattern: 毌
   replacement: 母
+- pattern: ⺀
+  replacement: 冫
 
 # 重文合流
 - pattern: 龟
