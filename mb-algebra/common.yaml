@@ -464,6 +464,8 @@
   replacement: 子
 - pattern: 【在】
   replacement: 才
+- pattern: 乞
+  replacement: 气
 
 # 重文合流
 - pattern: 龟
