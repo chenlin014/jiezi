@@ -187,8 +187,6 @@
   replacement: 𠂉匕
 - pattern: 卬
   replacement: 匕卩
-- pattern: 年
-  replacement: 𠂉㐄
 - pattern: 矛
   replacement: 予丿
 - pattern: 昜
@@ -387,6 +385,8 @@
 - pattern: 𠁼
   replacement: ⺍
 - pattern: 𣥂
+  replacement: 㐄
+- pattern: 舛
   replacement: 癶
 - pattern: 肉
   replacement: 䏑
