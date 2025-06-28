@@ -95,8 +95,6 @@
   replacement: 卯亞
 - pattern: 于
   replacement: 丁一
-- pattern: 才
-  replacement: 十丿
 - pattern: 乎
   replacement: 爪丁
 - pattern: 弔
@@ -464,6 +462,8 @@
   replacement: 丰
 - pattern: 𠫓
   replacement: 子
+- pattern: 【在】
+  replacement: 才
 
 # 重文合流
 - pattern: 龟

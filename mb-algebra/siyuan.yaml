@@ -349,6 +349,8 @@
   only: [棄]
 - pattern: 共
   replacement: 廿𠔀
+- pattern: 𢦏
+  replacement: 才戈
 
 - pattern: 𠂆𠂢
   replacement: 巛卜
