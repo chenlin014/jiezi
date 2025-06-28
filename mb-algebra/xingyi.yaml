@@ -156,10 +156,30 @@
   replacement: 龶𧘇
 - pattern: 先
   replacement: 牛儿
+- pattern: 華
+  replacement: 艹𠦒
+- pattern: 麥
+  replacement: 來夂
+- pattern: 畢
+  replacement: 田𠦒
+- pattern: 異
+  replacement: 田共
+- pattern: 糞
+  replacement: 米田共
+- pattern: ^.+$
+  replacement: 𠫓廿木
+  only: [棄]
 - pattern: 共
   replacement: 艹𠔀
+- pattern: 來
+  replacement: 木人人
+- pattern: 来
+  replacement: 木䒑
 
 - pattern: 𠂆𠂢
   replacement: 𠂆亻
 - pattern: 𠂉𠂢
   replacement: 𠂉亻
+
+- pattern: 垂
+  replacement: 𠦒

@@ -193,8 +193,6 @@
   replacement: 𠂉㐄
 - pattern: 矛
   replacement: 予丿
-- pattern: 畢
-  replacement: 甲艹二
 - pattern: 昜
   replacement: 日一勿
 - pattern: 匆
@@ -227,8 +225,6 @@
   replacement: 亼口人
 - pattern: 龠
   replacement: 亼口口口冊
-- pattern: 其
-  replacement: 甘𠔀
 - pattern: 求
   replacement: 十𠁼丶
 - pattern: 叚
@@ -370,6 +366,12 @@
   replacement: 夂冫
 - pattern: 叟
   replacement: 臼丨又
+- pattern: 畢
+  replacement: 田𠦒
+- pattern: 華
+  replacement: 艹𠦒
+- pattern: 垂
+  replacement: 丿𠦒
 
 # 一换一
 - pattern: 𧘇
@@ -460,6 +462,8 @@
   replacement: 冫
 - pattern: 龶
   replacement: 丰
+- pattern: 𠫓
+  replacement: 子
 
 # 重文合流
 - pattern: 龟

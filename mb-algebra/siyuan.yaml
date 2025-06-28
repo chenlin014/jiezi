@@ -332,6 +332,21 @@
   replacement: 衣毛
 - pattern: 先
   replacement: 之儿
+- pattern: 華
+  replacement: 艹𠂹 # 𠌶入𠂹
+- pattern: 垂
+  replacement: 𠂹土
+- pattern: 麥
+  replacement: 來夂
+- pattern: 畢
+  replacement: 田𠦒
+- pattern: 異
+  replacement: 田廾人
+- pattern: 糞
+  replacement: 米𠦒廾
+- pattern: ^.+$
+  replacement: 𠫓𠦒廾
+  only: [棄]
 - pattern: 共
   replacement: 廿𠔀
 
@@ -347,3 +362,9 @@
   replacement: 攵
   append: true
   only: [変]
+- pattern: 來
+  replacement: 𠂹
+- pattern: 来
+  replacement: 𠂹
+- pattern: 𠦒
+  replacement: 其
