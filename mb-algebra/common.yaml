@@ -368,6 +368,8 @@
   replacement: 艹𠦒
 - pattern: 垂
   replacement: 丿𠦒
+- pattern: 叕
+  replacement: 四（又）
 
 # 一换一
 - pattern: 𧘇
