@@ -1,3 +1,5 @@
+- pattern: 巽
+  replacement: 巳巳共
 - pattern: 敻
   replacement: 夐
   exclude: [敻]

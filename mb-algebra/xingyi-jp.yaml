@@ -30,9 +30,12 @@
 - pattern: 吕
   replacement: 呂
   exclude: [吕, 宫, 榈, 侣, 铝, 闾]
-- pattern: 巳巳
-  replacement: 己己
+- pattern: 巽
+  replacement: 己己共
   exclude: [馔]
+- pattern: 巽
+  replacement: 巳巳共
+  only: [馔]
 - pattern: 巿
   replacement: 市
   only: [肺, 姉]

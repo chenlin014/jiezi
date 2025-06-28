@@ -26,13 +26,12 @@
   #replacement: 呂
   #append: true
   #exclude: [吕, 宫, 榈, 侣, 铝, 闾]
-- pattern: 巳巳
-  replacement: 卩卩
-  exclude: [馔]
 #- pattern: 巳
   #replacement: 己
   #append: true
   #only: [异]
+- pattern: 巽
+  replacement: 卩卩丌
 - pattern: 匀
   replacement: 勻
   exclude: [匀, 钧]
