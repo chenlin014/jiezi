@@ -372,6 +372,8 @@
   replacement: 四（又）
 - pattern: 霝
   replacement: 雨口口口
+- pattern: 益
+  replacement: 水皿
 
 # 一换一
 - pattern: 𧘇
