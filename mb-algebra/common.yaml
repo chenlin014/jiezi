@@ -470,6 +470,8 @@
   replacement: 才
 - pattern: 乞
   replacement: 气
+- pattern: 左
+  replacement: 𠂇
 
 # 重文合流
 - pattern: 龟
