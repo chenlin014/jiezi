@@ -181,6 +181,10 @@
   replacement: 𠂉㐄
 - pattern: 差
   replacement: 羊工
+- pattern: 竒
+  replacement: 立可
+- pattern: 可
+  replacement: 丁口
 
 - pattern: 𠂆𠂢
   replacement: 𠂆亻

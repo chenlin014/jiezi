@@ -361,6 +361,10 @@
   only: [乓]
 - pattern: 差
   replacement: 𠂹左
+- pattern: 竒
+  replacement: 立可
+- pattern: 可
+  replacement: 丂口
 
 - pattern: 𠂆𠂢
   replacement: 巛卜
