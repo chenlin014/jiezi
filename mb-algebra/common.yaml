@@ -370,6 +370,8 @@
   replacement: 丿𠦒
 - pattern: 叕
   replacement: 四（又）
+- pattern: 霝
+  replacement: 雨口口口
 
 # 一换一
 - pattern: 𧘇
