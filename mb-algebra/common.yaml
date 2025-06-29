@@ -400,6 +400,8 @@
   replacement: 火
 - pattern: 忄
   replacement: 心
+- pattern: 㣺
+  replacement: 心
 - pattern: 乑
   replacement: 亻
 - pattern: 𠔀
