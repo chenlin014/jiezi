@@ -179,6 +179,8 @@
   replacement: 十戈
 - pattern: 年
   replacement: 𠂉㐄
+- pattern: 差
+  replacement: 羊工
 
 - pattern: 𠂆𠂢
   replacement: 𠂆亻
