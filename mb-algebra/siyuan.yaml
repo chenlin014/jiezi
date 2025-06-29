@@ -353,6 +353,12 @@
   replacement: 才戈
 - pattern: 年
   replacement: 禾人
+- pattern: ^.+$
+  replacement: 斤𠂇
+  only: [乒]
+- pattern: ^.+$
+  replacement: 斤又
+  only: [乓]
 
 - pattern: 𠂆𠂢
   replacement: 巛卜
