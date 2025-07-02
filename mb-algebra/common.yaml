@@ -498,6 +498,8 @@
   replacement: 亞
 - pattern: 门
   replacement: 門
+- pattern: 钅
+  replacement: 金
 
 # 删除特殊符号
 - pattern: "[（）【】]"
