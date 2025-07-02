@@ -290,11 +290,17 @@
   replacement: 貝寸
 - pattern: 疑
   replacement: 旡大牛止
+- pattern: 廌
+  replacement: 豸豸
+- pattern: 舄
+  replacement: 臼烏
+- pattern: 焉
+  replacement: 正烏
 - pattern: 是
   replacement: 日𤴓
-- pattern: 正
-  replacement: 圍止
 - pattern: 𤴓
+  replacement: 正
+- pattern: 正
   replacement: 圍止
 - pattern: 萬
   replacement: 廾田禸
@@ -387,6 +393,8 @@
   replacement: 工コ
 - pattern: 夬
   replacement: コ又
+- pattern: 与
+  replacement: 牙牙
 
 - pattern: 𠂆𠂢
   replacement: 巛卜

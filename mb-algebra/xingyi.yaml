@@ -114,6 +114,12 @@
   replacement: 日一寸
 - pattern: 疑
   replacement: 匕矢龴疋
+- pattern: 廌
+  replacement: 鹿烏
+- pattern: 舄
+  replacement: 臼烏
+- pattern: 焉
+  replacement: 正烏
 - pattern: 是
   replacement: 日𤴓
 - pattern: 正
@@ -207,6 +213,8 @@
   replacement: 匚コ
 - pattern: 夬
   replacement: コ人
+- pattern: 与
+  replacement: 牙一
 
 - pattern: 𠂆𠂢
   replacement: 𠂆从
