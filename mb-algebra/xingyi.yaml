@@ -79,7 +79,7 @@
 - pattern: 睪
   replacement: 罒土半
 - pattern: 眾
-  replacement: 罒亻
+  replacement: 罒从
 - pattern: 𦭝
   replacement: 艹罒
 - pattern: 𬙙
@@ -185,11 +185,27 @@
   replacement: 立可
 - pattern: 可
   replacement: 丁口
+- pattern: 丙
+  replacement: 一内
+- pattern: 兩
+  replacement: 一内人
+- pattern: 两
+  replacement: 一内人
+- pattern: 㒼
+  replacement: 廿内人
+- pattern: 嗇
+  replacement: 土从
+- pattern: 坐
+  replacement: 从土
+- pattern: 夾
+  replacement: 大从
+- pattern: 韱
+  replacement: 从戈韭
 
 - pattern: 𠂆𠂢
-  replacement: 𠂆亻
+  replacement: 𠂆从
 - pattern: 𠂉𠂢
-  replacement: 𠂉亻
+  replacement: 𠂉从
 
 - pattern: 垂
   replacement: 𠦒

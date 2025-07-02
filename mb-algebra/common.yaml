@@ -376,10 +376,16 @@
   replacement: 水皿
 - pattern: 㗊（(.)）
   replacement: 四（口）\1
+- pattern: 卒
+  replacement: 𠅃十
+- pattern: 韭
+  replacement: 非一
 
 # 一换一
 - pattern: 𧘇
   replacement: 衤
+- pattern: 𠅃
+  replacement: 衣
 - pattern: 向
   replacement: 宀
 - pattern: 𠀉
@@ -406,8 +412,6 @@
   replacement: 心
 - pattern: 㣺
   replacement: 心
-- pattern: 乑
-  replacement: 亻
 - pattern: 𠔀
   replacement: 廾
 - pattern: 丌
@@ -478,6 +482,8 @@
   replacement: 气
 - pattern: 左
   replacement: 𠂇
+- pattern: 乑
+  replacement: 从
 
 # 重文合流
 - pattern: 龟

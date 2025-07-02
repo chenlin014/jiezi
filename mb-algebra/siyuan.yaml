@@ -243,7 +243,7 @@
 - pattern: 睪
   replacement: 目土半
 - pattern: 眾
-  replacement: 目亻
+  replacement: 目从
 - pattern: 𦭝
   replacement: 艹目
 - pattern: 罒
@@ -365,11 +365,27 @@
   replacement: 立可
 - pattern: 可
   replacement: 丂口
+- pattern: 丙
+  replacement: 一内
+- pattern: 兩
+  replacement: 一内内
+- pattern: 两
+  replacement: 一内内
+- pattern: 㒼
+  replacement: 廿内内
+- pattern: 嗇
+  replacement: 來圍口
+- pattern: 坐
+  replacement: 从土
+- pattern: 夾
+  replacement: 大从
+- pattern: 韱
+  replacement: 从戈韭
 
 - pattern: 𠂆𠂢
   replacement: 巛卜
 - pattern: 𠂉𠂢
-  replacement: 𠂉人人
+  replacement: 𠂉从
 
 # 一換一
 - pattern: 凢
@@ -384,3 +400,5 @@
   replacement: 𠂹
 - pattern: 𠦒
   replacement: 其
+- pattern: 乑
+  replacement: 从
