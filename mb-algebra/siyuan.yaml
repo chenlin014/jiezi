@@ -381,6 +381,12 @@
   replacement: 大从
 - pattern: 韱
   replacement: 从戈韭
+- pattern: 叚
+  replacement: 厂二彐又
+- pattern: 巨
+  replacement: 工コ
+- pattern: 夬
+  replacement: コ又
 
 - pattern: 𠂆𠂢
   replacement: 巛卜

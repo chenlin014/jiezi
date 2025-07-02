@@ -223,8 +223,6 @@
   replacement: 亼口口口冊
 - pattern: 求
   replacement: 十𠁼丶
-- pattern: 叚
-  replacement: 尸二コ又
 - pattern: 卑
   replacement: 鬼十
 - pattern: 豆
@@ -259,8 +257,6 @@
   replacement: 亻土
 - pattern: 卉
   replacement: 十艹
-- pattern: 巨
-  replacement: 匚コ
 - pattern: 重
   replacement: 千日土
 - pattern: 同
