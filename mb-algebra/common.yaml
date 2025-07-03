@@ -390,6 +390,8 @@
   replacement: 廿儿冖巾
 - pattern: 冏
   replacement: 内口
+- pattern: 𠂔
+  replacement: 才乚
 
 # 一换一
 - pattern: 𧘇
