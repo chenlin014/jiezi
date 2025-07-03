@@ -201,9 +201,11 @@
 - pattern: 莽
   replacement: 茻犬
 - pattern: 【寒】
-  replacement: 宀茻
+  replacement: 宀茻人
 - pattern: 寒
-  replacement: 宀茻冫
+  replacement: 宀茻人冫
+- pattern: 塞
+  replacement: 宀工廾土
 - pattern: 奔
   replacement: 走癶
 - pattern: 五
