@@ -227,6 +227,8 @@
   replacement: 龷丿用
 - pattern: 𬻝
   replacement: 𠂉廿廿
+- pattern: 无
+  replacement: 一尢
 
 - pattern: 𠂆𠂢
   replacement: 𠂆从

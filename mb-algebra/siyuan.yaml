@@ -385,12 +385,8 @@
   replacement: 廿内内
 - pattern: 嗇
   replacement: 來圍口
-- pattern: 坐
-  replacement: 从土
 - pattern: 夾
   replacement: 亦人
-- pattern: 韱
-  replacement: 从戈韭
 - pattern: 叚
   replacement: 厂二彐又
 - pattern: 巨
@@ -419,6 +415,8 @@
   replacement: 矢用
 - pattern: 𬻝
   replacement: 亦廿
+- pattern: 无
+  replacement: 兀一
 
 - pattern: 𠂆𠂢
   replacement: 巛卜
