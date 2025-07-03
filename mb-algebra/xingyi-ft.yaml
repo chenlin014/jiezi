@@ -73,7 +73,9 @@
   replacement: 又冫虫
   exclude: [骚]
 - pattern: 堇
-  replacement: 廿口丰
+  replacement: 廿口龶
+- pattern: 𦰩
+  replacement: 廿口夫
 - pattern: 屯
   replacement: 一屮
 - pattern: 反

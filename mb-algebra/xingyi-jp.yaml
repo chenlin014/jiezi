@@ -45,7 +45,9 @@
 - pattern: 亏
   replacement: 亐
   exclude: [亏, 鄂, 污, 鶚, 鹗, 颚, 锷, 鳄, 谔, 㗁, 𣅘, 𬞲]
-- pattern: 廿口夫
+- pattern: 堇
+  replacement: 艹口龶
+- pattern: 𦰩
   replacement: 艹口夫
 - pattern: 强
   replacement: 強

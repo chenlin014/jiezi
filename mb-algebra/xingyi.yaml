@@ -215,6 +215,22 @@
   replacement: コ人
 - pattern: 与
   replacement: 牙一
+- pattern: 展
+  replacement: 尸龷𧘇
+- pattern: 昔
+  replacement: 龷日
+- pattern: 散
+  replacement: 龷月攵
+- pattern: 寅
+  replacement: 宀一由八
+- pattern: 黄
+  replacement: 廿由八
+- pattern: 黃
+  replacement: 廿一由八
+- pattern: 𤰇
+  replacement: 龷丿用
+- pattern: 𬻝
+  replacement: 𠂉廿廿
 
 - pattern: 𠂆𠂢
   replacement: 𠂆从

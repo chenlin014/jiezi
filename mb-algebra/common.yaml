@@ -376,6 +376,12 @@
   replacement: 𠅃十
 - pattern: 韭
   replacement: 非一
+- pattern: 燕
+  replacement: 廿北口灬
+- pattern: 世
+  replacement: 廿乚
+- pattern: 帶
+  replacement: 廿儿冖巾
 
 # 一换一
 - pattern: 𧘇
@@ -480,6 +486,8 @@
   replacement: 𠂇
 - pattern: 乑
   replacement: 从
+- pattern: 龷
+  replacement: 廿
 
 # 重文合流
 - pattern: 龟

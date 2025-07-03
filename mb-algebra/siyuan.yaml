@@ -103,8 +103,6 @@
   replacement: 彑攵
 - pattern: 蚤
   replacement: 又二虫
-- pattern: 堇
-  replacement: 廿口丰
 - pattern: 屯
   replacement: 一屮
 - pattern: 反
@@ -365,6 +363,12 @@
 - pattern: ^.+$
   replacement: 斤又
   only: [乓]
+- pattern: ^.+$
+  replacement: 廿𠂇
+  only: [𠀗]
+- pattern: ^.+$
+  replacement: 廿又
+  only: [𠀖]
 - pattern: 差
   replacement: 𠂹左
 - pattern: 竒
@@ -395,6 +399,26 @@
   replacement: コ又
 - pattern: 与
   replacement: 牙牙
+- pattern: 展
+  replacement: 尸工𧘇
+- pattern: 昔
+  replacement: 巛日
+- pattern: 散
+  replacement: 木月攵
+- pattern: 寅
+  replacement: 矢圍
+- pattern: 黄
+  replacement: 廿大日
+- pattern: 黃
+  replacement: 廿大日
+- pattern: 堇
+  replacement: 廿口龶
+- pattern: 𦰩
+  replacement: 廿口夫
+- pattern: 𤰇
+  replacement: 矢用
+- pattern: 𬻝
+  replacement: 亦廿
 
 - pattern: 𠂆𠂢
   replacement: 巛卜
