@@ -231,6 +231,12 @@
   replacement: 一尢
 - pattern: 旁
   replacement: 亠丷冖方
+- pattern: 商
+  replacement: 亠丷冏
+- pattern: 啇
+  replacement: 亠丷冂十口
+- pattern: 帝
+  replacement: 亠丷冖巾
 
 - pattern: 𠂆𠂢
   replacement: 𠂆从

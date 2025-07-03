@@ -119,10 +119,6 @@
   replacement: 八口
 - pattern: 㓁
   replacement: 网
-- pattern: 商
-  replacement: 亠丷冏
-- pattern: 冏
-  replacement: 冂八口
 - pattern: 麻
   replacement: 广𣎳𣎳
 - pattern: 甚
@@ -419,6 +415,12 @@
   replacement: 兀一
 - pattern: 旁
   replacement: 凡方
+- pattern: 商
+  replacement: 辛冏
+- pattern: 啇
+  replacement: 不冂口
+- pattern: 帝
+  replacement: 不冖
 
 - pattern: 𠂆𠂢
   replacement: 巛卜

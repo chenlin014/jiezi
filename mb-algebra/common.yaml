@@ -388,6 +388,8 @@
   replacement: 廿乚
 - pattern: 帶
   replacement: 廿儿冖巾
+- pattern: 冏
+  replacement: 内口
 
 # 一换一
 - pattern: 𧘇
