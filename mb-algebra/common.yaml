@@ -213,6 +213,12 @@
   replacement: 乚丩
 - pattern: 今
   replacement: 亼㇕
+- pattern: 坐
+  replacement: 从土
+- pattern: 巫
+  replacement: 工从
+- pattern: 韱
+  replacement: 从戈韭
 - pattern: 僉
   replacement: 亼口口从
 - pattern: 佥
