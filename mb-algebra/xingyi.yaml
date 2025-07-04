@@ -20,6 +20,8 @@
   replacement: 小兀
 - pattern: 並
   replacement: 䒑业
+- pattern: 亷
+  replacement: 亠兼丿
 - pattern: 兼
   replacement: 䒑彐刂八
 - pattern: 介
@@ -233,12 +235,32 @@
   replacement: 一尢
 - pattern: 旁
   replacement: 亠丷冖方
-- pattern: 商
-  replacement: 亠丷冏
 - pattern: 啇
   replacement: 亠丷冂十口
 - pattern: 帝
   replacement: 亠丷冖巾
+- pattern: 咅
+  replacement: 立口
+- pattern: 竞
+  replacement: 立口儿
+- pattern: 戠
+  replacement: 音戈
+- pattern: 音
+  replacement: 立日
+- pattern: 商
+  replacement: 亠丷冏
+- pattern: 章
+  replacement: 立日十
+- pattern: 亲
+  replacement: 立木
+- pattern: 妾
+  replacement: 立女
+- pattern: 童
+  replacement: 立田土
+- pattern: 豙
+  replacement: 立豕
+- pattern: 竜
+  replacement: 立电
 
 - pattern: 𠂆𠂢
   replacement: 𠂆从

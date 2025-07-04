@@ -182,6 +182,8 @@
   replacement: 火儿
 - pattern: 並
   replacement: 立立
+- pattern: 亷
+  replacement: 亠兼丿
 - pattern: 兼
   replacement: 禾禾彐
 - pattern: 介
@@ -417,12 +419,32 @@
   replacement: 兀一
 - pattern: 旁
   replacement: 凡方
-- pattern: 商
-  replacement: 辛冏
 - pattern: 啇
   replacement: 不冂口
 - pattern: 帝
   replacement: 不冖
+- pattern: 咅
+  replacement: 丶不口
+- pattern: 竞
+  replacement: 言儿
+- pattern: 戠
+  replacement: 音戈
+- pattern: 音
+  replacement: 言曰
+- pattern: 商
+  replacement: 辛冏
+- pattern: 章
+  replacement: 辛日
+- pattern: 亲
+  replacement: 辛木
+- pattern: 妾
+  replacement: 辛女
+- pattern: 童
+  replacement: 辛東土
+- pattern: 豙
+  replacement: 辛豕
+- pattern: 竜
+  replacement: 辛甲
 
 - pattern: 𠂆𠂢
   replacement: 巛卜

@@ -141,8 +141,6 @@
   replacement: 戈人
 - pattern: 曳
   replacement: 电丿
-- pattern: 竜
-  replacement: 立电
 - pattern: 里
   replacement: 田土
 - pattern: 果
@@ -241,8 +239,6 @@
   replacement: 手戈
 - pattern: 戉
   replacement: 戈乚
-- pattern: 戠
-  replacement: 立日戈
 - pattern: 尧
   replacement: 七丿兀
 - pattern: 戋
@@ -392,6 +388,16 @@
   replacement: 内口
 - pattern: 𠂔
   replacement: 才乚
+- pattern: 彥
+  replacement: 文厂彡
+- pattern: 彦
+  replacement: 立厂彡
+- pattern: 產
+  replacement: 文厂生
+- pattern: 産
+  replacement: 立厂生
+- pattern: 产
+  replacement: 立厂
 
 # 一换一
 - pattern: 𧘇
@@ -498,6 +504,8 @@
   replacement: 从
 - pattern: 龷
   replacement: 廿
+- pattern: 曰
+  replacement: 甘
 
 # 重文合流
 - pattern: 龟
