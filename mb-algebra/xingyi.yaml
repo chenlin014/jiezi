@@ -68,6 +68,8 @@
   replacement: 士罒貝
 - pattern: 買
   replacement: 罒貝
+- pattern: 罢
+  replacement: 罒去
 - pattern: 睘
   replacement: 罒一口𧘇
 - pattern: 𢛳
@@ -265,6 +267,10 @@
   replacement: 千田土
 - pattern: 曹
   replacement: 一曲日
+- pattern: 丟
+  replacement: 王厶
+- pattern: 去
+  replacement: 土厶
 
 - pattern: 𠂆𠂢
   replacement: 𠂆从
