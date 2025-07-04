@@ -255,12 +255,16 @@
   replacement: 立木
 - pattern: 妾
   replacement: 立女
-- pattern: 童
-  replacement: 立田土
 - pattern: 豙
   replacement: 立豕
 - pattern: 竜
   replacement: 立电
+- pattern: 童
+  replacement: 立田土
+- pattern: 重
+  replacement: 千田土
+- pattern: 曹
+  replacement: 一曲日
 
 - pattern: 𠂆𠂢
   replacement: 𠂆从

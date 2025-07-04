@@ -1,8 +1,6 @@
 # 一换多
 - pattern: 柬
   replacement: 木四
-- pattern: 東
-  replacement: 木日
 - pattern: 黑
   replacement: 四土灬
 - pattern: 黒
@@ -259,8 +257,6 @@
   replacement: 亻土
 - pattern: 卉
   replacement: 十艹
-- pattern: 重
-  replacement: 千日土
 - pattern: 同
   replacement: 凡口
 - pattern: 風
@@ -315,9 +311,9 @@
 - pattern: 专
   replacement: キ龴
 - pattern: 專
-  replacement: 一由厶寸
+  replacement: 𤰔厶寸
 - pattern: 惠
-  replacement: 一由厶心
+  replacement: 𤰔厶心
 - pattern: 天
   replacement: 一大
 - pattern: 夭
@@ -506,6 +502,8 @@
   replacement: 廿
 - pattern: 曰
   replacement: 甘
+- pattern: 𤰔
+  replacement: 東
 
 # 重文合流
 - pattern: 龟
@@ -528,6 +526,8 @@
   replacement: 門
 - pattern: 钅
   replacement: 金
+- pattern: 东
+  replacement: 東
 
 # 删除特殊符号
 - pattern: "[（）【】]"
