@@ -168,7 +168,7 @@
 - pattern: 肅
   replacement: 肀𣶒
 - pattern: 𣶒
-  replacement: 片一爿
+  replacement: 亞一
 - pattern: 肃
   replacement: 肀川八
 - pattern: 粛
@@ -396,6 +396,16 @@
   replacement: 穴㕣
 - pattern: 谷
   replacement: 八㕣
+- pattern: 爻
+  replacement: 乂乂
+- pattern: 义
+  replacement: 丶乂
+- pattern: 鬯
+  replacement: 𠂭凵匕
+- pattern: 鹵
+  replacement: 卜圍𠂭
+- pattern: 衰
+  replacement: 衣冉
 
 # 一换一
 - pattern: 𧘇
@@ -510,16 +520,14 @@
   replacement: 公
 - pattern: 𠮦
   replacement: 公
-- pattern: 爻
-  replacement: 乂乂
-- pattern: 义
-  replacement: 丶乂
-- pattern: 鬯
-  replacement: 𠂭凵匕
-- pattern: 鹵
-  replacement: 卜圍𠂭
-- pattern: 衰
-  replacement: 衣冉
+- pattern: 㐫
+  replacement: 囟
+- pattern: ⺍乂凵
+  replacement: 囟
+- pattern: 𠂭
+  replacement: 米
+- pattern: 𭃂
+  replacement: 冉
 
 # 重文合流
 - pattern: 龟
@@ -544,14 +552,6 @@
   replacement: 金
 - pattern: 东
   replacement: 東
-- pattern: 㐫
-  replacement: 囟
-- pattern: ⺍乂凵
-  replacement: 囟
-- pattern: 𠂭
-  replacement: 米
-- pattern: 𭃂
-  replacement: 冉
 
 # 删除特殊符号
 - pattern: "[（）【】]"
