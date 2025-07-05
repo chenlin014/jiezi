@@ -75,18 +75,12 @@
   replacement: 臼釆
 - pattern: 巤
   replacement: 巛圍乂釆
-- pattern: 术
-  replacement: 木丶
-- pattern: 朮
-  replacement: 𣎳丶
 - pattern: 俞
   replacement: 亼月刂
 - pattern: 兪
   replacement: 亼月巜
 - pattern: 冃
   replacement: 冖二
-- pattern: 𣎳
-  replacement: 十八
 - pattern: 及
   replacement: 𠂊又
 - pattern: 𠁁
@@ -516,6 +510,14 @@
   replacement: 公
 - pattern: 𠮦
   replacement: 公
+- pattern: 爻
+  replacement: 乂乂
+- pattern: 义
+  replacement: 丶乂
+- pattern: 鬯
+  replacement: 𠂭凵匕
+- pattern: 鹵
+  replacement: 卜圍𠂭
 
 # 重文合流
 - pattern: 龟
@@ -540,6 +542,12 @@
   replacement: 金
 - pattern: 东
   replacement: 東
+- pattern: 㐫
+  replacement: 囟
+- pattern: ⺍乂凵
+  replacement: 囟
+- pattern: 𠂭
+  replacement: 米
 
 # 删除特殊符号
 - pattern: "[（）【】]"

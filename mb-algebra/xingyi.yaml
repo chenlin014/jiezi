@@ -291,6 +291,34 @@
   replacement: 十豆
 - pattern: 南
   replacement: 十冂半
+- pattern: 父
+  replacement: 八乂
+- pattern: 冈
+  replacement: 冂乂
+- pattern: 更
+  replacement: 一日乂
+- pattern: 吏
+  replacement: 一口乂
+- pattern: 史
+  replacement: 口乂
+- pattern: 丈
+  replacement: 一乂
+- pattern: 𦥯
+  replacement: 臼爻冖
+- pattern: 希（(.+)）
+  replacement: 乂𠂇\1
+- pattern: 希
+  replacement: 乂𠂇巾
+- pattern: 交
+  replacement: 文八
+- pattern: 杀
+  replacement: 乂木
+- pattern: 𣏂
+  replacement: 乂朮
+- pattern: 术
+  replacement: 木丶
+- pattern: 朮
+  replacement: 𣎳丶
 
 - pattern: 𠂆𠂢
   replacement: 𠂆从
@@ -299,3 +327,5 @@
 
 - pattern: 垂
   replacement: 𠦒
+- pattern: 𣎳
+  replacement: 木

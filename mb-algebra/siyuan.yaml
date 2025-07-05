@@ -478,6 +478,30 @@
   only: [簭]
 - pattern: 卻
   replacement: 人㕣卩
+- pattern: 更
+  replacement: 内攵
+- pattern: 吏
+  replacement: 一中又
+- pattern: 史
+  replacement: 中又
+- pattern: 丈
+  replacement: 十又
+- pattern: 𦥯
+  replacement: 臼爻冖
+- pattern: 希（(.+)）
+  replacement: 爻\1
+- pattern: 希
+  replacement: 爻巾
+- pattern: 交
+  replacement: 大乂
+- pattern: 杀
+  replacement: 乂𣎳
+- pattern: 𣏂
+  replacement: 乂朮
+- pattern: 术
+  replacement: 𣎳丶
+- pattern: 朮
+  replacement: 𣎳丶
 
 - pattern: 𠂆𠂢
   replacement: 巛卜
@@ -501,3 +525,9 @@
   replacement: 其
 - pattern: 【出士】
   replacement: 凵
+- pattern: 父
+  replacement: 攵
+- pattern: 冈
+  replacement: 网
+- pattern: 𣎳
+  replacement: 屮
