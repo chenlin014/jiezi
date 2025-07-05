@@ -398,6 +398,10 @@
   replacement: 衣㕣
 - pattern: 衮
   replacement: 衣公
+- pattern: 容
+  replacement: 穴㕣
+- pattern: 谷
+  replacement: 八㕣
 
 # 一换一
 - pattern: 𧘇
