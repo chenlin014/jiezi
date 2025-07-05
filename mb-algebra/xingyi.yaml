@@ -68,6 +68,8 @@
   replacement: 士罒貝
 - pattern: 買
   replacement: 罒貝
+- pattern: 売
+  replacement: 士冖儿
 - pattern: 罢
   replacement: 罒去
 - pattern: 睘
@@ -271,6 +273,24 @@
   replacement: 王厶
 - pattern: 去
   replacement: 土厶
+- pattern: 臺
+  replacement: 士口冖至
+- pattern: 志
+  replacement: 士心
+- pattern: 壽
+  replacement: 士㇕工一口寸
+- pattern: 壳
+  replacement: 士冖几
+- pattern: 𡉉
+  replacement: 士冖一
+- pattern: 𡉅
+  replacement: 士冖
+- pattern: 声
+  replacement: 士尸
+- pattern: 壴
+  replacement: 十豆
+- pattern: 南
+  replacement: 十冂半
 
 - pattern: 𠂆𠂢
   replacement: 𠂆从

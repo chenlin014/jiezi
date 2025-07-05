@@ -97,8 +97,10 @@
   replacement: 西廾卩
 - pattern: 次
   replacement: 二欠
+- pattern: 出
+  replacement: 止凵
 - pattern: 敖
-  replacement: 士方攵
+  replacement: 【出士】方攵
 - pattern: 敢
   replacement: 彑攵
 - pattern: 蚤
@@ -223,9 +225,11 @@
 - pattern: 奂
   replacement: 𠂊宀廾
 - pattern: 賣
-  replacement: 士网貝
+  replacement: 【出士】网貝
 - pattern: 買
   replacement: 网貝
+- pattern: 売
+  replacement: 【出士】冖儿
 - pattern: 罢
   replacement: 网釆
 - pattern: 睘
@@ -275,8 +279,6 @@
   replacement: 竹又
 - pattern: 骨
   replacement: 冎䏑
-- pattern: 出
-  replacement: 止凵
 - pattern: 芻
   replacement: 𠂇艹
 - pattern: 屰
@@ -455,11 +457,31 @@
   replacement: 一去
 - pattern: 去
   replacement: 大凵
+- pattern: 寺
+  replacement: 之寸
+- pattern: 臺
+  replacement: 之口冖至
+- pattern: 志
+  replacement: 之心
+- pattern: 壽
+  replacement: 耂工口寸
+- pattern: 壳
+  replacement: 𡉅几
+- pattern: 𡉉
+  replacement: 南
+- pattern: 𡉅
+  replacement: 南
+- pattern: 声
+  replacement: 南厂
+- pattern: 壴
+  replacement: 南豆
 
 - pattern: 𠂆𠂢
   replacement: 巛卜
 - pattern: 𠂉𠂢
   replacement: 𠂉从
+- pattern: 士示
+  replacement: 【出士】示
 
 # 一換一
 - pattern: 凢
@@ -474,3 +496,5 @@
   replacement: 𠂹
 - pattern: 𠦒
   replacement: 其
+- pattern: 【出士】
+  replacement: 凵

@@ -92,3 +92,5 @@
   replacement: 山一王攵
 - pattern: 查
   replacement: 木日一
+- pattern: 寺
+  replacement: 土寸

@@ -162,3 +162,5 @@
 - pattern: 查
   replacement: 木日一
   only: [查]
+- pattern: 寺
+  replacement: 土寸
