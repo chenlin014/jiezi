@@ -518,6 +518,8 @@
   replacement: 𠂭凵匕
 - pattern: 鹵
   replacement: 卜圍𠂭
+- pattern: 衰
+  replacement: 衣冉
 
 # 重文合流
 - pattern: 龟
@@ -548,6 +550,8 @@
   replacement: 囟
 - pattern: 𠂭
   replacement: 米
+- pattern: 𭃂
+  replacement: 冉
 
 # 删除特殊符号
 - pattern: "[（）【】]"

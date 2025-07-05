@@ -321,6 +321,12 @@
   replacement: 𣎳丶
 - pattern: 布
   replacement: 𠂇巾
+- pattern: 再
+  replacement: 一冉
+- pattern: 冓
+  replacement: 甘冉
+- pattern: 爯
+  replacement: 爪魚
 
 - pattern: 𠂆𠂢
   replacement: 𠂆从
