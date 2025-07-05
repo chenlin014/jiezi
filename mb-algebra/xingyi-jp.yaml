@@ -114,9 +114,6 @@
   replacement: 日四又
 - pattern: 攸
   replacement: 亻丨攵
-- pattern: 㕣
-  replacement: 八口
-  exclude: [铅]
 - pattern: 㓁
   replacement: 冖儿
 - pattern: 麻

@@ -117,8 +117,6 @@
   replacement: 冃目又
 - pattern: 攸
   replacement: 亻丨攵
-- pattern: 㕣
-  replacement: 八口
 - pattern: 㓁
   replacement: 网
 - pattern: 麻
@@ -475,6 +473,9 @@
   replacement: 南厂
 - pattern: 壴
   replacement: 南豆
+- pattern: 㕣
+  replacement: 廾口
+  only: [簭]
 
 - pattern: 𠂆𠂢
   replacement: 巛卜

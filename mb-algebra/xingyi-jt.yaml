@@ -46,12 +46,6 @@
   replacement: 亻丨夂木
 - pattern: 攸
   replacement: 亻丨攵
-- pattern: 㕣
-  replacement: 几口
-  exclude: [㕣]
-- only: [㕣]
-  pattern: 㕣
-  replacement: 八口
 - pattern: 㓁
   replacement: 冖八
 - pattern: 麻

@@ -265,8 +265,6 @@
   replacement: 刀口
 - pattern: 死
   replacement: 一夕匕
-- pattern: 公
-  replacement: 八厶
 - pattern: 高 # 不含膏
   replacement: 亠口冂口
 - pattern: 喬
@@ -392,6 +390,14 @@
   replacement: 立厂生
 - pattern: 产
   replacement: 立厂
+- pattern: 兑
+  replacement: 𠮦儿
+- pattern: 兌
+  replacement: 㕣儿
+- pattern: 袞
+  replacement: 衣㕣
+- pattern: 衮
+  replacement: 衣公
 
 # 一换一
 - pattern: 𧘇
@@ -502,6 +508,10 @@
   replacement: 甘
 - pattern: 𤰔
   replacement: 東
+- pattern: 㕣
+  replacement: 公
+- pattern: 𠮦
+  replacement: 公
 
 # 重文合流
 - pattern: 龟
