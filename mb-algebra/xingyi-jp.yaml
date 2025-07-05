@@ -161,3 +161,5 @@
   only: [查]
 - pattern: 寺
   replacement: 土寸
+- pattern: 卻
+  replacement: 人㕣卩
