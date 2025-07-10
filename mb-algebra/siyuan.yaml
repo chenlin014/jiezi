@@ -39,9 +39,6 @@
   #replacement: 市
   #append: true
   #only: [肺, 姉]
-- pattern: 囱
-  replacement: 囪
-  exclude: [囱, 骢]
 #- pattern: 单
   #replacement: 単
   #append: true
@@ -510,6 +507,17 @@
   replacement: 魚魚
 - pattern: 爯
   replacement: 爪魚
+- pattern: 黑
+  replacement: 𡆧火火
+- pattern: 四土
+  replacement: 𡆧火
+  only: [𧁶]
+- pattern: 黒
+  replacement: 田大灬
+- pattern: 曾
+  replacement: 丷𡆧曰
+- pattern: 曽
+  replacement: 丷田曰
 
 - pattern: 𠂆𠂢
   replacement: 巛卜
@@ -523,7 +531,6 @@
   replacement: 凡
 - pattern: 夂
   replacement: 攵
-  append: true
   only: [変]
 - pattern: 來
   replacement: 𠂹

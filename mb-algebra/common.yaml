@@ -1,14 +1,6 @@
 # 一换多
 - pattern: 柬
   replacement: 木四
-- pattern: 黑
-  replacement: 四土灬
-- pattern: 黒
-  replacement: 里灬
-- pattern: 曾
-  replacement: 丷四日
-- pattern: 曽
-  replacement: 丷田日
 - pattern: 吴
   replacement: 口一大
 - pattern: 吳
@@ -39,10 +31,6 @@
   replacement: 亠巾
 - pattern: 巿
   replacement: 一巾
-- pattern: 囱
-  replacement: 囟夂
-- pattern: 囪
-  replacement: 囟丿乂
 - pattern: 單
   replacement: 口口甲一
 - pattern: 单
@@ -528,6 +516,10 @@
   replacement: 米
 - pattern: 𭃂
   replacement: 冉
+- pattern: 囱
+  replacement: 囪
+- pattern: 𡆧
+  replacement: 囪
 
 # 重文合流
 - pattern: 龟

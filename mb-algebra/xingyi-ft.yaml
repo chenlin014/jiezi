@@ -27,9 +27,6 @@
 - pattern: 匀
   replacement: 勻
   exclude: [匀, 钧]
-- pattern: 囱
-  replacement: 囪
-  exclude: [囱, 骢]
 - pattern: 虚
   replacement: 虛
   exclude: [虚, 嘘, 觑]
