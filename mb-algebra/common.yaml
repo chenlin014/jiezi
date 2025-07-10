@@ -169,8 +169,6 @@
   replacement: 予丿
 - pattern: 昜
   replacement: 日一勿
-- pattern: 匆
-  replacement: 勿丶
 - pattern: 𠃓
   replacement: ㇕勿
 - pattern: 未
@@ -519,6 +517,8 @@
 - pattern: 囱
   replacement: 囪
 - pattern: 𡆧
+  replacement: 囪
+- pattern: 匆
   replacement: 囪
 
 # 重文合流
