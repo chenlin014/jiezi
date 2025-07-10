@@ -518,6 +518,8 @@
   replacement: 丷𡆧曰
 - pattern: 曽
   replacement: 丷田曰
+- pattern: 并
+  replacement: 从二
 
 - pattern: 𠂆𠂢
   replacement: 巛卜
