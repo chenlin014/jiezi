@@ -520,6 +520,8 @@
   replacement: 囪
 - pattern: 匆
   replacement: 囪
+- pattern: 攵
+  replacement: 攴
 
 # 重文合流
 - pattern: 龟
