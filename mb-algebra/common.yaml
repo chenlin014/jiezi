@@ -15,10 +15,6 @@
   replacement: 匕目𠔀
 - pattern: 束
   replacement: 木口
-- pattern: 鄉
-  replacement: 乡丶艮阝
-- pattern: 郷
-  replacement: 乡艮阝
 - pattern: 吕
   replacement: 口口
 - pattern: 呂
@@ -183,8 +179,6 @@
   replacement: 日勹亡
 - pattern: 直
   replacement: 十目
-- pattern: 乡
-  replacement: 乚丩
 - pattern: 今
   replacement: 亼㇕
 - pattern: 坐
@@ -528,6 +522,10 @@
   replacement: 歹
 - pattern: 丵
   replacement: 业
+- pattern: 乡
+  replacement: 阝
+- pattern: 𠂎
+  replacement: 卩
 
 # 重文合流
 - pattern: 龟

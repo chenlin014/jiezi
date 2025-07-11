@@ -535,6 +535,10 @@
   replacement: 丩口
 - pattern: 勾
   replacement: 丩厶
+- pattern: 鄉
+  replacement: 乡食阝
+- pattern: 郷
+  replacement: 乡食阝
 
 - pattern: 𠂆𠂢
   replacement: 巛卜
