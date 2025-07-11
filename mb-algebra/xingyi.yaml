@@ -337,6 +337,8 @@
   replacement: 丷田日
 - pattern: 并
   replacement: 䒑廾
+- pattern: 㕚
+  replacement: 又⺀
 
 - pattern: 𠂆𠂢
   replacement: 𠂆从

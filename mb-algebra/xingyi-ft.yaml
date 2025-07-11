@@ -67,8 +67,11 @@
   replacement: 丁耳攵
   exclude: [阚]
 - pattern: 蚤
-  replacement: 又冫虫
+  replacement: 㕚虫
   exclude: [骚]
+- pattern: 蚤
+  replacement: 叉虫
+  only: [骚]
 - pattern: 堇
   replacement: 廿口龶
 - pattern: 𦰩

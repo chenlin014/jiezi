@@ -101,7 +101,9 @@
 - pattern: 敢
   replacement: 彑攵
 - pattern: 蚤
-  replacement: 又二虫
+  replacement: 㕚虫
+- pattern: 㕚
+  replacement: 又爪
 - pattern: 屯
   replacement: 一屮
 - pattern: 反

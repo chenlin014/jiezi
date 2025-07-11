@@ -394,6 +394,8 @@
   replacement: 龴用
 - pattern: 𣦼
   replacement: 歹又
+- pattern: 叉
+  replacement: 又丶
 
 # 一换一
 - pattern: 𧘇
