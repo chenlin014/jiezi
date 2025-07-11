@@ -522,6 +522,15 @@
   replacement: 丷田曰
 - pattern: 并
   replacement: 从二
+- pattern: 朕
+  replacement: 舟丨廾
+- pattern: 龹
+  replacement: 丨廾
+  only: [誊]
+- pattern: 龹
+  replacement: 米廾
+- pattern: 菐
+  replacement: 丵廾
 
 - pattern: 𠂆𠂢
   replacement: 巛卜

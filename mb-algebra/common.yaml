@@ -125,8 +125,6 @@
   replacement: 田土
 - pattern: 果
   replacement: 田木
-- pattern: 菐
-  replacement: 业半大
 - pattern: 首
   replacement: 丷𦣻
 - pattern: 面
@@ -396,6 +394,8 @@
   replacement: 歹又
 - pattern: 叉
   replacement: 又丶
+- pattern: 幸
+  replacement: 土半
 
 # 一换一
 - pattern: 𧘇
@@ -528,6 +528,8 @@
   replacement: 攴
 - pattern: 𣦵
   replacement: 歹
+- pattern: 丵
+  replacement: 业
 
 # 重文合流
 - pattern: 龟
