@@ -353,6 +353,8 @@
   replacement: 乡丶艮阝
 - pattern: 郷
   replacement: 乡艮阝
+- pattern: 亥
+  replacement: 亠丩人
 
 - pattern: 𠂆𠂢
   replacement: 𠂆从

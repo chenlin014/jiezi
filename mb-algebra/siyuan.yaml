@@ -509,11 +509,13 @@
   replacement: 魚魚
 - pattern: 爯
   replacement: 爪魚
+# 煙囪說
 - pattern: 黑
   replacement: 𡆧火火
 - pattern: 四土
   replacement: 𡆧火
   only: [𧁶]
+# 墨刑說
 - pattern: 黒
   replacement: 田大灬
 - pattern: 曾
@@ -539,6 +541,8 @@
   replacement: 乡食阝
 - pattern: 郷
   replacement: 乡食阝
+- pattern: 亥
+  replacement: 兀彑
 
 - pattern: 𠂆𠂢
   replacement: 巛卜
