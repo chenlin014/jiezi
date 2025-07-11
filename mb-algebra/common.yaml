@@ -388,6 +388,8 @@
   replacement: 又丶
 - pattern: 幸
   replacement: 土半
+- pattern: 養
+  replacement: 羊食
 
 # 一换一
 - pattern: 𧘇
