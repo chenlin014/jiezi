@@ -392,6 +392,8 @@
   replacement: 衣冉
 - pattern: 甬
   replacement: 龴用
+- pattern: 𣦼
+  replacement: 歹又
 
 # 一换一
 - pattern: 𧘇
@@ -522,6 +524,8 @@
   replacement: 囪
 - pattern: 攵
   replacement: 攴
+- pattern: 𣦵
+  replacement: 歹
 
 # 重文合流
 - pattern: 龟
