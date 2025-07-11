@@ -531,6 +531,10 @@
   replacement: 米廾
 - pattern: 菐
   replacement: 丵廾
+- pattern: 句
+  replacement: 丩口
+- pattern: 勾
+  replacement: 丩厶
 
 - pattern: 𠂆𠂢
   replacement: 巛卜

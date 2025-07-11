@@ -345,6 +345,10 @@
   replacement: 䒑大
 - pattern: 菐
   replacement: 丵大
+- pattern: 句
+  replacement: 勹口
+- pattern: 勾
+  replacement: 勹厶
 
 - pattern: 𠂆𠂢
   replacement: 𠂆从
