@@ -390,6 +390,8 @@
   replacement: 土半
 - pattern: 養
   replacement: 羊食
+- pattern: 良
+  replacement: 丶艮
 
 # 一换一
 - pattern: 𧘇

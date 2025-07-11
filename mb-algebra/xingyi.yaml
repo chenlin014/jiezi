@@ -99,7 +99,9 @@
 - pattern: 熏
   replacement: 千四土灬
 - pattern: 爵
-  replacement: 爪四艮寸
+  replacement: 爪四𡬠
+- pattern: 𡬠
+  replacement: 艮寸
 - pattern: 能
   replacement: 厶月匕匕
 - pattern: 卓
@@ -350,9 +352,15 @@
 - pattern: 勾
   replacement: 勹厶
 - pattern: 鄉
-  replacement: 乡丶艮阝
+  replacement: 乡良阝
 - pattern: 郷
   replacement: 乡艮阝
+- pattern: 即
+  replacement: 艮卩
+- pattern: 既
+  replacement: 艮旡
+- pattern: 退
+  replacement: 辶艮
 - pattern: 亥
   replacement: 亠丩人
 - pattern: 互
