@@ -524,6 +524,8 @@
   replacement: 阝
 - pattern: 𠂎
   replacement: 卩
+- pattern: 丱
+  replacement: 䒑
 
 # 重文合流
 - pattern: 龟

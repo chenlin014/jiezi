@@ -543,6 +543,8 @@
   replacement: 乡食阝
 - pattern: 亥
   replacement: 兀彑
+- pattern: 互
+  replacement: 二丩
 
 - pattern: 𠂆𠂢
   replacement: 巛卜
