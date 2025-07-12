@@ -596,3 +596,5 @@
   replacement: 食
 - pattern: 𦥑
   replacement: 廾
+- pattern: 旧
+  replacement: 臼
