@@ -623,3 +623,5 @@
   replacement: 臼
 - pattern: 卝
   replacement: 䒑
+- pattern: 𣎆
+  replacement: 龍

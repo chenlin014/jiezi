@@ -385,6 +385,8 @@
   replacement: 艹勹口
 - pattern: 雈
   replacement: 艹隹
+- pattern: 𣎆（(.+)）
+  replacement: 亡口月\1凡
 
 - pattern: 𠂆𠂢
   replacement: 𠂆从
