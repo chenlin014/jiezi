@@ -570,6 +570,13 @@
   replacement: 自畀
 - pattern: 畀
   replacement: 田矢
+- pattern: 樊
+  replacement: 爻木木𠬜
+- pattern: 𠬜
+  replacement: 又𠂇
+- pattern: 大
+  replacement: 廾
+  only: [爨]
 
 - pattern: 𠂆𠂢
   replacement: 巛卜
