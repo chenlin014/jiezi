@@ -205,10 +205,12 @@
   replacement: 宀茻人
 - pattern: 寒
   replacement: 宀茻人冫
+- pattern: 茻
+  replacement: 屮
 - pattern: 塞
   replacement: 宀工廾土
 - pattern: 奔
-  replacement: 走癶
+  replacement: 走止
 - pattern: 五
   replacement: 二乂
 - pattern: 尔

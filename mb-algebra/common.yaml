@@ -221,8 +221,6 @@
   replacement: 𫝀口㐄
 - pattern: 𡈼
   replacement: 亻土
-- pattern: 卉
-  replacement: 十艹
 - pattern: 同
   replacement: 凡口
 - pattern: 風
@@ -536,6 +534,8 @@
   replacement: 羊
 - pattern: 辶
   replacement: 辵
+- pattern: 卉
+  replacement: 屮
 
 # 重文合流
 - pattern: 龟
