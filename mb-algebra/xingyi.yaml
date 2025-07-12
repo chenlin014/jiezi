@@ -387,6 +387,8 @@
   replacement: 艹隹
 - pattern: 𣎆（(.+)）
   replacement: 亡口月\1凡
+- pattern: 𠀐
+  replacement: 中一
 
 - pattern: 𠂆𠂢
   replacement: 𠂆从
