@@ -90,3 +90,7 @@
   replacement: 土寸
 - pattern: 卻
   replacement: 八㕣卩
+- pattern: 臿
+  replacement: 千臼
+- pattern: 𬛸
+  replacement: 臼工

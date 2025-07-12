@@ -90,7 +90,7 @@
 - pattern: 兴
   replacement: ⺍𠔀
 - pattern: 與
-  replacement: 臼牙𠔀
+  replacement: 𦥑牙𠔀
 - pattern: 丣
   replacement: 一卯
 - pattern: 飛
@@ -318,8 +318,6 @@
   replacement: ⺀大
 - pattern: 冬
   replacement: 夂冫
-- pattern: 叟
-  replacement: 臼丨又
 - pattern: 畢
   replacement: 田𠦒
 - pattern: 華
@@ -392,6 +390,8 @@
   replacement: 羊食
 - pattern: 良
   replacement: 丶艮
+- pattern: 叟
+  replacement: 𦥔又
 
 # 一换一
 - pattern: 𧘇
@@ -530,6 +530,8 @@
   replacement: 卩
 - pattern: 丱
   replacement: 䒑
+- pattern: 𦥔
+  replacement: 申
 
 # 重文合流
 - pattern: 龟

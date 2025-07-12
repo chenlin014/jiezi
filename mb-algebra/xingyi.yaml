@@ -306,7 +306,7 @@
 - pattern: 丈
   replacement: 一乂
 - pattern: 𦥯
-  replacement: 臼爻冖
+  replacement: 𦥑爻冖
 - pattern: 希（(.+)）
   replacement: 乂𠂇\1
 - pattern: 希
@@ -367,6 +367,8 @@
   replacement: 一彑
 - pattern: 善
   replacement: 羊䒑口
+- pattern: 臾
+  replacement: 臼人
 
 - pattern: 𠂆𠂢
   replacement: 𠂆从
