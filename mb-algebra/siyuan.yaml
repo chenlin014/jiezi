@@ -579,6 +579,12 @@
   only: [爨]
 - pattern: 戎
   replacement: 戈十
+- pattern: 敬
+  replacement: 茍攵
+- pattern: 茍
+  replacement: 卝勹口
+- pattern: 雈
+  replacement: 卝隹
 
 - pattern: 𠂆𠂢
   replacement: 巛卜
@@ -613,3 +619,5 @@
   replacement: 廾
 - pattern: 旧
   replacement: 臼
+- pattern: 卝
+  replacement: 䒑

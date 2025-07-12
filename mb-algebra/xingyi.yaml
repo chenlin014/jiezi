@@ -379,6 +379,12 @@
   replacement: 爻木木大
 - pattern: 戎
   replacement: 戈𠂇
+- pattern: 敬
+  replacement: 茍攵
+- pattern: 茍
+  replacement: 艹勹口
+- pattern: 雈
+  replacement: 艹隹
 
 - pattern: 𠂆𠂢
   replacement: 𠂆从
