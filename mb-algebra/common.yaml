@@ -534,6 +534,8 @@
   replacement: 申
 - pattern: 𦍋
   replacement: 羊
+- pattern: 辶
+  replacement: 辵
 
 # 重文合流
 - pattern: 龟
