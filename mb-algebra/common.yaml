@@ -390,6 +390,8 @@
   replacement: 丶艮
 - pattern: 叟
   replacement: 𦥔又
+- pattern: 卵
+  replacement: 卯⺀
 
 # 一换一
 - pattern: 𧘇
