@@ -587,6 +587,10 @@
   replacement: 卝勹口
 - pattern: 雈
   replacement: 卝隹
+- pattern: 㡭
+  replacement: 刀四（幺）
+- pattern: 𢇍
+  replacement: 四（幺）刀
 
 - pattern: 𠂆𠂢
   replacement: 巛卜

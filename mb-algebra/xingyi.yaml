@@ -389,6 +389,10 @@
   replacement: 亡口月\1凡
 - pattern: 𠀐
   replacement: 中一
+- pattern: 㡭
+  replacement: 匕四（幺）
+- pattern: 𢇍
+  replacement: 四（幺）匕
 
 - pattern: 𠂆𠂢
   replacement: 𠂆从
