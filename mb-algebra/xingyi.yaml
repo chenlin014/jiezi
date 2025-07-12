@@ -371,6 +371,10 @@
   replacement: 臼人
 - pattern: 旧
   replacement: 丨日
+- pattern: 𡱒
+  replacement: 尸共
+- pattern: 畀
+  replacement: 田丌
 
 - pattern: 𠂆𠂢
   replacement: 𠂆从

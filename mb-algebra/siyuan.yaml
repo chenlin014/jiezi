@@ -564,6 +564,12 @@
   replacement: 臼土
 - pattern: 臾
   replacement: 𦥑人
+- pattern: 𡱒
+  replacement: 尸丌几
+- pattern: 鼻
+  replacement: 自畀
+- pattern: 畀
+  replacement: 田矢
 
 - pattern: 𠂆𠂢
   replacement: 巛卜
