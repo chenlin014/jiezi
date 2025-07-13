@@ -397,6 +397,9 @@
   replacement: 𠂤十
 - pattern: 邑
   replacement: 口巴
+# 澀涩
+- pattern: 𣥒
+  replacement: 刀丶
 
 - pattern: 𠂆𠂢
   replacement: 𠂆从
