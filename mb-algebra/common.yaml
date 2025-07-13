@@ -548,6 +548,8 @@
   replacement: 水
 - pattern: 彳
   replacement: 行
+- pattern: 犭
+  replacement: 犬
 
 # 重文合流
 - pattern: 龟
