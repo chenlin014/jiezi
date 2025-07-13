@@ -546,6 +546,8 @@
   replacement: 水
 - pattern: 氺
   replacement: 水
+- pattern: 彳
+  replacement: 行
 
 # 重文合流
 - pattern: 龟
