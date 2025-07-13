@@ -94,6 +94,14 @@
   replacement: 西廾卩
 - pattern: 次
   replacement: 二欠
+- pattern: 暴
+  replacement: 日出廾米
+- pattern: 共
+  replacement: 出廾
+  only: [謈]
+- pattern: 大氺
+  replacement: 廾米
+  only: [忁]
 - pattern: 出
   replacement: 止凵
 - pattern: 敖
@@ -591,9 +599,16 @@
   replacement: 刀四（幺）
 - pattern: 𢇍
   replacement: 四（幺）刀
-# 澀涩
-- pattern: 𣥒
-  replacement: 夂
+- pattern: 丞
+  replacement: 氶凵
+- pattern: 氶
+  replacement: 卩廾
+- pattern: 承
+  replacement: 卩手廾
+- pattern: 沓
+  replacement: 水曰
+- pattern: 泰
+  replacement: 大廾氺
 
 - pattern: 𠂆𠂢
   replacement: 巛卜
@@ -601,6 +616,8 @@
   replacement: 𠂉从
 - pattern: 士示
   replacement: 【出士】示
+- pattern: 尸氺
+  replacement: 尸毛
 
 # 一換一
 - pattern: 凢
@@ -640,3 +657,6 @@
   replacement: 邑
 - pattern: 乡
   replacement: 邑
+# 澀涩
+- pattern: 𣥒
+  replacement: 夂

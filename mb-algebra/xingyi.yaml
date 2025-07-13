@@ -182,6 +182,8 @@
   replacement: 田共
 - pattern: 糞
   replacement: 米田共
+- pattern: 暴
+  replacement: 日共氺
 - pattern: ^.+$
   replacement: 𠫓廿木
   only: [棄]
@@ -400,6 +402,16 @@
 # 澀涩
 - pattern: 𣥒
   replacement: 刀丶
+- pattern: 丞
+  replacement: 氶一
+- pattern: 氶
+  replacement: ㇕水
+- pattern: 承
+  replacement: ㇕水三
+- pattern: 沓
+  replacement: 水日
+- pattern: 泰
+  replacement: 𡗗氺
 
 - pattern: 𠂆𠂢
   replacement: 𠂆从

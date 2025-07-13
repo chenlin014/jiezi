@@ -390,6 +390,10 @@
   replacement: 𦥔又
 - pattern: 卵
   replacement: 卯⺀
+- pattern: 彖
+  replacement: 彑豕
+- pattern: 氷
+  replacement: 水丶
 
 # 一换一
 - pattern: 𧘇
@@ -534,6 +538,14 @@
   replacement: 辵
 - pattern: 卉
   replacement: 屮
+- pattern: 彔
+  replacement: 彑
+- pattern: 录
+  replacement: 彑
+- pattern: 氵
+  replacement: 水
+- pattern: 氺
+  replacement: 水
 
 # 重文合流
 - pattern: 龟
