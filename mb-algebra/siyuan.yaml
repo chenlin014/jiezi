@@ -631,3 +631,9 @@
   replacement: 䒑
 - pattern: 𣎆
   replacement: 龍
+- pattern: 𨹺
+  replacement: 阜
+- pattern: 𨹝
+  replacement: 邑
+- pattern: 乡
+  replacement: 邑
