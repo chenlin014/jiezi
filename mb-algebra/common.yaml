@@ -413,8 +413,8 @@
   replacement: 㐄
 - pattern: 舛
   replacement: 癶
-- pattern: 肉
-  replacement: 䏑
+- pattern: 䏑
+  replacement: 肉
 - pattern: 𫝀
   replacement: 㐄
 - pattern: 灬
