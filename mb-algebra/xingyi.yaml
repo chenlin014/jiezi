@@ -61,9 +61,13 @@
 - pattern: 尚
   replacement: 小冂口
 - pattern: 奐
-  replacement: 𠂊穴大
+  replacement: 𠂊𠔿大
 - pattern: 奂
   replacement: 𠂊冂大
+- pattern: 敻
+  replacement: 𠂊𠔿目攵
+- pattern: 夐
+  replacement: 𠂊𠔿目夂
 - pattern: 賣
   replacement: 士罒貝
 - pattern: 買

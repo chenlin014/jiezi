@@ -231,6 +231,10 @@
   replacement: 𠂊穴廾
 - pattern: 奂
   replacement: 𠂊宀廾
+- pattern: 敻
+  replacement: 𠂊穴目攵
+- pattern: 夐
+  replacement: 𠂊穴目夂
 - pattern: 賣
   replacement: 【出士】网貝
 - pattern: 買

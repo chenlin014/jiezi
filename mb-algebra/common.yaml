@@ -235,10 +235,6 @@
   replacement: 丿大口冂口
 - pattern: 乔
   replacement: 丿大氘
-- pattern: 敻
-  replacement: 𠂊穴目攵
-- pattern: 夐
-  replacement: 𠂊穴目夂
 - pattern: 䜌
   replacement: 言糸糸
 - pattern: 民
@@ -551,6 +547,8 @@
   replacement: 犬
 - pattern: 亻
   replacement: 人
+- pattern: 𠔿
+  replacement: 内
 
 # 重文合流
 - pattern: 龟
