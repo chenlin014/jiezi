@@ -198,7 +198,7 @@
 - pattern: 𪜀
   replacement: 十乚
 - pattern: 我
-  replacement: 手戈
+  replacement: 彐戈
 - pattern: 戉
   replacement: 戈乚
 - pattern: 尧
@@ -391,6 +391,10 @@
   replacement: 人彡
 - pattern: 云
   replacement: 二厶
+- pattern: 看
+  replacement: 手目
+- pattern: 拜
+  replacement: 手一丰
 
 # 一换一
 - pattern: 𧘇
@@ -549,6 +553,8 @@
   replacement: 人
 - pattern: 𠔿
   replacement: 内
+- pattern: 扌
+  replacement: 手
 
 # 重文合流
 - pattern: 龟
