@@ -549,6 +549,8 @@
   replacement: 行
 - pattern: 犭
   replacement: 犬
+- pattern: 亻
+  replacement: 人
 
 # 重文合流
 - pattern: 龟
