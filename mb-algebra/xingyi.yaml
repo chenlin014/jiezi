@@ -215,6 +215,8 @@
   replacement: 土从
 - pattern: 夾
   replacement: 大从
+- pattern: 㚒
+  replacement: 大入入
 - pattern: 叚
   replacement: 尸二コ又
 - pattern: 巨

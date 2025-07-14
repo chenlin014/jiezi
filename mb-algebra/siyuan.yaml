@@ -400,6 +400,8 @@
   replacement: 來圍口
 - pattern: 夾
   replacement: 亦人
+- pattern: 㚒
+  replacement: 亦入
 - pattern: 叚
   replacement: 厂二彐又
 - pattern: 巨
