@@ -412,11 +412,57 @@
   replacement: 水日
 - pattern: 泰
   replacement: 𡗗氺
+- pattern: 旅
+  replacement: 【㫃】从
+- pattern: 【㫃】
+  replacement: 方𠂉
+- pattern: 以
+  replacement: 厶人
+- pattern: 𥁕
+  replacement: 圍人皿
+- pattern: 昷
+  replacement: 日皿
+- pattern: 全
+  replacement: 人王
+- pattern: 茶
+  replacement: 艹人木
+- pattern: 佘
+  replacement: 人示
+- pattern: 尒
+  replacement: 人小
+- pattern: 仑
+  replacement: 人匕
+- pattern: 仓
+  replacement: 人卩
+- pattern: 傘
+  replacement: 人四（人）十
+- pattern: 乾
+  replacement: 十日十乞
+- pattern: 【倝】
+  replacement: 十日十𠂉
+- pattern: 倝
+  replacement: 十日十人
+- pattern: 舍
+  replacement: 亼十口
+- pattern: 舎
+  replacement: 人土口
+- pattern: 会
+  replacement: 人二厶
+- pattern: 康
+  replacement: 广肀𠁼
+- pattern: 唐
+  replacement: 广肀口
+- pattern: 庚
+  replacement: 广彐人
+- pattern: 睿
+  replacement: 卜冖一八人目
+- pattern: 【脊】
+  replacement: 人人人月
+- pattern: 脊
+  replacement: 𠁼人月
 
 - pattern: 𠂆𠂢
   replacement: 𠂆从
-- pattern: 𠂉𠂢
-  replacement: 𠂉从
 
 - pattern: 垂
   replacement: 𠦒
@@ -430,3 +476,5 @@
   replacement: 阝
 - pattern: 乡
   replacement: 阝
+- pattern: 入
+  replacement: 人

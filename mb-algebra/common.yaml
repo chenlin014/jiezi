@@ -109,6 +109,8 @@
   replacement: 耂子
 - pattern: 丹
   replacement: 冂亠
+- pattern: 幾
+  replacement: 幺幺戍
 - pattern: 戍
   replacement: 戈人
 - pattern: 曳
@@ -129,8 +131,6 @@
   replacement: 彐キ
 - pattern: 事
   replacement: 一中彐
-- pattern: 唐
-  replacement: 广肀口
 - pattern: 爭
   replacement: 爪肀
 - pattern: 争
@@ -239,9 +239,6 @@
   replacement: 𠂊穴目攵
 - pattern: 夐
   replacement: 𠂊穴目夂
-- pattern: 𠂊冂人
-  replacement: 𠂊穴
-  only: [𫂝]
 - pattern: 䜌
   replacement: 言糸糸
 - pattern: 民
@@ -394,6 +391,10 @@
   replacement: 彑豕
 - pattern: 氷
   replacement: 水丶
+- pattern: 㐱
+  replacement: 人彡
+- pattern: 云
+  replacement: 二厶
 
 # 一换一
 - pattern: 𧘇
@@ -432,8 +433,6 @@
   replacement: 几
 - pattern: 氘
   replacement: 刂
-- pattern: 𠂢
-  replacement: 亻
 - pattern: 册
   replacement: 冊
 - pattern: ⺮

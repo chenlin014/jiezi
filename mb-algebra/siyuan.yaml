@@ -609,11 +609,51 @@
   replacement: 水曰
 - pattern: 泰
   replacement: 大廾氺
+- pattern: 以
+  replacement: 㠯人
+- pattern: 𥁕
+  replacement: 圍人皿
+- pattern: 昷
+  replacement: 圍人皿
+- pattern: 全
+  replacement: 入王
+- pattern: 茶
+  replacement: 艹入木
+- pattern: 佘
+  replacement: 入示
+- pattern: 尒
+  replacement: 入小
+- pattern: 仑
+  replacement: 入匕
+- pattern: 仓
+  replacement: 入卩
+- pattern: 傘
+  replacement: 入四（入）十
+- pattern: 乾
+  replacement: 【倝】乙
+- pattern: 倝
+  replacement: 㫃日丁
+- pattern: 旅
+  replacement: 㫃从
+- pattern: 舍
+  replacement: 亼十口
+- pattern: 舎
+  replacement: 入土口
+- pattern: 会
+  replacement: 亼一厶
+- pattern: 康
+  replacement: 庚𠁼
+- pattern: 唐
+  replacement: 庚口
+- pattern: 庚
+  replacement: 南尹
+- pattern: 睿
+  replacement: 𣦵八八目
+- pattern: 脊
+  replacement: 𠂹肉
 
 - pattern: 𠂆𠂢
   replacement: 巛卜
-- pattern: 𠂉𠂢
-  replacement: 𠂉从
 - pattern: 士示
   replacement: 【出士】示
 - pattern: 尸氺
@@ -660,3 +700,5 @@
 # 澀涩
 - pattern: 𣥒
   replacement: 夂
+- pattern: 㫃
+  replacement: 烏
