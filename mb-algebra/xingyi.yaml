@@ -443,11 +443,15 @@
 - pattern: 傘
   replacement: 人四（人）十
 - pattern: 乾
-  replacement: 十日十乞
+  replacement: 𠦝乞
 - pattern: 【倝】
-  replacement: 十日十𠂉
+  replacement: 𠦝𠂉
 - pattern: 倝
-  replacement: 十日十人
+  replacement: 𠦝人
+- pattern: 朝
+  replacement: 𠦝月
+- pattern: 𠦝
+  replacement: 十日十
 - pattern: 舍
   replacement: 亼十口
 - pattern: 舎
