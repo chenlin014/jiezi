@@ -493,6 +493,8 @@
   replacement: 𡗗天
 - pattern: 奉
   replacement: 𡗗キ
+- pattern: 前
+  replacement: 䒑月刂
 
 - pattern: 𠂆𠂢
   replacement: 𠂆从

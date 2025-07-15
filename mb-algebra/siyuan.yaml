@@ -684,6 +684,8 @@
   replacement: 丰廾手
 - pattern: 屯
   replacement: 一屮
+- pattern: 前
+  replacement: 止舟刂
 
 - pattern: 𠂆𠂢
   replacement: 巛卜
