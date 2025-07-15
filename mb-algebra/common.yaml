@@ -229,12 +229,8 @@
   replacement: 刀口
 - pattern: 死
   replacement: 一夕匕
-- pattern: 高 # 不含膏
-  replacement: 亠口冂口
-- pattern: 喬
-  replacement: 丿大口冂口
 - pattern: 乔
-  replacement: 丿大氘
+  replacement: 夭氘
 - pattern: 䜌
   replacement: 言糸糸
 - pattern: 民
@@ -269,8 +265,6 @@
   replacement: 𤰔厶心
 - pattern: 天
   replacement: 一大
-- pattern: 夭
-  replacement: 丿大
 - pattern: 夭
   replacement: 丿大
 - pattern: 巠
@@ -395,6 +389,12 @@
   replacement: 手目
 - pattern: 拜
   replacement: 手一丰
+- pattern: 冋
+  replacement: 冂口
+- pattern: 【高】
+  replacement: 京
+- pattern: 高
+  replacement: 京口
 
 # 一换一
 - pattern: 𧘇
@@ -581,5 +581,5 @@
   replacement: 東
 
 # 删除特殊符号
-- pattern: "[（）【】]"
+- pattern: "[（）【】「」]"
   replacement: ""

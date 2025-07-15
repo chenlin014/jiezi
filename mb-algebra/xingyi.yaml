@@ -470,6 +470,12 @@
   replacement: 人人人月
 - pattern: 脊
   replacement: 𠁼人月
+- pattern: 享
+  replacement: 京子
+- pattern: 亨
+  replacement: 京了
+- pattern: 喬
+  replacement: 夭口冂口
 
 - pattern: 𠂆𠂢
   replacement: 𠂆从
