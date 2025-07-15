@@ -112,8 +112,6 @@
   replacement: 㕚虫
 - pattern: 㕚
   replacement: 又爪
-- pattern: 屯
-  replacement: 一屮
 - pattern: 反
   replacement: 厂又
 - pattern: 最
@@ -355,6 +353,9 @@
   replacement: 衣毛
 - pattern: 先
   replacement: 之儿
+- pattern: 【華】
+  replacement: 𠂹
+  only: [崋]
 - pattern: 華
   replacement: 艹𠂹 # 𠌶入𠂹
 - pattern: 垂
@@ -667,6 +668,18 @@
   replacement: 京丨
 - pattern: 喬
   replacement: 夭高
+- pattern: 春
+  replacement: 艹屯日
+- pattern: 舂
+  replacement: 午廾臼
+- pattern: 秦
+  replacement: 午廾禾
+- pattern: 奏
+  replacement: 禾廾
+- pattern: 奉
+  replacement: 丰廾手
+- pattern: 屯
+  replacement: 一屮
 
 - pattern: 𠂆𠂢
   replacement: 巛卜

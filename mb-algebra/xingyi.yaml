@@ -176,6 +176,9 @@
   replacement: 龶𧘇
 - pattern: 先
   replacement: 牛儿
+- pattern: 【華】
+  replacement: 𠦒
+  only: [崋]
 - pattern: 華
   replacement: 艹𠦒
 - pattern: 麥
@@ -476,6 +479,16 @@
   replacement: 京了
 - pattern: 喬
   replacement: 夭口冂口
+- pattern: 春
+  replacement: 𡗗日
+- pattern: 舂
+  replacement: 𡗗臼
+- pattern: 秦
+  replacement: 𡗗禾
+- pattern: 奏
+  replacement: 𡗗天
+- pattern: 奉
+  replacement: 𡗗キ
 
 - pattern: 𠂆𠂢
   replacement: 𠂆从
@@ -494,3 +507,5 @@
   replacement: 阝
 - pattern: 入
   replacement: 人
+- pattern: 𡗗
+  replacement: 廾
