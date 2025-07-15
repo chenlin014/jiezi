@@ -1,6 +1,10 @@
 - pattern: 界
   replacement: 田介
 
+- pattern: 俞
+  replacement: 亼月刂
+- pattern: 兪
+  replacement: 亼月巜
 - pattern: 晋
   replacement: 亚日
 - pattern: 晉
