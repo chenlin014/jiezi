@@ -549,6 +549,8 @@
   replacement: 内
 - pattern: 扌
   replacement: 手
+- pattern: コ
+  replacement: 龴
 
 # 重文合流
 - pattern: 龟
