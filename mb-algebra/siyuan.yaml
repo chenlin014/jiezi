@@ -419,6 +419,10 @@
   replacement: 工コ
 - pattern: 夬
   replacement: コ又
+- pattern: 與
+  replacement: 𦥑【与】𠔀
+- pattern: 【与】
+  replacement: 牙
 - pattern: 与
   replacement: 牙牙
 - pattern: 展
@@ -686,6 +690,10 @@
   replacement: 一屮
 - pattern: 前
   replacement: 止舟刂
+- pattern: 飛
+  replacement: 鳥非
+- pattern: 飞
+  replacement: 鳥习
 
 - pattern: 𠂆𠂢
   replacement: 巛卜

@@ -83,12 +83,8 @@
   replacement: 斤𠔀
 - pattern: 兴
   replacement: ⺍𠔀
-- pattern: 與
-  replacement: 𦥑牙𠔀
 - pattern: 丣
   replacement: 一卯
-- pattern: 飛
-  replacement: 飞丿氘乙飞
 - pattern: 飞
   replacement: 乙冫
 - pattern: 弗
@@ -425,8 +421,14 @@
   replacement: 廾
 - pattern: 丌
   replacement: 几
+- pattern: リ
+  replacement: 刂
 - pattern: 氘
   replacement: 刂
+- pattern: 刂
+  replacement: 刀
+- pattern: 〢
+  replacement: 二
 - pattern: 册
   replacement: 冊
 - pattern: ⺮

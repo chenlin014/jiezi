@@ -27,7 +27,7 @@
 - pattern: 亷
   replacement: 亠兼丿
 - pattern: 兼
-  replacement: 䒑彐刂八
+  replacement: 䒑彐〢八
 - pattern: 介
   replacement: 人氘
 - pattern: 弟
@@ -234,6 +234,10 @@
   replacement: 匚コ
 - pattern: 夬
   replacement: コ人
+- pattern: 與
+  replacement: 𦥑【与】𠔀
+- pattern: 【与】
+  replacement: 牙
 - pattern: 与
   replacement: 牙一
 - pattern: 展
@@ -495,6 +499,10 @@
   replacement: 𡗗キ
 - pattern: 前
   replacement: 䒑月刂
+- pattern: 飛
+  replacement: 飞丿氘飞
+- pattern: 飞
+  replacement: 乙冫
 
 - pattern: 𠂆𠂢
   replacement: 𠂆从
