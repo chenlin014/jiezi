@@ -696,6 +696,15 @@
   replacement: 鳥习
 - pattern: 弔
   replacement: 亻弓
+- pattern: 乔
+  replacement: 夭〢
+- pattern: 夰
+  replacement: 大〢
+- pattern: 弗
+  replacement: 弓〢
+- pattern: 养
+  replacement: 羊氘
+  only: [养]
 
 - pattern: 𠂆𠂢
   replacement: 巛卜

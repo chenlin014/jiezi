@@ -505,6 +505,15 @@
   replacement: 乙冫
 - pattern: 弔
   replacement: 丨弓
+- pattern: 乔
+  replacement: 夭氘
+- pattern: 夰
+  replacement: 大氘
+- pattern: 弗
+  replacement: 弓氘
+- pattern: 养
+  replacement: 羊氘
+  only: [养]
 
 - pattern: 𠂆𠂢
   replacement: 𠂆从

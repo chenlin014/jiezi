@@ -85,8 +85,6 @@
   replacement: 一卯
 - pattern: 飞
   replacement: 乙冫
-- pattern: 弗
-  replacement: 弓氘
 - pattern: 兜
   replacement: 白卯儿
 - pattern: 乐
@@ -219,8 +217,6 @@
   replacement: 刀口
 - pattern: 死
   replacement: 一夕匕
-- pattern: 乔
-  replacement: 夭氘
 - pattern: 䜌
   replacement: 言糸糸
 - pattern: 民
@@ -421,10 +417,10 @@
   replacement: 几
 - pattern: リ
   replacement: 刂
-- pattern: 氘
-  replacement: 刂
 - pattern: 刂
   replacement: 刀
+- pattern: 氘
+  replacement: 〢
 - pattern: 〢
   replacement: 二
 - pattern: 册
