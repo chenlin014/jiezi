@@ -557,6 +557,8 @@
   replacement: 乚
 - pattern: 𠔼
   replacement: 冃
+- pattern: 元
+  replacement: 兀
 
 # 重文合流
 - pattern: 龟
