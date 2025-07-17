@@ -520,6 +520,12 @@
   replacement: 开刂
 - pattern: 形
   replacement: 开彡
+- pattern: 宣
+  replacement: 宀亘
+- pattern: 恒
+  replacement: 忄亘
+- pattern: 亘
+  replacement: 二日
 
 - pattern: 𠂆𠂢
   replacement: 𠂆从

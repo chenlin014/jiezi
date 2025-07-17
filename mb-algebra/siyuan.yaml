@@ -711,6 +711,19 @@
   only: [养]
 - pattern: 丹
   replacement: 井丶
+- pattern: 宣
+  replacement: 宀二回
+- pattern: 恒
+  replacement: 忄二日
+- pattern: 亘
+  replacement: 二回
+  exclude: [亘]
+- pattern: 亘
+  replacement: 二日
+  only: [亘]
+- pattern: 勹
+  replacement: 回
+  only: [沒]
 
 - pattern: 𠂆𠂢
   replacement: 巛卜
