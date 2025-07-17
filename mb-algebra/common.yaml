@@ -502,7 +502,9 @@
 - pattern: 𠂭
   replacement: 米
 - pattern: 𭃂
-  replacement: 冉
+  replacement: 冄
+- pattern: 冉
+  replacement: 冄
 - pattern: 囱
   replacement: 囪
 - pattern: 𡆧
