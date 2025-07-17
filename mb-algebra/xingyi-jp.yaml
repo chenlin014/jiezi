@@ -75,14 +75,23 @@
 - pattern: 氐
   replacement: 氏一
   exclude: [诋, 鸱]
+- pattern: 氐
+  replacement: 氏丶
+  only: [诋, 鸱]
 - pattern: 犮
   replacement: 犬丿
   exclude: [钹, 绂]
+- pattern: 犮
+  replacement: 犬㇕
+  only: [钹, 绂]
 - pattern: 起
   replacement: 走己
 - pattern: 包
   replacement: 勹己
   exclude: [饱, 飑, 鲍]
+- pattern: 包
+  replacement: 勹巳
+  only: [饱, 飑, 鲍]
 - pattern: 䙴
   replacement: 西大己
 - pattern: 次
@@ -90,9 +99,15 @@
 - pattern: 敖
   replacement: 土方攵
   exclude: [赘, 鳌, 骜]
+- pattern: 敖
+  replacement: 龶力攵
+  only: [赘, 鳌, 骜]
 - pattern: 敢
   replacement: 丁耳攵
   exclude: [阚]
+- pattern: 敢
+  replacement: ㇕耳攵
+  only: [阚]
 - pattern: 蚤
   replacement: 㕚虫
   exclude: [骚]
@@ -105,14 +120,23 @@
 - pattern: 屯
   replacement: 丿屮
   exclude: [纯, 顿, 饨, 馑, 鲀, 钝]
+- pattern: 屯
+  replacement: 一屮
+  only: [纯, 顿, 饨, 馑, 鲀, 钝]
 - pattern: 反
   replacement: 厂又
   exclude: [贩, 饭, 钣]
+- pattern: 反
+  replacement: 𠂆又
+  only: [贩, 饭, 钣]
 - pattern: 最
   replacement: 日耳又
 - pattern: 冒
   replacement: 日目
   exclude: [赗]
+- pattern: 冒
+  replacement: 冃目
+  only: [赗]
 - pattern: 曼
   replacement: 日四又
 - pattern: 攸
@@ -124,6 +148,9 @@
 - pattern: 甚
   replacement: 甘匚儿
   exclude: [谌]
+- pattern: 甚
+  replacement: 甘匚八
+  only: [谌]
 - pattern: 夌
   replacement: 土儿夂
 - pattern: 坴

@@ -198,6 +198,8 @@
 - pattern: ^.+$
   replacement: 𠫓廿木
   only: [棄]
+- pattern: 𡱒
+  replacement: 尸共
 - pattern: 共
   replacement: 艹𠔀
 - pattern: 來
@@ -390,8 +392,6 @@
   replacement: 臼人
 - pattern: 旧
   replacement: 丨日
-- pattern: 𡱒
-  replacement: 尸共
 - pattern: 畀
   replacement: 田丌
 - pattern: 樊
