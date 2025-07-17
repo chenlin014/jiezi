@@ -371,9 +371,9 @@
 - pattern: 勾
   replacement: 勹厶
 - pattern: 鄉
-  replacement: 乡良阝
+  replacement: 乡良𨹝
 - pattern: 郷
-  replacement: 乡艮阝
+  replacement: 乡艮𨹝
 - pattern: 即
   replacement: 艮卩
 - pattern: 既
@@ -531,9 +531,6 @@
 - pattern: 戚
   replacement: 戊上小
 
-- pattern: 𠂆𠂢
-  replacement: 𠂆从
-
 - pattern: 垂
   replacement: 𠦒
 - pattern: 𣎳
@@ -550,3 +547,5 @@
   replacement: 人
 - pattern: 𡗗
   replacement: 廾
+- pattern: 𠂢
+  replacement: 从

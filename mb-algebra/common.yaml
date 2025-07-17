@@ -163,6 +163,8 @@
   replacement: 十目
 - pattern: 今
   replacement: 亼㇕
+- pattern: 從
+  replacement: 彳从止
 - pattern: 坐
   replacement: 从土
 - pattern: 巫
@@ -270,7 +272,7 @@
 - pattern: 鬲
   replacement: 一口冂八丁
 - pattern: 倉
-  replacement: 亼户口
+  replacement: 亼戶口
 - pattern: 兆
   replacement: 儿𠁼
 - pattern: 爾

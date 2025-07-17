@@ -571,9 +571,9 @@
 - pattern: 勾
   replacement: 丩厶
 - pattern: 鄉
-  replacement: 乡皀阝
+  replacement: 乡皀𨹝
 - pattern: 郷
-  replacement: 乡皀阝
+  replacement: 乡皀𨹝
 - pattern: 即
   replacement: 皀卩
 - pattern: 既
@@ -735,6 +735,8 @@
   replacement: 【出士】示
 - pattern: 尸氺
   replacement: 尸毛
+- pattern: 𠂉𠂢
+  replacement: 【㫃】从
 
 # 一換一
 - pattern: 凢
