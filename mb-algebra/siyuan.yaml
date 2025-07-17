@@ -694,6 +694,8 @@
   replacement: 鳥非
 - pattern: 飞
   replacement: 鳥习
+- pattern: 弔
+  replacement: 亻弓
 
 - pattern: 𠂆𠂢
   replacement: 巛卜
