@@ -551,6 +551,8 @@
   replacement: 龴
 - pattern: 戌
   replacement: 戊
+- pattern: 乙
+  replacement: 乚
 
 # 重文合流
 - pattern: 龟
