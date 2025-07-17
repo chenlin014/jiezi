@@ -732,6 +732,10 @@
   replacement: 戌卜小
 - pattern: 円
   replacement: 井丨
+- pattern: 制
+  replacement: 牛木刂
+- pattern: 朱
+  replacement: 木十
 
 - pattern: 𠂆𠂢
   replacement: 巛卜

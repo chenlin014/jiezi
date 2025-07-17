@@ -14,7 +14,7 @@
 - pattern: 眞
   replacement: 匕目𠔀
 - pattern: 束
-  replacement: 木口
+  replacement: 木中
 - pattern: 吕
   replacement: 口口
 - pattern: 呂
@@ -265,8 +265,6 @@
   replacement: 身殳
 - pattern: 后
   replacement: 𠂋口
-- pattern: 朱
-  replacement: 𠂉木
 - pattern: 每
   replacement: 𠂉母
 - pattern: 鬲

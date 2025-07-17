@@ -534,6 +534,10 @@
   replacement: 戊上小
 - pattern: 円
   replacement: 冂丨一
+- pattern: 制
+  replacement: 牛巾刂
+- pattern: 朱
+  replacement: 𠂉木
 
 - pattern: 垂
   replacement: 𠦒
