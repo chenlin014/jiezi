@@ -526,6 +526,10 @@
   replacement: 忄亘
 - pattern: 亘
   replacement: 二日
+- pattern: 成
+  replacement: 戊㇆
+- pattern: 戚
+  replacement: 戊上小
 
 - pattern: 𠂆𠂢
   replacement: 𠂆从

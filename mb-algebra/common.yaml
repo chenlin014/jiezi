@@ -545,6 +545,8 @@
   replacement: 手
 - pattern: コ
   replacement: 龴
+- pattern: 戌
+  replacement: 戊
 
 # 重文合流
 - pattern: 龟
