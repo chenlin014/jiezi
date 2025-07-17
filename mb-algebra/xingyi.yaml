@@ -404,6 +404,8 @@
   replacement: 艹勹口
 - pattern: 雈
   replacement: 艹隹
+- pattern: 繭
+  replacement: 艹巾糸虫
 - pattern: 𣎆（(.+)）
   replacement: 亡口月\1凡
 - pattern: 𠀐
@@ -530,6 +532,8 @@
   replacement: 戊㇆
 - pattern: 戚
   replacement: 戊上小
+- pattern: 円
+  replacement: 冂丨一
 
 - pattern: 垂
   replacement: 𠦒

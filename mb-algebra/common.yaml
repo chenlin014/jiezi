@@ -383,6 +383,18 @@
   replacement: 京口
 - pattern: 冡
   replacement: 𠔼豕
+- pattern: 央
+  replacement: 冂大
+- pattern: 朿
+  replacement: 木冂
+- pattern: 麗
+  replacement: 一凡一凡鹿
+- pattern: 丽
+  replacement: 一凡凡
+- pattern: 雋
+  replacement: 隹弓
+- pattern: 囧
+  replacement: 四冂
 
 # 一换一
 - pattern: 𧘇
