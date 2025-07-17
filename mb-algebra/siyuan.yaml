@@ -302,6 +302,10 @@
   replacement: 大下
 - pattern: 蚩
   replacement: 之虫
+- pattern: 刑
+  replacement: 井刂
+- pattern: 形
+  replacement: 井彡
 - pattern: 开
   replacement: 幵
   exclude: [开]
@@ -705,6 +709,8 @@
 - pattern: 养
   replacement: 羊氘
   only: [养]
+- pattern: 丹
+  replacement: 井丶
 
 - pattern: 𠂆𠂢
   replacement: 巛卜

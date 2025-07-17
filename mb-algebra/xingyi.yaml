@@ -514,6 +514,12 @@
 - pattern: 养
   replacement: 羊氘
   only: [养]
+- pattern: 丹
+  replacement: 冂亠
+- pattern: 刑
+  replacement: 开刂
+- pattern: 形
+  replacement: 开彡
 
 - pattern: 𠂆𠂢
   replacement: 𠂆从
