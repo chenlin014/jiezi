@@ -89,15 +89,17 @@
 - pattern: 眔
   replacement: 罒水
 - pattern: 夢
-  replacement: 艹罒冖夕
+  replacement: 𮎳夕
+- pattern: 𮎳
+  replacement: 𦭝冖
+- pattern: 𦭝
+  replacement: 艹罒
 - pattern: 蜀
   replacement: 罒勹虫
 - pattern: 睪
   replacement: 罒土半
 - pattern: 眾
   replacement: 罒从
-- pattern: 𦭝
-  replacement: 艹罒
 - pattern: 𬙙
   replacement: 罒方
 - pattern: 罒
@@ -558,6 +560,16 @@
   replacement: 爪冖𠂇又
 - pattern: 受
   replacement: 爪冖又
+- pattern: 索
+  replacement: 十冖糸
+- pattern: 孛
+  replacement: 十冖子
+- pattern: 疐
+  replacement: 十冖田疋
+- pattern: 尝
+  replacement: 小冖云
+- pattern: 冥
+  replacement: 冖日六
 
 - pattern: 垂
   replacement: 𠦒

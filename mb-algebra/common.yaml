@@ -395,6 +395,20 @@
   replacement: 丵土寸
 - pattern: 爰
   replacement: 爪二丿又
+- pattern: 冘
+  replacement: 冖儿
+- pattern: 冗
+  replacement: 冖几
+- pattern: 𤇾
+  replacement: 火火冖
+- pattern: 帚
+  replacement: 彐冖巾
+- pattern: 农
+  replacement: 冖𧘇
+- pattern: 𠕻
+  replacement: 𠔼兀
+- pattern: 六
+  replacement: 亠八
 
 # 一换一
 - pattern: 𧘇

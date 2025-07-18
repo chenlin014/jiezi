@@ -256,15 +256,23 @@
 - pattern: 眔
   replacement: 目水
 - pattern: 夢
-  replacement: 艹目冖夕
+  replacement: 𮎳夕
+- pattern: 𮎳
+  replacement: 𦭝勹
+- pattern: 𦭝
+  replacement: 卝目
+- pattern: 罒冖夕
+  replacement: 目勹夕
+  only: [夣, 𪩨]
+- pattern: 冖夕
+  replacement: 勹夕
+  only: [𫂝]
 - pattern: 蜀
   replacement: 目勹虫
 - pattern: 睪
   replacement: 目土半
 - pattern: 眾
   replacement: 目从
-- pattern: 𦭝
-  replacement: 艹目
 - pattern: 罒
   replacement: 目
   only: [憲, 幰, 䘆, 徳, 聴, 壊, 懐, 篾, 瞏, 奰, 攇, 夣, 𥌷, 𨖼]
@@ -756,6 +764,19 @@
   replacement: 旡𠂇又
 - pattern: 受
   replacement: 爪舟又
+- pattern: 冖
+  replacement: 九
+  only: [舝]
+- pattern: 索
+  replacement: 糸冖
+- pattern: 孛
+  replacement: 屮八子
+- pattern: 疐
+  replacement: 屮八田疋
+- pattern: 尝
+  replacement: 八宀云
+- pattern: 冥
+  replacement: 冖日又𠂇
 
 - pattern: 𠂆𠂢
   replacement: 巛卜
