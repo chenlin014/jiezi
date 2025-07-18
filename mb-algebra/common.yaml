@@ -597,6 +597,8 @@
   replacement: 金
 - pattern: 东
   replacement: 東
+- pattern: 车
+  replacement: 車
 
 # 删除特殊符号
 - pattern: "[（）【】「」]"
