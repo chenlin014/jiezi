@@ -409,6 +409,8 @@
   replacement: 𠔼兀
 - pattern: 元
   replacement: 一兀
+- pattern: 鬥
+  replacement: 丮丮
 
 # 一换一
 - pattern: 𧘇
@@ -589,6 +591,8 @@
   replacement: 冂
 - pattern: 𰀂
   replacement: 爪
+- pattern: 丸
+  replacement: 丮
 
 # 重文合流
 - pattern: 龟
