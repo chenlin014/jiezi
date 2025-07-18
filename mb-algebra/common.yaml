@@ -395,6 +395,8 @@
   replacement: 四冂
 - pattern: 𥝢
   replacement: 禾丿刀
+- pattern: 對
+  replacement: 丵土寸
 
 # 一换一
 - pattern: 𧘇
