@@ -587,6 +587,8 @@
   replacement: 宀
 - pattern: 冖
   replacement: 冂
+- pattern: 𰀂
+  replacement: 爪
 
 # 重文合流
 - pattern: 龟
