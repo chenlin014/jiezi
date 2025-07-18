@@ -407,8 +407,8 @@
   replacement: 冖𧘇
 - pattern: 𠕻
   replacement: 𠔼兀
-- pattern: 六
-  replacement: 亠八
+- pattern: 元
+  replacement: 一兀
 
 # 一换一
 - pattern: 𧘇
@@ -583,8 +583,10 @@
   replacement: 乚
 - pattern: 𠔼
   replacement: 冃
-- pattern: 元
-  replacement: 兀
+- pattern: 六
+  replacement: 宀
+- pattern: 冖
+  replacement: 冂
 
 # 重文合流
 - pattern: 龟
