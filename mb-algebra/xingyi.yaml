@@ -538,6 +538,12 @@
   replacement: 牛巾刂
 - pattern: 朱
   replacement: 𠂉木
+- pattern: 黎
+  replacement: 𥝢人氺
+- pattern: 黍
+  replacement: 禾人氺
+- pattern: 桼
+  replacement: 木人氺
 
 - pattern: 垂
   replacement: 𠦒

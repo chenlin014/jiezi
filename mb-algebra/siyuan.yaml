@@ -736,6 +736,12 @@
   replacement: 牛木刂
 - pattern: 朱
   replacement: 木十
+- pattern: 黎
+  replacement: 𥝢入氺
+- pattern: 黍
+  replacement: 禾入氺
+- pattern: 桼
+  replacement: 木入氺
 
 - pattern: 𠂆𠂢
   replacement: 巛卜

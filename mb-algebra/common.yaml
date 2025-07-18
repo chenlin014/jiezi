@@ -393,6 +393,8 @@
   replacement: 隹弓
 - pattern: 囧
   replacement: 四冂
+- pattern: 𥝢
+  replacement: 禾丿刀
 
 # 一换一
 - pattern: 𧘇
