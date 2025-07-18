@@ -544,6 +544,14 @@
   replacement: 禾人氺
 - pattern: 桼
   replacement: 木人氺
+- pattern: 軍
+  replacement: 冖車
+- pattern: 军
+  replacement: 冖车
+- pattern: 匀
+  replacement: 勹冫
+- pattern: 勻
+  replacement: 勹二
 
 - pattern: 垂
   replacement: 𠦒

@@ -742,6 +742,14 @@
   replacement: 禾入氺
 - pattern: 桼
   replacement: 木入氺
+- pattern: 軍
+  replacement: 九車
+- pattern: 军
+  replacement: 九车
+- pattern: 匀
+  replacement: 九冫
+- pattern: 勻
+  replacement: 九二
 
 - pattern: 𠂆𠂢
   replacement: 巛卜
