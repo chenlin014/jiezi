@@ -393,6 +393,8 @@
   replacement: 禾丿刀
 - pattern: 對
   replacement: 丵土寸
+- pattern: 爰
+  replacement: 爪二丿又
 
 # 一换一
 - pattern: 𧘇

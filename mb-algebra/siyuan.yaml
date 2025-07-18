@@ -750,6 +750,12 @@
   replacement: 九冫
 - pattern: 勻
   replacement: 九二
+- pattern: 愛
+  replacement: 旡心夂
+- pattern: 爱
+  replacement: 旡𠂇又
+- pattern: 受
+  replacement: 爪舟又
 
 - pattern: 𠂆𠂢
   replacement: 巛卜
