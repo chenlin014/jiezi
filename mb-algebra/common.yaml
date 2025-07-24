@@ -411,6 +411,8 @@
   replacement: 一兀
 - pattern: 鬥
   replacement: 丮丮
+- pattern: 左
+  replacement: 𠂇工
 
 # 一换一
 - pattern: 𧘇
@@ -511,8 +513,6 @@
   replacement: 才
 - pattern: 乞
   replacement: 气
-- pattern: 左
-  replacement: 𠂇
 - pattern: 乑
   replacement: 从
 - pattern: 龷
