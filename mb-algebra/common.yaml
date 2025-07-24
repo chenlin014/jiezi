@@ -575,8 +575,6 @@
   replacement: 人
 - pattern: 𠔿
   replacement: 内
-- pattern: 扌
-  replacement: 手
 - pattern: コ
   replacement: 龴
 - pattern: 戌
