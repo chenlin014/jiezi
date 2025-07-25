@@ -41,20 +41,16 @@
   replacement: 弓口虫
 - pattern: 強
   replacement: 弓厶虫
-- pattern: 兔
-  replacement: 𠮥儿丶
-- pattern: 兎
-  replacement: 𠮥儿丶
-- pattern: 毚
-  replacement: 𠮥匕匕𠮥儿丶
-- pattern: 免
-  replacement: 𠮥儿
-- pattern: 象
-  replacement: 𠮥豕
 - pattern: 鼠
   replacement: 臼釆
 - pattern: 巤
-  replacement: 巛圍乂釆
+  replacement: 巛囟釆
+- pattern: 爲
+  replacement: 爪象
+- pattern: 為
+  replacement: 丶象
+- pattern: 为
+  replacement: 丶象
 - pattern: 及
   replacement: 𠂊又
 - pattern: 𠁁
@@ -489,8 +485,6 @@
   replacement: 足
 - pattern: 己
   replacement: 巳
-- pattern: 𠮥
-  replacement: 爲
 - pattern: 𦣻
   replacement: 頁
 - pattern: ㇆

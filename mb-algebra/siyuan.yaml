@@ -295,7 +295,15 @@
 - pattern: 𡬠
   replacement: 皀寸
 - pattern: 能
-  replacement: 厶月匕匕
+  replacement: 厶䏑釆
+- pattern: 毚
+  replacement: 象釆兔
+- pattern: 兔
+  replacement: 象釆
+- pattern: 兎
+  replacement: 丿口釆
+- pattern: 免
+  replacement: 象儿
 - pattern: 卓
   replacement: 卜日十
 - pattern: 夜

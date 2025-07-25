@@ -114,6 +114,14 @@
   replacement: 艮寸
 - pattern: 能
   replacement: 厶月匕匕
+- pattern: 毚
+  replacement: 象匕匕兔
+- pattern: 兔
+  replacement: 象儿丶
+- pattern: 兎
+  replacement: 丿口儿丶
+- pattern: 免
+  replacement: 象儿
 - pattern: 卓
   replacement: 卜日十
 - pattern: 夜
