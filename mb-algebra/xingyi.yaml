@@ -218,14 +218,6 @@
   replacement: 立可
 - pattern: 可
   replacement: 丁口
-- pattern: 丙
-  replacement: 一内
-- pattern: 兩
-  replacement: 一内人
-- pattern: 两
-  replacement: 一内人
-- pattern: 㒼
-  replacement: 廿内人
 - pattern: 嗇
   replacement: 土从
 - pattern: 夾

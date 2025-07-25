@@ -411,14 +411,6 @@
   replacement: 立可
 - pattern: 可
   replacement: 丂口
-- pattern: 丙
-  replacement: 一内
-- pattern: 兩
-  replacement: 一内内
-- pattern: 两
-  replacement: 一内内
-- pattern: 㒼
-  replacement: 廿内内
 - pattern: 嗇
   replacement: 來圍口
 - pattern: 夾
