@@ -423,6 +423,8 @@
   replacement: 一冂从
 - pattern: 㒳
   replacement: 内内
+- pattern: 戊
+  replacement: 戈丿
 
 # 一换一
 - pattern: 𧘇
@@ -587,8 +589,6 @@
   replacement: 内
 - pattern: コ
   replacement: 龴
-- pattern: 戌
-  replacement: 戊
 - pattern: 乙
   replacement: 乚
 - pattern: 𠔼
