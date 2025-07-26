@@ -106,7 +106,7 @@
 - pattern: 夒
   replacement: 頁止巳夂
 - pattern: 聿
-  replacement: 彐キ
+  replacement: 肀二
 - pattern: 事
   replacement: 一中彐
 - pattern: 爭
@@ -236,7 +236,7 @@
 - pattern: 幷
   replacement: 丿干丿干
 - pattern: 专
-  replacement: キ龴
+  replacement: 二龴
 - pattern: 專
   replacement: 𤰔厶寸
 - pattern: 惠
@@ -595,6 +595,8 @@
   replacement: 爪
 - pattern: 丸
   replacement: 丮
+- pattern: キ
+  replacement: 扌
 
 # 重文合流
 - pattern: 龟
