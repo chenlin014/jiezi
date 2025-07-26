@@ -777,6 +777,8 @@
   replacement: 八宀云
 - pattern: 冥
   replacement: 冖日又𠂇
+- pattern: 寬
+  replacement: 宀卝目釆
 
 - pattern: 𠂆𠂢
   replacement: 巛卜
@@ -786,6 +788,8 @@
   replacement: 尸毛
 - pattern: 𠂉𠂢
   replacement: 【㫃】从
+- pattern: 宀艹
+  replacement: 宀卝
 
 # 一換一
 - pattern: 凢
