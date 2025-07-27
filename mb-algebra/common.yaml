@@ -421,6 +421,12 @@
   replacement: 内内
 - pattern: 戊
   replacement: 戈丿
+- pattern: 会
+  replacement: 亼一厶
+- pattern: 武（(.)）
+  replacement: 戈\1
+- pattern: 武
+  replacement: 戈止
 
 # 一换一
 - pattern: 𧘇

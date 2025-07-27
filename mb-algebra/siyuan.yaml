@@ -201,10 +201,6 @@
   replacement: 弋弓
 - pattern: 第
   replacement: ⺮弋弓
-- pattern: 武（(.)）
-  replacement: 戈\1
-- pattern: 武
-  replacement: 戈止
 - pattern: 朝
   replacement: 茻日月
 - pattern: 莫
@@ -672,8 +668,6 @@
   replacement: 亼十口
 - pattern: 舎
   replacement: 入土口
-- pattern: 会
-  replacement: 亼一厶
 - pattern: 康
   replacement: 庚𠁼
 - pattern: 唐

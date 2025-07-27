@@ -34,10 +34,6 @@
   replacement: 丷弓丨丿
 - pattern: 第
   replacement: ⺮弓丨丿
-- pattern: 武（(.)）
-  replacement: 一弋\1
-- pattern: 武
-  replacement: 一弋止
 - pattern: 莫
   replacement: 艹日大
 - pattern: 莽（(.)）
@@ -385,7 +381,7 @@
 - pattern: 退
   replacement: 辶艮
 - pattern: 亥
-  replacement: 亠丩人
+  replacement: 丶彑
 - pattern: 互
   replacement: 一彑
 - pattern: 善
@@ -471,8 +467,6 @@
   replacement: 亼十口
 - pattern: 舎
   replacement: 人土口
-- pattern: 会
-  replacement: 人二厶
 - pattern: 康
   replacement: 广肀𠁼
 - pattern: 唐
