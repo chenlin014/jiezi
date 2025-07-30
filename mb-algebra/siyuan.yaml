@@ -310,8 +310,6 @@
   replacement: 冎䏑
 - pattern: 芻
   replacement: 𠂇艹
-- pattern: 屰
-  replacement: 大下
 - pattern: 蚩
   replacement: 之虫
 - pattern: 刑
@@ -354,7 +352,7 @@
 - pattern: 质
   replacement: 斤贝
 - pattern: 斥
-  replacement: 广下
+  replacement: 广屰
 - pattern: 盾
   replacement: 𠂋丨目
 - pattern: 司
@@ -779,6 +777,8 @@
   replacement: 万乚
 - pattern: 万
   replacement: 一𠂊
+- pattern: 化
+  replacement: 亻𠤎
 
 - pattern: 𠂆𠂢
   replacement: 巛卜
@@ -834,3 +834,5 @@
   replacement: 夂
 - pattern: 㫃
   replacement: 烏
+- pattern: 𠤎
+  replacement: 屰
