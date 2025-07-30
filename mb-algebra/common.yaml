@@ -487,8 +487,8 @@
   replacement: 竹
 - pattern: 片
   replacement: 爿
-- pattern: 尢
-  replacement: 尤
+- pattern: 尤
+  replacement: 𠂇
 - pattern: 电
   replacement: 申
 - pattern: 肀
