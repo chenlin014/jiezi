@@ -773,6 +773,12 @@
   replacement: 冖日又𠂇
 - pattern: 寬
   replacement: 宀卝目釆
+- pattern: 丐
+  replacement: 刀亡
+- pattern: 丏
+  replacement: 万乚
+- pattern: 万
+  replacement: 一𠂊
 
 - pattern: 𠂆𠂢
   replacement: 巛卜
