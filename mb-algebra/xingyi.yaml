@@ -574,6 +574,8 @@
   replacement: 一力
 - pattern: 化
   replacement: 亻匕
+- pattern: 有
+  replacement: 𠂇月
 
 - pattern: 垂
   replacement: 𠦒
@@ -593,3 +595,5 @@
   replacement: 廾
 - pattern: 𠂢
   replacement: 从
+- pattern: ⺼
+  replacement: 月

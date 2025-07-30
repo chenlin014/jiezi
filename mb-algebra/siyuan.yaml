@@ -779,6 +779,8 @@
   replacement: 一𠂊
 - pattern: 化
   replacement: 亻𠤎
+- pattern: 有
+  replacement: 𠂇肉
 
 - pattern: 𠂆𠂢
   replacement: 巛卜
@@ -836,3 +838,5 @@
   replacement: 烏
 - pattern: 𠤎
   replacement: 屰
+- pattern: ⺼
+  replacement: 肉
