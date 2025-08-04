@@ -574,8 +574,20 @@
   replacement: 一力
 - pattern: 化
   replacement: 亻匕
+- pattern: 服
+  replacement: 月卩又
+- pattern: 朋
+  replacement: 月月
 - pattern: 有
   replacement: 𠂇月
+- pattern: 肖
+  replacement: 小⺼
+- pattern: 猒
+  replacement: 日⺼犬
+- pattern: 育
+  replacement: 𠫓⺼
+- pattern: 肙
+  replacement: 口⺼
 
 - pattern: 垂
   replacement: 𠦒
