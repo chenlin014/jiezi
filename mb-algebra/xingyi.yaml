@@ -588,6 +588,8 @@
   replacement: 𠫓⺼
 - pattern: 肙
   replacement: 口⺼
+- pattern: 多
+  replacement: 夕夕
 
 - pattern: 垂
   replacement: 𠦒
