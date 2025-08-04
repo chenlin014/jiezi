@@ -337,8 +337,6 @@
   replacement: 衣冉
 - pattern: 甬
   replacement: 龴用
-- pattern: 𣦼
-  replacement: 歹又
 - pattern: 叉
   replacement: 又丶
 - pattern: 幸
@@ -563,6 +561,8 @@
   replacement: 囪
 - pattern: 攵
   replacement: 攴
+- pattern: 歺
+  replacement: 歹
 - pattern: 𣦵
   replacement: 歹
 - pattern: 丵
