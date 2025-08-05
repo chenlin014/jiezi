@@ -812,6 +812,10 @@
   replacement: 屮豆
 - pattern: 耑
   replacement: 屮而
+- pattern: 旨
+  replacement: 匕甘
+- pattern: 昌
+  replacement: 日曰
 
 - pattern: 𠂆𠂢
   replacement: 巛卜

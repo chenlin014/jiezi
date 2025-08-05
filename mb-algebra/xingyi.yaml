@@ -600,6 +600,10 @@
   replacement: 山而
 - pattern: 允
   replacement: 厶儿
+- pattern: 旨
+  replacement: 匕日
+- pattern: 昌
+  replacement: 日日
 
 - pattern: 垂
   replacement: 𠦒

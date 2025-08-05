@@ -435,6 +435,8 @@
   replacement: 亠卜
 - pattern: 豐
   replacement: 丰丰山豆
+- pattern: 尞
+  replacement: 一火日小
 
 # 一换一
 - pattern: 𧘇
