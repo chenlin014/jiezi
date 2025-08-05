@@ -719,8 +719,13 @@
 - pattern: 养
   replacement: 羊氘
   only: [养]
+- pattern: 丹丶
+  replacement: 凡⺀
+  only: [𨱪]
 - pattern: 丹
-  replacement: 井丶
+  replacement: 凡丶
+- pattern: 円
+  replacement: 凡丨
 - pattern: 宣
   replacement: 宀二回
 - pattern: 恒
@@ -738,8 +743,6 @@
   replacement: 戌丨
 - pattern: 戚
   replacement: 戌卜小
-- pattern: 円
-  replacement: 井丨
 - pattern: 制
   replacement: 牛木刂
 - pattern: 朱
