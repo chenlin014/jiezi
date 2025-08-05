@@ -431,6 +431,8 @@
   replacement: 卜一
 - pattern: 下
   replacement: 一卜
+- pattern: 卞
+  replacement: 亠卜
 
 # 一换一
 - pattern: 𧘇
