@@ -433,6 +433,8 @@
   replacement: 一卜
 - pattern: 卞
   replacement: 亠卜
+- pattern: 豐
+  replacement: 丰丰山豆
 
 # 一换一
 - pattern: 𧘇

@@ -592,6 +592,10 @@
   replacement: 夕夕
 - pattern: 卑
   replacement: 甲十
+- pattern: 豈
+  replacement: 山豆
+- pattern: 耑
+  replacement: 山而
 
 - pattern: 垂
   replacement: 𠦒
