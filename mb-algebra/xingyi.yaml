@@ -590,6 +590,8 @@
   replacement: 口⺼
 - pattern: 多
   replacement: 夕夕
+- pattern: 卑
+  replacement: 甲十
 
 - pattern: 垂
   replacement: 𠦒
