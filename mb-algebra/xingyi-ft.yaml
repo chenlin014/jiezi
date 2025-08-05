@@ -125,6 +125,8 @@
   replacement: 土儿夂
 - pattern: 坴
   replacement: 土儿土
+- pattern: 夋
+  replacement: 允夂
 - pattern: 令
   replacement: 亼龴
 - pattern: 函

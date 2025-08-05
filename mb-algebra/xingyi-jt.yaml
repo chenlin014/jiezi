@@ -56,6 +56,8 @@
   replacement: 土八夂
 - pattern: 坴
   replacement: 土八土
+- pattern: 夋
+  replacement: 厶八夂
 - pattern: 令
   replacement: 亼龴
 - pattern: 函

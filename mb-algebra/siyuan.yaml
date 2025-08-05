@@ -133,9 +133,15 @@
 - pattern: 甚
   replacement: 甘匚八
 - pattern: 夌
-  replacement: 土八夂
+  replacement: 圥夂
 - pattern: 坴
-  replacement: 土八土
+  replacement: 圥土
+- pattern: 圥
+  replacement: 屮六
+- pattern: 夋
+  replacement: 允夂
+- pattern: 允
+  replacement: 厶儿
 - pattern: 令
   replacement: 亼卩
 - pattern: 函
