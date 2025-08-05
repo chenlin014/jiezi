@@ -369,8 +369,10 @@
   replacement: 犬彡
 - pattern: 於
   replacement: 烏烏
+- pattern: 斗
+  replacement: コ十
 - pattern: 升
-  replacement: 斗斗
+  replacement: 彐十
 - pattern: 青
   replacement: 生井
 - pattern: 表
