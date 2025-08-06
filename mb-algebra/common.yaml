@@ -627,6 +627,8 @@
   replacement: 丮
 - pattern: キ
   replacement: 扌
+- pattern: 虍
+  replacement: 虎
 
 # 重文合流
 - pattern: 龟
