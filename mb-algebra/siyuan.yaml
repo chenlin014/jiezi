@@ -816,6 +816,10 @@
   replacement: 匕甘
 - pattern: 昌
   replacement: 日曰
+- pattern: 絶
+  replacement: 糸刀卪
+- pattern: 色
+  replacement: 𠂊卪
 
 - pattern: 𠂆𠂢
   replacement: 巛卜
@@ -875,3 +879,5 @@
   replacement: 屰
 - pattern: ⺼
   replacement: 肉
+- pattern: 卪
+  replacement: 卩

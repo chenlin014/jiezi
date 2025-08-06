@@ -437,6 +437,18 @@
   replacement: 丰丰山豆
 - pattern: 尞
   replacement: 一火日小
+- pattern: 比
+  replacement: 匕匕
+- pattern: 玉
+  replacement: 王丶
+- pattern: 玄
+  replacement: 亠幺
+- pattern: 羽
+  replacement: 羽羽
+  only: [羽]
+- pattern: 习
+  replacement: 羽
+  only: [习]
 
 # 一换一
 - pattern: 𧘇

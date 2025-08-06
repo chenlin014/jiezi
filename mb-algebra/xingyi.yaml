@@ -604,6 +604,10 @@
   replacement: 匕日
 - pattern: 昌
   replacement: 日日
+- pattern: 絶
+  replacement: 糸𠂊巴
+- pattern: 色
+  replacement: 𠂊巴
 
 - pattern: 垂
   replacement: 𠦒
