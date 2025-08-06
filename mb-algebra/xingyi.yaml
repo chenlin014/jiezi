@@ -608,6 +608,8 @@
   replacement: 糸𠂊巴
 - pattern: 色
   replacement: 𠂊巴
+- pattern: 肥
+  replacement: ⺼巴
 
 - pattern: 垂
   replacement: 𠦒

@@ -820,6 +820,11 @@
   replacement: 糸刀卪
 - pattern: 色
   replacement: 𠂊卪
+- pattern: 巴
+  replacement: 卪
+  only: [絕]
+- pattern: 肥
+  replacement: ⺼卪
 
 - pattern: 𠂆𠂢
   replacement: 巛卜
