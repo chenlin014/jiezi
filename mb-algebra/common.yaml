@@ -641,6 +641,8 @@
   replacement: 西
 - pattern: 黄
   replacement: 黃
+- pattern: 川
+  replacement: 巛
 
 # 重文合流
 - pattern: 龟
