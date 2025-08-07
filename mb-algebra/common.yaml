@@ -449,6 +449,10 @@
 - pattern: 习
   replacement: 羽
   only: [习]
+- pattern: 角
+  replacement: 𠂊用
+- pattern: 髟
+  replacement: 镸彡
 
 # 一换一
 - pattern: 𧘇
@@ -629,6 +633,8 @@
   replacement: 扌
 - pattern: 虍
   replacement: 虎
+- pattern: 襾
+  replacement: 西
 
 # 重文合流
 - pattern: 龟
@@ -655,6 +661,10 @@
   replacement: 東
 - pattern: 车
   replacement: 車
+- pattern: 长
+  replacement: 長
+- pattern: 镸
+  replacement: 長
 
 # 删除特殊符号
 - pattern: "[（）【】「」]"

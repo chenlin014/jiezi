@@ -724,6 +724,8 @@
   only: [𨱪]
 - pattern: 丹
   replacement: 凡丶
+- pattern: 靑
+  replacement: 生円
 - pattern: 円
   replacement: 凡丨
 - pattern: 宣
@@ -825,6 +827,8 @@
   only: [絕]
 - pattern: 肥
   replacement: ⺼卪
+- pattern: 香
+  replacement: 禾甘
 
 - pattern: 𠂆𠂢
   replacement: 巛卜

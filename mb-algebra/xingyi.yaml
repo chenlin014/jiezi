@@ -515,6 +515,10 @@
   replacement: 羊氘
   only: [养]
 - pattern: 丹
+  replacement: 凡一
+- pattern: 靑
+  replacement: 龶円
+- pattern: 円
   replacement: 冂亠
 - pattern: 刑
   replacement: 开刂
@@ -530,8 +534,6 @@
   replacement: 戌㇆
 - pattern: 戚
   replacement: 戌卜小
-- pattern: 円
-  replacement: 冂丨一
 - pattern: 制
   replacement: 牛巾刂
 - pattern: 朱
@@ -610,6 +612,8 @@
   replacement: 𠂊巴
 - pattern: 肥
   replacement: ⺼巴
+- pattern: 香
+  replacement: 禾日
 
 - pattern: 垂
   replacement: 𠦒
