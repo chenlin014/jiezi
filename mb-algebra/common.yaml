@@ -255,8 +255,6 @@
   replacement: 𠂋口
 - pattern: 每
   replacement: 𠂉母
-- pattern: 鬲
-  replacement: 一口冂八丁
 - pattern: 倉
   replacement: 亼戶口
 - pattern: 兆
@@ -457,6 +455,8 @@
   replacement: 业㡀
 - pattern: 㡀
   replacement: 巾𠁼
+- pattern: 畐
+  replacement: 鬲田
 
 # 一换一
 - pattern: 𧘇
