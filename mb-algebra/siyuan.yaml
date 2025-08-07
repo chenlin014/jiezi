@@ -447,14 +447,10 @@
   replacement: 木月攵
 - pattern: 寅
   replacement: 矢圍
-- pattern: 黄
-  replacement: 廿大日
-- pattern: 黃
-  replacement: 廿大日
 - pattern: 堇
-  replacement: 廿口龶
+  replacement: 黃土
 - pattern: 𦰩
-  replacement: 廿口夫
+  replacement: 黃火
 - pattern: 𤰇
   replacement: 矢用
 - pattern: 𬻝

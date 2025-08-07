@@ -639,6 +639,8 @@
   replacement: 虎
 - pattern: 襾
   replacement: 西
+- pattern: 黄
+  replacement: 黃
 
 # 重文合流
 - pattern: 龟
