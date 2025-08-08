@@ -486,7 +486,7 @@
 - pattern: 童
   replacement: 辛東土
 - pattern: 重
-  replacement: 亻東土
+  replacement: 千東土
 - pattern: 曹
   replacement: 東東曰
 - pattern: 丟
@@ -643,7 +643,7 @@
 - pattern: 𥁕
   replacement: 圍人皿
 - pattern: 昷
-  replacement: 圍人皿
+  replacement: 日皿
 - pattern: 全
   replacement: 入王
 - pattern: 茶
