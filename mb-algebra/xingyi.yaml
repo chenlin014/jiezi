@@ -610,6 +610,8 @@
   replacement: ⺼巴
 - pattern: 香
   replacement: 禾日
+- pattern: 教
+  replacement: 耂子攵
 
 - pattern: 垂
   replacement: 𠦒
