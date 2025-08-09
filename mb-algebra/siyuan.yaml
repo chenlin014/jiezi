@@ -833,6 +833,8 @@
   replacement: 鬼夂
 - pattern: 畏
   replacement: 鬼攴
+- pattern: 素
+  replacement: 𠂹糸
 
 - pattern: 𠂆𠂢
   replacement: 巛卜

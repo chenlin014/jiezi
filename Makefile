@@ -14,9 +14,6 @@ mb-xformer=python mb-tool/mb_algebra.py --regex
 
 all: xingyi siyuan
 
-build:
-	mkdir $@
-
 xingyi: $(foreach std,$(char-standards),xingyi-$(std))
 
 xingyi-%:
@@ -24,7 +21,7 @@ xingyi-%:
 		$(mb-xformer) mb-algebra/xingyi.yaml | \
 		$(mb-xformer) mb-algebra/common.yaml > table/xingyi-$*.tsv
 
-siyuan: build
+siyuan:
 	cat $(init-mb) | $(mb-xformer) mb-algebra/siyuan.yaml | \
 		$(mb-xformer) mb-algebra/common.yaml > table/siyuan.tsv
 
