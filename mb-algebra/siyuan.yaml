@@ -827,6 +827,10 @@
   replacement: 禾甘
 - pattern: 教
   replacement: 爻子攵
+- pattern: 㚇
+  replacement: 兇夂
+- pattern: 畟
+  replacement: 鬼夂
 
 - pattern: 𠂆𠂢
   replacement: 巛卜

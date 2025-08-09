@@ -455,6 +455,10 @@
   replacement: 巾𠁼
 - pattern: 畐
   replacement: 鬲田
+- pattern: 兇
+  replacement: 凶儿
+- pattern: 凶
+  replacement: 乂凵
 
 # 一换一
 - pattern: 𧘇
@@ -567,7 +571,7 @@
   replacement: 公
 - pattern: 㐫
   replacement: 囟
-- pattern: ⺍乂凵
+- pattern: ⺍凶
   replacement: 囟
 - pattern: 𠂭
   replacement: 米

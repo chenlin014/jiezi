@@ -5,6 +5,12 @@
   exclude: [敻]
 - pattern: 耳𡈼
   replacement: 耳王
+- pattern: 㚇
+  replacement: 凶八夂
+- pattern: 畟
+  replacement: 田八夂
+- pattern: 儿夂
+  replacement: 八夂
 
 - pattern: 画
   replacement: 一田凵
