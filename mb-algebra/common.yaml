@@ -643,6 +643,8 @@
   replacement: 黃
 - pattern: 川
   replacement: 巛
+- pattern: 艹
+  replacement: 艸
 
 # 重文合流
 - pattern: 龟
