@@ -616,6 +616,8 @@
   replacement: 田𧘇
 - pattern: 素
   replacement: 龶糸
+- pattern: 巩
+  replacement: 工凡
 
 - pattern: 垂
   replacement: 𠦒

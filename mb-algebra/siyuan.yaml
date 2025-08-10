@@ -835,6 +835,8 @@
   replacement: 鬼攴
 - pattern: 素
   replacement: 𠂹糸
+- pattern: 巩
+  replacement: 工丮
 
 - pattern: 𠂆𠂢
   replacement: 巛卜
