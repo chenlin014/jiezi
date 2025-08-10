@@ -75,8 +75,6 @@
   replacement: ⺍𠔀
 - pattern: 丣
   replacement: 一卯
-- pattern: 飞
-  replacement: 乙冫
 - pattern: 兜
   replacement: 白卯儿
 - pattern: 乐
@@ -457,6 +455,8 @@
   replacement: 凶儿
 - pattern: 凶
   replacement: 乂凵
+- pattern: 飛
+  replacement: 卂非
 
 # 一换一
 - pattern: 𧘇
@@ -621,8 +621,6 @@
   replacement: 内
 - pattern: コ
   replacement: 龴
-- pattern: 乙
-  replacement: 乚
 - pattern: 𠔼
   replacement: 冃
 - pattern: 六
@@ -645,6 +643,10 @@
   replacement: 巛
 - pattern: 艹
   replacement: 艸
+- pattern: 飞
+  replacement: 卂
+- pattern: 卂
+  replacement: 羽
 
 # 重文合流
 - pattern: 龟
