@@ -183,8 +183,6 @@
   replacement: 二戈
 - pattern: 鼎
   replacement: 目爿片
-- pattern: 𠂤
-  replacement: 丿㠯
 - pattern: 血
   replacement: 丿皿
 - pattern: 必
@@ -647,6 +645,8 @@
   replacement: 卂
 - pattern: 卂
   replacement: 羽
+- pattern: 𠂤
+  replacement: 㠯
 
 # 重文合流
 - pattern: 龟
