@@ -679,7 +679,7 @@
 - pattern: 睿
   replacement: 𣦵八八目
 - pattern: 脊
-  replacement: 𠂹肉
+  replacement: 𠂹⺼
 - pattern: 享
   replacement: 京京
 - pattern: 亨
@@ -789,7 +789,7 @@
 - pattern: 朋
   replacement: 丰丰
 - pattern: 有
-  replacement: 𠂇肉
+  replacement: 𠂇⺼
 - pattern: 肖
   replacement: 小⺼
 - pattern: 猒
@@ -799,7 +799,7 @@
 - pattern: 肙
   replacement: 口⺼
 - pattern: 多
-  replacement: 肉肉
+  replacement: 夕夕
 - pattern: 卑
   replacement: 甲𠂇
 - pattern: 豈
@@ -892,5 +892,7 @@
   replacement: 屰
 - pattern: ⺼
   replacement: 肉
+- pattern: 肉
+  replacement: 月
 - pattern: 卪
   replacement: 卩
