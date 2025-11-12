@@ -894,6 +894,8 @@
   replacement: 屰
 - pattern: ⺼
   replacement: 肉
+- pattern: 䏑
+  replacement: 肉
 - pattern: 肉
   replacement: 月
 - pattern: 卪
