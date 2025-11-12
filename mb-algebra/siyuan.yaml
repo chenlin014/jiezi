@@ -842,6 +842,10 @@
   replacement: 【㫃】从
 - pattern: 宀艹
   replacement: 宀卝
+- pattern: 黃
+  replacement: 廿尢
+- pattern: 黄
+  replacement: 廿尢
 
 # 一換一
 - pattern: 凢

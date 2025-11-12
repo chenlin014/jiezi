@@ -614,6 +614,10 @@
   replacement: 龶糸
 - pattern: 巩
   replacement: 工凡
+- pattern: 黃
+  replacement: 廿一由八
+- pattern: 黄
+  replacement: 廿由八
 
 - pattern: 垂
   replacement: 𠦒
