@@ -455,6 +455,8 @@
   replacement: 乂凵
 - pattern: 飛
   replacement: 卂非
+- pattern: 北
+  replacement: 𠂊匕
 
 # 一换一
 - pattern: 𧘇
