@@ -454,7 +454,11 @@
 - pattern: 凶
   replacement: 乂凵
 - pattern: 飛
-  replacement: 卂非
+  replacement: 飞非
+- pattern: 飞
+  replacement: 乙冫
+- pattern: 卂
+  replacement: 乙十
 - pattern: 北
   replacement: 𠂊匕
 
@@ -639,10 +643,6 @@
   replacement: 巛
 - pattern: 艹
   replacement: 艸
-- pattern: 飞
-  replacement: 卂
-- pattern: 卂
-  replacement: 羽
 - pattern: 𠂤
   replacement: 㠯
 
