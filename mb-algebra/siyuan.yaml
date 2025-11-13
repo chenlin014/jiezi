@@ -855,10 +855,6 @@
 - pattern: 夂
   replacement: 攵
   only: [変]
-- pattern: 來
-  replacement: 𠂹
-- pattern: 来
-  replacement: 𠂹
 - pattern: 𠦒
   replacement: 其
 - pattern: 【出士】

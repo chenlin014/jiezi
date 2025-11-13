@@ -461,6 +461,10 @@
   replacement: 乙十
 - pattern: 北
   replacement: 𠂊匕
+- pattern: 來
+  replacement: 木从
+- pattern: 来
+  replacement: 木䒑
 
 # 一换一
 - pattern: 𧘇
