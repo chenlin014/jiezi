@@ -846,6 +846,8 @@
   replacement: 廿尢
 - pattern: 黄
   replacement: 廿尢
+- pattern: 舛
+  replacement: 夂㐄
 
 # 一換一
 - pattern: 凢

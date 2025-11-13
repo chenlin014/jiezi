@@ -618,6 +618,8 @@
   replacement: 廿一由八
 - pattern: 黄
   replacement: 廿由八
+- pattern: 舛
+  replacement: 夕㐄
 
 - pattern: 垂
   replacement: 𠦒
