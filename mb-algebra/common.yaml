@@ -623,6 +623,10 @@
   replacement: 犬
 - pattern: 亻
   replacement: 人
+- pattern: 儿
+  replacement: 人
+- pattern: 𠂉
+  replacement: 𠂊
 - pattern: 𠔿
   replacement: 内
 - pattern: コ
