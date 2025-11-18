@@ -227,10 +227,6 @@
   replacement: 走止
 - pattern: 五
   replacement: 二乂
-- pattern: 尔
-  replacement: 亇八
-- pattern: 尓
-  replacement: 亇八
 - pattern: 尚
   replacement: 丷向口
 - pattern: 奐

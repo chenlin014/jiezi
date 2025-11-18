@@ -52,10 +52,6 @@
   replacement: 丿几
 - pattern: 五
   replacement: 工㇕
-- pattern: 尔
-  replacement: 𠂊小
-- pattern: 尓
-  replacement: 𠂉小
 - pattern: 【尚】
   replacement: 小冖口
 - pattern: 尚
