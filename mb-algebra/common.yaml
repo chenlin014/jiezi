@@ -685,6 +685,8 @@
   replacement: 長
 - pattern: 镸
   replacement: 長
+- pattern: 亢
+  replacement: 尢
 
 # 删除特殊符号
 - pattern: "[（）【】「」]"
