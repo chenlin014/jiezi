@@ -41,10 +41,6 @@
 - pattern: 争
   replacement: 爭
   exclude: [浄, 争, 静, 挣, 睁, 铮, 狰, 峥, 筝, 诤, 铮]
-- pattern: 㚇
-  replacement: 兇夂
-- pattern: 畟
-  replacement: 田儿夂
 
 # 一換多
 - pattern: 画
@@ -171,3 +167,12 @@
   replacement: 臼土
 - pattern: 鼻
   replacement: 自田丌
+- pattern: 㚇
+  replacement: 兇夂
+- pattern: 畟
+  replacement: 田儿夂
+- pattern: 奧
+  replacement: 向釆大
+- pattern: 奥
+  replacement: 向米大
+  only: [奥]

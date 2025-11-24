@@ -107,3 +107,11 @@
 - pattern: 𡈼
   replacement: 王
   only: [朢]
+- pattern: 奧
+  replacement: 奥
+  exclude: [奧]
+- pattern: 奥
+  replacement: 向米大
+- pattern: 奧
+  replacement: 向釆大
+  only: [奧]
