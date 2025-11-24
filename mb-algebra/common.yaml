@@ -628,7 +628,7 @@
 - pattern: 亻
   replacement: 人
 - pattern: 儿
-  replacement: 人
+  replacement: 𠂊
 - pattern: 𠂉
   replacement: 𠂊
 - pattern: 𠔿
