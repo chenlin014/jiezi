@@ -631,5 +631,9 @@
   replacement: 廾
 - pattern: 𠂢
   replacement: 从
+- pattern: 䏑
+  replacement: 肉
 - pattern: ⺼
+  replacement: 月
+- pattern: 肉
   replacement: 月
