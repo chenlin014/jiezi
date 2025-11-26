@@ -469,6 +469,8 @@
   replacement: 𠂊小
 - pattern: 尓
   replacement: 𠂉小
+- pattern: 无
+  replacement: 一尢
 
 # 一换一
 - pattern: 𧘇
