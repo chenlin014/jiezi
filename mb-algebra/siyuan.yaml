@@ -848,6 +848,8 @@
 - pattern: 奥
   replacement: 向米廾
   only: [奥]
+- pattern: 耒
+  replacement: 彐力
 
 # 一換一
 - pattern: 凢
