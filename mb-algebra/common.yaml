@@ -471,6 +471,8 @@
   replacement: 𠂉小
 - pattern: 无
   replacement: 一尢
+- pattern: 夫
+  replacement: 二大
 
 # 一换一
 - pattern: 𧘇
