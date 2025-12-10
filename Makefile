@@ -12,7 +12,7 @@ mb-xformer=python mb-tool/mb_algebra.py --regex
 
 .PHONY: all clean
 
-all: xingyi siyuan
+all: xingyi siyuan huaiyuan
 
 xingyi: $(foreach std,$(char-standards),xingyi-$(std))
 
@@ -26,3 +26,8 @@ siyuan:
 	cat $(init-mb) | $(mb-xformer) mb-algebra/common-pre.yaml | \
 		$(mb-xformer) mb-algebra/siyuan.yaml | \
 		$(mb-xformer) mb-algebra/common-post.yaml > table/siyuan.tsv
+
+huaiyuan:
+	cat $(init-mb) | $(mb-xformer) mb-algebra/common-pre.yaml | \
+		$(mb-xformer) mb-algebra/huaiyuan.yaml | \
+		$(mb-xformer) mb-algebra/common-post.yaml > table/huaiyuan.tsv

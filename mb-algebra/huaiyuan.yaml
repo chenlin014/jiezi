@@ -205,19 +205,19 @@
 - pattern: 第
   replacement: ⺮弋弓
 - pattern: 朝
-  replacement: 茻日月
+  replacement: 艸日月
 - pattern: 莫
-  replacement: 茻日
+  replacement: 艸日艸
 - pattern: 莽（(.)）
-  replacement: 茻\1
+  replacement: 艸\1艸
 - pattern: 莽
-  replacement: 茻犬
+  replacement: 艸犬艸
 - pattern: 【寒】
-  replacement: 宀茻人
+  replacement: 宀艸人
 - pattern: 寒
-  replacement: 宀茻人冫
+  replacement: 宀艸人冫
 - pattern: 茻
-  replacement: 屮
+  replacement: 四（屮）
 - pattern: 塞
   replacement: 宀工廾土
 - pattern: 奔
@@ -353,9 +353,9 @@
 - pattern: 斥
   replacement: 广屰
 - pattern: 盾
-  replacement: 𠂋丨目
+  replacement: 𠂆十目
 - pattern: 司
-  replacement: 𠂋
+  replacement: ㇆一口
 - pattern: 永
   replacement: 巛亻
 - pattern: 尨
@@ -710,18 +710,11 @@
 - pattern: 円
   replacement: 凡丨
 - pattern: 宣
-  replacement: 宀二回
+  replacement: 宀亘
 - pattern: 恒
-  replacement: 忄二日
-- pattern: 亘
-  replacement: 二回
-  exclude: [亘]
+  replacement: 忄亘
 - pattern: 亘
   replacement: 二日
-  only: [亘]
-- pattern: 勹
-  replacement: 回
-  only: [沒]
 - pattern: 成
   replacement: 戌丨
 - pattern: 戚
@@ -848,7 +841,23 @@
 - pattern: 耒
   replacement: 彐力
 - pattern: 斗
-  replacement: 龴十
+  replacement: コ十
+- pattern: 㕣
+  replacement: 八口
+- pattern: 𠮦
+  replacement: 丷口
+- pattern: 公
+  replacement: 八厶
+- pattern: 𠔼
+  replacement: 冂一
+- pattern: 冃
+  replacement: 冂二
+- pattern: 𠂋
+  replacement: 𠂆一
+- pattern: 畐
+  replacement: 鬲田
+- pattern: 豆
+  replacement: 鬲䒑
 
 # 一換一
 - pattern: 凢
@@ -871,19 +880,23 @@
 - pattern: 𠀐
   replacement: 𦥑
 - pattern: 𦥑
-  replacement: 廾
+  replacement: 臼
 - pattern: 旧
   replacement: 臼
 - pattern: 卝
   replacement: 䒑
 - pattern: 𣎆（(.)）
   replacement: 龍\1丮
+- pattern: 阜
+  replacement: 𠂤十
 - pattern: 𨹺
-  replacement: 阜
+  replacement: 阝
 - pattern: 𨹝
   replacement: 邑
 - pattern: 乡
   replacement: 邑
+- pattern: 邑
+  replacement: 阝
 # 澀涩
 - pattern: 𣥒
   replacement: 夂
@@ -899,15 +912,57 @@
   replacement: 月
 - pattern: 卪
   replacement: 卩
-- pattern: 𠂋
-  replacement: 𠂆
+- pattern: 丩
+  replacement: 勹
+- pattern: 乂
+  replacement: 𠂇
+- pattern: 网
+  replacement: 四
+- pattern: 京
+  replacement: 亠
+- pattern: 士
+  replacement: 之
+- pattern: 旡
+  replacement: 欠
+- pattern: 囪
+  replacement: 囟
+- pattern: 入
+  replacement: 内
+- pattern: ⺍
+  replacement: 丶
+- pattern: 冫
+  replacement: 二
+- pattern: 业
+  replacement: 丘
+- pattern: 辛
+  replacement: 立
+- pattern: 凡
+  replacement: 舟
+- pattern: 午
+  replacement: 干
+- pattern: 廾
+  replacement: 艸
+- pattern: 攴
+  replacement: 夂
+- pattern: 齊
+  replacement: 𠂹
+- pattern: 𠂆
+  replacement: 厂
+- pattern: 乚
+  replacement: ㇕
+- pattern: 丰
+  replacement: 生
+- pattern: 才
+  replacement: 扌
+- pattern: 屮
+  replacement: 艸
+- pattern: 龴
+  replacement: 卩
 - pattern: コ
-  replacement: 龴
-- pattern: 㕣
-  replacement: 公
-- pattern: 𠮦
-  replacement: 公
-- pattern: 𠔼
-  replacement: 冃
+  replacement: 冂
+- pattern: 屰
+  replacement: 㐄
+- pattern: 衤
+  replacement: 衣
 - pattern: 𧘇
-  replacement: 衤
+  replacement: 衣

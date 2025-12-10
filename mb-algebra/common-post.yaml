@@ -367,8 +367,6 @@
   replacement: 火火冖
 - pattern: 帚
   replacement: 彐冖巾
-- pattern: 农
-  replacement: 冖𧘇
 - pattern: 元
   replacement: 一兀
 - pattern: 鬥
@@ -459,8 +457,6 @@
   replacement: 二㐄
 
 # 一换一
-- pattern: 𧘇
-  replacement: 衤
 - pattern: 𠅃
   replacement: 衣
 - pattern: 向
