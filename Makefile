@@ -17,19 +17,12 @@ all: xingyi siyuan
 xingyi: $(foreach std,$(char-standards),xingyi-$(std))
 
 xingyi-%:
-	cat $(init-mb) | $(mb-xformer) mb-algebra/xingyi-$*.yaml | \
+	cat $(init-mb) | $(mb-xformer) mb-algebra/common-pre.yaml | \
+		$(mb-xformer) mb-algebra/xingyi-$*.yaml | \
 		$(mb-xformer) mb-algebra/xingyi.yaml | \
-		$(mb-xformer) mb-algebra/common.yaml > table/xingyi-$*.tsv
+		$(mb-xformer) mb-algebra/common-post.yaml > table/xingyi-$*.tsv
 
 siyuan:
-	cat $(init-mb) | $(mb-xformer) mb-algebra/siyuan.yaml | \
-		$(mb-xformer) mb-algebra/common.yaml > table/siyuan.tsv
-
-shuruma:
-	cat $(init-mb) | $(mb-xformer) $(xform-dir)/varied.yaml | \
-		$(mb-xformer) $(xform-dir)/unvaried.yaml > $(shuru-mb)
-
-common-%:
-	python mb-tool/subset.py $(init-mb) char_set/common-$* | \
-		$(mb-xformer) $(xform-dir)/standard-$*.yaml | \
-		$(mb-xformer) $(xform-dir)/unvaried.yaml > table/common-$*.tsv
+	cat $(init-mb) | $(mb-xformer) mb-algebra/common-pre.yaml | \
+		$(mb-xformer) mb-algebra/siyuan.yaml | \
+		$(mb-xformer) mb-algebra/common-post.yaml > table/siyuan.tsv

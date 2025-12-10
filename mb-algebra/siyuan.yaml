@@ -1,6 +1,3 @@
-- pattern: 界
-  replacement: 田介
-
 # 有異体
 - pattern: 吴
   replacement: 吳
@@ -902,3 +899,13 @@
   replacement: 月
 - pattern: 卪
   replacement: 卩
+- pattern: 𠂋
+  replacement: 𠂆
+- pattern: コ
+  replacement: 龴
+- pattern: 㕣
+  replacement: 公
+- pattern: 𠮦
+  replacement: 公
+- pattern: 𠔼
+  replacement: 冃

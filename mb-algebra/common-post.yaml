@@ -245,8 +245,6 @@
   replacement: 𠂆虎
 - pattern: 殷
   replacement: 身殳
-- pattern: 后
-  replacement: 𠂋口
 - pattern: 每
   replacement: 𠂉母
 - pattern: 倉
@@ -303,18 +301,6 @@
   replacement: 立厂生
 - pattern: 产
   replacement: 立厂
-- pattern: 兑
-  replacement: 𠮦儿
-- pattern: 兌
-  replacement: 㕣儿
-- pattern: 袞
-  replacement: 衣㕣
-- pattern: 衮
-  replacement: 衣公
-- pattern: 容
-  replacement: 穴㕣
-- pattern: 谷
-  replacement: 八㕣
 - pattern: 义
   replacement: 丶乂
 - pattern: 鬯
@@ -355,8 +341,6 @@
   replacement: 京
 - pattern: 高
   replacement: 京口
-- pattern: 冡
-  replacement: 𠔼豕
 - pattern: 央
   replacement: 冂大
 - pattern: 朿
@@ -385,8 +369,6 @@
   replacement: 彐冖巾
 - pattern: 农
   replacement: 冖𧘇
-- pattern: 𠕻
-  replacement: 𠔼兀
 - pattern: 元
   replacement: 一兀
 - pattern: 鬥
@@ -551,8 +533,6 @@
   replacement: 冎
 - pattern: 巜
   replacement: 巛
-- pattern: 𠂋
-  replacement: 𠂆
 - pattern: 毋
   replacement: 母
 - pattern: 毌
@@ -575,10 +555,6 @@
   replacement: 甘
 - pattern: 𤰔
   replacement: 東
-- pattern: 㕣
-  replacement: 公
-- pattern: 𠮦
-  replacement: 公
 - pattern: 㐫
   replacement: 囟
 - pattern: ⺍凶
@@ -635,10 +611,6 @@
   replacement: 𠂊
 - pattern: 𠔿
   replacement: 内
-- pattern: コ
-  replacement: 龴
-- pattern: 𠔼
-  replacement: 冃
 - pattern: 六
   replacement: 宀
 - pattern: 冖
