@@ -455,6 +455,8 @@
   replacement: 一尢
 - pattern: 夫
   replacement: 二大
+- pattern: 韦
+  replacement: 二㐄
 
 # 一换一
 - pattern: 𧘇
@@ -509,8 +511,6 @@
   replacement: 申
 - pattern: 肀
   replacement: 尹
-- pattern: 韦
-  replacement: 㐄
 - pattern: 疋
   replacement: 足
 - pattern: 己
