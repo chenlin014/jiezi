@@ -670,23 +670,23 @@
 - pattern: 脊
   replacement: 𠂹⺼
 - pattern: 享
-  replacement: 京京
+  replacement: 京十
 - pattern: 亨
-  replacement: 京亠
+  replacement: 京丨
 - pattern: 喬
   replacement: 夭高
 - pattern: 春
-  replacement: 艹屯日
+  replacement: 𡗗日
 - pattern: 舂
-  replacement: 午廾臼
+  replacement: 𡗗臼
 - pattern: 秦
-  replacement: 午廾禾
+  replacement: 𡗗禾
 - pattern: 奏
   replacement: 禾廾
 - pattern: 奉
-  replacement: 丰廾扌
+  replacement: 𡗗扌
 - pattern: 屯
-  replacement: 一屮
+  replacement: 七凵
 - pattern: 前
   replacement: 止舟刂
 - pattern: 弔
@@ -970,3 +970,5 @@
   replacement: 衣
 - pattern: 𠫓
   replacement: 了
+- pattern: 𡗗
+  replacement: 丰
