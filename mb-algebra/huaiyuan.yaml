@@ -858,6 +858,8 @@
   replacement: 鬲田
 - pattern: 豆
   replacement: 鬲䒑
+- pattern: 回
+  replacement: 圍口
 
 # 一換一
 - pattern: 凢
@@ -966,3 +968,5 @@
   replacement: 衣
 - pattern: 𧘇
   replacement: 衣
+- pattern: 𠫓
+  replacement: 了
