@@ -942,8 +942,6 @@
   replacement: 丘
 - pattern: 辛
   replacement: 立
-- pattern: 凡
-  replacement: 舟
 - pattern: 午
   replacement: 干
 - pattern: 廾
