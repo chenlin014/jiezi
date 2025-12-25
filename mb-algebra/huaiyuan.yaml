@@ -864,6 +864,8 @@
   replacement: 亠几
 - pattern: 冈
   replacement: 冂乂
+- pattern: 午
+  replacement: 丿干
 
 # 一換一
 - pattern: 凢
