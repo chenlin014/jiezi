@@ -749,9 +749,9 @@
 - pattern: 索
   replacement: 十冖糸
 - pattern: 孛
-  replacement: 屮八子
+  replacement: 十冖子
 - pattern: 疐
-  replacement: 屮八田疋
+  replacement: 十冖田疋
 - pattern: 尝
   replacement: 八宀云
 - pattern: 冥
@@ -878,7 +878,7 @@
 - pattern: 冈
   replacement: 网
 - pattern: 𣎳
-  replacement: 屮
+  replacement: 木
 - pattern: 皀
   replacement: 食
 - pattern: 𠀐
