@@ -112,7 +112,7 @@
 - pattern: 蚤
   replacement: 㕚虫
 - pattern: 㕚
-  replacement: 又爪
+  replacement: 又⺀
 - pattern: 反
   replacement: 厂又
 - pattern: 最
@@ -882,7 +882,7 @@
 - pattern: 皀
   replacement: 艮
 - pattern: 𠀐
-  replacement: 𦥑
+  replacement: 中一
 - pattern: 𦥑
   replacement: 臼
 - pattern: 旧
