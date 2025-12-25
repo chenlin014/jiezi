@@ -860,6 +860,8 @@
   replacement: 鬲䒑
 - pattern: 回
   replacement: 圍口
+- pattern: 亢
+  replacement: 亠几
 
 # 一換一
 - pattern: 凢
@@ -972,3 +974,5 @@
   replacement: 了
 - pattern: 𡗗
   replacement: 丰
+- pattern: 尤
+  replacement: 尢
