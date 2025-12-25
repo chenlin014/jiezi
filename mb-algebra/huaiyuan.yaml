@@ -862,6 +862,8 @@
   replacement: 圍口
 - pattern: 亢
   replacement: 亠几
+- pattern: 冈
+  replacement: 冂乂
 
 # 一換一
 - pattern: 凢
@@ -875,12 +877,10 @@
   replacement: 凵
 - pattern: 父
   replacement: 尹
-- pattern: 冈
-  replacement: 网
 - pattern: 𣎳
   replacement: 木
 - pattern: 皀
-  replacement: 食
+  replacement: 艮
 - pattern: 𠀐
   replacement: 𦥑
 - pattern: 𦥑
