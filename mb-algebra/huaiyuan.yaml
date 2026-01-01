@@ -869,6 +869,8 @@
 - pattern: 艸
   replacement: 屮屮
   only: [艸]
+- pattern: 卉
+  replacement: 十艹
 
 # 一換一
 - pattern: 凢
