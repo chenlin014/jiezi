@@ -935,8 +935,6 @@
   replacement: 欠
 - pattern: 囪
   replacement: 囟
-- pattern: 入
-  replacement: 内
 - pattern: ⺍
   replacement: 丶
 - pattern: 冫
@@ -979,3 +977,5 @@
   replacement: 丰
 - pattern: 尤
   replacement: 尢
+- pattern: 入
+  replacement: 人
