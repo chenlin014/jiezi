@@ -869,8 +869,6 @@
   only: [艸]
 - pattern: 卉
   replacement: 十艹
-- pattern: 石
-  replacement: 厂口
 
 # 一換一
 - pattern: 凢
@@ -939,22 +937,14 @@
   replacement: 囟
 - pattern: 冫
   replacement: 二
-- pattern: 业
-  replacement: 丘
-- pattern: 辛
-  replacement: 立
 - pattern: 午
   replacement: 干
 - pattern: 廾
   replacement: 艸
-- pattern: 攴
-  replacement: 夂
 - pattern: 𠂆
   replacement: 厂
 - pattern: 乚
   replacement: ㇕
-- pattern: 丰
-  replacement: 生
 - pattern: 才
   replacement: 扌
 - pattern: 屮
