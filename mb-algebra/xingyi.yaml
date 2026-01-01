@@ -49,10 +49,6 @@
   replacement: 丿几
 - pattern: 五
   replacement: 工㇕
-- pattern: 【尚】
-  replacement: 小冖口
-- pattern: 尚
-  replacement: 小冂口
 - pattern: 奐
   replacement: 𠂊𠔿大
 - pattern: 奂

@@ -449,6 +449,10 @@
   replacement: 二大
 - pattern: 韦
   replacement: 二㐄
+- pattern: 【尚】
+  replacement: 小冖口
+- pattern: 尚
+  replacement: 小冂口
 
 # 一换一
 - pattern: 𠅃
