@@ -785,9 +785,9 @@
 - pattern: 卑
   replacement: 甲𠂇
 - pattern: 豈
-  replacement: 屮豆
+  replacement: 山豆
 - pattern: 耑
-  replacement: 屮而
+  replacement: 山而
 - pattern: 旨
   replacement: 匕甘
 - pattern: 昌
@@ -866,6 +866,9 @@
   replacement: 冂乂
 - pattern: 午
   replacement: 丿干
+- pattern: 艸
+  replacement: 屮屮
+  only: [艸]
 
 # 一換一
 - pattern: 凢
