@@ -862,8 +862,6 @@
   replacement: 亠几
 - pattern: 冈
   replacement: 冂乂
-- pattern: 午
-  replacement: 丿干
 - pattern: 艸
   replacement: 屮屮
   only: [艸]
@@ -937,8 +935,6 @@
   replacement: 囟
 - pattern: 冫
   replacement: 二
-- pattern: 午
-  replacement: 干
 - pattern: 廾
   replacement: 艸
 - pattern: 𠂆
