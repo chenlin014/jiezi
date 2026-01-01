@@ -869,6 +869,8 @@
   only: [艸]
 - pattern: 卉
   replacement: 十艹
+- pattern: 石
+  replacement: 厂口
 
 # 一換一
 - pattern: 凢
@@ -935,8 +937,6 @@
   replacement: 欠
 - pattern: 囪
   replacement: 囟
-- pattern: ⺍
-  replacement: 丶
 - pattern: 冫
   replacement: 二
 - pattern: 业
