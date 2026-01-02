@@ -650,9 +650,9 @@
 - pattern: 乾
   replacement: 【倝】乙
 - pattern: 倝
-  replacement: 㫃日丁
+  replacement: 㫃日十
 - pattern: 𠦝
-  replacement: 中日丁
+  replacement: 十日十
 - pattern: 旅
   replacement: 【㫃】从
 - pattern: 舍
