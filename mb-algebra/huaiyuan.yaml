@@ -864,9 +864,12 @@
   replacement: 亠几
 - pattern: 冈
   replacement: 冂乂
-- pattern: 艸
+- pattern: ^艸$
   replacement: 屮屮
   only: [艸]
+- pattern: ^⾂艸$
+  replacement: ⾂屮屮
+  only: [⾋]
 - pattern: 卉
   replacement: 十艹
 
