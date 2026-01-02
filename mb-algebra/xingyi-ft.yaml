@@ -176,3 +176,5 @@
 - pattern: 奥
   replacement: 向米大
   only: [奥]
+- pattern: 亮
+  replacement: 【高】儿

@@ -173,6 +173,8 @@
 - pattern: 查
   replacement: 木日一
   only: [查]
+- pattern: 亮
+  replacement: 【高】儿
 
 # 一換多
 - pattern: 晋
