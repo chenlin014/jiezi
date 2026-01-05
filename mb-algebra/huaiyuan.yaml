@@ -872,6 +872,8 @@
   only: [⾋]
 - pattern: 卉
   replacement: 十艹
+- pattern: 午
+  replacement: 丿干
 
 # 一換一
 - pattern: 凢
@@ -956,10 +958,8 @@
   replacement: 匚
 - pattern: 屰
   replacement: 㐄
-- pattern: 衤
-  replacement: 衣
 - pattern: 𧘇
-  replacement: 衣
+  replacement: 衤
 - pattern: 𠫓
   replacement: 了
 - pattern: 𡗗
