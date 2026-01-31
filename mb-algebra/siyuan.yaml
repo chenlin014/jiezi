@@ -849,6 +849,8 @@
   replacement: 彐力
 - pattern: 斗
   replacement: コ十
+- pattern: 灰
+  replacement: 𠂇火
 
 # 一換一
 - pattern: 凢

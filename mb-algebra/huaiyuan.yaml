@@ -874,6 +874,8 @@
   replacement: 十艹
 - pattern: 午
   replacement: 丿干
+- pattern: 灰
+  replacement: 𠂇火
 
 # 一換一
 - pattern: 凢
