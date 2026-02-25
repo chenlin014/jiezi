@@ -970,3 +970,7 @@
   replacement: 尢
 - pattern: 入
   replacement: 人
+- pattern: 儿
+  replacement: 𠂊
+- pattern: 𠂉
+  replacement: 𠂊

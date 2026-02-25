@@ -595,10 +595,6 @@
   replacement: 犬
 - pattern: 亻
   replacement: 人
-- pattern: 儿
-  replacement: 𠂊
-- pattern: 𠂉
-  replacement: 𠂊
 - pattern: 𠔿
   replacement: 内
 - pattern: 六
@@ -622,7 +618,7 @@
 - pattern: 𠂤
   replacement: 㠯
 
-# 重文合流
+# 繁简合流
 - pattern: 龟
   replacement: 龜
 - pattern: 亀
