@@ -294,9 +294,9 @@
 - pattern: 毚
   replacement: 象比兔
 - pattern: 兔
-  replacement: 象比
+  replacement: 象匕
 - pattern: 兎
-  replacement: 丿口比
+  replacement: 丿口儿匕
 - pattern: 免
   replacement: 象儿
 - pattern: 卓
@@ -757,7 +757,7 @@
 - pattern: 冥
   replacement: 冖日又𠂇
 - pattern: 寬
-  replacement: 宀卝目比
+  replacement: 宀卝見匕
 - pattern: 丐
   replacement: 刀亡
 - pattern: 丏
@@ -876,6 +876,10 @@
   replacement: 丿干
 - pattern: 灰
   replacement: 𠂇火
+- pattern: 比
+  replacement: 匕匕
+- pattern: 𫧇
+  replacement: 匕匕
 
 # 一換一
 - pattern: 凢

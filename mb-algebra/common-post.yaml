@@ -617,8 +617,6 @@
   replacement: 㠯
 - pattern: 亢
   replacement: 尢
-- pattern: 𫧇
-  replacement: 比
 
 # 繁简合流
 - pattern: 龟
