@@ -595,10 +595,6 @@
   replacement: 龶糸
 - pattern: 巩
   replacement: 工凡
-- pattern: 黃
-  replacement: 廿一由八
-- pattern: 黄
-  replacement: 廿由八
 - pattern: 舛
   replacement: 夕㐄
 
@@ -642,3 +638,5 @@
   replacement: 屮
 - pattern: 𫧇
   replacement: 比
+- pattern: 黄
+  replacement: 黃
