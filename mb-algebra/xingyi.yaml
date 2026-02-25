@@ -167,8 +167,6 @@
   replacement: 尤彡
 - pattern: 於
   replacement: 方人⺀
-- pattern: 斗
-  replacement: ⺀十
 - pattern: 升
   replacement: 丿廾
 - pattern: 青
@@ -603,8 +601,6 @@
   replacement: 廿由八
 - pattern: 舛
   replacement: 夕㐄
-- pattern: 耒
-  replacement: 丰木
 
 - pattern: 垂
   replacement: 𠦒

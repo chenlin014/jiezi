@@ -845,10 +845,6 @@
 - pattern: 奥
   replacement: 向米廾
   only: [奥]
-- pattern: 耒
-  replacement: 彐力
-- pattern: 斗
-  replacement: コ十
 - pattern: 灰
   replacement: 𠂇火
 
