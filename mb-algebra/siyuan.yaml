@@ -241,7 +241,7 @@
 - pattern: 売
   replacement: 【出士】冖儿
 - pattern: 罢
-  replacement: 网釆
+  replacement: 网去
 - pattern: 睘
   replacement: 目一口𧘇
 - pattern: 𢛳
@@ -290,13 +290,13 @@
 - pattern: 𡬠
   replacement: 皀寸
 - pattern: 能
-  replacement: 厶䏑釆
+  replacement: 厶䏑𫧇
 - pattern: 毚
-  replacement: 象釆兔
+  replacement: 象比兔
 - pattern: 兔
-  replacement: 象釆
+  replacement: 象比
 - pattern: 兎
-  replacement: 丿口釆
+  replacement: 丿口比
 - pattern: 免
   replacement: 象儿
 - pattern: 卓
@@ -764,7 +764,7 @@
 - pattern: 冥
   replacement: 冖日又𠂇
 - pattern: 寬
-  replacement: 宀卝目釆
+  replacement: 宀卝目比
 - pattern: 丐
   replacement: 刀亡
 - pattern: 丏
