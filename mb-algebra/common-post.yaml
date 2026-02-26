@@ -429,8 +429,6 @@
   replacement: 乙冫
 - pattern: 卂
   replacement: 乙十
-- pattern: 北
-  replacement: 𠂊匕
 - pattern: 來
   replacement: 木从
 - pattern: 来
@@ -443,8 +441,6 @@
   replacement: 𠂉小
 - pattern: 无
   replacement: 一尢
-- pattern: 夫
-  replacement: 二人
 - pattern: 韦
   replacement: 二㐄
 - pattern: 【尚】

@@ -880,6 +880,10 @@
   replacement: 匕匕
 - pattern: 𫧇
   replacement: 匕匕
+- pattern: 夫
+  replacement: 二人
+- pattern: 北
+  replacement: 𠂊匕
 
 # 一換一
 - pattern: 凢
