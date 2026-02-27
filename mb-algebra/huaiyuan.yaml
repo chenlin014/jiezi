@@ -884,6 +884,8 @@
   replacement: 二人
 - pattern: 北
   replacement: 𠂊匕
+- pattern: 爻
+  replacement: 乂乂
 
 # 一換一
 - pattern: 凢
