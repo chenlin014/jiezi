@@ -323,8 +323,6 @@
   replacement: 丷四日
 - pattern: 曽
   replacement: 丷田日
-- pattern: 并
-  replacement: 䒑廾
 - pattern: 㕚
   replacement: 又⺀
 - pattern: 朕
@@ -628,3 +626,5 @@
   replacement: 比
 - pattern: 黄
   replacement: 黃
+- pattern: 幷
+  replacement: 并

@@ -223,10 +223,6 @@
   replacement: 门开
 - pattern: 开
   replacement: 一廾
-- pattern: 幵
-  replacement: 干干
-- pattern: 幷
-  replacement: 丿干丿干
 - pattern: 专
   replacement: 二龴
 - pattern: 專

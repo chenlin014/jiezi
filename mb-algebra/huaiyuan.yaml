@@ -886,6 +886,10 @@
   replacement: 𠂊匕
 - pattern: 爻
   replacement: 乂乂
+- pattern: 幵
+  replacement: 干干
+- pattern: 幷
+  replacement: 丿干丿干
 
 # 一換一
 - pattern: 凢
