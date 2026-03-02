@@ -890,6 +890,10 @@
   replacement: 干干
 - pattern: 幷
   replacement: 丿干丿干
+- pattern: 里
+  replacement: 田土
+- pattern: 果
+  replacement: 田木
 
 # 一換一
 - pattern: 凢
@@ -915,7 +919,7 @@
   replacement: 臼
 - pattern: 卝
   replacement: 䒑
-- pattern: 𣎆（(.)）
+- pattern: 𣎆（(.+)）
   replacement: 龍\1丮
 - pattern: 阜
   replacement: 𠂤十
