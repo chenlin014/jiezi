@@ -119,8 +119,6 @@
   replacement: 屮凵
 - pattern: 芻
   replacement: 勹屮勹屮
-- pattern: 屰
-  replacement: 䒑屮
 - pattern: 蚩
   replacement: 屮一虫
 - pattern: 㝵
@@ -139,18 +137,10 @@
   replacement: 一止
 - pattern: 𤴓
   replacement: 一止
-- pattern: 萬
-  replacement: 艹田禸
-- pattern: 禺
-  replacement: 田禸
-- pattern: 禹
-  replacement: 丿虫冂
 - pattern: 禽
   replacement: 亼一乂凵禸
 - pattern: 离
   replacement: 亠乂凵禸
-- pattern: 禸
-  replacement: 冂厶
 - pattern: 𤔔
   replacement: 爪龴冂厶又
 - pattern: 质

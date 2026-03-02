@@ -334,18 +334,10 @@
   replacement: 正
 - pattern: 正
   replacement: 圍止
-- pattern: 萬
-  replacement: 廾田禸
-- pattern: 禺
-  replacement: 田禸
-- pattern: 禹
-  replacement: 丿虫九
 - pattern: 禽
   replacement: 亼一乂凵禸
 - pattern: 离
   replacement: 屮乂凵禸
-- pattern: 禸
-  replacement: 厶九
 - pattern: 𤔔
   replacement: 爪幺冂又
 - pattern: 质
