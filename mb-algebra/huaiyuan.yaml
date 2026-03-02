@@ -894,6 +894,12 @@
   replacement: 田土
 - pattern: 果
   replacement: 田木
+- pattern: 束
+  replacement: 木中
+- pattern: 未
+  replacement: 二木
+- pattern: 柬
+  replacement: 木四
 
 # 一換一
 - pattern: 凢
