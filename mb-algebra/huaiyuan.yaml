@@ -906,6 +906,10 @@
   replacement: 口口
 - pattern: 呂
   replacement: 口丿口
+- pattern: 克
+  replacement: 十口儿
+- pattern: 古
+  replacement: 十口
 
 # 一換一
 - pattern: 凢
