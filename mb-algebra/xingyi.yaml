@@ -325,10 +325,6 @@
   replacement: 丷田日
 - pattern: 㕚
   replacement: 又⺀
-- pattern: 朕
-  replacement: 月䒑大
-- pattern: 龹
-  replacement: 䒑大
 - pattern: 菐
   replacement: 丵大
 - pattern: 句
