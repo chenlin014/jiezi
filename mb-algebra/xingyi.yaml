@@ -19,10 +19,6 @@
   replacement: 䒑业
 - pattern: 亷
   replacement: 亠兼丿
-- pattern: 兼
-  replacement: 䒑彐〢八
-- pattern: 介
-  replacement: 人氘
 - pattern: 弟
   replacement: 丷弓丨丿
 - pattern: 第
@@ -215,8 +211,6 @@
   replacement: 龷日
 - pattern: 散
   replacement: 龷月攵
-- pattern: 寅
-  replacement: 宀一由八
 - pattern: 𤰇
   replacement: 龷丿用
 - pattern: 𬻝

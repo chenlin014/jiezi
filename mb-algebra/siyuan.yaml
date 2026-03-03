@@ -192,10 +192,6 @@
   replacement: 立立
 - pattern: 亷
   replacement: 亠兼丿
-- pattern: 兼
-  replacement: 禾禾彐
-- pattern: 介
-  replacement: 亻八
 - pattern: 弟
   replacement: 弋弓
 - pattern: 第
@@ -420,8 +416,6 @@
   replacement: 巛日
 - pattern: 散
   replacement: 木月攵
-- pattern: 寅
-  replacement: 矢中
 - pattern: 𤰇
   replacement: 矢用
 - pattern: 𬻝
