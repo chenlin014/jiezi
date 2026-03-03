@@ -620,3 +620,5 @@
   replacement: 會
 - pattern: 晋
   replacement: 晉
+- pattern: 𦰩
+  replacement: 堇

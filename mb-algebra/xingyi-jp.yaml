@@ -42,10 +42,6 @@
 - pattern: 亏
   replacement: 亐
   exclude: [亏, 鄂, 污, 鶚, 鹗, 颚, 锷, 鳄, 谔, 㗁, 𣅘, 𬞲]
-- pattern: 堇
-  replacement: 艹口龶
-- pattern: 𦰩
-  replacement: 艹口夫
 - pattern: 强
   replacement: 強
   exclude: [强, 繦, 镪]
@@ -115,9 +111,6 @@
 - pattern: 蚤
   replacement: 叉虫
   only: [骚]
-- pattern: 堇
-  replacement: 艹口龶
-  exclude: [觐, 馑, 谨]
 - pattern: 屯
   replacement: 丿屮
   exclude: [纯, 顿, 饨, 馑, 鲀, 钝]

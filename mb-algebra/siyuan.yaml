@@ -422,10 +422,6 @@
   replacement: 木月攵
 - pattern: 寅
   replacement: 矢中
-- pattern: 堇
-  replacement: 黃土
-- pattern: 𦰩
-  replacement: 黃火
 - pattern: 𤰇
   replacement: 矢用
 - pattern: 𬻝
@@ -891,3 +887,5 @@
   replacement: 會
 - pattern: 晋
   replacement: 晉
+- pattern: 𦰩
+  replacement: 堇
