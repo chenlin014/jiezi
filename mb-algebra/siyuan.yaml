@@ -423,9 +423,7 @@
 - pattern: 旁
   replacement: 凡方
 - pattern: 啇
-  replacement: 不冂口
-- pattern: 帝
-  replacement: 不冖
+  replacement: 帝口
 - pattern: 咅
   replacement: 丶不口
 - pattern: 竞
