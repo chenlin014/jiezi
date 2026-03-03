@@ -177,10 +177,6 @@
   replacement: 【高】儿
 
 # 一換多
-- pattern: 晋
-  replacement: 亚日
-- pattern: 晉
-  replacement: 至至日
 - pattern: 发
   replacement: 丿犬又
 - pattern: 失
@@ -895,3 +891,5 @@
   replacement: 曾
 - pattern: 会
   replacement: 會
+- pattern: 晋
+  replacement: 晉

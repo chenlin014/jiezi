@@ -2,10 +2,6 @@
   replacement: 亼月刂
 - pattern: 兪
   replacement: 亼月巜
-- pattern: 晋
-  replacement: 亚日
-- pattern: 晉
-  replacement: 二厶厶日
 - pattern: 发
   replacement: 丿犬㇕
 - pattern: 失
@@ -622,3 +618,5 @@
   replacement: 曾
 - pattern: 会
   replacement: 會
+- pattern: 晋
+  replacement: 晉
