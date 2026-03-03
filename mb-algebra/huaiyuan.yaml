@@ -912,6 +912,8 @@
   replacement: 十口
 - pattern: 每
   replacement: 𠂉母
+- pattern: 少
+  replacement: 小丿
 
 # 一換一
 - pattern: 凢
