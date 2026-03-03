@@ -4,17 +4,11 @@
   replacement: 亼月巜
 - pattern: 发
   replacement: 丿犬㇕
-- pattern: 失
-  replacement: 𠂉大
-- pattern: 赤
-  replacement: 土火
 - pattern: 侯
   replacement: 亻コ矢
 - pattern: 候
   replacement: 亻丨コ矢
   only: [候]
-- pattern: 並
-  replacement: 䒑业
 - pattern: 亷
   replacement: 亠兼丿
 - pattern: 弟

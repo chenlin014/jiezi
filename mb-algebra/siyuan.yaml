@@ -173,17 +173,11 @@
 # 一換多
 - pattern: 发
   replacement: 丿犬又
-- pattern: 失
-  replacement: 手丶
-- pattern: 赤
-  replacement: 大火
 - pattern: 侯
   replacement: 𠂊厂矢
 - pattern: 候
   replacement: 亻𠂊厂矢
   only: [候]
-- pattern: 並
-  replacement: 立立
 - pattern: 亷
   replacement: 亠兼丿
 - pattern: 弟

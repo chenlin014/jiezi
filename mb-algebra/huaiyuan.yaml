@@ -910,6 +910,8 @@
   replacement: 十口儿
 - pattern: 古
   replacement: 十口
+- pattern: 每
+  replacement: 𠂉母
 
 # 一換一
 - pattern: 凢
