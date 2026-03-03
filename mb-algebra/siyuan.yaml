@@ -538,10 +538,6 @@
 # 墨刑說
 - pattern: 黒
   replacement: 田大灬
-- pattern: 曾
-  replacement: 丷𡆧曰
-- pattern: 曽
-  replacement: 丷田曰
 - pattern: 龹
   replacement: 丨廾
   only: [誊]
@@ -897,3 +893,5 @@
   replacement: 并
 - pattern: 吕
   replacement: 呂
+- pattern: 曽
+  replacement: 曾

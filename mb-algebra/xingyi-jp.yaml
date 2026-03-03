@@ -5,9 +5,6 @@
 - pattern: 黑
   replacement: 黒
   exclude: [黑, 𬙊, 𪑑]
-- pattern: 曾
-  replacement: 曽
-  exclude: [曾, 增, 赠, 缯]
 - pattern: 吴
   replacement: 呉
   exclude: [吴, 俣, 误, 娱]
