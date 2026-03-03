@@ -69,12 +69,6 @@
 - pattern: 次
   replacement: 冫欠
   only: [资]
-- pattern: 敖
-  replacement: 士方攵
-  exclude: [赘, 鳌, 骜]
-- pattern: 敖
-  replacement: 龶力攵
-  only: [赘, 鳌, 骜]
 - pattern: 敢
   replacement: 丁耳攵
   exclude: [阚]

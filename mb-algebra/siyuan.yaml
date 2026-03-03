@@ -105,8 +105,6 @@
   only: [忁]
 - pattern: 出
   replacement: 止凵
-- pattern: 敖
-  replacement: 屮人攵
 - pattern: 敢
   replacement: 彑攵
 - pattern: 蚤
