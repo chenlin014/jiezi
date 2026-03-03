@@ -1,4 +1,4 @@
-# 有異体
+# 異体
 - pattern: 吴
   replacement: 吳
   exclude: [吴, 俣, 误, 娱]
@@ -815,6 +815,8 @@
   replacement: 𠂹糸
 - pattern: 巩
   replacement: 工丮
+- pattern: 会
+  replacement: 亼一厶
 
 - pattern: 𠂆𠂢
   replacement: 巛卜

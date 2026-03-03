@@ -89,8 +89,6 @@
   replacement: 罒方
 - pattern: 罒
   replacement: 四
-- pattern: 會
-  replacement: 亼四日
 - pattern: 熏
   replacement: 千四土灬
 - pattern: 爵
@@ -622,3 +620,5 @@
   replacement: 呂
 - pattern: 曽
   replacement: 曾
+- pattern: 会
+  replacement: 會
