@@ -900,6 +900,10 @@
   replacement: 二木
 - pattern: 柬
   replacement: 木四
+- pattern: 吕
+  replacement: 口口
+- pattern: 呂
+  replacement: 口丿口
 
 # 一換一
 - pattern: 凢

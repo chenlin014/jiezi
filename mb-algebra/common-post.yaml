@@ -11,10 +11,6 @@
   replacement: 十目𠔀
 - pattern: 眞
   replacement: 匕目𠔀
-- pattern: 吕
-  replacement: 口口
-- pattern: 呂
-  replacement: 口丿口
 - pattern: 市
   replacement: 亠巾
 - pattern: 巿

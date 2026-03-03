@@ -626,3 +626,5 @@
   replacement: 黃
 - pattern: 幷
   replacement: 并
+- pattern: 吕
+  replacement: 呂
