@@ -111,8 +111,6 @@
   replacement: 㕚虫
 - pattern: 㕚
   replacement: 又爪
-- pattern: 反
-  replacement: 厂又
 - pattern: 最
   replacement: 冃耳又
 - pattern: 冒
@@ -184,8 +182,6 @@
 - pattern: 候
   replacement: 亻𠂊厂矢
   only: [候]
-- pattern: 光
-  replacement: 火儿
 - pattern: 並
   replacement: 立立
 - pattern: 亷

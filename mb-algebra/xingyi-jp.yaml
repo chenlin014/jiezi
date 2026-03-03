@@ -111,12 +111,6 @@
 - pattern: 屯
   replacement: 一屮
   only: [纯, 顿, 饨, 馑, 鲀, 钝]
-- pattern: 反
-  replacement: 厂又
-  exclude: [贩, 饭, 钣]
-- pattern: 反
-  replacement: 𠂆又
-  only: [贩, 饭, 钣]
 - pattern: 最
   replacement: 日耳又
 - pattern: 冒

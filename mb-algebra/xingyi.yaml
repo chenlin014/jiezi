@@ -13,8 +13,6 @@
 - pattern: 候
   replacement: 亻丨コ矢
   only: [候]
-- pattern: 光
-  replacement: 小兀
 - pattern: 並
   replacement: 䒑业
 - pattern: 亷

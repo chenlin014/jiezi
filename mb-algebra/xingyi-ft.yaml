@@ -83,12 +83,6 @@
   only: [骚]
 - pattern: 屯
   replacement: 一屮
-- pattern: 反
-  replacement: 厂又
-  exclude: [贩, 饭, 钣]
-- pattern: 反
-  replacement: 𠂆又
-  only: [贩, 饭, 钣]
 - pattern: 最
   replacement: 冃耳又
 - pattern: 冒
