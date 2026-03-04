@@ -78,8 +78,6 @@
 #  replacement: 㦮
 #  append: true
 #  only: [残, 践, 浅]
-- pattern: 臣𠂉丶罒
-  replacement: 臣𠂉丶皿
 
 - pattern: 画
   replacement: 一田凵
@@ -819,6 +817,12 @@
   replacement: 工丮
 - pattern: 会
   replacement: 亼一厶
+- pattern: 監
+  replacement: 臣𠂉丶皿
+- pattern: 【监】
+  replacement: 〢𠂉丶
+- pattern: 监
+  replacement: 〢𠂉丶皿
 
 - pattern: 𠂆𠂢
   replacement: 巛卜
