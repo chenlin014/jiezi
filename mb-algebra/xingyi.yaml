@@ -594,3 +594,5 @@
   replacement: 柬
 - pattern: 监
   replacement: 監
+- pattern: 𠃓
+  replacement: 昜

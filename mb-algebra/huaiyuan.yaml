@@ -936,6 +936,18 @@
   replacement: 𠂭凵匕
 - pattern: 鹵
   replacement: 卜圍𠂭
+- pattern: 直
+  replacement: 十目
+- pattern: 今
+  replacement: 亼㇕
+- pattern: 丑
+  replacement: 彐丨
+- pattern: 矛
+  replacement: 予丿
+- pattern: 昜
+  replacement: 日一勿
+- pattern: 𠃓
+  replacement: ㇕勿
 
 # 一換一
 - pattern: 凢
