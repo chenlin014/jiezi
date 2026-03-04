@@ -926,6 +926,8 @@
   replacement: 卩用
 - pattern: 鬥
   replacement: 丮丮
+- pattern: 𠂔
+  replacement: 才乚
 
 # 一換一
 - pattern: 凢
