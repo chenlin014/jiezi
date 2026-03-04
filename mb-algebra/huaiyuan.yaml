@@ -916,6 +916,10 @@
   replacement: 小丿
 - pattern: 𫠣
   replacement: 七㇆八
+- pattern: 首
+  replacement: 丷𦣻
+- pattern: 面
+  replacement: 𦣻圍
 
 # 一換一
 - pattern: 凢
@@ -1014,3 +1018,5 @@
   replacement: 𠂊
 - pattern: 𠂉
   replacement: 𠂊
+- pattern: 疋
+  replacement: 足
