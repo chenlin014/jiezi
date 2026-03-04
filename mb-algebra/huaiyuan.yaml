@@ -914,6 +914,8 @@
   replacement: 𠂉母
 - pattern: 少
   replacement: 小丿
+- pattern: 𫠣
+  replacement: 七㇆八
 
 # 一換一
 - pattern: 凢
