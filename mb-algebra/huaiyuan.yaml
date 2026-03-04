@@ -924,6 +924,8 @@
   replacement: 𦣻圍
 - pattern: 甬
   replacement: 卩用
+- pattern: 鬥
+  replacement: 丮丮
 
 # 一換一
 - pattern: 凢
