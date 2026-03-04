@@ -920,6 +920,8 @@
   replacement: 丷𦣻
 - pattern: 面
   replacement: 𦣻圍
+- pattern: 甬
+  replacement: 卩用
 
 # 一換一
 - pattern: 凢
