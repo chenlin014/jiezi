@@ -932,6 +932,10 @@
   replacement: 丮丮
 - pattern: 𠂔
   replacement: 才乚
+- pattern: 鬯
+  replacement: 𠂭凵匕
+- pattern: 鹵
+  replacement: 卜圍𠂭
 
 # 一換一
 - pattern: 凢
