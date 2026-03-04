@@ -638,13 +638,6 @@
 - pattern: 养
   replacement: 羊氘
   only: [养]
-- pattern: 丹丶
-  replacement: 凡⺀
-  only: [𨱪]
-- pattern: 丹
-  replacement: 凡丶
-- pattern: 靑
-  replacement: 生円
 - pattern: 円
   replacement: 凡丨
 - pattern: 宣
@@ -859,3 +852,5 @@
   replacement: 監
 - pattern: 𠃓
   replacement: 昜
+- pattern: 靑
+  replacement: 青
