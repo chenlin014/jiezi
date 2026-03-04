@@ -777,8 +777,6 @@
   replacement: 【㫃】从
 - pattern: 宀艹
   replacement: 宀卝
-- pattern: 舛
-  replacement: 夂㐄
 - pattern: 奧
   replacement: 向釆廾
   exclude: [奥]
