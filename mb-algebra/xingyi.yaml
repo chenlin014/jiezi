@@ -137,14 +137,6 @@
   replacement: 丶水
 - pattern: 尨
   replacement: 尤彡
-- pattern: 升
-  replacement: 丿廾
-- pattern: 青
-  replacement: 龶月
-- pattern: 表
-  replacement: 龶𧘇
-- pattern: 先
-  replacement: 牛儿
 - pattern: 【華】
   replacement: 𠦒
   only: [崋]

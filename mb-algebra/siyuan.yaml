@@ -328,14 +328,6 @@
   replacement: 巛亻
 - pattern: 尨
   replacement: 犬彡
-- pattern: 升
-  replacement: 彐十
-- pattern: 青
-  replacement: 生井
-- pattern: 表
-  replacement: 衣毛
-- pattern: 先
-  replacement: 之儿
 - pattern: 【華】
   replacement: 𠂹
   only: [崋]
