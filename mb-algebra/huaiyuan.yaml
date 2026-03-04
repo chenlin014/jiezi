@@ -444,8 +444,10 @@
   replacement: 黃火
 - pattern: 𤰇
   replacement: 矢用
-- pattern: 𬻝
-  replacement: 亦廿
+- pattern: 舞
+  replacement: 亦廿舛
+- pattern: 無
+  replacement: 亦廿灬
 - pattern: 旁
   replacement: 凡方
 - pattern: 啇
