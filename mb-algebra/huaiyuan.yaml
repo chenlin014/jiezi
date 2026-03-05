@@ -980,6 +980,10 @@
   replacement: 小冂口
 - pattern: 幸
   replacement: 土半
+- pattern: 真
+  replacement: 十目𠔀
+- pattern: 眞
+  replacement: 匕目𠔀
 
 # 一換一
 - pattern: 凢

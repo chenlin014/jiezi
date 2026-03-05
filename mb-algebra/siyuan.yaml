@@ -8,9 +8,6 @@
 - pattern: 夕寸
   replacement: 䏑寸
   exclude: [将, 蒋, 锵]
-- pattern: 真
-  replacement: 眞
-  exclude: [真, 槙, 顛, 颠, 填, 巔, 巅, 慎, 鎮, 镇, 癫, 阗, 缜]
 - pattern: 束𠂊貝
   replacement: 束刀貝
 - pattern: 晋
@@ -816,3 +813,5 @@
   replacement: 黑
 - pattern: 𤴓
   replacement: 正
+- pattern: 眞
+  replacement: 真

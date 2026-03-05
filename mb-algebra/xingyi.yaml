@@ -563,3 +563,5 @@
   replacement: 黑
 - pattern: 𤴓
   replacement: 正
+- pattern: 眞
+  replacement: 真
