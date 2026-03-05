@@ -215,9 +215,7 @@
 - pattern: 曹
   replacement: 一曲日
 - pattern: 丟
-  replacement: 王厶
-- pattern: 去
-  replacement: 土厶
+  replacement: 一去
 - pattern: 臺
   replacement: 士口冖至
 - pattern: 志

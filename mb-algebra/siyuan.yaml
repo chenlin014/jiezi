@@ -415,8 +415,6 @@
   replacement: 東東曰
 - pattern: 丟
   replacement: 一去
-- pattern: 去
-  replacement: 大凵
 - pattern: 寺
   replacement: 之寸
 - pattern: 臺
