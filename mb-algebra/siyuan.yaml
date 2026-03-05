@@ -119,8 +119,6 @@
   replacement: 亻丨攵
 - pattern: 㓁
   replacement: 网
-- pattern: 麻
-  replacement: 广𣎳𣎳
 - pattern: 甚
   replacement: 甘匚八
 - pattern: 夌
@@ -458,10 +456,6 @@
   replacement: 乂𣎳
 - pattern: 𣏂
   replacement: 乂朮
-- pattern: 术
-  replacement: 𣎳丶
-- pattern: 朮
-  replacement: 𣎳丶
 - pattern: 冓
   replacement: 魚魚
 - pattern: 爯
@@ -757,8 +751,10 @@
   replacement: 出
 - pattern: 冈
   replacement: 网
+- pattern: 朮
+  replacement: 术
 - pattern: 𣎳
-  replacement: 屮
+  replacement: 术
 - pattern: 皀
   replacement: 食
 - pattern: 𠀐

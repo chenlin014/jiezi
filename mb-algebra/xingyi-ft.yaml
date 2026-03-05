@@ -97,8 +97,6 @@
   replacement: 亻丨攵
 - pattern: 㓁
   replacement: 冖儿
-- pattern: 麻
-  replacement: 广𣎳𣎳
 - pattern: 甚
   replacement: 甘匚儿
   exclude: [谌]

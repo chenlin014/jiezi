@@ -256,10 +256,6 @@
   replacement: 乂木
 - pattern: 𣏂
   replacement: 乂朮
-- pattern: 术
-  replacement: 木丶
-- pattern: 朮
-  replacement: 𣎳丶
 - pattern: 冓
   replacement: 甘冉
 - pattern: 爯
@@ -513,8 +509,10 @@
 - pattern: 粛
   replacement: 肀𣶒
 
+- pattern: 朮
+  replacement: 术
 - pattern: 𣎳
-  replacement: 木
+  replacement: 术
 - pattern: 𦥑
   replacement: 臼
 - pattern: 𨹺
