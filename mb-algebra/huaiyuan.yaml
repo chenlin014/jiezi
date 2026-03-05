@@ -265,7 +265,7 @@
 - pattern: 蜀
   replacement: 目勹虫
 - pattern: 睪
-  replacement: 目土半
+  replacement: 目幸
 - pattern: 眾
   replacement: 目从
 - pattern: 罒
@@ -978,6 +978,8 @@
   replacement: 小冖口
 - pattern: 尚
   replacement: 小冂口
+- pattern: 幸
+  replacement: 土半
 
 # 一換一
 - pattern: 凢
