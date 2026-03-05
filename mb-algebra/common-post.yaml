@@ -147,12 +147,6 @@
   replacement: 门开
 - pattern: 开
   replacement: 一廾
-- pattern: 专
-  replacement: 二龴
-- pattern: 專
-  replacement: 𤰔厶寸
-- pattern: 惠
-  replacement: 𤰔厶心
 - pattern: 夭
   replacement: 丿大
 - pattern: 巠

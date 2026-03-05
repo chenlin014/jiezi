@@ -52,3 +52,11 @@
   replacement: 風
 - pattern: 尓
   replacement: 尔
+- pattern: 专
+  replacement: 專
+- pattern: 専
+  replacement: 專
+- pattern: 惠
+  replacement: 專心
+- pattern: 恵
+  replacement: 專心

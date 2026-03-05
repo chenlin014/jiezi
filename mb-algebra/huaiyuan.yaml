@@ -1008,6 +1008,18 @@
   replacement: 𠂊小
 - pattern: 尓
   replacement: 𠂉小
+- pattern: 专
+  replacement: 二龴
+- pattern: 專
+  replacement: 叀寸
+- pattern: 惠
+  replacement: 叀心
+- pattern: 専
+  replacement: 𤰔寸
+- pattern: 恵
+  replacement: 𤰔心
+- pattern: 叀
+  replacement: 𤰔厶
 
 # 一換一
 - pattern: 凢
