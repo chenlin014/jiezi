@@ -21,12 +21,14 @@ xingyi-%:
 		$(mb-xformer) mb-algebra/common-pre.yaml | \
 		$(mb-xformer) mb-algebra/xingyi-$*.yaml | \
 		$(mb-xformer) mb-algebra/xingyi.yaml | \
+		$(mb-xformer) mb-algebra/common-serial.yaml | \
 		$(mb-xformer) mb-algebra/common-post.yaml > table/xingyi-$*.tsv
 
 siyuan:
 	cat $(init-mb) | \
 		$(mb-xformer) mb-algebra/common-pre.yaml | \
 		$(mb-xformer) mb-algebra/siyuan.yaml | \
+		$(mb-xformer) mb-algebra/common-serial.yaml | \
 		$(mb-xformer) mb-algebra/common-post.yaml > table/siyuan.tsv
 
 huaiyuan:
