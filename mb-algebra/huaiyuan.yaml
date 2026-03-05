@@ -962,6 +962,12 @@
   replacement: 肀川八
 - pattern: 粛
   replacement: 肀川米
+- pattern: 朿
+  replacement: 木冂
+- pattern: 本
+  replacement: 木一
+- pattern: 末
+  replacement: 一木
 
 # 一換一
 - pattern: 凢
