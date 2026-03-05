@@ -751,10 +751,12 @@
   replacement: 臼
 - pattern: 卝
   replacement: 䒑
-- pattern: 𣎆（(.)）
-  replacement: 龍\1丮
 - pattern: 𨹺
   replacement: 阜
+- pattern: 𣎆（(貝|贝)）
+  replacement: 贏
+- pattern: 𣎆（(.+)）
+  replacement: 贏\1
 - pattern: 𨹝
   replacement: 邑
 - pattern: 乡

@@ -288,8 +288,10 @@
   replacement: 艹隹
 - pattern: 繭
   replacement: 艹巾糸虫
+- pattern: 𣎆（(貝|贝)）
+  replacement: 贏
 - pattern: 𣎆（(.+)）
-  replacement: 亡口月\1凡
+  replacement: 贏\1
 - pattern: 𠀐
   replacement: 中一
 - pattern: 㡭
