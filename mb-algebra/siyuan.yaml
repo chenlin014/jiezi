@@ -103,8 +103,6 @@
 - pattern: 大氺
   replacement: 廾米
   only: [忁]
-- pattern: 出
-  replacement: 止凵
 - pattern: 敢
   replacement: 彑攵
 - pattern: 蚤
@@ -281,8 +279,6 @@
   replacement: 亦夕
 - pattern: 支
   replacement: 竹又
-- pattern: 骨
-  replacement: 冎䏑
 - pattern: 芻
   replacement: 𠂇艹
 - pattern: 蚩
@@ -593,8 +589,6 @@
   replacement: 中日丁
 - pattern: 旅
   replacement: 【㫃】从
-- pattern: 舍
-  replacement: 亼十口
 - pattern: 舎
   replacement: 入土口
 - pattern: 康
@@ -780,7 +774,7 @@
 - pattern: 𠦒
   replacement: 其
 - pattern: 【出士】
-  replacement: 凵
+  replacement: 出
 - pattern: 冈
   replacement: 网
 - pattern: 𣎳
