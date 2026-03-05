@@ -270,10 +270,6 @@
   replacement: 甘冉
 - pattern: 爯
   replacement: 爪魚
-- pattern: 黑
-  replacement: 四土灬
-- pattern: 黒
-  replacement: 里灬
 - pattern: 㕚
   replacement: 又⺀
 - pattern: 菐
@@ -589,3 +585,5 @@
   replacement: 畢
 - pattern: 无
   replacement: 無
+- pattern: 黒
+  replacement: 黑
