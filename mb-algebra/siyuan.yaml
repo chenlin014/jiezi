@@ -753,6 +753,12 @@
   only: [奥]
 - pattern: 灰
   replacement: 𠂇火
+- pattern: 肅
+  replacement: 肀𣶒
+- pattern: 肃
+  replacement: 肀𣶒
+- pattern: 粛
+  replacement: 肀𣶒
 
 # 一換一
 - pattern: 凢

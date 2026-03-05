@@ -954,6 +954,14 @@
   replacement: 化十
 - pattern: 毕
   replacement: 比十
+- pattern: 肅
+  replacement: 肀𣶒
+- pattern: 𣶒
+  replacement: 亞一
+- pattern: 肃
+  replacement: 肀川八
+- pattern: 粛
+  replacement: 肀川米
 
 # 一換一
 - pattern: 凢

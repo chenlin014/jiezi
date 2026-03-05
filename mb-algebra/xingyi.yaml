@@ -516,6 +516,12 @@
   replacement: 龶糸
 - pattern: 巩
   replacement: 工凡
+- pattern: 肅
+  replacement: 肀𣶒
+- pattern: 肃
+  replacement: 肀𣶒
+- pattern: 粛
+  replacement: 肀𣶒
 
 - pattern: 𣎳
   replacement: 木

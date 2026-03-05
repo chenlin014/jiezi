@@ -103,14 +103,6 @@
   replacement: 一肀女
 - pattern: 隶
   replacement: 肀𠁼
-- pattern: 肅
-  replacement: 肀𣶒
-- pattern: 𣶒
-  replacement: 亞一
-- pattern: 肃
-  replacement: 肀川八
-- pattern: 粛
-  replacement: 肀川米
 - pattern: 乍
   replacement: 𠂉卜
 - pattern: 卬
