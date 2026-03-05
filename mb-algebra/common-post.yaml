@@ -141,18 +141,12 @@
   replacement: 刀口
 - pattern: 死
   replacement: 歹匕
-- pattern: 䜌
-  replacement: 言糸糸
-- pattern: 民
-  replacement: 巳七
 - pattern: 卸
   replacement: 午止卩
 - pattern: 堯
   replacement: 土土土兀
 - pattern: 圭
   replacement: 土土
-- pattern: 主
-  replacement: 丶王
 - pattern: 咼
   replacement: 冎口
 - pattern: 乏

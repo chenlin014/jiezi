@@ -984,6 +984,12 @@
   replacement: 十目𠔀
 - pattern: 眞
   replacement: 匕目𠔀
+- pattern: 䜌
+  replacement: 言糸糸
+- pattern: 民
+  replacement: 巳七
+- pattern: 主
+  replacement: 丶王
 
 # 一換一
 - pattern: 凢
