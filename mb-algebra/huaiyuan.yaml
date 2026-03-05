@@ -994,6 +994,10 @@
   replacement: 土土土兀
 - pattern: 尧
   replacement: 七丿兀
+- pattern: 風
+  replacement: 凡虫
+- pattern: 风
+  replacement: 𠘨乂
 
 # 一換一
 - pattern: 凢
