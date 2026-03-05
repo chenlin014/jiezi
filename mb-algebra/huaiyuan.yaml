@@ -1002,6 +1002,12 @@
   replacement: 目爿片
 - pattern: 兆
   replacement: 儿𠁼
+- pattern: 爾
+  replacement: 丁八网
+- pattern: 尔
+  replacement: 𠂊小
+- pattern: 尓
+  replacement: 𠂉小
 
 # 一換一
 - pattern: 凢

@@ -50,3 +50,5 @@
   replacement: 堯
 - pattern: 风
   replacement: 風
+- pattern: 尓
+  replacement: 尔
