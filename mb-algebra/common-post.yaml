@@ -125,8 +125,6 @@
   replacement: 一戈
 - pattern: 㦮
   replacement: 二戈
-- pattern: 鼎
-  replacement: 目爿片
 - pattern: 韋
   replacement: 𫝀口㐄
 - pattern: 𡈼
@@ -167,8 +165,6 @@
   replacement: 身殳
 - pattern: 倉
   replacement: 亼戶口
-- pattern: 兆
-  replacement: 儿𠁼
 - pattern: 爾
   replacement: 丁八网
 - pattern: 尽

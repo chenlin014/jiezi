@@ -998,6 +998,10 @@
   replacement: 凡虫
 - pattern: 风
   replacement: 𠘨乂
+- pattern: 鼎
+  replacement: 目爿片
+- pattern: 兆
+  replacement: 儿𠁼
 
 # 一換一
 - pattern: 凢
