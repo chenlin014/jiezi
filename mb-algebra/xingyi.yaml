@@ -587,3 +587,5 @@
   replacement: 華
 - pattern: 毕
   replacement: 畢
+- pattern: 无
+  replacement: 無

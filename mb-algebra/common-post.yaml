@@ -173,8 +173,6 @@
   replacement: 𤰔厶寸
 - pattern: 惠
   replacement: 𤰔厶心
-- pattern: 天
-  replacement: 一大
 - pattern: 夭
   replacement: 丿大
 - pattern: 巠
@@ -359,14 +357,8 @@
   replacement: 𠂊小
 - pattern: 尓
   replacement: 𠂉小
-- pattern: 无
-  replacement: 一尢
 - pattern: 韦
   replacement: 二㐄
-- pattern: 【尚】
-  replacement: 小冖口
-- pattern: 尚
-  replacement: 小冂口
 
 # 一换一
 - pattern: 𠅃

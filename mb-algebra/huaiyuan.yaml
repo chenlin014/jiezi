@@ -968,6 +968,16 @@
   replacement: 木一
 - pattern: 末
   replacement: 一木
+- pattern: 无
+  replacement: 一尢
+- pattern: 天
+  replacement: 一大
+- pattern: 太
+  replacement: 大丶
+- pattern: 【尚】
+  replacement: 小冖口
+- pattern: 尚
+  replacement: 小冂口
 
 # 一換一
 - pattern: 凢
