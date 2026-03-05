@@ -133,15 +133,8 @@
   replacement: 丶水
 - pattern: 尨
   replacement: 尤彡
-- pattern: 【華】
-  replacement: 𠦒
-  only: [崋]
-- pattern: 華
-  replacement: 艹𠦒
 - pattern: 麥
   replacement: 來夂
-- pattern: 畢
-  replacement: 田𠦒
 - pattern: 異
   replacement: 田共
 - pattern: 糞
@@ -479,8 +472,6 @@
   replacement: 丁乚㇆
 - pattern: 万
   replacement: 一力
-- pattern: 化
-  replacement: 亻匕
 - pattern: 服
   replacement: 月卩又
 - pattern: 朋
@@ -526,8 +517,6 @@
 - pattern: 巩
   replacement: 工凡
 
-- pattern: 垂
-  replacement: 𠦒
 - pattern: 𣎳
   replacement: 木
 - pattern: 𦥑
@@ -588,3 +577,7 @@
   replacement: 昜
 - pattern: 靑
   replacement: 青
+- pattern: 华
+  replacement: 華
+- pattern: 毕
+  replacement: 畢

@@ -950,6 +950,10 @@
   replacement: 日一勿
 - pattern: 𠃓
   replacement: ㇕勿
+- pattern: 华
+  replacement: 化十
+- pattern: 毕
+  replacement: 比十
 
 # 一換一
 - pattern: 凢
