@@ -565,3 +565,5 @@
   replacement: 正
 - pattern: 眞
   replacement: 真
+- pattern: 尧
+  replacement: 堯

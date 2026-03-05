@@ -990,6 +990,10 @@
   replacement: 巳七
 - pattern: 主
   replacement: 丶王
+- pattern: 堯
+  replacement: 土土土兀
+- pattern: 尧
+  replacement: 七丿兀
 
 # 一換一
 - pattern: 凢

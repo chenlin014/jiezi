@@ -121,8 +121,6 @@
   replacement: 亼口人
 - pattern: 𪜀
   replacement: 十乚
-- pattern: 尧
-  replacement: 七丿兀
 - pattern: 戋
   replacement: 一戈
 - pattern: 㦮
@@ -143,8 +141,6 @@
   replacement: 歹匕
 - pattern: 卸
   replacement: 午止卩
-- pattern: 堯
-  replacement: 土土土兀
 - pattern: 圭
   replacement: 土土
 - pattern: 咼
