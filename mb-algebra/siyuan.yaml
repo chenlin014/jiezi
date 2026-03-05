@@ -298,12 +298,6 @@
   replacement: 臼烏
 - pattern: 焉
   replacement: 正烏
-- pattern: 是
-  replacement: 日𤴓
-- pattern: 𤴓
-  replacement: 正
-- pattern: 正
-  replacement: 圍止
 - pattern: 禽
   replacement: 亼一乂凵禸
 - pattern: 离
@@ -312,14 +306,6 @@
   replacement: 爪幺冂又
 - pattern: 质
   replacement: 斤贝
-- pattern: 斥
-  replacement: 广屰
-- pattern: 盾
-  replacement: 𠂋丨目
-- pattern: 司
-  replacement: 𠂋
-- pattern: 永
-  replacement: 巛亻
 - pattern: 尨
   replacement: 犬彡
 - pattern: 麥
@@ -832,3 +818,5 @@
   replacement: 無
 - pattern: 黒
   replacement: 黑
+- pattern: 𤴓
+  replacement: 正
