@@ -1,3 +1,6 @@
+- pattern: 考
+  replacement: 耂丂
+
 - pattern: 㕣
   replacement: 公
 - pattern: 𠮦
@@ -82,3 +85,5 @@
   only: [伞]
 - pattern: 来
   replacement: 來
+- pattern: 老
+  replacement: 耂

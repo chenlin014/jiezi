@@ -45,10 +45,6 @@
   replacement: 白卯儿
 - pattern: 乐
   replacement: 𠂆木
-- pattern: 老
-  replacement: 耂匕
-- pattern: 考
-  replacement: 耂丂
 - pattern: 孝
   replacement: 耂子
 - pattern: 幾
@@ -323,8 +319,6 @@
   replacement: 凡
 - pattern: 𠘨
   replacement: 凡
-- pattern: 者
-  replacement: 耂
 - pattern: 𦉰
   replacement: 网
 - pattern: 呙

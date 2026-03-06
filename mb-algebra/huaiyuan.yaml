@@ -1105,6 +1105,10 @@
   replacement: 工一
 - pattern: 眉
   replacement: 尸目
+- pattern: 老
+  replacement: 耂匕
+- pattern: 考
+  replacement: 耂丂
 
 # 一換一
 - pattern: 凢
@@ -1205,3 +1209,5 @@
   replacement: 𠂊
 - pattern: 疋
   replacement: 足
+- pattern: 者
+  replacement: 耂
