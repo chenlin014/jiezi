@@ -451,12 +451,6 @@
 - pattern: 艮
   replacement: 皀
   only: [廄]
-- pattern: 亥
-  replacement: 兀彑
-- pattern: 互
-  replacement: 二丩
-- pattern: 善
-  replacement: 羊言
 - pattern: 臿
   replacement: 干臼
 - pattern: 𬛸
