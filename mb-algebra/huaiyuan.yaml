@@ -1053,6 +1053,34 @@
 - pattern: 帯
   replacement: 廿丨冖巾
   only: [帯]
+- pattern: 世
+  replacement: 廿乚
+- pattern: 燕
+  replacement: 廿北口灬
+- pattern: 良
+  replacement: 丶艮
+- pattern: 卒
+  replacement: 𠅃十
+- pattern: 韭
+  replacement: 非一
+- pattern: 叕
+  replacement: 四（又）
+- pattern: 尺
+  replacement: 尸丶
+- pattern: 角
+  replacement: 𠂊用
+- pattern: 玉
+  replacement: 王丶
+- pattern: 上
+  replacement: 卜一
+- pattern: 下
+  replacement: 一卜
+- pattern: 丙
+  replacement: 一内
+- pattern: 乍
+  replacement: 𠂉卜
+- pattern: 及
+  replacement: 𠂊又
 
 # 一換一
 - pattern: 凢
