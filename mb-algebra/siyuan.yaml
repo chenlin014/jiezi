@@ -64,10 +64,6 @@
 - pattern: 俞
   replacement: 兪
   exclude: [俞, 偷, 榆, 喻, 输, 谕, 觎]
-- pattern: 俞
-  replacement: 亼舟刂
-- pattern: 兪
-  replacement: 亼舟巜
 - pattern: 争
   replacement: 爭
   exclude: [浄, 争, 静, 挣, 睁, 铮, 狰, 峥, 筝, 诤, 铮]
