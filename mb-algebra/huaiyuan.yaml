@@ -1044,6 +1044,15 @@
   replacement: ㇆丿
 - pattern: 云
   replacement: 二厶
+- pattern: 步
+  replacement: 止𣥂
+- pattern: 帶
+  replacement: 廿儿冖巾
+- pattern: 带
+  replacement: 艹丨冖巾
+- pattern: 帯
+  replacement: 廿丨冖巾
+  only: [帯]
 
 # 一換一
 - pattern: 凢

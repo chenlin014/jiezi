@@ -68,3 +68,8 @@
   replacement: 吳
 - pattern: 呉
   replacement: 吳
+- pattern: 带
+  replacement: 帶
+- pattern: 帯
+  replacement: 帶
+  only: [帯]
