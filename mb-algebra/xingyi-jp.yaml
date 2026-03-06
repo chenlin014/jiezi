@@ -69,18 +69,6 @@
 # 一換多
 - pattern: 画
   replacement: 一由凵
-- pattern: 氐
-  replacement: 氏一
-  exclude: [诋, 鸱]
-- pattern: 氐
-  replacement: 氏丶
-  only: [诋, 鸱]
-- pattern: 犮
-  replacement: 犬丿
-  exclude: [钹, 绂]
-- pattern: 犮
-  replacement: 犬㇕
-  only: [钹, 绂]
 - pattern: 起
   replacement: 走己
 - pattern: 包
