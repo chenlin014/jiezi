@@ -1020,6 +1020,10 @@
   replacement: 𤰔心
 - pattern: 叀
   replacement: 𤰔厶
+- pattern: 巠
+  replacement: 一巛工
+- pattern: 𢀖
+  replacement: ㇕丶工
 
 # 一換一
 - pattern: 凢
