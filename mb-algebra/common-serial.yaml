@@ -64,3 +64,7 @@
   replacement: 巠
 - pattern: 仓
   replacement: 倉
+- pattern: 吴
+  replacement: 吳
+- pattern: 呉
+  replacement: 吳

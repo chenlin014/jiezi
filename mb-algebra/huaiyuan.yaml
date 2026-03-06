@@ -1026,6 +1026,12 @@
   replacement: 亼戶口
 - pattern: 仓
   replacement: 入卩
+- pattern: 吴
+  replacement: 口一大
+- pattern: 吳
+  replacement: 口乚大
+- pattern: 呉
+  replacement: 口乚𠔀
 
 # 一換一
 - pattern: 凢

@@ -1,10 +1,4 @@
 # 一换多
-- pattern: 吴
-  replacement: 口一大
-- pattern: 吳
-  replacement: 口乚大
-- pattern: 呉
-  replacement: 口乚𠔀
 - pattern: 缶
   replacement: 午凵
 - pattern: 市
