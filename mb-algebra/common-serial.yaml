@@ -89,3 +89,7 @@
   replacement: 耂
 - pattern: 丽
   replacement: 麗
+- pattern: 戋
+  replacement: 戔
+- pattern: 㦮
+  replacement: 戔

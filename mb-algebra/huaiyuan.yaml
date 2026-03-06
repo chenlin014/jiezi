@@ -1113,6 +1113,12 @@
   replacement: 一凡一凡鹿
 - pattern: 丽
   replacement: 一凡凡
+- pattern: 戔
+  replacement: 戈戈
+- pattern: 戋
+  replacement: 一戈
+- pattern: 㦮
+  replacement: 二戈
 
 # 一換一
 - pattern: 凢
