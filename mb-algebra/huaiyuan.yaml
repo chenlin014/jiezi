@@ -1119,6 +1119,8 @@
   replacement: 一戈
 - pattern: 㦮
   replacement: 二戈
+- pattern: 咼
+  replacement: 冎口
 
 # 一換一
 - pattern: 凢
@@ -1223,3 +1225,7 @@
   replacement: 耂
 - pattern: 乞
   replacement: 气
+- pattern: 呙
+  replacement: 冎
+- pattern: 另|叧
+  replacement: 冎

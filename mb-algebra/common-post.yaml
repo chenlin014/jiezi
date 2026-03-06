@@ -105,8 +105,6 @@
   replacement: 午止卩
 - pattern: 圭
   replacement: 土土
-- pattern: 咼
-  replacement: 冎口
 - pattern: 乏
   replacement: 丿之
 - pattern: 開
@@ -313,10 +311,6 @@
   replacement: 凡
 - pattern: 𦉰
   replacement: 网
-- pattern: 呙
-  replacement: 冎
-- pattern: 另|叧
-  replacement: 冎
 - pattern: 巜
   replacement: 巛
 - pattern: 毋
