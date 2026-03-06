@@ -1089,6 +1089,8 @@
   replacement: 丶象
 - pattern: 伞
   replacement: 入丷十
+- pattern: 谷
+  replacement: 八㕣
 
 # 一換一
 - pattern: 凢
