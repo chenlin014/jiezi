@@ -73,3 +73,10 @@
 - pattern: 帯
   replacement: 帶
   only: [帯]
+- pattern: 為
+  replacement: 爲
+- pattern: 为
+  replacement: 爲
+- pattern: 伞
+  replacement: 傘
+  only: [伞]

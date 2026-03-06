@@ -1081,6 +1081,14 @@
   replacement: 𠂉卜
 - pattern: 及
   replacement: 𠂊又
+- pattern: 爲
+  replacement: 爪象
+- pattern: 為
+  replacement: 丶象
+- pattern: 为
+  replacement: 丶象
+- pattern: 伞
+  replacement: 入丷十
 
 # 一換一
 - pattern: 凢
