@@ -524,8 +524,6 @@
   replacement: 入小
 - pattern: 仑
   replacement: 入匕
-- pattern: 仓
-  replacement: 入卩
 - pattern: 傘
   replacement: 入四（入）十
 - pattern: 乾
