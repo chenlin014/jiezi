@@ -80,3 +80,5 @@
 - pattern: 伞
   replacement: 傘
   only: [伞]
+- pattern: 来
+  replacement: 來

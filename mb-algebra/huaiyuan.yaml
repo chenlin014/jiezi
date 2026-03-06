@@ -1093,6 +1093,10 @@
   replacement: 八㕣
 - pattern: 分
   replacement: 八刀
+- pattern: 來
+  replacement: 木从
+- pattern: 来
+  replacement: 木䒑
 
 # 一換一
 - pattern: 凢
