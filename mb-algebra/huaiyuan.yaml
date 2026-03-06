@@ -1099,6 +1099,10 @@
   replacement: 木䒑
 - pattern: 勺
   replacement: 勹丶
+- pattern: 亢
+  replacement: 尢
+- pattern: 壬
+  replacement: 工一
 
 # 一換一
 - pattern: 凢

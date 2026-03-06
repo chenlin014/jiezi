@@ -425,8 +425,6 @@
   replacement: 艸
 - pattern: 𠂤
   replacement: 㠯
-- pattern: 亢
-  replacement: 尢
 
 # 繁简合流
 - pattern: 龟
