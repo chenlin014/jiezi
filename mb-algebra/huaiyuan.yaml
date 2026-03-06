@@ -1032,6 +1032,12 @@
   replacement: 口乚大
 - pattern: 呉
   replacement: 口乚𠔀
+- pattern: 缶
+  replacement: 午凵
+- pattern: 市
+  replacement: 亠巾
+- pattern: 巿
+  replacement: 一巾
 
 # 一換一
 - pattern: 凢

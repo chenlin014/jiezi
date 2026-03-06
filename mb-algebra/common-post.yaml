@@ -1,10 +1,4 @@
 # 一换多
-- pattern: 缶
-  replacement: 午凵
-- pattern: 市
-  replacement: 亠巾
-- pattern: 巿
-  replacement: 一巾
 - pattern: 單
   replacement: 口口甲一
 - pattern: 单
