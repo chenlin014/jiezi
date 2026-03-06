@@ -1211,3 +1211,5 @@
   replacement: 足
 - pattern: 者
   replacement: 耂
+- pattern: 乞
+  replacement: 气
