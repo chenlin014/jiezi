@@ -69,12 +69,6 @@
 - pattern: 次
   replacement: 冫欠
   only: [资]
-- pattern: 敢
-  replacement: 丁耳攵
-  exclude: [阚]
-- pattern: 敢
-  replacement: ㇕耳攵
-  only: [阚]
 - pattern: 蚤
   replacement: 㕚虫
   exclude: [骚]

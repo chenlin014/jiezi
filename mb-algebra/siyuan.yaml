@@ -100,8 +100,6 @@
 - pattern: 大氺
   replacement: 廾米
   only: [忁]
-- pattern: 敢
-  replacement: 彑攵
 - pattern: 蚤
   replacement: 㕚虫
 - pattern: 㕚

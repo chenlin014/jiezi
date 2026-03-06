@@ -1097,6 +1097,8 @@
   replacement: 木从
 - pattern: 来
   replacement: 木䒑
+- pattern: 勺
+  replacement: 勹丶
 
 # 一換一
 - pattern: 凢
