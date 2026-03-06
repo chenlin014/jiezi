@@ -1109,6 +1109,10 @@
   replacement: 耂匕
 - pattern: 考
   replacement: 耂丂
+- pattern: 麗
+  replacement: 一凡一凡鹿
+- pattern: 丽
+  replacement: 一凡凡
 
 # 一換一
 - pattern: 凢
