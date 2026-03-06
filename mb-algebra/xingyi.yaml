@@ -122,18 +122,8 @@
   only: [棄]
 - pattern: 𡱒
   replacement: 尸共
-- pattern: 共
-  replacement: 艹𠔀
-- pattern: 𢦏
-  replacement: 十戈
-- pattern: 年
-  replacement: 𠂉㐄
-- pattern: 差
-  replacement: 羊工
 - pattern: 竒
   replacement: 立可
-- pattern: 可
-  replacement: 丁口
 - pattern: 嗇
   replacement: 土从
 - pattern: 夾
@@ -148,8 +138,6 @@
   replacement: 牙一
 - pattern: 展
   replacement: 尸龷𧘇
-- pattern: 昔
-  replacement: 龷日
 - pattern: 散
   replacement: 龷月攵
 - pattern: 舞
@@ -164,10 +152,6 @@
   replacement: 立口儿
 - pattern: 戠
   replacement: 音戈
-- pattern: 音
-  replacement: 立日
-- pattern: 商
-  replacement: 亠丷冏
 - pattern: 章
   replacement: 立日十
 - pattern: 亲
@@ -178,12 +162,6 @@
   replacement: 立豕
 - pattern: 竜
   replacement: 立电
-- pattern: 童
-  replacement: 立田土
-- pattern: 重
-  replacement: 千田土
-- pattern: 曹
-  replacement: 一曲日
 - pattern: 丟
   replacement: 一去
 - pattern: 臺

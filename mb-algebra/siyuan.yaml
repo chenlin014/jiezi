@@ -296,12 +296,6 @@
 - pattern: ^.+$
   replacement: 𠫓𠦒廾
   only: [棄]
-- pattern: 共
-  replacement: 廿𠔀
-- pattern: 𢦏
-  replacement: 才戈
-- pattern: 年
-  replacement: 禾人
 - pattern: ^.+$
   replacement: 斤𠂇
   only: [乒]
@@ -314,12 +308,8 @@
 - pattern: ^.+$
   replacement: 廿又
   only: [𠀖]
-- pattern: 差
-  replacement: 𠂹左
 - pattern: 竒
   replacement: 立可
-- pattern: 可
-  replacement: 丁口
 - pattern: 嗇
   replacement: 來圍口
 - pattern: 夾
@@ -334,8 +324,6 @@
   replacement: 牙牙
 - pattern: 展
   replacement: 尸工𧘇
-- pattern: 昔
-  replacement: 巛日
 - pattern: 散
   replacement: 木月攵
 - pattern: 舞
@@ -350,10 +338,6 @@
   replacement: 言儿
 - pattern: 戠
   replacement: 音戈
-- pattern: 音
-  replacement: 言曰
-- pattern: 商
-  replacement: 辛冏
 - pattern: 章
   replacement: 辛日
 - pattern: 亲
@@ -364,12 +348,6 @@
   replacement: 辛豕
 - pattern: 竜
   replacement: 辛甲
-- pattern: 童
-  replacement: 辛東土
-- pattern: 重
-  replacement: 千東土
-- pattern: 曹
-  replacement: 東東曰
 - pattern: 丟
   replacement: 一去
 - pattern: 寺
