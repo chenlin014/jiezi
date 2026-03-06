@@ -102,3 +102,7 @@
 - pattern: 毌
   replacement: 貫
   only: [毌]
+- pattern: 發
+  replacement: 癶
+- pattern: 发
+  replacement: 癶

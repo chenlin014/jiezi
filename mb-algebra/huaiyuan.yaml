@@ -1125,6 +1125,8 @@
   replacement: 毌貝
 - pattern: 贯
   replacement: 毌贝
+- pattern: 發
+  replacement: 癶弓殳
 
 # 一換一
 - pattern: 凢
