@@ -1103,6 +1103,8 @@
   replacement: 尢
 - pattern: 壬
   replacement: 工一
+- pattern: 眉
+  replacement: 尸目
 
 # 一換一
 - pattern: 凢

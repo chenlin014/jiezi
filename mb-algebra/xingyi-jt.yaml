@@ -84,8 +84,6 @@
   replacement: 千臼
 - pattern: 𬛸
   replacement: 臼工
-- pattern: 鼻
-  replacement: 自田丌
 - pattern: 𡈼
   replacement: 王
   only: [朢]
