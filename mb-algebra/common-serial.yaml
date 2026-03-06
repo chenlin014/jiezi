@@ -97,3 +97,8 @@
   replacement: 咼
 - pattern: 叧
   replacement: 另
+- pattern: 贯
+  replacement: 貫
+- pattern: 毌
+  replacement: 貫
+  only: [毌]
