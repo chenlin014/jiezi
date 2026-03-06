@@ -1038,6 +1038,12 @@
   replacement: 亠巾
 - pattern: 巿
   replacement: 一巾
+- pattern: 百
+  replacement: 一白
+- pattern: 乃
+  replacement: ㇆丿
+- pattern: 云
+  replacement: 二厶
 
 # 一換一
 - pattern: 凢

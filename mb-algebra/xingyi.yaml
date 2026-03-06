@@ -394,8 +394,6 @@
   replacement: 忄亘
 - pattern: 亘
   replacement: 二日
-- pattern: 成
-  replacement: 戌㇆
 - pattern: 戚
   replacement: 戌卜小
 - pattern: 制
@@ -440,8 +438,6 @@
   replacement: 一力
 - pattern: 服
   replacement: 月卩又
-- pattern: 朋
-  replacement: 月月
 - pattern: 有
   replacement: 𠂇月
 - pattern: 肖
@@ -452,28 +448,18 @@
   replacement: 𠫓⺼
 - pattern: 肙
   replacement: 口⺼
-- pattern: 多
-  replacement: 夕夕
-- pattern: 卑
-  replacement: 甲十
 - pattern: 豈
   replacement: 山豆
 - pattern: 耑
   replacement: 山而
 - pattern: 允
   replacement: 厶儿
-- pattern: 旨
-  replacement: 匕日
-- pattern: 昌
-  replacement: 日日
 - pattern: 絶
   replacement: 糸𠂊巴
 - pattern: 色
   replacement: 𠂊巴
 - pattern: 肥
   replacement: ⺼巴
-- pattern: 香
-  replacement: 禾日
 - pattern: 教
   replacement: 耂子攵
 - pattern: 畏

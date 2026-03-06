@@ -592,8 +592,6 @@
 - pattern: 勹
   replacement: 回
   only: [沒]
-- pattern: 成
-  replacement: 戌丨
 - pattern: 戚
   replacement: 戌卜小
 - pattern: 制
@@ -641,8 +639,6 @@
   replacement: 一𠂊
 - pattern: 服
   replacement: 舟卩又
-- pattern: 朋
-  replacement: 月月
 - pattern: 有
   replacement: 𠂇⺼
 - pattern: 肖
@@ -653,18 +649,10 @@
   replacement: 𠫓⺼
 - pattern: 肙
   replacement: 口⺼
-- pattern: 多
-  replacement: 夕夕
-- pattern: 卑
-  replacement: 甲𠂇
 - pattern: 豈
   replacement: 屮豆
 - pattern: 耑
   replacement: 屮而
-- pattern: 旨
-  replacement: 匕甘
-- pattern: 昌
-  replacement: 日曰
 - pattern: 絶
   replacement: 糸刀卪
 - pattern: 色
@@ -674,8 +662,6 @@
   only: [絕]
 - pattern: 肥
   replacement: ⺼卪
-- pattern: 香
-  replacement: 禾甘
 - pattern: 教
   replacement: 爻子攵
 - pattern: 㚇
