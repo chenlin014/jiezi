@@ -406,10 +406,6 @@
   replacement: 丩口
 - pattern: 勾
   replacement: 丩厶
-- pattern: 鄉
-  replacement: 乡皀𨹝
-- pattern: 郷
-  replacement: 乡皀𨹝
 - pattern: 即
   replacement: 皀卩
 - pattern: 既
@@ -681,8 +677,6 @@
 - pattern: 𣎆（(.+)）
   replacement: 贏\1
 - pattern: 𨹝
-  replacement: 邑
-- pattern: 乡
   replacement: 邑
 # 澀涩
 - pattern: 𣥒

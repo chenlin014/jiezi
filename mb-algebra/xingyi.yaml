@@ -216,10 +216,6 @@
   replacement: 勹口
 - pattern: 勾
   replacement: 勹厶
-- pattern: 鄉
-  replacement: 乡良𨹝
-- pattern: 郷
-  replacement: 乡艮𨹝
 - pattern: 即
   replacement: 艮卩
 - pattern: 既
@@ -444,8 +440,6 @@
 - pattern: 𨹺
   replacement: 阝
 - pattern: 𨹝
-  replacement: 阝
-- pattern: 乡
   replacement: 阝
 - pattern: 入
   replacement: 人

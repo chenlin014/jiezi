@@ -108,3 +108,7 @@
   replacement: 癶
 - pattern: 兪
   replacement: 俞
+- pattern: 鄉
+  replacement: 乡
+- pattern: 郷
+  replacement: 乡
