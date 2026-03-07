@@ -116,3 +116,13 @@
   replacement: 盡
 - pattern: 韦
   replacement: 韋
+- pattern: 嘼
+  replacement: 單口
+  only: [獸]
+- pattern: 兽
+  replacement: 单口
+  only: [兽]
+- pattern: 单
+  replacement: 單
+- pattern: 単
+  replacement: 單

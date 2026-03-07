@@ -1,10 +1,4 @@
 # 一换多
-- pattern: 單
-  replacement: 口口甲一
-- pattern: 单
-  replacement: 丷甲一
-- pattern: 単
-  replacement: ⺍甲一
 - pattern: 亏
   replacement: 一丂
 - pattern: 亐

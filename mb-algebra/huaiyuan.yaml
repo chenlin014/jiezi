@@ -1150,6 +1150,18 @@
 - pattern: 凸
   replacement: 圍冂
   only: [凸]
+- pattern: 嘼
+  replacement: 口口田一口
+  only: [獸]
+- pattern: 兽
+  replacement: 丷田一口
+  only: [兽]
+- pattern: 單
+  replacement: 口口甲一
+- pattern: 单
+  replacement: 丷甲一
+- pattern: 単
+  replacement: ⺍甲一
 
 # 一換一
 - pattern: 凢
