@@ -1176,6 +1176,8 @@
   replacement: 京
 - pattern: 高
   replacement: 京口
+- pattern: 寿
+  replacement: 丰寸
 
 # 一換一
 - pattern: 凢

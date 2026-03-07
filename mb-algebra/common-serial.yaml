@@ -128,3 +128,5 @@
   replacement: 單
 - pattern: 亐
   replacement: 亏
+- pattern: 寿
+  replacement: 壽
