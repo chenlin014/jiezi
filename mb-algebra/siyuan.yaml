@@ -356,10 +356,6 @@
   replacement: 南
 - pattern: 𡉅
   replacement: 南
-- pattern: 声
-  replacement: 南厂
-- pattern: 壴
-  replacement: 南豆
 - pattern: 㕣
   replacement: 廾口
   only: [簭]
@@ -462,16 +458,8 @@
   replacement: 【㫃】从
 - pattern: 舎
   replacement: 入土口
-- pattern: 康
-  replacement: 庚𠁼
-- pattern: 唐
-  replacement: 庚口
-- pattern: 庚
-  replacement: 南尹
 - pattern: 睿
   replacement: 𣦵八八目
-- pattern: 喬
-  replacement: 夭高
 - pattern: 春
   replacement: 艹屯日
 - pattern: 舂

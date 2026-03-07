@@ -168,10 +168,6 @@
   replacement: 士冖一
 - pattern: 𡉅
   replacement: 士冖
-- pattern: 声
-  replacement: 士尸
-- pattern: 壴
-  replacement: 十豆
 - pattern: 南
   replacement: 十冂半
 - pattern: 冈
@@ -277,16 +273,8 @@
   replacement: 十日十
 - pattern: 舎
   replacement: 人土口
-- pattern: 康
-  replacement: 广肀𠁼
-- pattern: 唐
-  replacement: 广肀口
-- pattern: 庚
-  replacement: 广彐人
 - pattern: 睿
   replacement: 卜冖一八人目
-- pattern: 喬
-  replacement: 夭口冂口
 - pattern: 春
   replacement: 𡗗日
 - pattern: 舂
