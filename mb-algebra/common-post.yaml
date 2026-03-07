@@ -163,14 +163,6 @@
   replacement: 一兀
 - pattern: 左
   replacement: 𠂇工
-- pattern: 㒼
-  replacement: 廿㒳
-- pattern: 兩
-  replacement: 一㒳
-- pattern: 两
-  replacement: 一冂从
-- pattern: 㒳
-  replacement: 内内
 - pattern: 武（(.)）
   replacement: 戈\1
 - pattern: 武

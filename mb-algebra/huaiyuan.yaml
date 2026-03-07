@@ -1182,6 +1182,14 @@
   replacement: 臼釆
 - pattern: 巤
   replacement: 巛囟釆
+- pattern: 㒼
+  replacement: 廿㒳
+- pattern: 兩
+  replacement: 一㒳
+- pattern: 两
+  replacement: 一冂从
+- pattern: 㒳
+  replacement: 内内
 
 # 一換一
 - pattern: 凢

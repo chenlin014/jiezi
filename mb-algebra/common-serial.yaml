@@ -10,6 +10,8 @@
   replacement: 㲋兔
 - pattern: 巤
   replacement: 巛鼠
+- pattern: 㒼
+  replacement: 廿㒳
 
 - pattern: 㕣
   replacement: 公
@@ -144,3 +146,7 @@
   replacement: 兔
 - pattern: 兎
   replacement: 兔
+- pattern: 㒳
+  replacement: 兩
+- pattern: 两
+  replacement: 兩
