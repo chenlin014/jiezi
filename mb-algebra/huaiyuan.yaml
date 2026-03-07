@@ -1145,6 +1145,11 @@
   replacement: 𫝀口㐄
 - pattern: 韦
   replacement: 二㐄
+- pattern: 凹
+  replacement: 圍凵
+- pattern: 凸
+  replacement: 圍冂
+  only: [凸]
 
 # 一換一
 - pattern: 凢
