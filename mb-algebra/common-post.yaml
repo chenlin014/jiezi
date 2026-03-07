@@ -85,8 +85,6 @@
   replacement: 亼口人
 - pattern: 𪜀
   replacement: 十乚
-- pattern: 韋
-  replacement: 𫝀口㐄
 - pattern: 𡈼
   replacement: 千土
 - pattern: 召
@@ -237,8 +235,6 @@
   replacement: 乙冫
 - pattern: 卂
   replacement: 乙十
-- pattern: 韦
-  replacement: 二㐄
 
 # 一换一
 - pattern: 𠅃

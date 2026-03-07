@@ -114,3 +114,5 @@
   replacement: 乡
 - pattern: 尽
   replacement: 盡
+- pattern: 韦
+  replacement: 韋
