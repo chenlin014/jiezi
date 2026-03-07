@@ -74,7 +74,7 @@
 - pattern: 芻
   replacement: 勹屮勹屮
 - pattern: 蚩
-  replacement: 屮一虫
+  replacement: 㞢虫
 - pattern: 㝵
   replacement: 日一寸
 - pattern: 疑
@@ -405,3 +405,5 @@
   replacement: 𠂆
 - pattern: コ
   replacement: 龴
+- pattern: 㞢
+  replacement: 之
