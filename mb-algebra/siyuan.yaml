@@ -373,14 +373,6 @@
   only: [簭]
 - pattern: 卻
   replacement: 入入口卩
-- pattern: 更
-  replacement: 内攵
-- pattern: 吏
-  replacement: 一中又
-- pattern: 史
-  replacement: 中又
-- pattern: 丈
-  replacement: 十又
 - pattern: 𦥯
   replacement: 𦥑爻冖
 - pattern: 希（(.+)）

@@ -1127,6 +1127,10 @@
   replacement: 毌贝
 - pattern: 發
   replacement: 癶弓殳
+- pattern: 聿
+  replacement: 肀二
+- pattern: 事
+  replacement: 一中彐
 
 # 一換一
 - pattern: 凢

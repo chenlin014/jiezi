@@ -184,14 +184,6 @@
   replacement: 十冂半
 - pattern: 冈
   replacement: 冂乂
-- pattern: 更
-  replacement: 一日乂
-- pattern: 吏
-  replacement: 一口乂
-- pattern: 史
-  replacement: 口乂
-- pattern: 丈
-  replacement: 一乂
 - pattern: 𦥯
   replacement: 𦥑爻冖
 - pattern: 希（(.+)）
