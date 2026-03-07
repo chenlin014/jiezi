@@ -1131,6 +1131,10 @@
   replacement: 肀二
 - pattern: 事
   replacement: 一中彐
+- pattern: 隶
+  replacement: 肀𠁼
+- pattern: 久
+  replacement: 𠂊丶
 
 # 一換一
 - pattern: 凢

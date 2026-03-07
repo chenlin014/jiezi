@@ -81,10 +81,6 @@
   replacement: 象儿
 - pattern: 卓
   replacement: 卜日十
-- pattern: 夜
-  replacement: 亠亻夕丶
-- pattern: 支
-  replacement: 十又
 - pattern: 芻
   replacement: 勹屮勹屮
 - pattern: 蚩
@@ -134,8 +130,6 @@
   replacement: 𦥑【与】𠔀
 - pattern: 【与】
   replacement: 牙
-- pattern: 与
-  replacement: 牙一
 - pattern: 展
   replacement: 尸龷𧘇
 - pattern: 散
@@ -190,8 +184,6 @@
   replacement: 乂𠂇\1
 - pattern: 希
   replacement: 乂𠂇巾
-- pattern: 交
-  replacement: 文八
 - pattern: 杀
   replacement: 乂木
 - pattern: 𣏂

@@ -252,10 +252,6 @@
   replacement: 象儿
 - pattern: 卓
   replacement: 卜日十
-- pattern: 夜
-  replacement: 亦夕
-- pattern: 支
-  replacement: 竹又
 - pattern: 芻
   replacement: 𠂇艹
 - pattern: 蚩
@@ -320,8 +316,6 @@
   replacement: 𦥑【与】𠔀
 - pattern: 【与】
   replacement: 牙
-- pattern: 与
-  replacement: 牙牙
 - pattern: 展
   replacement: 尸工𧘇
 - pattern: 散
@@ -379,8 +373,6 @@
   replacement: 爻\1
 - pattern: 希
   replacement: 爻巾
-- pattern: 交
-  replacement: 大乂
 - pattern: 杀
   replacement: 乂𣎳
 - pattern: 𣏂
