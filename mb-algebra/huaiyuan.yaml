@@ -1178,6 +1178,10 @@
   replacement: 京口
 - pattern: 寿
   replacement: 丰寸
+- pattern: 鼠
+  replacement: 臼釆
+- pattern: 巤
+  replacement: 巛囟釆
 
 # 一換一
 - pattern: 凢

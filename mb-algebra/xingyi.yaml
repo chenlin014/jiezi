@@ -69,16 +69,6 @@
   replacement: 爪四𡬠
 - pattern: 𡬠
   replacement: 艮寸
-- pattern: 能
-  replacement: 厶月𫧇
-- pattern: 毚
-  replacement: 象比兔
-- pattern: 兔
-  replacement: 象儿丶
-- pattern: 兎
-  replacement: 丿口儿丶
-- pattern: 免
-  replacement: 象儿
 - pattern: 卓
   replacement: 卜日十
 - pattern: 芻

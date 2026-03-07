@@ -6,6 +6,10 @@
   replacement: 庚𠁼
 - pattern: 唐
   replacement: 庚口
+- pattern: 毚
+  replacement: 㲋兔
+- pattern: 巤
+  replacement: 巛鼠
 
 - pattern: 㕣
   replacement: 公
@@ -136,3 +140,7 @@
   replacement: 亏
 - pattern: 寿
   replacement: 壽
+- pattern: 㲋
+  replacement: 兔
+- pattern: 兎
+  replacement: 兔
