@@ -1172,6 +1172,10 @@
   replacement: 爪丁
 - pattern: 平
   replacement: 干丷
+- pattern: 【高】
+  replacement: 京
+- pattern: 高
+  replacement: 京口
 
 # 一換一
 - pattern: 凢

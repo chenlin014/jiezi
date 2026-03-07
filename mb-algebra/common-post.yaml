@@ -143,10 +143,6 @@
   replacement: 手一丰
 - pattern: 冋
   replacement: 冂口
-- pattern: 【高】
-  replacement: 京
-- pattern: 高
-  replacement: 京口
 - pattern: 央
   replacement: 冂大
 - pattern: 雋
