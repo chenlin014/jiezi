@@ -12,6 +12,8 @@
   replacement: 巛鼠
 - pattern: 㒼
   replacement: 廿㒳
+- pattern: 虱
+  replacement: 卂虫
 
 - pattern: 㕣
   replacement: 公
@@ -150,3 +152,7 @@
   replacement: 兩
 - pattern: 两
   replacement: 兩
+- pattern: 飞
+  replacement: 飛
+- pattern: 卂
+  replacement: 飛

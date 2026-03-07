@@ -197,12 +197,6 @@
   replacement: 凶儿
 - pattern: 凶
   replacement: 乂凵
-- pattern: 飛
-  replacement: 飞非
-- pattern: 飞
-  replacement: 乙冫
-- pattern: 卂
-  replacement: 乙十
 
 # 一换一
 - pattern: 𠅃

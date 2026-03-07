@@ -1190,6 +1190,14 @@
   replacement: 一冂从
 - pattern: 㒳
   replacement: 内内
+- pattern: 飛
+  replacement: 飞非
+- pattern: 飞
+  replacement: 乙冫
+- pattern: 卂
+  replacement: 乙十
+- pattern: 虱
+  replacement: 乙丿虫
 
 # 一換一
 - pattern: 凢
