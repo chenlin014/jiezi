@@ -1135,6 +1135,12 @@
   replacement: 肀𠁼
 - pattern: 久
   replacement: 𠂊丶
+- pattern: 【盡】
+  replacement: 肀一灬
+- pattern: 盡
+  replacement: 肀一灬皿
+- pattern: 尽
+  replacement: 尺⺀
 
 # 一換一
 - pattern: 凢

@@ -112,3 +112,5 @@
   replacement: 乡
 - pattern: 郷
   replacement: 乡
+- pattern: 尽
+  replacement: 盡

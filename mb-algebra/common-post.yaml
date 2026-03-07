@@ -61,8 +61,6 @@
   replacement: 爪肀
 - pattern: 争
   replacement: 𠂊肀
-- pattern: 𦘒灬
-  replacement: 肀一灬
 - pattern: 庸
   replacement: 广肀用
 - pattern: 妻
@@ -115,8 +113,6 @@
   replacement: 𠂆虎
 - pattern: 殷
   replacement: 身殳
-- pattern: 尽
-  replacement: 尺⺀
 - pattern: 弱
   replacement: 弓冫弓冫
 - pattern: 头
