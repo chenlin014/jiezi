@@ -17,6 +17,10 @@
 - pattern: 养
   replacement: 羊介
   only: [养]
+- pattern: 黍
+  replacement: 禾黎
+- pattern: 桼
+  replacement: 木黎
 
 - pattern: 㕣
   replacement: 公

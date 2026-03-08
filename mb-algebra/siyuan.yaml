@@ -240,10 +240,8 @@
   replacement: 爪四𡬠
 - pattern: 𡬠
   replacement: 皀寸
-- pattern: 卓
-  replacement: 卜日十
 - pattern: 芻
-  replacement: 𠂇艹
+  replacement: 勹屮勹屮
 - pattern: 蚩
   replacement: 之虫
 - pattern: 刑
@@ -483,12 +481,6 @@
   replacement: 戌卜小
 - pattern: 制
   replacement: 牛木刂
-- pattern: 黎
-  replacement: 𥝢入氺
-- pattern: 黍
-  replacement: 禾入氺
-- pattern: 桼
-  replacement: 木入氺
 - pattern: 軍
   replacement: 九車
 - pattern: 军
