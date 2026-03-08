@@ -27,6 +27,10 @@
   replacement: 口㐭
 - pattern: 第
   replacement: ⺮弟
+- pattern: 乾
+  replacement: 【倝】乙
+- pattern: 𠦝
+  replacement: 倝
 
 - pattern: 㕣
   replacement: 公

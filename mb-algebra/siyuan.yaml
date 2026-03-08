@@ -159,8 +159,6 @@
   only: [候]
 - pattern: 亷
   replacement: 亠兼丿
-- pattern: 朝
-  replacement: 茻日月
 - pattern: 莫
   replacement: 茻日
 - pattern: 莽（(.)）
@@ -424,12 +422,6 @@
   replacement: 入示
 - pattern: 尒
   replacement: 入小
-- pattern: 乾
-  replacement: 【倝】乙
-- pattern: 倝
-  replacement: 㫃日丁
-- pattern: 𠦝
-  replacement: 中日丁
 - pattern: 旅
   replacement: 【㫃】从
 - pattern: 舎
