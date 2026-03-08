@@ -1204,6 +1204,8 @@
   replacement: 土土
 - pattern: 玄
   replacement: 亠幺
+- pattern: 侖
+  replacement: 亼冊
 
 # 一換一
 - pattern: 凢
