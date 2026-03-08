@@ -1217,6 +1217,8 @@
   replacement: 𠀐貝
 - pattern: 贵
   replacement: 𠀐贝
+- pattern: 覃
+  replacement: 西早
 - pattern: 早
   replacement: 日十
 - pattern: 旦
