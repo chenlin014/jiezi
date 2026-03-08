@@ -1198,6 +1198,12 @@
   replacement: 乙十
 - pattern: 虱
   replacement: 乙丿虫
+- pattern: 元
+  replacement: 一兀
+- pattern: 圭
+  replacement: 土土
+- pattern: 玄
+  replacement: 亠幺
 
 # 一換一
 - pattern: 凢
@@ -1310,3 +1316,7 @@
   replacement: 母
 - pattern: 己
   replacement: 巳
+- pattern: 个
+  replacement: 竹
+- pattern: 亇
+  replacement: 竹

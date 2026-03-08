@@ -73,8 +73,6 @@
   replacement: 歹匕
 - pattern: 卸
   replacement: 午止卩
-- pattern: 圭
-  replacement: 土土
 - pattern: 乏
   replacement: 丿之
 - pattern: 開
@@ -159,8 +157,6 @@
   replacement: 火火冖
 - pattern: 帚
   replacement: 彐冖巾
-- pattern: 元
-  replacement: 一兀
 - pattern: 左
   replacement: 𠂇工
 - pattern: 武（(.)）
@@ -179,8 +175,6 @@
   replacement: 丰丰山豆
 - pattern: 尞
   replacement: 一火日小
-- pattern: 玄
-  replacement: 亠幺
 - pattern: 羽
   replacement: 羽羽
   only: [羽]
@@ -236,10 +230,6 @@
 - pattern: 册
   replacement: 冊
 - pattern: ⺮
-  replacement: 竹
-- pattern: 个
-  replacement: 竹
-- pattern: 亇
   replacement: 竹
 - pattern: 片
   replacement: 爿

@@ -77,8 +77,6 @@
   replacement: 㞢虫
 - pattern: 㝵
   replacement: 日一寸
-- pattern: 疑
-  replacement: 匕矢龴疋
 - pattern: 廌
   replacement: 鹿烏
 - pattern: 舄
@@ -283,8 +281,6 @@
   replacement: 夭氘
 - pattern: 夰
   replacement: 大氘
-- pattern: 弗
-  replacement: 弓氘
 - pattern: 养
   replacement: 羊氘
   only: [养]
@@ -336,12 +332,6 @@
   replacement: 冖日六
 - pattern: 寬
   replacement: 宀艹見丶
-- pattern: 丐
-  replacement: 一亡
-- pattern: 丏
-  replacement: 丁乚㇆
-- pattern: 万
-  replacement: 一力
 - pattern: 服
   replacement: 月卩又
 - pattern: 有
