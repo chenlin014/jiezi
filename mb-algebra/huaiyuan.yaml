@@ -1233,6 +1233,8 @@
   replacement: 口十回
 - pattern: 㐭
   replacement: 亠回
+- pattern: 台
+  replacement: 厶口
 
 # 一換一
 - pattern: 凢
