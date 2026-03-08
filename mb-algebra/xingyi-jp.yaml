@@ -137,16 +137,8 @@
   replacement: 山兀攵
 - pattern: 𢽠
   replacement: 山一𡈼攵
-- pattern: 查
-  replacement: 木且
-  exclude: [查]
-- pattern: 查
-  replacement: 木日一
-  only: [查]
 - pattern: 寺
   replacement: 土寸
-- pattern: 卻
-  replacement: 人人口卩
 - pattern: 臿
   replacement: 千臼
 - pattern: 𬛸

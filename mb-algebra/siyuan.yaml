@@ -142,12 +142,6 @@
   replacement: 長儿攵
 - pattern: 𢽠
   replacement: 長𡈼攵
-- pattern: 查
-  replacement: 木且
-  exclude: [查]
-- pattern: 查
-  replacement: 木日一
-  only: [查]
 - pattern: 亮
   replacement: 【高】儿
 
@@ -335,8 +329,6 @@
 - pattern: 㕣
   replacement: 廾口
   only: [簭]
-- pattern: 卻
-  replacement: 入入口卩
 - pattern: 𦥯
   replacement: 𦥑爻冖
 - pattern: 希（(.+)）
