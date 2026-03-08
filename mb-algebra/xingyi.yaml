@@ -5,10 +5,6 @@
   only: [候]
 - pattern: 亷
   replacement: 亠兼丿
-- pattern: 弟
-  replacement: 丷弓丨丿
-- pattern: 第
-  replacement: ⺮弓丨丿
 - pattern: 莫
   replacement: 艹日大
 - pattern: 莽（(.)）
