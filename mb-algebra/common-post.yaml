@@ -65,8 +65,6 @@
   replacement: 亼口人
 - pattern: 𪜀
   replacement: 十乚
-- pattern: 𡈼
-  replacement: 千土
 - pattern: 召
   replacement: 刀口
 - pattern: 死
@@ -231,8 +229,6 @@
   replacement: 冊
 - pattern: ⺮
   replacement: 竹
-- pattern: 片
-  replacement: 爿
 - pattern: 电
   replacement: 申
 - pattern: 肀

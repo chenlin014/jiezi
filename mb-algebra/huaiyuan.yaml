@@ -1211,6 +1211,8 @@
   replacement: 亠幺
 - pattern: 侖
   replacement: 亼冊
+- pattern: 𡈼
+  replacement: 千土
 
 # 一換一
 - pattern: 凢
@@ -1329,3 +1331,5 @@
   replacement: 竹
 - pattern: 曰
   replacement: 甘
+- pattern: 片
+  replacement: 爿
