@@ -165,3 +165,7 @@
   replacement: 个
 - pattern: 仑
   replacement: 侖
+- pattern: 貴
+  replacement: 𠀐
+- pattern: 贵
+  replacement: 𠀐

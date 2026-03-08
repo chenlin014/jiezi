@@ -1213,6 +1213,10 @@
   replacement: 亼冊
 - pattern: 𡈼
   replacement: 千土
+- pattern: 貴
+  replacement: 𠀐貝
+- pattern: 贵
+  replacement: 𠀐贝
 
 # 一換一
 - pattern: 凢

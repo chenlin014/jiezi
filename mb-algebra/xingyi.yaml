@@ -208,8 +208,6 @@
   replacement: 贏
 - pattern: 𣎆（(.+)）
   replacement: 贏\1
-- pattern: 𠀐
-  replacement: 中一
 - pattern: 㡭
   replacement: 匕四（幺）
 - pattern: 𢇍

@@ -599,8 +599,6 @@
   replacement: 术
 - pattern: 皀
   replacement: 食
-- pattern: 𠀐
-  replacement: 𦥑
 - pattern: 𦥑
   replacement: 廾
 - pattern: 旧
