@@ -23,6 +23,8 @@
   replacement: 木黎
 - pattern: 【卡】
   replacement: 上下
+- pattern: 啚
+  replacement: 口㐭
 
 - pattern: 㕣
   replacement: 公

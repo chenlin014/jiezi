@@ -1227,6 +1227,10 @@
   replacement: 上小
 - pattern: 【卡】
   replacement: 卜二卜
+- pattern: 啚
+  replacement: 口十回
+- pattern: 㐭
+  replacement: 亠回
 
 # 一換一
 - pattern: 凢
