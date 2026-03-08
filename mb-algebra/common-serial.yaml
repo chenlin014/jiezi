@@ -14,6 +14,9 @@
   replacement: 廿㒳
 - pattern: 虱
   replacement: 卂虫
+- pattern: 养
+  replacement: 羊介
+  only: [养]
 
 - pattern: 㕣
   replacement: 公

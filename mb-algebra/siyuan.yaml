@@ -464,9 +464,6 @@
   replacement: 夭〢
 - pattern: 夰
   replacement: 大〢
-- pattern: 养
-  replacement: 羊氘
-  only: [养]
 - pattern: 円
   replacement: 凡丨
 - pattern: 宣
