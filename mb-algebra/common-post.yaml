@@ -161,10 +161,6 @@
   replacement: 戈\1
 - pattern: 武
   replacement: 戈止
-- pattern: 尗
-  replacement: 上小
-- pattern: 【卡】
-  replacement: 卜二卜
 - pattern: 卡
   replacement: 上卜
 - pattern: 卞

@@ -302,8 +302,6 @@
   replacement: 𦥑【与】𠔀
 - pattern: 【与】
   replacement: 牙
-- pattern: 展
-  replacement: 尸工𧘇
 - pattern: 散
   replacement: 木月攵
 - pattern: 舞
@@ -312,8 +310,6 @@
   replacement: 凡方
 - pattern: 啇
   replacement: 帝口
-- pattern: 咅
-  replacement: 丶不口
 - pattern: 竞
   replacement: 言儿
 - pattern: 戠
@@ -541,10 +537,6 @@
   replacement: 兇夂
 - pattern: 畟
   replacement: 鬼夂
-- pattern: 畏
-  replacement: 鬼人
-- pattern: 素
-  replacement: 𠂹糸
 - pattern: 巩
   replacement: 工丮
 

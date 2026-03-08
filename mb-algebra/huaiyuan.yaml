@@ -1223,6 +1223,10 @@
   replacement: 日一
 - pattern: 占
   replacement: 卜口
+- pattern: 尗
+  replacement: 上小
+- pattern: 【卡】
+  replacement: 卜二卜
 
 # 一換一
 - pattern: 凢
