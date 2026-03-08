@@ -155,6 +155,8 @@
   replacement: 兩
 - pattern: 两
   replacement: 兩
+- pattern: 両
+  replacement: 兩
 - pattern: 飞
   replacement: 飛
 - pattern: 卂

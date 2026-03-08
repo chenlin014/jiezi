@@ -263,8 +263,6 @@
   replacement: 从
 - pattern: 龷
   replacement: 廿
-- pattern: 曰
-  replacement: 甘
 - pattern: 𤰔
   replacement: 東
 - pattern: 㐫

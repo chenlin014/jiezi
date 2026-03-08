@@ -1190,6 +1190,11 @@
   replacement: 一冂从
 - pattern: 㒳
   replacement: 内内
+- pattern: 両
+  replacement: 一巾凵
+- pattern: 艹一
+  replacement: 龷
+  only: [満]
 - pattern: 飛
   replacement: 飞非
 - pattern: 飞
@@ -1322,3 +1327,5 @@
   replacement: 竹
 - pattern: 亇
   replacement: 竹
+- pattern: 曰
+  replacement: 甘
