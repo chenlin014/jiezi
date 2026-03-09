@@ -1237,6 +1237,8 @@
   replacement: 厶口
 - pattern: 査
   replacement: 木且
+- pattern: 襄
+  replacement: 衣口口甘
 
 # 一換一
 - pattern: 凢
