@@ -185,3 +185,5 @@
   replacement: 𠀐
 - pattern: 査
   replacement: 查
+- pattern: 责
+  replacement: 責

@@ -1239,6 +1239,10 @@
   replacement: 木且
 - pattern: 襄
   replacement: 衣口口甘
+- pattern: 責
+  replacement: 龶貝
+- pattern: 责
+  replacement: 龶贝
 
 # 一換一
 - pattern: 凢
