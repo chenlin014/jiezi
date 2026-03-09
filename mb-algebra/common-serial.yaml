@@ -183,3 +183,5 @@
   replacement: 𠀐
 - pattern: 贵
   replacement: 𠀐
+- pattern: 査
+  replacement: 查
