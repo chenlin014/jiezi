@@ -1253,6 +1253,9 @@
   replacement: 龶貝
 - pattern: 责
   replacement: 龶贝
+- pattern: 着
+  replacement: 羊目
+  only: [着]
 
 # 一換一
 - pattern: 凢
