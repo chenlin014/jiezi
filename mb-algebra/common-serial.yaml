@@ -192,3 +192,8 @@
   append: true
 - pattern: 𡨄
   replacement: 塞
+- pattern: 㐮
+  replacement: 襄
+- pattern: 嚢
+  replacement: 囊
+  only: [嚢]

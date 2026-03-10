@@ -1242,6 +1242,13 @@
   replacement: 木且
 - pattern: 襄
   replacement: 衣口口甘
+- pattern: 㐮
+  replacement: 衣八甘
+- pattern: 囊
+  replacement: 一中冖口口甘𧘇
+- pattern: 嚢
+  replacement: 一中冖八甘𧘇
+  only: [嚢]
 - pattern: 責
   replacement: 龶貝
 - pattern: 责
