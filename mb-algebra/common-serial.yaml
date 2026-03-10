@@ -197,3 +197,5 @@
 - pattern: 嚢
   replacement: 囊
   only: [嚢]
+- pattern: 𢆍
+  replacement: 臿

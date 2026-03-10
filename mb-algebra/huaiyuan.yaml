@@ -1256,6 +1256,10 @@
 - pattern: 着
   replacement: 羊目
   only: [着]
+- pattern: 易
+  replacement: 日勿
+- pattern: 𢆍
+  replacement: 千日
 
 # 一換一
 - pattern: 凢

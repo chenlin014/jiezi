@@ -72,8 +72,6 @@
   replacement: 山一王攵
 - pattern: 寺
   replacement: 土寸
-- pattern: 臿
-  replacement: 千臼
 - pattern: 𬛸
   replacement: 臼工
 - pattern: 𡈼
