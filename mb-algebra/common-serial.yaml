@@ -187,3 +187,8 @@
   replacement: 查
 - pattern: 责
   replacement: 責
+- pattern: 𡨄
+  replacement: 寒
+  append: true
+- pattern: 𡨄
+  replacement: 塞

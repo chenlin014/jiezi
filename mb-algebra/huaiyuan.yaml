@@ -214,14 +214,17 @@
   replacement: 艸\1艸
 - pattern: 莽
   replacement: 艸犬艸
-- pattern: 【寒】
+- pattern: 𡨄
   replacement: 宀艸人
+  append: true
+- pattern: 𡨄
+  replacement: 宀工廾
 - pattern: 寒
   replacement: 宀艸人冫
-- pattern: 茻
-  replacement: 四（屮）
 - pattern: 塞
   replacement: 宀工廾土
+- pattern: 茻
+  replacement: 四（屮）
 - pattern: 奔
   replacement: 走止
 - pattern: 五
