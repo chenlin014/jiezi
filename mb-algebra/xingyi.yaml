@@ -102,8 +102,6 @@
   replacement: 大入入
 - pattern: 與
   replacement: 𦥑【与】𠔀
-- pattern: 【与】
-  replacement: 牙
 - pattern: 散
   replacement: 龷月攵
 - pattern: 舞
