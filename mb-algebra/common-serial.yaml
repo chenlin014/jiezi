@@ -217,3 +217,8 @@
   replacement: 貞
 - pattern: 乗
   replacement: 乘
+- pattern: 县
+  replacement: 縣
+- pattern: 県
+  replacement: 縣
+  only: [県]

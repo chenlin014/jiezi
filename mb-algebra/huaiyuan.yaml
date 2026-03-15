@@ -1281,6 +1281,15 @@
   replacement: 禾北
 - pattern: 乗
   replacement: 千艹木
+- pattern: 县
+  replacement: 且厶
+- pattern: 県
+  replacement: 目乚小
+  only: [県]
+- pattern: 縣
+  replacement: 目木系
+- pattern: 系
+  replacement: 丿糸
 
 # 一換一
 - pattern: 凢
