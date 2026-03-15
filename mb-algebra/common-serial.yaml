@@ -215,3 +215,5 @@
   replacement: 㡭
 - pattern: 贞
   replacement: 貞
+- pattern: 乗
+  replacement: 乘

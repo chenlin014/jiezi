@@ -1277,6 +1277,10 @@
   replacement: 辶土羊
 - pattern: 达
   replacement: 辶大
+- pattern: 乘
+  replacement: 禾北
+- pattern: 乗
+  replacement: 千艹木
 
 # 一換一
 - pattern: 凢

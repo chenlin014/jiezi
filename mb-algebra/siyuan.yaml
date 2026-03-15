@@ -271,8 +271,6 @@
   replacement: 辛甲
 - pattern: 丟
   replacement: 一去
-- pattern: 寺
-  replacement: 之寸
 - pattern: 志
   replacement: 之心
 - pattern: 壳
