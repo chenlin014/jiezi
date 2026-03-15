@@ -29,8 +29,10 @@
   replacement: ⺮弟
 - pattern: 乾
   replacement: 【倝】乙
-- pattern: 𠦝
-  replacement: 倝
+- pattern: 日共
+  replacement: 暴
+  only: [謈]
+  append: true
 
 - pattern: 㕣
   replacement: 公
@@ -202,3 +204,5 @@
   replacement: 臿
 - pattern: 卤
   replacement: 鹵
+- pattern: 𠦝
+  replacement: 倝

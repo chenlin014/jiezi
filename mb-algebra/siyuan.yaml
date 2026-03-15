@@ -82,11 +82,6 @@
   replacement: 西廾卩
 - pattern: 次
   replacement: 二欠
-- pattern: 暴
-  replacement: 日出廾米
-- pattern: 共
-  replacement: 出廾
-  only: [謈]
 - pattern: 大氺
   replacement: 廾米
   only: [忁]
@@ -239,8 +234,6 @@
   replacement: 犬彡
 - pattern: 麥
   replacement: 來夂
-- pattern: 異
-  replacement: 鬼廾
 - pattern: 糞
   replacement: 米𠦒廾
 - pattern: ^.+$

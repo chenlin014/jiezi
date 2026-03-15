@@ -81,12 +81,8 @@
   replacement: 尤彡
 - pattern: 麥
   replacement: 來夂
-- pattern: 異
-  replacement: 田共
 - pattern: 糞
   replacement: 米田共
-- pattern: 暴
-  replacement: 日共氺
 - pattern: ^.+$
   replacement: 𠫓廿木
   only: [棄]
