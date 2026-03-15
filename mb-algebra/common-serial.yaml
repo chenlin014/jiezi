@@ -33,6 +33,9 @@
   replacement: 暴
   only: [謈]
   append: true
+- pattern: 桌
+  replacement: 卓木
+  only: [桌]
 
 - pattern: 㕣
   replacement: 公

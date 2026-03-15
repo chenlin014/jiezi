@@ -1270,6 +1270,9 @@
   replacement: 卜圍乂
 - pattern: 具
   replacement: 目𠔀
+- pattern: 桌
+  replacement: 卜日木
+  only: [桌]
 
 # 一換一
 - pattern: 凢
