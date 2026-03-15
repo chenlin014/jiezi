@@ -1273,6 +1273,10 @@
 - pattern: 桌
   replacement: 卜日木
   only: [桌]
+- pattern: 達
+  replacement: 辶土羊
+- pattern: 达
+  replacement: 辶大
 
 # 一換一
 - pattern: 凢

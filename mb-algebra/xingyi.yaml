@@ -168,10 +168,6 @@
   replacement: 贏
 - pattern: 𣎆（(.+)）
   replacement: 贏\1
-- pattern: 㡭
-  replacement: 匕四（幺）
-- pattern: 𢇍
-  replacement: 四（幺）匕
 - pattern: 阜
   replacement: 𠂤十
 - pattern: 邑
