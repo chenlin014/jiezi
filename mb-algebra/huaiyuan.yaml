@@ -1290,6 +1290,14 @@
   replacement: 目木系
 - pattern: 系
   replacement: 丿糸
+- pattern: 段
+  replacement: 厂三殳
+- pattern: 原
+  replacement: 厂白小
+- pattern: 泉
+  replacement: 白水
+- pattern: 益
+  replacement: 水皿
 
 # 一換一
 - pattern: 凢

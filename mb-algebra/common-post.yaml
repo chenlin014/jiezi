@@ -93,8 +93,6 @@
   replacement: 夂冫
 - pattern: 霝
   replacement: 雨口口口
-- pattern: 益
-  replacement: 水皿
 - pattern: 㗊（(.)）
   replacement: 四（口）\1
 - pattern: 冏
