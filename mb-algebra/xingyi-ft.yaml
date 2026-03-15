@@ -19,8 +19,6 @@
 - pattern: 吕
   replacement: 呂
   exclude: [吕, 宫, 榈, 侣, 铝, 闾]
-- pattern: 巽
-  replacement: 巳巳共
 - pattern: 巳
   replacement: 己
   only: [异]

@@ -200,3 +200,5 @@
   only: [嚢]
 - pattern: 𢆍
   replacement: 臿
+- pattern: 卤
+  replacement: 鹵

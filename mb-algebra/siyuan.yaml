@@ -1,4 +1,4 @@
-# 有異体
+# 異体
 - pattern: 吴
   replacement: 吳
   exclude: [吴, 俣, 误, 娱]
@@ -24,8 +24,6 @@
   #replacement: 己
   #append: true
   #only: [异]
-- pattern: 巽
-  replacement: 卩卩丌
 - pattern: 匀
   replacement: 勻
   exclude: [匀, 钧]

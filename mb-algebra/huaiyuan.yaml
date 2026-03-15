@@ -1262,6 +1262,12 @@
   replacement: 千日
 - pattern: 串
   replacement: 中中
+- pattern: 貞
+  replacement: 卜貝
+- pattern: 贞
+  replacement: 卜贝
+- pattern: 卤
+  replacement: 卜圍乂
 
 # 一換一
 - pattern: 凢
@@ -1382,3 +1388,5 @@
   replacement: 甘
 - pattern: 片
   replacement: 爿
+- pattern: 六
+  replacement: 宀
