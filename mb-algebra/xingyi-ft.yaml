@@ -81,10 +81,6 @@
 - pattern: 甚
   replacement: 甘匚八
   only: [谌]
-- pattern: 夌
-  replacement: 土儿夂
-- pattern: 坴
-  replacement: 土儿土
 - pattern: 夋
   replacement: 允夂
 - pattern: 函

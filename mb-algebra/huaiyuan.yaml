@@ -1268,6 +1268,8 @@
   replacement: 卜贝
 - pattern: 卤
   replacement: 卜圍乂
+- pattern: 具
+  replacement: 目𠔀
 
 # 一換一
 - pattern: 凢
