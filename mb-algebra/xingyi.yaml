@@ -69,10 +69,6 @@
   replacement: 臼烏
 - pattern: 焉
   replacement: 正烏
-- pattern: 禽
-  replacement: 亼一乂凵禸
-- pattern: 离
-  replacement: 亠乂凵禸
 - pattern: 质
   replacement: 斤贝
 - pattern: 尨
