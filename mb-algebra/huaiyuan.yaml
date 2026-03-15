@@ -1260,6 +1260,8 @@
   replacement: 日勿
 - pattern: 𢆍
   replacement: 千日
+- pattern: 串
+  replacement: 中中
 
 # 一換一
 - pattern: 凢

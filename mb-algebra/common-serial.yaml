@@ -129,10 +129,11 @@
 - pattern: 叧
   replacement: 另
 - pattern: 贯
-  replacement: 貫
+  replacement: 毌贝
+- pattern: 貫
+  replacement: 毌貝
 - pattern: 毌
-  replacement: 貫
-  only: [毌]
+  replacement: 串
 - pattern: 發
   replacement: 癶
 - pattern: 发
