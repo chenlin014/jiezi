@@ -226,8 +226,6 @@
   replacement: 亼一乂凵禸
 - pattern: 离
   replacement: 屮乂凵禸
-- pattern: 𤔔
-  replacement: 爪幺冂又
 - pattern: 质
   replacement: 斤贝
 - pattern: 尨
@@ -253,28 +251,20 @@
   only: [𠀖]
 - pattern: 竒
   replacement: 立可
-- pattern: 嗇
-  replacement: 來圍口
 - pattern: 夾
   replacement: 亦人
 - pattern: 㚒
   replacement: 亦入
 - pattern: 與
   replacement: 𦥑【与】𠔀
-- pattern: 散
-  replacement: 木月攵
 - pattern: 舞
   replacement: 無舛
-- pattern: 旁
-  replacement: 凡方
 - pattern: 啇
   replacement: 帝口
 - pattern: 竞
   replacement: 言儿
 - pattern: 戠
   replacement: 音戈
-- pattern: 章
-  replacement: 辛日
 - pattern: 亲
   replacement: 辛木
 - pattern: 妾
@@ -287,8 +277,6 @@
   replacement: 一去
 - pattern: 寺
   replacement: 之寸
-- pattern: 臺
-  replacement: 之口冖至
 - pattern: 志
   replacement: 之心
 - pattern: 壳

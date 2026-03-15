@@ -73,10 +73,8 @@
   replacement: 亼一乂凵禸
 - pattern: 离
   replacement: 亠乂凵禸
-- pattern: 𤔔
-  replacement: 爪龴冂厶又
 - pattern: 质
-  replacement: 𠂆十贝
+  replacement: 斤贝
 - pattern: 尨
   replacement: 尤彡
 - pattern: 麥
@@ -90,28 +88,20 @@
   replacement: 尸共
 - pattern: 竒
   replacement: 立可
-- pattern: 嗇
-  replacement: 土从
 - pattern: 夾
   replacement: 大从
 - pattern: 㚒
   replacement: 大入入
 - pattern: 與
   replacement: 𦥑【与】𠔀
-- pattern: 散
-  replacement: 龷月攵
 - pattern: 舞
   replacement: 無舛
-- pattern: 旁
-  replacement: 亠丷冖方
 - pattern: 啇
   replacement: 帝口
 - pattern: 竞
   replacement: 立口儿
 - pattern: 戠
   replacement: 音戈
-- pattern: 章
-  replacement: 立日十
 - pattern: 亲
   replacement: 立木
 - pattern: 妾
@@ -122,8 +112,6 @@
   replacement: 立电
 - pattern: 丟
   replacement: 一去
-- pattern: 臺
-  replacement: 士口冖至
 - pattern: 志
   replacement: 士心
 - pattern: 壳
