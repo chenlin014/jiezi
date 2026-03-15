@@ -90,8 +90,6 @@
 - pattern: 大氺
   replacement: 廾米
   only: [忁]
-- pattern: 蚤
-  replacement: 㕚虫
 - pattern: 㕚
   replacement: 又爪
 - pattern: 最
@@ -104,16 +102,12 @@
   replacement: 亻丨攵
 - pattern: 㓁
   replacement: 网
-- pattern: 甚
-  replacement: 甘匚八
 - pattern: 圥
   replacement: 屮六
 - pattern: 夋
   replacement: 允夂
 - pattern: 允
   replacement: 厶儿
-- pattern: 函
-  replacement: 矢凵
 - pattern: 𡕩（又）
   replacement: 囟又八夂
 - pattern: 𡕩

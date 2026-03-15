@@ -55,12 +55,6 @@
 - pattern: 次
   replacement: 冫欠
   only: [资]
-- pattern: 蚤
-  replacement: 㕚虫
-  exclude: [骚]
-- pattern: 蚤
-  replacement: 叉虫
-  only: [骚]
 - pattern: 最
   replacement: 冃耳又
 - pattern: 冒
@@ -75,16 +69,8 @@
   replacement: 亻丨攵
 - pattern: 㓁
   replacement: 冖儿
-- pattern: 甚
-  replacement: 甘匚儿
-  exclude: [谌]
-- pattern: 甚
-  replacement: 甘匚八
-  only: [谌]
 - pattern: 夋
   replacement: 允夂
-- pattern: 函
-  replacement: 了𠁼凵
 - pattern: 𡕩（又）
   replacement: 囟（又）儿夂
 - pattern: 𡕩
