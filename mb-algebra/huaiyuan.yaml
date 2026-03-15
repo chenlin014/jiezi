@@ -1403,3 +1403,5 @@
   replacement: 爿
 - pattern: 六
   replacement: 宀
+- pattern: 𠫓
+  replacement: 了
