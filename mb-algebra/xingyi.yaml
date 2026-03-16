@@ -169,12 +169,6 @@
 # 澀涩
 - pattern: 𣥒
   replacement: 刀丶
-- pattern: 丞
-  replacement: 氶一
-- pattern: 氶
-  replacement: ㇕水
-- pattern: 承
-  replacement: ㇕水三
 - pattern: 沓
   replacement: 水日
 - pattern: 泰

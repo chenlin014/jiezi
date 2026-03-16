@@ -237,3 +237,9 @@
   replacement: 雚
 - pattern: 𠂋
   replacement: 后
+- pattern: 氶
+  replacement: 丞
+  only: [氶]
+- pattern: 承
+  replacement: 扌
+  only: [承]
