@@ -230,3 +230,8 @@
   replacement: 𦥑
 - pattern: 员
   replacement: 員
+- pattern: 丧
+  replacement: 喪
+  only: [丧]
+- pattern: 𮥶
+  replacement: 雚

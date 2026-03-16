@@ -1304,6 +1304,18 @@
   replacement: 口貝
 - pattern: 员
   replacement: 口贝
+- pattern: 帚
+  replacement: 彐冖巾
+- pattern: 乇
+  replacement: 丿七
+- pattern: 喪
+  replacement: 土口口𧘇
+- pattern: 丧
+  replacement: 土丷𧘇
+- pattern: 雚
+  replacement: 䒑口口隹
+- pattern: 𮥶
+  replacement: 𠂉一隹
 
 # 一換一
 - pattern: 凢
