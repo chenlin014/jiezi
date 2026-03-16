@@ -1450,3 +1450,7 @@
   replacement: 了
 - pattern: 电
   replacement: 申
+- pattern: 彔
+  replacement: 彑
+- pattern: 录
+  replacement: 彑

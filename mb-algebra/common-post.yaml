@@ -275,10 +275,6 @@
   replacement: 羊
 - pattern: 辶
   replacement: 辵
-- pattern: 彔
-  replacement: 彑
-- pattern: 录
-  replacement: 彑
 - pattern: 氵
   replacement: 水
 - pattern: 氺
