@@ -1300,6 +1300,10 @@
   replacement: 水皿
 - pattern: 興
   replacement: 𦥑同𠔀
+- pattern: 員
+  replacement: 口貝
+- pattern: 员
+  replacement: 口贝
 
 # 一換一
 - pattern: 凢
@@ -1424,3 +1428,5 @@
   replacement: 宀
 - pattern: 𠫓
   replacement: 了
+- pattern: 电
+  replacement: 申
