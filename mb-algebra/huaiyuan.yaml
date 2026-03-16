@@ -1326,6 +1326,8 @@
   replacement: 亼口人
 - pattern: 冬
   replacement: 夂冫
+- pattern: 要
+  replacement: 西女
 
 # 一換一
 - pattern: 凢
