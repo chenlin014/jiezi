@@ -1316,6 +1316,8 @@
   replacement: 䒑口口隹
 - pattern: 𮥶
   replacement: 𠂉一隹
+- pattern: 后
+  replacement: 𠂋口
 
 # 一換一
 - pattern: 凢

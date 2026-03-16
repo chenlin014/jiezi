@@ -235,3 +235,5 @@
   only: [丧]
 - pattern: 𮥶
   replacement: 雚
+- pattern: 𠂋
+  replacement: 后

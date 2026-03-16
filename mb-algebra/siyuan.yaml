@@ -521,7 +521,5 @@
   replacement: 肉
 - pattern: 卪
   replacement: 卩
-- pattern: 𠂋
-  replacement: 𠂆
 - pattern: コ
   replacement: 龴

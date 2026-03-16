@@ -308,8 +308,6 @@
   replacement: 肉
 - pattern: ⺼
   replacement: 月
-- pattern: 𠂋
-  replacement: 𠂆
 - pattern: コ
   replacement: 龴
 - pattern: 㞢
