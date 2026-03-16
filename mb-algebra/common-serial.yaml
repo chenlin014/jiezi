@@ -36,6 +36,10 @@
 - pattern: 桌
   replacement: 卓木
   only: [桌]
+- pattern: 佥
+  replacement: 僉
+- pattern: 㑒
+  replacement: 僉
 
 - pattern: 㕣
   replacement: 公
