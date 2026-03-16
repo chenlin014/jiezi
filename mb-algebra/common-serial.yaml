@@ -222,3 +222,9 @@
 - pattern: 県
   replacement: 縣
   only: [県]
+- pattern: 与
+  replacement: 與
+- pattern: 興
+  replacement: 𦥑
+- pattern: 兴
+  replacement: 𦥑

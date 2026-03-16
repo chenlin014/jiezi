@@ -249,8 +249,6 @@
   replacement: 亦人
 - pattern: 㚒
   replacement: 亦入
-- pattern: 與
-  replacement: 𦥑【与】𠔀
 - pattern: 舞
   replacement: 無舛
 - pattern: 啇
@@ -502,8 +500,6 @@
   replacement: 术
 - pattern: 皀
   replacement: 食
-- pattern: 𦥑
-  replacement: 廾
 - pattern: 旧
   replacement: 臼
 - pattern: 卝

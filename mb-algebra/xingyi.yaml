@@ -88,8 +88,6 @@
   replacement: 大从
 - pattern: 㚒
   replacement: 大入入
-- pattern: 與
-  replacement: 𦥑【与】𠔀
 - pattern: 舞
   replacement: 無舛
 - pattern: 啇
@@ -298,8 +296,6 @@
   replacement: 术
 - pattern: 𣎳
   replacement: 术
-- pattern: 𦥑
-  replacement: 臼
 - pattern: 𨹺
   replacement: 阝
 - pattern: 𨹝
