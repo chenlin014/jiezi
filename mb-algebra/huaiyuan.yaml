@@ -1324,6 +1324,8 @@
   replacement: 亼⺍一
 - pattern: 㑒
   replacement: 亼口人
+- pattern: 冬
+  replacement: 夂冫
 
 # 一換一
 - pattern: 凢
