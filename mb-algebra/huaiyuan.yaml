@@ -1332,6 +1332,10 @@
   replacement: 牛口
 - pattern: 爰
   replacement: 爪二丿又
+- pattern: 書
+  replacement: 聿者
+- pattern: 书
+  replacement: 尹者
 
 # 一換一
 - pattern: 凢

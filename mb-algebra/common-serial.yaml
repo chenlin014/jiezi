@@ -251,3 +251,7 @@
   replacement: 彔
 - pattern: 爱
   replacement: 愛
+- pattern: 書
+  replacement: 聿
+- pattern: 书
+  replacement: 聿
