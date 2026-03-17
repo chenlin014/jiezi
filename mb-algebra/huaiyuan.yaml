@@ -1328,6 +1328,8 @@
   replacement: 夂冫
 - pattern: 要
   replacement: 西女
+- pattern: 告
+  replacement: 牛口
 
 # 一換一
 - pattern: 凢
