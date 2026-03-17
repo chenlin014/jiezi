@@ -223,8 +223,6 @@
   replacement: 二日
 - pattern: 戚
   replacement: 戌卜小
-- pattern: 制
-  replacement: 牛巾刂
 - pattern: 軍
   replacement: 冖車
 - pattern: 军
@@ -233,10 +231,6 @@
   replacement: 勹冫
 - pattern: 勻
   replacement: 勹二
-- pattern: 愛
-  replacement: 爪冖心夂
-- pattern: 爱
-  replacement: 爪冖𠂇又
 - pattern: 受
   replacement: 爪冖又
 - pattern: 索

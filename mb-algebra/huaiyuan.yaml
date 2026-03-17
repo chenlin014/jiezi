@@ -1330,6 +1330,8 @@
   replacement: 西女
 - pattern: 告
   replacement: 牛口
+- pattern: 爰
+  replacement: 爪二丿又
 
 # 一換一
 - pattern: 凢

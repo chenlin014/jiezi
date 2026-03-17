@@ -386,8 +386,6 @@
   only: [沒]
 - pattern: 戚
   replacement: 戌卜小
-- pattern: 制
-  replacement: 牛木刂
 - pattern: 軍
   replacement: 九車
 - pattern: 军
@@ -396,10 +394,6 @@
   replacement: 九冫
 - pattern: 勻
   replacement: 九二
-- pattern: 愛
-  replacement: 旡心夂
-- pattern: 爱
-  replacement: 旡𠂇又
 - pattern: 受
   replacement: 爪舟又
 - pattern: 冖
