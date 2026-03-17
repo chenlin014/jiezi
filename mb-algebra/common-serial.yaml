@@ -36,6 +36,10 @@
 - pattern: 桌
   replacement: 卓木
   only: [桌]
+- pattern: 貴
+  replacement: 𠀐貝
+- pattern: 贵
+  replacement: 𠀐贝
 
 - pattern: 㕣
   replacement: 公
@@ -185,10 +189,6 @@
   replacement: 个
 - pattern: 仑
   replacement: 侖
-- pattern: 貴
-  replacement: 𠀐
-- pattern: 贵
-  replacement: 𠀐
 - pattern: 査
   replacement: 查
 - pattern: 责
@@ -255,3 +255,5 @@
   replacement: 聿
 - pattern: 书
   replacement: 聿
+- pattern: 𠀐
+  replacement: 臾

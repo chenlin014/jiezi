@@ -308,8 +308,6 @@
   only: [廄]
 - pattern: 𬛸
   replacement: 臼土
-- pattern: 臾
-  replacement: 𦥑人
 - pattern: 𡱒
   replacement: 尸丌几
 - pattern: 畀
