@@ -1336,6 +1336,20 @@
   replacement: 聿者
 - pattern: 书
   replacement: 尹者
+- pattern: 命
+  replacement: 亼口卩
+- pattern: 合
+  replacement: 亼口
+- pattern: 采
+  replacement: 爪木
+- pattern: 刁
+  replacement: ㇆一
+- pattern: 加
+  replacement: 力口
+- pattern: 林
+  replacement: 木木
+- pattern: 炎
+  replacement: 火火
 
 # 一換一
 - pattern: 凢

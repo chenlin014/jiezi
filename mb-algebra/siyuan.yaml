@@ -319,8 +319,6 @@
 - pattern: 大
   replacement: 廾
   only: [爨]
-- pattern: 戎
-  replacement: 戈十
 - pattern: 敬
   replacement: 茍攵
 - pattern: 茍
