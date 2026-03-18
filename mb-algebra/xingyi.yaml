@@ -102,8 +102,6 @@
   replacement: 士冖一
 - pattern: 𡉅
   replacement: 士冖
-- pattern: 冈
-  replacement: 冂乂
 - pattern: 希（(.+)）
   replacement: 乂𠂇\1
 - pattern: 希

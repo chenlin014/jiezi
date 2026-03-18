@@ -869,6 +869,8 @@
   replacement: 圍口
 - pattern: 亢
   replacement: 亠几
+- pattern: 岡
+  replacement: 𦉰山
 - pattern: 冈
   replacement: 冂乂
 - pattern: ^艸$
