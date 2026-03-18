@@ -463,6 +463,8 @@
   replacement: 肀𣶒
 - pattern: 粛
   replacement: 肀𣶒
+- pattern: 奠
+  replacement: 酋丌
 
 # 一換一
 - pattern: 凢

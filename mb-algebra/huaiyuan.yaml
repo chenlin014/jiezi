@@ -1350,6 +1350,10 @@
   replacement: 木木
 - pattern: 炎
   replacement: 火火
+- pattern: 奠
+  replacement: 酋丌
+- pattern: 酋
+  replacement: 丷酉
 
 # 一換一
 - pattern: 凢

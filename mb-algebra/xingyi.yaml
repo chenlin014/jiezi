@@ -273,6 +273,8 @@
   replacement: 肀𣶒
 - pattern: 粛
   replacement: 肀𣶒
+- pattern: 奠
+  replacement: 酋大
 
 - pattern: 朮
   replacement: 术
