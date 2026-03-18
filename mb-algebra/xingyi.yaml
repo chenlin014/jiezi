@@ -169,6 +169,8 @@
   replacement: 水日
 - pattern: 泰
   replacement: 𡗗氺
+- pattern: 【旅】
+  replacement: 𠂉从
 - pattern: 旅
   replacement: 【㫃】从
 - pattern: 以
@@ -288,8 +290,6 @@
   replacement: 人
 - pattern: 𡗗
   replacement: 廾
-- pattern: 𠂢
-  replacement: 从
 - pattern: 䏑
   replacement: 肉
 - pattern: ⺼

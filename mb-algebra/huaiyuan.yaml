@@ -827,14 +827,12 @@
 - pattern: 监
   replacement: 〢𠂉丶皿
 
-- pattern: 𠂆𠂢
+- pattern: 𠂢
   replacement: 巛卜
 - pattern: 士示
   replacement: 【出士】示
 - pattern: 尸氺
   replacement: 尸毛
-- pattern: 𠂉𠂢
-  replacement: 【㫃】从
 - pattern: 宀艹
   replacement: 宀卝
 - pattern: 黃
