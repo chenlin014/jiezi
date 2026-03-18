@@ -265,3 +265,5 @@
   replacement: 舍
 - pattern: 𠬤
   replacement: 睪
+- pattern: 画
+  replacement: 畫

@@ -61,8 +61,6 @@
   replacement: 耳王
 
 # 一換多
-- pattern: 画
-  replacement: 一由凵
 - pattern: 起
   replacement: 走己
 - pattern: 包

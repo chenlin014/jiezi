@@ -10,8 +10,6 @@
 - pattern: 儿夂
   replacement: 八夂
 
-- pattern: 画
-  replacement: 一田凵
 - pattern: 起
   replacement: 走己
 - pattern: 包

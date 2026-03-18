@@ -41,8 +41,6 @@
   exclude: [浄, 争, 静, 挣, 睁, 铮, 狰, 峥, 筝, 诤, 铮]
 
 # 一換多
-- pattern: 画
-  replacement: 一田凵
 - pattern: 起
   replacement: 走巳
 - pattern: 包
