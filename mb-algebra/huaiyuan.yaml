@@ -1366,6 +1366,8 @@
   replacement: 尸毛
 - pattern: 𠬤
   replacement: 又キ
+- pattern: 算
+  replacement: ⺮目廾
 
 # 一換一
 - pattern: 凢

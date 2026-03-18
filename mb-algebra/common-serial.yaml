@@ -40,6 +40,8 @@
   replacement: 𠀐貝
 - pattern: 贵
   replacement: 𠀐贝
+- pattern: 算
+  replacement: ⺮具
 
 - pattern: 㕣
   replacement: 公
