@@ -27,8 +27,6 @@
   replacement: 士冖儿
 - pattern: 罢
   replacement: 罒去
-- pattern: 睘
-  replacement: 罒一口𧘇
 - pattern: 𢛳
   replacement: 十罒一心
 - pattern: 褱
@@ -59,12 +57,6 @@
   replacement: 㞢虫
 - pattern: 㝵
   replacement: 日一寸
-- pattern: 廌
-  replacement: 鹿烏
-- pattern: 舄
-  replacement: 臼烏
-- pattern: 焉
-  replacement: 正烏
 - pattern: 质
   replacement: 斤贝
 - pattern: 尨

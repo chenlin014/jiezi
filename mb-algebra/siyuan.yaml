@@ -154,8 +154,6 @@
   replacement: 【出士】冖儿
 - pattern: 罢
   replacement: 网去
-- pattern: 睘
-  replacement: 目一口𧘇
 - pattern: 𢛳
   replacement: 十目一心
 - pattern: 褱
@@ -208,12 +206,6 @@
   exclude: [开]
 - pattern: 㝵
   replacement: 貝寸
-- pattern: 廌
-  replacement: 豸豸
-- pattern: 舄
-  replacement: 臼烏
-- pattern: 焉
-  replacement: 正烏
 - pattern: 质
   replacement: 斤贝
 - pattern: 尨

@@ -1368,6 +1368,8 @@
   replacement: 又キ
 - pattern: 算
   replacement: ⺮目廾
+- pattern: 周
+  replacement: 用口
 
 # 一換一
 - pattern: 凢
