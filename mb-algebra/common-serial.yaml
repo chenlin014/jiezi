@@ -263,3 +263,5 @@
   replacement: 尾
 - pattern: 舎
   replacement: 舍
+- pattern: 𠬤
+  replacement: 睪
