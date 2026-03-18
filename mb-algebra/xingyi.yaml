@@ -152,10 +152,6 @@
   replacement: 贏
 - pattern: 𣎆（(.+)）
   replacement: 贏\1
-- pattern: 阜
-  replacement: 𠂤十
-- pattern: 邑
-  replacement: 口巴
 # 澀涩
 - pattern: 𣥒
   replacement: 刀丶
@@ -271,9 +267,9 @@
 - pattern: 𣎳
   replacement: 术
 - pattern: 𨹺
-  replacement: 阝
+  replacement: 阜
 - pattern: 𨹝
-  replacement: 阝
+  replacement: 邑
 - pattern: 入
   replacement: 人
 - pattern: 𡗗
