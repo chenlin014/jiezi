@@ -134,8 +134,6 @@
   only: [候]
 - pattern: 亷
   replacement: 亠兼丿
-- pattern: 莫
-  replacement: 茻日
 - pattern: 莽（(.)）
   replacement: 茻\1
 - pattern: 莽
@@ -335,8 +333,6 @@
   replacement: 圍人皿
 - pattern: 昷
   replacement: 日皿
-- pattern: 全
-  replacement: 入王
 - pattern: 茶
   replacement: 艹亼小
 - pattern: 佘
@@ -407,8 +403,6 @@
   replacement: 冖日又𠂇
 - pattern: 寬
   replacement: 宀卝目比
-- pattern: 服
-  replacement: 舟卩又
 - pattern: 有
   replacement: 𠂇⺼
 - pattern: 肖
@@ -451,8 +445,6 @@
 - pattern: 奥
   replacement: 向米廾
   only: [奥]
-- pattern: 灰
-  replacement: 𠂇火
 - pattern: 肅
   replacement: 肀𣶒
 - pattern: 肃

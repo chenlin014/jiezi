@@ -123,5 +123,3 @@
   only: [奥]
 - pattern: 亮
   replacement: 【高】儿
-- pattern: 灰
-  replacement: 厂火

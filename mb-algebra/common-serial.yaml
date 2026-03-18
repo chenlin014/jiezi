@@ -259,3 +259,5 @@
   replacement: 臾
 - pattern: 命
   replacement: 亼
+- pattern: 㞑
+  replacement: 尾

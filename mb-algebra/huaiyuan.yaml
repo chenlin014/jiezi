@@ -831,8 +831,6 @@
   replacement: 巛卜
 - pattern: 士示
   replacement: 【出士】示
-- pattern: 尸氺
-  replacement: 尸毛
 - pattern: 宀艹
   replacement: 宀卝
 - pattern: 黃
@@ -1352,6 +1350,18 @@
   replacement: 酋丌
 - pattern: 酋
   replacement: 丷酉
+- pattern: 袁
+  replacement: 土口𧘇
+- pattern: 各
+  replacement: 夂口
+- pattern: 吉
+  replacement: 士口
+- pattern: 复
+  replacement: 𠂉日夂
+- pattern: 尾
+  replacement: 尸毛
+- pattern: 㞑
+  replacement: 尸毛
 
 # 一換一
 - pattern: 凢

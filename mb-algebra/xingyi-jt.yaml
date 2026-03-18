@@ -71,5 +71,3 @@
   only: [奧]
 - pattern: 亮
   replacement: 【高】几
-- pattern: 灰
-  replacement: 𠂇火
