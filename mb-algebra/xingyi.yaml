@@ -43,8 +43,6 @@
   replacement: 艹罒
 - pattern: 蜀
   replacement: 罒勹虫
-- pattern: 睪
-  replacement: 罒幸
 - pattern: 眾
   replacement: 罒从
 - pattern: 𬙙
@@ -112,8 +110,6 @@
   replacement: 士冖一
 - pattern: 𡉅
   replacement: 士冖
-- pattern: 南
-  replacement: 十冂半
 - pattern: 冈
   replacement: 冂乂
 - pattern: 希（(.+)）
