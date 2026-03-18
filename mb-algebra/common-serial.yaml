@@ -261,3 +261,5 @@
   replacement: 亼
 - pattern: 㞑
   replacement: 尾
+- pattern: 舎
+  replacement: 舍
