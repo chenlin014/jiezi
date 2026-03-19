@@ -248,8 +248,6 @@
   replacement: 阜
 - pattern: 𨹝
   replacement: 邑
-- pattern: 入
-  replacement: 人
 - pattern: 𡗗
   replacement: 廾
 - pattern: 䏑
