@@ -95,9 +95,9 @@
 - pattern: 志
   replacement: 士心
 - pattern: 希（(.+)）
-  replacement: 乂𠂇\1
+  replacement: 爻\1
 - pattern: 希
-  replacement: 乂𠂇巾
+  replacement: 爻巾
 - pattern: 杀
   replacement: 乂木
 - pattern: 𣏂
