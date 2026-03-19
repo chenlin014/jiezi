@@ -1378,6 +1378,10 @@
   replacement: 匕卩
 - pattern: 兴
   replacement: ⺍𠔀
+- pattern: 尞
+  replacement: 一火日小
+- pattern: 皇
+  replacement: 白王
 
 # 一換一
 - pattern: 凢

@@ -172,8 +172,6 @@
 - pattern: 冖夕
   replacement: 勹夕
   only: [𫂝]
-- pattern: 蜀
-  replacement: 目勹虫
 - pattern: 眾
   replacement: 目从
 - pattern: 罒
@@ -331,8 +329,6 @@
   replacement: 【㫃】从
 - pattern: 睿
   replacement: 𣦵八八目
-- pattern: 春
-  replacement: 艹屯日
 - pattern: 舂
   replacement: 午廾臼
 - pattern: 秦

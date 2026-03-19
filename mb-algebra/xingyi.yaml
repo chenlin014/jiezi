@@ -39,8 +39,6 @@
   replacement: 𦭝冖
 - pattern: 𦭝
   replacement: 艹罒
-- pattern: 蜀
-  replacement: 罒勹虫
 - pattern: 眾
   replacement: 罒从
 - pattern: 𬙙
@@ -56,7 +54,7 @@
 - pattern: 蚩
   replacement: 㞢虫
 - pattern: 㝵
-  replacement: 日一寸
+  replacement: 旦寸
 - pattern: 质
   replacement: 斤贝
 - pattern: 尨
@@ -167,8 +165,6 @@
   replacement: 人小
 - pattern: 睿
   replacement: 卜冖一八人目
-- pattern: 春
-  replacement: 𡗗日
 - pattern: 舂
   replacement: 𡗗臼
 - pattern: 秦
