@@ -1372,6 +1372,12 @@
   replacement: ⺮目廾
 - pattern: 周
   replacement: 用口
+- pattern: 吾
+  replacement: 五口
+- pattern: 卬
+  replacement: 匕卩
+- pattern: 兴
+  replacement: ⺍𠔀
 
 # 一換一
 - pattern: 凢

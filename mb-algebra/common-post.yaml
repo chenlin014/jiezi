@@ -15,8 +15,6 @@
   replacement: 冊𠔀
 - pattern: 兵
   replacement: 斤𠔀
-- pattern: 兴
-  replacement: ⺍𠔀
 - pattern: 丣
   replacement: 一卯
 - pattern: 兜
@@ -43,8 +41,6 @@
   replacement: 广肀用
 - pattern: 妻
   replacement: 一肀女
-- pattern: 卬
-  replacement: 匕卩
 - pattern: 曷
   replacement: 日勹亡
 - pattern: 從
