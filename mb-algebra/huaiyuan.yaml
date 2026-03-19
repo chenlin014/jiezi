@@ -1382,6 +1382,8 @@
   replacement: 一火日小
 - pattern: 皇
   replacement: 白王
+- pattern: 思
+  replacement: 囟
 
 # 一換一
 - pattern: 凢
