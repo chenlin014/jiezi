@@ -94,12 +94,6 @@
   replacement: 一去
 - pattern: 志
   replacement: 士心
-- pattern: 壳
-  replacement: 士冖几
-- pattern: 𡉉
-  replacement: 士冖一
-- pattern: 𡉅
-  replacement: 士冖
 - pattern: 希（(.+)）
   replacement: 乂𠂇\1
 - pattern: 希

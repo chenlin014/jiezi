@@ -253,12 +253,6 @@
   replacement: 一去
 - pattern: 志
   replacement: 之心
-- pattern: 壳
-  replacement: 𡉅几
-- pattern: 𡉉
-  replacement: 南
-- pattern: 𡉅
-  replacement: 南
 - pattern: 㕣
   replacement: 廾口
   only: [簭]

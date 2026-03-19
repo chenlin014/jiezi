@@ -271,3 +271,7 @@
   replacement: 畫
 - pattern: 冈
   replacement: 岡
+- pattern: 𡉉
+  replacement: 壳
+- pattern: 𡉅
+  replacement: 壳
