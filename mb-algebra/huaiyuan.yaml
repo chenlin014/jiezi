@@ -1382,8 +1382,12 @@
   replacement: 一火日小
 - pattern: 皇
   replacement: 白王
-- pattern: 思
-  replacement: 囟
+- pattern: 保
+  replacement: 亻口木
+- pattern: 州
+  replacement: ⺍川
+- pattern: 刃
+  replacement: 刀丶
 
 # 一換一
 - pattern: 凢
@@ -1514,3 +1518,5 @@
   replacement: 彑
 - pattern: 录
   replacement: 彑
+- pattern: 思
+  replacement: 囟
