@@ -434,8 +434,6 @@
   replacement: 食
 - pattern: 旧
   replacement: 臼
-- pattern: 卝
-  replacement: 䒑
 - pattern: 𨹺
   replacement: 阜
 - pattern: 𣎆（(貝|贝)）
