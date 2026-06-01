@@ -417,12 +417,6 @@
 - pattern: 奥
   replacement: 向米廾
   only: [奥]
-- pattern: 肅
-  replacement: 肀𣶒
-- pattern: 肃
-  replacement: 肀𣶒
-- pattern: 粛
-  replacement: 肀𣶒
 - pattern: 奠
   replacement: 酋丌
 

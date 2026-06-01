@@ -281,3 +281,7 @@
   replacement: 𡿺
 - pattern: ⺍凶
   replacement: 𡿺
+- pattern: 肃
+  replacement: 肅
+- pattern: 粛
+  replacement: 肅
