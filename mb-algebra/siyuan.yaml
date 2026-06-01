@@ -398,8 +398,6 @@
   only: [絕]
 - pattern: 肥
   replacement: ⺼卪
-- pattern: 教
-  replacement: 爻子攵
 - pattern: 㚇
   replacement: 兇夂
 - pattern: 畟
