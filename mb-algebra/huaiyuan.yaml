@@ -1388,6 +1388,8 @@
   replacement: ⺍川
 - pattern: 刃
   replacement: 刀丶
+- pattern: 𠁁
+  replacement: 卯亞
 
 # 一換一
 - pattern: 凢
