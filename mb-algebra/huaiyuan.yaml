@@ -1390,6 +1390,10 @@
   replacement: 刀丶
 - pattern: 𠁁
   replacement: 卯亞
+- pattern: 思
+  replacement: 囟心
+- pattern: 𡿺
+  replacement: 巛囟
 
 # 一換一
 - pattern: 凢
@@ -1520,5 +1524,7 @@
   replacement: 彑
 - pattern: 录
   replacement: 彑
-- pattern: 思
+- pattern: 㐫
+  replacement: 囟
+- pattern: ⺍凶
   replacement: 囟
