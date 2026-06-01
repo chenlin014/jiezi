@@ -45,8 +45,6 @@
   replacement: 罒方
 - pattern: 罒
   replacement: 四
-- pattern: 爵
-  replacement: 爪四𡬠
 - pattern: 𡬠
   replacement: 艮寸
 - pattern: 芻

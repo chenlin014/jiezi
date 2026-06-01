@@ -187,8 +187,6 @@
   only: [禤, 罣, 羉, 罫, 羂, 罞, 羇, 羃, 欝, 罺, 罼, 嬽, 𡌣, 𡚎, 𡄀, 𱤪, 𦲿, 𬎷, 𪣰, 𬙚, 𬗢, 𬫤, 𫥨, 𫢱, 𦉱, 𦋂, 𪴾, 𢶢, 𨔍, 𪡔, 𫥧, 𦋦, 𬙛, 𥻸, 𬙖, 𢠪, 𬏘, 𪩨, 𦊛, 𫅁]
 - pattern: 罒
   replacement: 网
-- pattern: 爵
-  replacement: 爪四𡬠
 - pattern: 𡬠
   replacement: 皀寸
 - pattern: 芻
