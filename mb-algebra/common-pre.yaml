@@ -1,9 +1,5 @@
 - pattern: 界
   replacement: 田介
-- pattern: 兑
-  replacement: 𠮦儿
-- pattern: 兌
-  replacement: 㕣儿
 - pattern: 袞
   replacement: 衣㕣
 - pattern: 衮

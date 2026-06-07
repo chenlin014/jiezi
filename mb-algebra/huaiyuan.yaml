@@ -1394,8 +1394,14 @@
   replacement: 囟心
 - pattern: 𡿺
   replacement: 巛囟
+- pattern: 兑
+  replacement: 𠮦儿
+- pattern: 兌
+  replacement: 㕣儿
 
 # 一換一
+- pattern: 丷
+  replacement: 八
 - pattern: 凢
   replacement: 凡
 - pattern: 夂
