@@ -42,6 +42,10 @@
   replacement: 𠀐贝
 - pattern: 算
   replacement: ⺮具
+- pattern: 吾
+  replacement: 五口
+- pattern: 加
+  replacement: 力口
 
 - pattern: 㕣
   replacement: 公
