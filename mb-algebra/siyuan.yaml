@@ -348,8 +348,6 @@
 - pattern: 勹
   replacement: 回
   only: [沒]
-- pattern: 戚
-  replacement: 戌卜小
 - pattern: 軍
   replacement: 九車
 - pattern: 军
