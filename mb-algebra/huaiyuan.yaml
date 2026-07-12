@@ -1534,3 +1534,5 @@
   replacement: 囟
 - pattern: ⺍凶
   replacement: 囟
+- pattern: 已
+  replacement: 巳

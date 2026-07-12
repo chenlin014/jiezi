@@ -12,8 +12,6 @@
 
 - pattern: 起
   replacement: 走己
-- pattern: 包
-  replacement: 勹巳
 - pattern: 䙴
   replacement: 西大巳
 - pattern: 次

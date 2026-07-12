@@ -74,8 +74,6 @@
 
 - pattern: 起
   replacement: 走己
-- pattern: 包
-  replacement: 勹巳
 - pattern: 䙴
   replacement: 西廾卩
 - pattern: 次

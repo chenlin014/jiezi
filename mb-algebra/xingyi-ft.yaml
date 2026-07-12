@@ -43,8 +43,6 @@
 # 一換多
 - pattern: 起
   replacement: 走巳
-- pattern: 包
-  replacement: 勹巳
 - pattern: 䙴
   replacement: 西大卩
 - pattern: 次

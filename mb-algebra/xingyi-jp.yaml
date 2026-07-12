@@ -63,12 +63,6 @@
 # 一換多
 - pattern: 起
   replacement: 走己
-- pattern: 包
-  replacement: 勹己
-  exclude: [饱, 飑, 鲍]
-- pattern: 包
-  replacement: 勹巳
-  only: [饱, 飑, 鲍]
 - pattern: 䙴
   replacement: 西大己
 - pattern: 次
