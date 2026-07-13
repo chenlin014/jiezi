@@ -297,3 +297,5 @@
   replacement: 䒑
 - pattern: 包
   replacement: 勹
+- pattern: 奥
+  replacement: 奧

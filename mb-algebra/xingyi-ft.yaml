@@ -93,10 +93,5 @@
   replacement: 兇夂
 - pattern: 畟
   replacement: 田儿夂
-- pattern: 奧
-  replacement: 向釆大
-- pattern: 奥
-  replacement: 向米大
-  only: [奥]
 - pattern: 亮
   replacement: 【高】儿

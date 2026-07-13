@@ -301,8 +301,6 @@
   replacement: 水曰
 - pattern: 泰
   replacement: 大廾氺
-- pattern: 以
-  replacement: 㠯人
 - pattern: 𥁕
   replacement: 圍人皿
 - pattern: 昷
@@ -401,12 +399,6 @@
   replacement: 尸毛
 - pattern: 宀艹
   replacement: 宀卝
-- pattern: 奧
-  replacement: 向釆廾
-  exclude: [奥]
-- pattern: 奥
-  replacement: 向米廾
-  only: [奥]
 - pattern: 奠
   replacement: 酋丌
 
