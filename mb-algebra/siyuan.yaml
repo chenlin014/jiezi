@@ -198,8 +198,6 @@
 - pattern: 开
   replacement: 幵
   exclude: [开]
-- pattern: 㝵
-  replacement: 貝寸
 - pattern: 质
   replacement: 斤贝
 - pattern: 尨
