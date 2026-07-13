@@ -1400,6 +1400,8 @@
   replacement: 㕣儿
 - pattern: 或
   replacement: 戈口一
+- pattern: 弱
+  replacement: 弓冫弓冫
 
 # 一換一
 - pattern: 丷
