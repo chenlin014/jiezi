@@ -1232,6 +1232,8 @@
   replacement: 上小
 - pattern: 【卡】
   replacement: 卜二卜
+- pattern: 卡
+  replacement: 上卜
 - pattern: 啚
   replacement: 口十回
 - pattern: 㐭

@@ -137,8 +137,6 @@
   replacement: 戈\1
 - pattern: 武
   replacement: 戈止
-- pattern: 卡
-  replacement: 上卜
 - pattern: 卞
   replacement: 亠卜
 - pattern: 豐
