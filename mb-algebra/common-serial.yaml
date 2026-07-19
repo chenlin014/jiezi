@@ -299,3 +299,5 @@
   replacement: 勹
 - pattern: 奥
   replacement: 奧
+- pattern: 豊
+  replacement: 豐

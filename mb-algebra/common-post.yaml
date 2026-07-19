@@ -139,8 +139,6 @@
   replacement: 戈止
 - pattern: 卞
   replacement: 亠卜
-- pattern: 豐
-  replacement: 丰丰山豆
 - pattern: 羽
   replacement: 羽羽
   only: [羽]

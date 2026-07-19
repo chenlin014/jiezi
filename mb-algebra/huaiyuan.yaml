@@ -1404,6 +1404,10 @@
   replacement: 戈口一
 - pattern: 弱
   replacement: 弓冫弓冫
+- pattern: 豐
+  replacement: 丰丰山豆
+- pattern: 豊
+  replacement: 曲豆
 
 # 一換一
 - pattern: 丷
