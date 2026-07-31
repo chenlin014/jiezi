@@ -46,8 +46,10 @@
   replacement: 五口
 - pattern: 加
   replacement: 力口
-- pattern: 兑
-  replacement: 兌
+- pattern: 𱢒
+  replacement: 日襄
+- pattern: 𱔞
+  replacement: 襄
 
 - pattern: 㕣
   replacement: 公
@@ -301,3 +303,5 @@
   replacement: 奧
 - pattern: 豊
   replacement: 豐
+- pattern: 兑
+  replacement: 兌

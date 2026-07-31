@@ -1408,6 +1408,10 @@
   replacement: 丰丰山豆
 - pattern: 豊
   replacement: 曲豆
+- pattern: 𱢒
+  replacement: 日甘𧘇
+- pattern: 𱔞
+  replacement: 口口甘𧘇
 
 # 一換一
 - pattern: 丷
