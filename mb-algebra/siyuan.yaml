@@ -152,8 +152,6 @@
   replacement: 【出士】冖儿
 - pattern: 罢
   replacement: 网去
-- pattern: 𢛳
-  replacement: 十目一心
 - pattern: 褱
   replacement: 衣目水
 - pattern: 眔
@@ -174,7 +172,7 @@
   replacement: 目从
 - pattern: 罒
   replacement: 目
-  only: [憲, 幰, 䘆, 徳, 聴, 壊, 懐, 篾, 瞏, 奰, 攇, 夣, 𥌷, 𨖼]
+  only: [憲, 幰, 䘆, 壊, 懐, 篾, 瞏, 奰, 攇, 夣, 𥌷, 𨖼]
 - pattern: 𬙙
   replacement: 四方
 - pattern: 罒

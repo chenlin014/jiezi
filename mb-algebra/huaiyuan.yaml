@@ -247,6 +247,8 @@
   replacement: 网去
 - pattern: 睘
   replacement: 目一口𧘇
+- pattern: 【𢛳】
+  replacement: 十目心
 - pattern: 𢛳
   replacement: 十目一心
 - pattern: 褱
