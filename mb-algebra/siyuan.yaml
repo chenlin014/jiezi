@@ -263,10 +263,6 @@
   only: [誊]
 - pattern: 菐
   replacement: 丵廾
-- pattern: 句
-  replacement: 丩口
-- pattern: 勾
-  replacement: 丩厶
 - pattern: 即
   replacement: 皀卩
 - pattern: 既
