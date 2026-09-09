@@ -791,6 +791,8 @@
   replacement: 甲𠂇
 - pattern: 豈
   replacement: 山豆
+- pattern: 岂
+  replacement: 山己
 - pattern: 耑
   replacement: 山而
 - pattern: 旨

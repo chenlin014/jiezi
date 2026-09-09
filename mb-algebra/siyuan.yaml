@@ -113,12 +113,6 @@
   replacement: 耳口𡈼
 - pattern: 致
   replacement: 至夂
-- pattern: 𢼸（(.)）
-  replacement: 長\1攵
-- pattern: 𢼸
-  replacement: 長儿攵
-- pattern: 𢽠
-  replacement: 長𡈼攵
 - pattern: 亮
   replacement: 【高】儿
 
@@ -352,9 +346,9 @@
 - pattern: 索
   replacement: 十冖糸
 - pattern: 孛
-  replacement: 屮八子
+  replacement: 十冖子
 - pattern: 疐
-  replacement: 屮八田疋
+  replacement: 十冖田疋
 - pattern: 尝
   replacement: 八宀云
 - pattern: 冥
@@ -369,10 +363,6 @@
   replacement: 𠫓⺼
 - pattern: 肙
   replacement: 口⺼
-- pattern: 豈
-  replacement: 屮豆
-- pattern: 耑
-  replacement: 屮而
 - pattern: 絶
   replacement: 糸刀卪
 - pattern: 色
