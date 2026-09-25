@@ -1416,6 +1416,8 @@
   replacement: 日甘𧘇
 - pattern: 𱔞
   replacement: 口口甘𧘇
+- pattern: 卵
+  replacement: 卯⺀
 
 # 一換一
 - pattern: 丷
