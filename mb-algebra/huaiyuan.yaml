@@ -844,10 +844,10 @@
 - pattern: 舛
   replacement: 夂㐄
 - pattern: 奧
-  replacement: 向釆廾
+  replacement: 【向】釆廾
   exclude: [奥]
 - pattern: 奥
-  replacement: 向米廾
+  replacement: 【向】米廾
   only: [奥]
 - pattern: 耒
   replacement: 彐力
@@ -1418,6 +1418,10 @@
   replacement: 口口甘𧘇
 - pattern: 卵
   replacement: 卯⺀
+- pattern: 【向】
+  replacement: 宀
+- pattern: 向
+  replacement: 宀口
 
 # 一換一
 - pattern: 丷
