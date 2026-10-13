@@ -50,12 +50,8 @@
   replacement: 日襄
 - pattern: 𢛳
   replacement: 直心
-- pattern: 𢼸（(.)）
-  replacement: 𡵂\1攵
-- pattern: 𢼸
-  replacement: 𡵂攵
 - pattern: 𢽠
-  replacement: 𡵂𡈼攵
+  replacement: 𢼸𡈼
 
 - pattern: 㕣
   replacement: 公
