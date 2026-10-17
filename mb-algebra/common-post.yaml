@@ -147,8 +147,6 @@
   replacement: 凶儿
 - pattern: 凶
   replacement: 乂凵
-- pattern: 業
-  replacement: 丵廾
 
 # 一换一
 - pattern: 𠅃
@@ -235,8 +233,10 @@
   replacement: 歹
 - pattern: 𣦵
   replacement: 歹
-- pattern: 丵
-  replacement: 业
+- pattern: 业
+  replacement: 丵
+- pattern: 業
+  replacement: 丵
 - pattern: 𠂎
   replacement: 卩
 - pattern: 丱
