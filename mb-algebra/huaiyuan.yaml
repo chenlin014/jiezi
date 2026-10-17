@@ -1422,6 +1422,10 @@
   replacement: 宀
 - pattern: 向
   replacement: 宀口
+- pattern: 㓞
+  replacement: 丰刀
+- pattern: 央
+  replacement: 冂大
 
 # 一換一
 - pattern: 丷

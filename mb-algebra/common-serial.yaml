@@ -311,3 +311,5 @@
   replacement: 襄
 - pattern: 岂
   replacement: 豈
+- pattern: 奂
+  replacement: 奐
