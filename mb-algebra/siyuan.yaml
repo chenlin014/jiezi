@@ -159,7 +159,7 @@
   replacement: 勹夕
   only: [𫂝]
 - pattern: 眾
-  replacement: 目从
+  replacement: 目众
 - pattern: 罒
   replacement: 目
   only: [憲, 幰, 䘆, 壊, 懐, 篾, 瞏, 奰, 攇, 夣, 𥌷, 𨖼]
