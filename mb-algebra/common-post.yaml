@@ -77,8 +77,6 @@
   replacement: ⺀大
 - pattern: 霝
   replacement: 雨口口口
-- pattern: 㗊（(.)）
-  replacement: 四（口）\1
 - pattern: 冏
   replacement: 内口
 - pattern: 彥

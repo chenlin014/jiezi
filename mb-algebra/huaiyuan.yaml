@@ -1434,6 +1434,8 @@
   replacement: 巾𠁼
 - pattern: 众
   replacement: 三（人）
+- pattern: 㗊（(.)）
+  replacement: 四（口）\1
 
 # 一換一
 - pattern: 丷

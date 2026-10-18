@@ -15,7 +15,7 @@
   replacement: 爪寸
 - pattern: 犬
   replacement: 大
-  only: [器, 類, 臭, 突, 莽, 蟒, 唳, 捩, 綟]
+  only: [類, 臭, 突, 莽, 蟒, 唳, 捩, 綟]
 - pattern: 束𠂊貝
   replacement: 束刀貝
 - pattern: 晋

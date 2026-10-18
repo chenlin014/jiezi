@@ -324,3 +324,6 @@
   replacement: 奐
 - pattern: 乑
   replacement: 众
+- pattern: ^.*$
+  replacement: 㗊
+  only: [器]
