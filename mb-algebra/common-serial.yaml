@@ -63,6 +63,8 @@
   replacement: 3\1
 - pattern: 爽
   replacement: 大爻爻
+- pattern: 噩
+  replacement: 王㗊
 
 - pattern: 㕣
   replacement: 公

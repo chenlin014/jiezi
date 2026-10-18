@@ -1438,6 +1438,8 @@
   replacement: 四（口）\1
 - pattern: 爽
   replacement: 大四（乂）
+- pattern: 噩
+  replacement: 王四（口）
 
 # 一換一
 - pattern: 丷
