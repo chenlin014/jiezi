@@ -1452,6 +1452,8 @@
   replacement: 白𠁼木
 - pattern: 乐
   replacement: 𠂆木
+- pattern: 𰃮
+  replacement: ⺍冖
 
 # 一換一
 - pattern: 丷
