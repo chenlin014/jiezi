@@ -1436,6 +1436,8 @@
   replacement: 三（人）
 - pattern: 㗊（(.)）
   replacement: 四（口）\1
+- pattern: 爽
+  replacement: 大四（乂）
 
 # 一換一
 - pattern: 丷
