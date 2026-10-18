@@ -161,6 +161,10 @@
   replacement: 开刂
 - pattern: 形
   replacement: 开彡
+- pattern: 開
+  replacement: 門开
+- pattern: 𫔭
+  replacement: 门开
 - pattern: 宣
   replacement: 宀亘
 - pattern: 恒
@@ -228,3 +232,5 @@
   replacement: 之
 - pattern: 皀
   replacement: 艮
+- pattern: 开
+  replacement: 幵

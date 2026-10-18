@@ -186,6 +186,12 @@
 - pattern: 开
   replacement: 幵
   exclude: [开]
+- pattern: 開
+  replacement: 門开
+- pattern: 𫔭
+  replacement: 门开
+- pattern: 开
+  replacement: 一廾
 - pattern: 质
   replacement: 斤贝
 - pattern: 尨
