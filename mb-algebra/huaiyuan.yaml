@@ -241,6 +241,10 @@
   replacement: 【出士】网貝
 - pattern: 買
   replacement: 网貝
+- pattern: 卖
+  replacement: 十买
+- pattern: 买
+  replacement: ㇕头
 - pattern: 売
   replacement: 【出士】冖儿
 - pattern: 罢

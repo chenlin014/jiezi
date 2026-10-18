@@ -331,3 +331,9 @@
   replacement: 樂
 - pattern: 楽
   replacement: 樂
+- pattern: 买
+  replacement: 買
+- pattern: 卖
+  replacement: 賣
+- pattern: 売
+  replacement: 賣

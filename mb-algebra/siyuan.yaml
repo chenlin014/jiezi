@@ -134,12 +134,6 @@
   replacement: 𠂊穴目攵
 - pattern: 夐
   replacement: 𠂊穴目夂
-- pattern: 賣
-  replacement: 【出士】网貝
-- pattern: 買
-  replacement: 网貝
-- pattern: 売
-  replacement: 【出士】冖儿
 - pattern: 罢
   replacement: 网去
 - pattern: 褱
