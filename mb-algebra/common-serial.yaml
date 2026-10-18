@@ -331,3 +331,7 @@
 - pattern: ^.*$
   replacement: 㗊
   only: [器]
+- pattern: 乐
+  replacement: 樂
+- pattern: 楽
+  replacement: 樂

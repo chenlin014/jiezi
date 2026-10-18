@@ -1440,6 +1440,12 @@
   replacement: 大四（乂）
 - pattern: 噩
   replacement: 王四（口）
+- pattern: 樂
+  replacement: 白幺幺木
+- pattern: 楽
+  replacement: 白𠁼木
+- pattern: 乐
+  replacement: 𠂆木
 
 # 一換一
 - pattern: 丷
