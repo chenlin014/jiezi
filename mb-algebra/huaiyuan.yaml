@@ -1460,6 +1460,8 @@
   replacement: ⺍冖
 - pattern: 芈
   replacement: 丨𦍋
+- pattern: 氷
+  replacement: 水丶
 
 # 一換一
 - pattern: 丷

@@ -344,3 +344,8 @@
   replacement: 賣
 - pattern: 芈
   replacement: 卝
+- pattern: ^.*$
+  replacement: 冫
+  only: [冰]
+- pattern: 氷
+  replacement: 冫
