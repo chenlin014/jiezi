@@ -349,3 +349,6 @@
   only: [冰]
 - pattern: 氷
   replacement: 冫
+- pattern: ^.*$
+  replacement: 疒
+  only: [病]
