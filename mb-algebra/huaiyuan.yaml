@@ -1458,6 +1458,8 @@
   replacement: 𠂆木
 - pattern: 𰃮
   replacement: ⺍冖
+- pattern: 芈
+  replacement: 丨𦍋
 
 # 一換一
 - pattern: 丷

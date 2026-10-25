@@ -337,3 +337,7 @@
   replacement: 賣
 - pattern: 売
   replacement: 賣
+- pattern: 売
+  replacement: 賣
+- pattern: 芈
+  replacement: 卝
