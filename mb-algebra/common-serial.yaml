@@ -61,6 +61,9 @@
   replacement: 大爻爻
 - pattern: 噩
   replacement: 王㗊
+- pattern: ^.*$
+  replacement: 彑
+  only: [彙]
 
 - pattern: 㕣
   replacement: 公
