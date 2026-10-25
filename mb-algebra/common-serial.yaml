@@ -350,3 +350,6 @@
 - pattern: ^.*$
   replacement: 疒
   only: [病]
+- pattern: ^.*$
+  replacement: 𢼸
+  only: [微]
