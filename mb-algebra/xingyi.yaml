@@ -97,6 +97,9 @@
 - pattern: 既
   replacement: 艮旡
 - pattern: 退
+  replacement: 辵
+  only: [退]
+- pattern: 退
   replacement: 辶艮
 - pattern: 旧
   replacement: 丨日

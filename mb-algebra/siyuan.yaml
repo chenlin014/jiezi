@@ -258,6 +258,9 @@
 - pattern: 既
   replacement: 皀旡
 - pattern: 退
+  replacement: 辵
+  only: [退]
+- pattern: 退
   replacement: 辶皀
 - pattern: 艮
   replacement: 皀
