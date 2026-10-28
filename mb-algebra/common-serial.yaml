@@ -356,3 +356,6 @@
 - pattern: ^.*$
   replacement: 𣪠
   only: [擊, 击]
+- pattern: ^.*$
+  replacement: 雈
+  only: [旧, 舊]
