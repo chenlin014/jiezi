@@ -1462,6 +1462,8 @@
   replacement: 丨𦍋
 - pattern: 氷
   replacement: 水丶
+- pattern: 𣪠
+  replacement: 車凵殳
 
 # 一換一
 - pattern: 丷
