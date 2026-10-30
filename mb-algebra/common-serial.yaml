@@ -68,8 +68,6 @@
   replacement: 冃
 - pattern: 𧘇
   replacement: 衤
-- pattern: 有
-  replacement: 𠂇
 - pattern: 卉
   replacement: 屮
 - pattern: 𫧇
@@ -362,3 +360,9 @@
 - pattern: ^.*$
   replacement: 辵
   only: [邊, 边]
+- pattern: ^.*$
+  replacement: 𠂇
+  only: [左]
+- pattern: ^.*$
+  replacement: 廾
+  only: [右]
