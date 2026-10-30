@@ -359,3 +359,6 @@
 - pattern: ^.*$
   replacement: 雈
   only: [旧, 舊]
+- pattern: ^.*$
+  replacement: 辵
+  only: [邊, 边]
