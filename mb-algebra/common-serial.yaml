@@ -364,13 +364,10 @@
   replacement: 𠂇
   only: [左]
 - pattern: ^.*$
-  replacement: 廾
-  only: [右]
-- pattern: ^.*$
   replacement: 儿
   only: [兒]
 - pattern: 兜
   replacement: 𠂊
 - pattern: ^.*$
-  replacement: 𠫓
+  replacement: 廾
   only: [弃, 棄]
