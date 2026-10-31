@@ -54,7 +54,7 @@
   replacement: "3"
   only: [品]
 - pattern: 三（(.)）
-  replacement: 3\1
+  replacement: \g<1>3
 - pattern: 爽
   replacement: 大爻爻
 - pattern: 噩
