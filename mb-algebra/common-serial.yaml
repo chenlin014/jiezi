@@ -371,3 +371,6 @@
   only: [兒]
 - pattern: 兜
   replacement: 𠂊
+- pattern: ^.*$
+  replacement: 𠫓
+  only: [弃, 棄]
