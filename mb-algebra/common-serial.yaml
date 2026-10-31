@@ -366,3 +366,8 @@
 - pattern: ^.*$
   replacement: 廾
   only: [右]
+- pattern: ^.*$
+  replacement: 儿
+  only: [兒]
+- pattern: 兜
+  replacement: 𠂊
