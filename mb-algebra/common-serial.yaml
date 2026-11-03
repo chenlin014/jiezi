@@ -359,10 +359,10 @@
   only: [旧, 舊]
 - pattern: ^.*$
   replacement: 辵
-  only: [邊, 边]
+  only: [進, 进]
 - pattern: ^.*$
   replacement: 𠂇
-  only: [左]
+  only: [有]
 - pattern: ^.*$
   replacement: 儿
   only: [兒]
