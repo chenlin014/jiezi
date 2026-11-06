@@ -1464,6 +1464,8 @@
   replacement: 水丶
 - pattern: 𣪠
   replacement: 車凵殳
+- pattern: 賓
+  replacement: 宀一𣥂貝
 
 # 一換一
 - pattern: 丷
