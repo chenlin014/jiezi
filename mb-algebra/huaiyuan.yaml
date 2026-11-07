@@ -1466,6 +1466,8 @@
   replacement: 車凵殳
 - pattern: 賓
   replacement: 宀一𣥂貝
+- pattern: 因
+  replacement: 圍大
 
 # 一換一
 - pattern: 丷
