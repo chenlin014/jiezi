@@ -1468,6 +1468,8 @@
   replacement: 宀一𣥂貝
 - pattern: 因
   replacement: 圍大
+- pattern: 关
+  replacement: 䒑大
 
 # 一換一
 - pattern: 丷
