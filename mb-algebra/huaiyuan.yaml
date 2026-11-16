@@ -522,6 +522,8 @@
   only: [簭]
 - pattern: 卻
   replacement: 入入口卩
+- pattern: 却
+  replacement: 去卩
 - pattern: 更
   replacement: 内攵
 - pattern: 吏

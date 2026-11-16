@@ -378,3 +378,7 @@
 - pattern: ^.*$
   replacement: 廾
   only: [弃, 棄]
+- pattern: 卻
+  replacement: 卩
+- pattern: 却
+  replacement: 卩
