@@ -326,10 +326,6 @@
 - pattern: 勹
   replacement: 回
   only: [沒]
-- pattern: 軍
-  replacement: 九車
-- pattern: 军
-  replacement: 九车
 - pattern: 匀
   replacement: 九冫
 - pattern: 勻

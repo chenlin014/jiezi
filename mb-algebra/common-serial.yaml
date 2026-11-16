@@ -61,6 +61,14 @@
   replacement: 王㗊
 - pattern: 賓
   replacement: 宀丏貝
+- pattern: 𣪠
+  replacement: 車凵殳
+- pattern: 軍
+  replacement: 冖車
+- pattern: 军
+  replacement: 冖车
+- pattern: 采
+  replacement: 爪木
 
 - pattern: 㕣
   replacement: 公
@@ -353,9 +361,6 @@
 - pattern: ^.*$
   replacement: 彑
   only: [彙]
-- pattern: ^.*$
-  replacement: 𣪠
-  only: [擊, 击]
 - pattern: ^.*$
   replacement: 雈
   only: [旧, 舊]

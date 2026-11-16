@@ -165,10 +165,6 @@
   replacement: 忄亘
 - pattern: 亘
   replacement: 二日
-- pattern: 軍
-  replacement: 冖車
-- pattern: 军
-  replacement: 冖车
 - pattern: 匀
   replacement: 勹冫
 - pattern: 勻
