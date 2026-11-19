@@ -382,3 +382,5 @@
   replacement: 卩
 - pattern: 却
   replacement: 卩
+- pattern: 一中冖
+  replacement: 囊
